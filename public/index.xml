@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Mint Systems</title>
+    <title>Mint System</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Mint Systems</description>
+    <description>Recent content on Mint System</description>
     <generator>Hugo</generator>
     <language>de-CH</language>
-    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/odoo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/odoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mint Systems</title>
+      <link>http://localhost:1313/pages/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/home/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui enim, iaculis vitae felis et, mattis accumsan justo. Vestibulum ac egestas purus. In lectus eros, semper vel bibendum et, iaculis ut ligula. Phasellus eget condimentum nunc. Pellentesque et libero ornare, rutrum libero nec, interdum turpis. In hac habitasse platea dictumst. Aenean quis dignissim dolor, nec imperdiet turpis. Pellentesque varius felis nec magna semper, ac vehicula mauris finibus. Nunc dictum imperdiet fringilla.</description>
+    </item>
   </channel>
 </rss>
