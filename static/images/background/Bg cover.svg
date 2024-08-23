@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.a{clip-path:url(#c);}.b{mix-blend-mode:multiply;isolation:isolate;}.c{fill:#0b9fa3;opacity:0.93;}.d{opacity:0.3;fill:url(#a);}.e{fill:#fff;}</style>
+    <linearGradient id="a" x1="0.035" y1="0.365" x2="0.786" y2="0.896" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#14d6c4" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#0a6b62" stop-opacity="0.502"/>
+    </linearGradient>
+    <clipPath id="c">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="b" class="a">
+    <rect class="e" width="1920" height="1080"/>
+    <g class="b" transform="translate(-91 348)">
+      <circle class="c" cx="599.5" cy="599.5" r="599.5"/>
+    </g>
+    <g class="b" transform="translate(345 -505)">
+      <circle class="d" cx="532" cy="532" r="532"/>
+    </g>
+  </g>
+</svg>
