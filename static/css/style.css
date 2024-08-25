@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Font Declaration AFTER Tailwind */
+@font-face {
+    font-family: 'RubrikEdgeNew';
+    src: url('/fonts/RubrikEdgeNew/RubrikEdgeNew.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
