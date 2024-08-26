@@ -4,8 +4,25 @@
 
 /* Custom Font Declaration AFTER Tailwind */
 @font-face {
-    font-family: 'RubrikEdgeNew';
-    src: url('/fonts/RubrikEdgeNew/RubrikEdgeNew.woff2') format('woff2');
+    font-family: 'RubrikEdgeNew Regular';
+    src: url('/assets/fonts/RubrikEdgeNew-Regular.woff2') format('woff2'),
+        url('/assets/fonts/RubrikEdgeNew-Regular.woff') format('woff ');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RubrikEdgeNew Light';
+    src: url('/assets/fonts/RubrikEdgeNew-Light.woff2') format('woff2'),
+        url('/assets/fonts/RubrikEdgeNew-Light.woff') format('woff ');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RubrikEdgeNew Bold';
+    src: url('/assets/fonts/RubrikEdgeNew-Bold.woff2') format('woff2'),
+        url('/assets/fonts/RubrikEdgeNew-Bold.woff') format('woff ');
     font-weight: normal;
     font-style: normal;
 }

@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'rubrik': ['RubrikEdgeNew', 'sans-serif'],
+        'rubrikBold': ['RubrikEdgeNew Bold', 'sans-serif'],
+        'rubrikRegular': ['RubrikEdgeNew Regular', 'sans-serif'],
+        'rubrikLight': ['RubrikEdgeNew Light', 'sans-serif'],
       },
     },
   },
