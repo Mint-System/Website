@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pages/odoo/</loc>
+    <loc>https://mint-systems.ch/pages/odoo/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mint-systems.ch/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mint-systems.ch/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/home/</loc>
+    <loc>https://mint-systems.ch/pages/home/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://mint-systems.ch/pages/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mint-systems.ch/tags/</loc>
   </url>
 </urlset>
