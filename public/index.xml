@@ -2,24 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mint System</title>
-    <link>https://mint-systems.ch/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mint System</description>
     <generator>Hugo</generator>
     <language>de-CH</language>
-    <atom:link href="https://mint-systems.ch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odoo</title>
+      <link>http://localhost:1313/odoo/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/odoo/</guid>
+      <description>Die weltweit erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma.</description>
+    </item>
+    <item>
+      <title>Hack4SocialGood 2024</title>
+      <link>http://localhost:1313/blog/hack4socialgood-2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/hack4socialgood-2024/</guid>
+      <description>This post covers the Hack4SocialGood 2024 event details&amp;hellip;</description>
+    </item>
     <item>
       <title></title>
-      <link>https://mint-systems.ch/pages/odoo/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mint-systems.ch/pages/odoo/</guid>
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/aboutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/aboutus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/beratung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/beratung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/jobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/jobs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/odoo-produktionsplanung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/odoo-produktionsplanung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/odoo-zeiterfassung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/odoo-zeiterfassung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/partner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/partner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/pages/software-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/software-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Mint Systems</title>
-      <link>https://mint-systems.ch/pages/home/</link>
+      <link>http://localhost:1313/pages/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mint-systems.ch/pages/home/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui enim, iaculis vitae felis et, mattis accumsan justo. Vestibulum ac egestas purus. In lectus eros, semper vel bibendum et, iaculis ut ligula. Phasellus eget condimentum nunc. Pellentesque et libero ornare, rutrum libero nec, interdum turpis. In hac habitasse platea dictumst. Aenean quis dignissim dolor, nec imperdiet turpis. Pellentesque varius felis nec magna semper, ac vehicula mauris finibus. Nunc dictum imperdiet fringilla.</description>
+      <guid>http://localhost:1313/pages/home/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
