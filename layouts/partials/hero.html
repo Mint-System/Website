@@ -1,0 +1,10 @@
+{{ $hero_image := .Resources.GetMatch "hero.jpg" }}
+
+<section class="hero bg-cover bg-center" 
+         {{ with $hero_image }}
+         style="background-image: url('{{ .Permalink }}')"
+         {{ end }}>
+    <div class="container mx-auto py-20 text-center">
+        <h1 class="text-5xl font-bold text-white">{{ .Params.hero_text }}</h1>
+    </div>
+</section>

@@ -2,7 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/about/about/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/beratung/beratung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/beratung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/home/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contact/contact/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/home/home/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo/odoo/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/odoo/</loc>
@@ -14,29 +41,27 @@
     <loc>http://localhost:1313/blog/hack4socialgood-2024/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/jobs/jobs/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/aboutus/</loc>
+    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/beratung/</loc>
+    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/contact/</loc>
+    <loc>http://localhost:1313/partner/partner/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/jobs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pages/odoo-produktionsplanung/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pages/odoo-zeiterfassung/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pages/partner/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pages/software-engineering/</loc>
+    <loc>http://localhost:1313/software-engineering/software-engineering/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/home/</loc>
+    <loc>http://localhost:1313/jobs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
   </url><url>
     <loc>http://localhost:1313/pages/</loc>
+  </url><url>
+    <loc>http://localhost:1313/partner/</loc>
+  </url><url>
+    <loc>http://localhost:1313/software-engineering/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

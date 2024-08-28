@@ -6,14 +6,42 @@
     <description>Recent content on Mint System</description>
     <generator>Hugo</generator>
     <language>de-CH</language>
-    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 14:31:16 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About us</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>Here is some content. This is all in Markdown&#xA;list Item Another List item Another one Dictionary Dictionary definitions Hello World Lorem Ipsum </description>
+    </item>
+    <item>
+      <title>Beratung</title>
+      <link>http://localhost:1313/beratung/beratung/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/beratung/beratung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>http://localhost:1313/contact/contact/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/contact/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mint Systems</title>
+      <link>http://localhost:1313/home/home/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/home/home/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Odoo</title>
-      <link>http://localhost:1313/odoo/</link>
+      <link>http://localhost:1313/odoo/odoo/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/odoo/</guid>
-      <description>Die weltweit erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma.</description>
+      <guid>http://localhost:1313/odoo/odoo/</guid>
+      <description></description>
     </item>
     <item>
       <title>Hack4SocialGood 2024</title>
@@ -24,72 +52,37 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/jobs/jobs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/jobs/jobs/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/pages/aboutus/</link>
+      <link>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/aboutus/</guid>
+      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/pages/beratung/</link>
+      <link>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/beratung/</guid>
+      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/pages/contact/</link>
+      <link>http://localhost:1313/partner/partner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/contact/</guid>
+      <guid>http://localhost:1313/partner/partner/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/pages/jobs/</link>
+      <link>http://localhost:1313/software-engineering/software-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/jobs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pages/odoo-produktionsplanung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/odoo-produktionsplanung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pages/odoo-zeiterfassung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/odoo-zeiterfassung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pages/partner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/partner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/pages/software-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mint Systems</title>
-      <link>http://localhost:1313/pages/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pages/home/</guid>
+      <guid>http://localhost:1313/software-engineering/software-engineering/</guid>
       <description></description>
     </item>
   </channel>

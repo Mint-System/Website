@@ -8,3 +8,7 @@ package-lock.json
 
 # ignore system files
 .DS_Store
+
+
+# ignore public folder
+/public/*
