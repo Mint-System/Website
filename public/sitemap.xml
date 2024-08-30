@@ -17,7 +17,22 @@
     <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/privacy/privacy/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/home/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/impressum/impressum/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/impressum/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jobs/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jobs/jobs/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/contact/</loc>
@@ -30,10 +45,37 @@
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/odoo/odoo/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-zeiterfassung/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/odoo/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/partner/partner/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/partner/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/privacy/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/software-engineering/software-engineering/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/software-engineering/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
@@ -41,27 +83,7 @@
     <loc>http://localhost:1313/blog/hack4socialgood-2024/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jobs/jobs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
-  </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</loc>
-  </url><url>
-    <loc>http://localhost:1313/partner/partner/</loc>
-  </url><url>
-    <loc>http://localhost:1313/software-engineering/software-engineering/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/jobs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
-  </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-  </url><url>
-    <loc>http://localhost:1313/partner/</loc>
-  </url><url>
-    <loc>http://localhost:1313/software-engineering/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

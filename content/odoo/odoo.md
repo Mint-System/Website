@@ -1,5 +1,5 @@
----
-title: "Odoo"
-date: 2024-08-27
-draft: false
----
++++
+title = 'Odoo'
+date = 2024-08-28T14:31:16+02:00
+draft = false
++++

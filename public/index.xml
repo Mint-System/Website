@@ -23,6 +23,27 @@
       <description></description>
     </item>
     <item>
+      <title>Datenschutzerklärung</title>
+      <link>http://localhost:1313/privacy/privacy/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/privacy/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Impressum</title>
+      <link>http://localhost:1313/impressum/impressum/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/impressum/impressum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jobs</title>
+      <link>http://localhost:1313/jobs/jobs/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/jobs/jobs/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Kontakt</title>
       <link>http://localhost:1313/contact/contact/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
@@ -39,8 +60,36 @@
     <item>
       <title>Odoo</title>
       <link>http://localhost:1313/odoo/odoo/</link>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
       <guid>http://localhost:1313/odoo/odoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odoo Produktionsplaung</title>
+      <link>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odoo Zeiterfassung</title>
+      <link>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Partner</title>
+      <link>http://localhost:1313/partner/partner/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/partner/partner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>http://localhost:1313/software-engineering/software-engineering/</link>
+      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
+      <guid>http://localhost:1313/software-engineering/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -49,41 +98,6 @@
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/hack4socialgood-2024/</guid>
       <description>This post covers the Hack4SocialGood 2024 event details&amp;hellip;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/jobs/jobs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jobs/jobs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-zeiterfassung/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/partner/partner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/partner/partner/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/software-engineering/software-engineering/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software-engineering/software-engineering/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
