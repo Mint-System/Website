@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mint System</title>
-    <link>https://mint-systems.ch/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Mint System</description>
     <generator>Hugo</generator>
     <language>de-CH</language>
     <lastBuildDate>Sun, 01 Sep 2024 21:44:53 +0200</lastBuildDate>
-    <atom:link href="https://mint-systems.ch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy</title>
-      <link>https://mint-systems.ch/privacy/privacy/</link>
+      <link>http://localhost:1313/privacy/privacy/</link>
       <pubDate>Sun, 01 Sep 2024 21:44:53 +0200</pubDate>
-      <guid>https://mint-systems.ch/privacy/privacy/</guid>
+      <guid>http://localhost:1313/privacy/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Impressum</title>
-      <link>https://mint-systems.ch/impressum/impressum/</link>
+      <link>http://localhost:1313/impressum/impressum/</link>
       <pubDate>Sun, 01 Sep 2024 21:44:49 +0200</pubDate>
-      <guid>https://mint-systems.ch/impressum/impressum/</guid>
+      <guid>http://localhost:1313/impressum/impressum/</guid>
       <description></description>
     </item>
     <item>
       <title>Partner</title>
-      <link>https://mint-systems.ch/partner/partner/</link>
+      <link>http://localhost:1313/partner/partner/</link>
       <pubDate>Sun, 01 Sep 2024 11:45:40 +0200</pubDate>
-      <guid>https://mint-systems.ch/partner/partner/</guid>
+      <guid>http://localhost:1313/partner/partner/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>https://mint-systems.ch/about/about/</link>
+      <link>http://localhost:1313/about/about/</link>
       <pubDate>Sun, 01 Sep 2024 11:37:53 +0200</pubDate>
-      <guid>https://mint-systems.ch/about/about/</guid>
+      <guid>http://localhost:1313/about/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Odoo Produktionsplanung</title>
-      <link>https://mint-systems.ch/odoo-produktionsplanung/odoo-produktionsplanung/</link>
+      <link>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</link>
       <pubDate>Sun, 01 Sep 2024 11:36:22 +0200</pubDate>
-      <guid>https://mint-systems.ch/odoo-produktionsplanung/odoo-produktionsplanung/</guid>
+      <guid>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</guid>
       <description></description>
     </item>
     <item>
       <title>Odoo Zeiterfassung</title>
-      <link>https://mint-systems.ch/odoo-zeiterfassung/odoo-zeiterfassung/</link>
+      <link>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</link>
       <pubDate>Sun, 01 Sep 2024 11:36:13 +0200</pubDate>
-      <guid>https://mint-systems.ch/odoo-zeiterfassung/odoo-zeiterfassung/</guid>
+      <guid>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</guid>
       <description></description>
     </item>
     <item>
       <title>Jobs</title>
-      <link>https://mint-systems.ch/jobs/jobs/</link>
+      <link>http://localhost:1313/jobs/jobs/</link>
       <pubDate>Sun, 01 Sep 2024 11:35:06 +0200</pubDate>
-      <guid>https://mint-systems.ch/jobs/jobs/</guid>
+      <guid>http://localhost:1313/jobs/jobs/</guid>
       <description></description>
     </item>
     <item>
       <title>Odoo</title>
-      <link>https://mint-systems.ch/odoo/odoo/</link>
+      <link>http://localhost:1313/odoo/odoo/</link>
       <pubDate>Sun, 01 Sep 2024 11:30:10 +0200</pubDate>
-      <guid>https://mint-systems.ch/odoo/odoo/</guid>
+      <guid>http://localhost:1313/odoo/odoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Beratung</title>
-      <link>https://mint-systems.ch/beratung/beratung/</link>
+      <link>http://localhost:1313/beratung/beratung/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
-      <guid>https://mint-systems.ch/beratung/beratung/</guid>
+      <guid>http://localhost:1313/beratung/beratung/</guid>
       <description>Here is some content. This is all in Markdown&#xA;list Item Another List item Another one Dictionary Dictionary definitions Hello World Lorem Ipsum </description>
     </item>
     <item>
       <title>Kontakt</title>
-      <link>https://mint-systems.ch/contact/contact/</link>
+      <link>http://localhost:1313/contact/contact/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
-      <guid>https://mint-systems.ch/contact/contact/</guid>
+      <guid>http://localhost:1313/contact/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Mint System</title>
-      <link>https://mint-systems.ch/home/home/</link>
+      <link>http://localhost:1313/home/home/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
-      <guid>https://mint-systems.ch/home/home/</guid>
+      <guid>http://localhost:1313/home/home/</guid>
       <description></description>
     </item>
     <item>
       <title>Hack4SocialGood 2024</title>
-      <link>https://mint-systems.ch/blog/posts/hack4socialgood-2024/</link>
+      <link>http://localhost:1313/blog/posts/hack4socialgood-2024/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://mint-systems.ch/blog/posts/hack4socialgood-2024/</guid>
+      <guid>http://localhost:1313/blog/posts/hack4socialgood-2024/</guid>
       <description>This post covers the Hack4SocialGood 2024 event details&amp;hellip;&#xA;Zurück zu zur Blog Übersicht blog page</description>
     </item>
   </channel>

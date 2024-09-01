@@ -12,3 +12,10 @@ twitter_username = "@yourTwitterHandle"
 changefreq = "weekly"
 priority = 0.5
 filename = "sitemap.xml"
+
+
+[outputs]
+home = ["HTML"]
+section = ["HTML"]
+page = ["HTML"]
+contact = ["HTML"]
