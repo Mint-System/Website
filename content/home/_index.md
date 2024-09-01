@@ -1,3 +1,4 @@
+
 +++
 title = "Mint System"
 draft = false
