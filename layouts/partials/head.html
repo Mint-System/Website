@@ -11,5 +11,5 @@
 <link rel="mask-icon" href="{{ "assets/favicons/safari-pinned-tab.svg" | relURL }}" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-{{ $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint | resources.PostProcess }}
+{{ $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint }}
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>

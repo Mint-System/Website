@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mint-systems.ch/contact/</loc>
+    <lastmod>2024-09-01T19:02:27+02:00</lastmod>
+  </url><url>
+    <loc>https://mint-systems.ch/contact/contact/</loc>
+    <lastmod>2024-09-01T19:02:27+02:00</lastmod>
+  </url><url>
+    <loc>https://mint-systems.ch/</loc>
+    <lastmod>2024-09-01T19:02:27+02:00</lastmod>
+  </url><url>
+    <loc>https://mint-systems.ch/partner/partner/</loc>
     <lastmod>2024-09-01T11:45:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/partner/partner/</loc>
+    <loc>https://mint-systems.ch/partner/</loc>
     <lastmod>2024-09-01T11:45:40+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/partner/</loc>
-    <lastmod>2024-09-01T11:45:40+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/about/</loc>
+    <loc>https://mint-systems.ch/about/about/</loc>
     <lastmod>2024-09-01T11:37:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://mint-systems.ch/about/</loc>
     <lastmod>2024-09-01T11:37:53+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
+    <loc>https://mint-systems.ch/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
     <lastmod>2024-09-01T11:36:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
+    <loc>https://mint-systems.ch/odoo-produktionsplanung/</loc>
     <lastmod>2024-09-01T11:36:22+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</loc>
+    <loc>https://mint-systems.ch/odoo-zeiterfassung/odoo-zeiterfassung/</loc>
     <lastmod>2024-09-01T11:36:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo-zeiterfassung/</loc>
+    <loc>https://mint-systems.ch/odoo-zeiterfassung/</loc>
     <lastmod>2024-09-01T11:36:13+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jobs/</loc>
+    <loc>https://mint-systems.ch/jobs/</loc>
     <lastmod>2024-09-01T11:35:06+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jobs/jobs/</loc>
+    <loc>https://mint-systems.ch/jobs/jobs/</loc>
     <lastmod>2024-09-01T11:35:06+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo/odoo/</loc>
+    <loc>https://mint-systems.ch/odoo/odoo/</loc>
     <lastmod>2024-09-01T11:30:10+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/odoo/</loc>
+    <loc>https://mint-systems.ch/odoo/</loc>
     <lastmod>2024-09-01T11:30:10+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/beratung/beratung/</loc>
+    <loc>https://mint-systems.ch/beratung/beratung/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/beratung/</loc>
+    <loc>https://mint-systems.ch/beratung/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://mint-systems.ch/home/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://mint-systems.ch/impressum/impressum/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impressum/impressum/</loc>
+    <loc>https://mint-systems.ch/impressum/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/impressum/</loc>
+    <loc>https://mint-systems.ch/home/home/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/contact/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/home/home/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://mint-systems.ch/blog/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/hack4socialgood-2024/</loc>
+    <loc>https://mint-systems.ch/blog/posts/hack4socialgood-2024/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mint-systems.ch/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mint-systems.ch/tags/</loc>
   </url>
 </urlset>
