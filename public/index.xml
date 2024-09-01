@@ -6,8 +6,22 @@
     <description>Recent content on Mint System</description>
     <generator>Hugo</generator>
     <language>de-CH</language>
-    <lastBuildDate>Sun, 01 Sep 2024 11:45:40 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 21:44:53 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/privacy/privacy/</link>
+      <pubDate>Sun, 01 Sep 2024 21:44:53 +0200</pubDate>
+      <guid>http://localhost:1313/privacy/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Impressum</title>
+      <link>http://localhost:1313/impressum/impressum/</link>
+      <pubDate>Sun, 01 Sep 2024 21:44:49 +0200</pubDate>
+      <guid>http://localhost:1313/impressum/impressum/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Partner</title>
       <link>http://localhost:1313/partner/partner/</link>
@@ -58,13 +72,6 @@
       <description>Here is some content. This is all in Markdown&#xA;list Item Another List item Another one Dictionary Dictionary definitions Hello World Lorem Ipsum </description>
     </item>
     <item>
-      <title>Impressum</title>
-      <link>http://localhost:1313/impressum/impressum/</link>
-      <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
-      <guid>http://localhost:1313/impressum/impressum/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Kontakt</title>
       <link>http://localhost:1313/contact/contact/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
@@ -72,7 +79,7 @@
       <description></description>
     </item>
     <item>
-      <title>Mint Systems</title>
+      <title>Mint Systemss</title>
       <link>http://localhost:1313/home/home/</link>
       <pubDate>Wed, 28 Aug 2024 14:31:16 +0200</pubDate>
       <guid>http://localhost:1313/home/home/</guid>

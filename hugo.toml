@@ -1,3 +1,4 @@
 baseURL = 'https://mint-systems.ch/'
 languageCode = 'de-CH'
 title = 'Mint System'
+draft = false

@@ -50,9 +50,6 @@
     <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/contact/contact/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/home/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
@@ -60,6 +57,9 @@
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/impressum/</loc>
+    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contact/contact/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/home/home/</loc>
