@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="de-CH" dir="ltr">
+
 <head>
   {{ partial "head.html" . }}
 </head>
+
 <body>
   <header>
     {{ partial "header.html" . }}
   </header>
 
-    {{ block "main" . }}{{ end }}
+  {{ block "main" . }}{{ end }}
 
   <footer>
     {{ partial "footer.html" . }}
   </footer>
 </body>
+
 </html>

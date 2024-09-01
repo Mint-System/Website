@@ -1,5 +1,5 @@
 +++
 title = 'Odoo Zeiterfassung'
-date = 2024-08-28T14:31:16+02:00
+date = 2024-09-01T11:36:13+02:00
 draft = false
 +++

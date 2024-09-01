@@ -1,0 +1,46 @@
+<!-- layouts/partials/header.html -->
+<header class="bg-white shadow-md py-4 px-2">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Logo Section -->
+      <a href="{{"/" | relURL }}  " class="flex items-center">
+        <img src="/assets/logo/Logo-Mint-final.svg" alt="Mint System Logo" class="h-10 mr-4" />
+      </a>
+  
+      <!-- Navigation Section -->
+      <nav class="space-x-6 text-gray-600 hidden xl:flex">
+        <a href="{{ "/odoo" | relURL }}" class="hover:text-gray-800">Odoo</a>
+        <div class="relative group">
+          <button class="inline-flex items-center hover:text-gray-800">
+            Angebot
+            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+            </svg>
+          </button>
+          <div class="absolute group-hover:block bg-white shadow-lg mt-2 py-2 w-48">
+            <a href="{{ "/odoo-zeiterfassung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Odoo Zeiterfassung</a>
+            <a href="{{ "/odoo-produktionsplanung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Odoo Produktionsplaung</a>
+          </div>
+        </div>
+        <div class="relative group">
+          <button class="inline-flex items-center hover:text-gray-800">
+            Unternehmen
+            <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+            </svg>
+          </button>
+          <div class="absolute group-hover:block bg-white shadow-lg mt-2 py-2 w-48">
+            <a href="/about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Über uns</a>
+            <a href="/partner" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Partner</a>
+            <a href="/jobs" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Jobs</a>
+          </div>
+        </div>
+        <a href="/blog" class="hover:text-gray-800">Blog</a>
+      </nav>
+  
+      <!-- Call to Action Button -->
+      <a href="/contact" class="px-5 py-2 bg-teal-500 text-white rounded-md shadow hover:bg-teal-600">
+        KONTAKT
+      </a>
+    </div>
+  </header>
+  

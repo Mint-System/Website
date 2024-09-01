@@ -2,11 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-09-01T11:45:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/partner/partner/</loc>
+    <lastmod>2024-09-01T11:45:40+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/partner/</loc>
+    <lastmod>2024-09-01T11:45:40+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/about/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+    <lastmod>2024-09-01T11:37:53+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
+    <lastmod>2024-09-01T11:37:53+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
+    <lastmod>2024-09-01T11:36:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
+    <lastmod>2024-09-01T11:36:22+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</loc>
+    <lastmod>2024-09-01T11:36:13+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo-zeiterfassung/</loc>
+    <lastmod>2024-09-01T11:36:13+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jobs/</loc>
+    <lastmod>2024-09-01T11:35:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/jobs/jobs/</loc>
+    <lastmod>2024-09-01T11:35:06+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo/odoo/</loc>
+    <lastmod>2024-09-01T11:30:10+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/odoo/</loc>
+    <lastmod>2024-09-01T11:30:10+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/beratung/beratung/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
@@ -15,9 +48,6 @@
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/privacy/privacy/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/home/</loc>
@@ -29,52 +59,10 @@
     <loc>http://localhost:1313/impressum/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jobs/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/jobs/jobs/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/contact/contact/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/home/home/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo/odoo/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/odoo-produktionsplanung/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo-zeiterfassung/odoo-zeiterfassung/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo-produktionsplanung/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo-zeiterfassung/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/odoo/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/partner/partner/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/partner/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/software-engineering/software-engineering/</loc>
-    <lastmod>2024-08-28T14:31:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/software-engineering/</loc>
     <lastmod>2024-08-28T14:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
