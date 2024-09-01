@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom Font Declaration AFTER Tailwind */
 @font-face {
     font-family: 'RubrikEdgeNew Regular';
     src: url('/assets/fonts/RubrikEdgeNew-Regular.woff2') format('woff2'),
@@ -23,6 +22,18 @@
     font-family: 'RubrikEdgeNew Bold';
     src: url('/assets/fonts/RubrikEdgeNew-Bold.woff2') format('woff2'),
         url('/assets/fonts/RubrikEdgeNew-Bold.woff') format('woff ');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+button {
+    @apply font-rubrikRegular;
 }

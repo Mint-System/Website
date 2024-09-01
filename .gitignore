@@ -1,5 +1,6 @@
 # Hugo-generated assets
 /public
+./public/*
 /resources
 
 # npm assets
