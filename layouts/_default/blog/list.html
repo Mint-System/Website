@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="main blog-overview">
+    {{ partial "hero.html" . }}
+
+
+    <ul>
+        {{ range where .Pages "Section" "blog/posts" }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <p>{{ .Summary }}</p>
+            <small>Posted on {{ .Date.Format "Jan 2, 2006" }}</small>
+        </li>
+        {{ end }}
+    </ul>
+</main>
+{{ end }}

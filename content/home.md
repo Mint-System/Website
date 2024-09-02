@@ -1,6 +1,5 @@
-
 +++
-title = "Mint System"
+title = ""
 draft = false
 date = 2024-08-28T14:31:16+02:00
 
@@ -16,4 +15,5 @@ canonical_url = "https://www.mint-system.ch/"
 
 hero_text="Hello"
 hero_subtext="Hello, World"
+hero_image="/assets/images/home-hero.jpg"
 +++
