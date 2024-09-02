@@ -761,13 +761,8 @@ video {
   width: 1.5rem;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.-translate-x-full {
-  --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-full {
+  width: 100%;
 }
 
 .transform {
@@ -1005,6 +1000,16 @@ a,
 p,
 button {
   font-family: RubrikEdgeNew Regular, sans-serif;
+}
+
+/* nav mobile*/
+
+.nav-mobile {
+  transform: translateY( -100%);
+}
+
+.nav-mobile__open {
+  transform: translateY(0%);
 }
 
 .hover\:bg-gray-100:hover {

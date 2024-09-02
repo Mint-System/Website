@@ -22,12 +22,12 @@ const navMobile = document.querySelector('#nav-mobile');
 if (navTriggerBtn) {
     console.log("hello,world")
     navTriggerBtn.addEventListener('click', () => {
-        navMobile.classList.toggle('-translate-x-full');
+        navMobile.classList.toggle('nav-mobile__open');
     })
 }
 
 if (navCloseBtn) {
     navCloseBtn.addEventListener('click', () => {
-        navMobile.classList.toggle('-translate-x-full');
+        navMobile.classList.remove('nav-mobile__open');
     })
 }

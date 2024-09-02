@@ -42,11 +42,6 @@
     <!-- CSS and JavaScript -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
-    {{ $js := resources.Get "js/main.js" | resources.Minify | resources.Fingerprint }} 
-    <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-
-
-
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",

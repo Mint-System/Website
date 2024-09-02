@@ -131,3 +131,12 @@ p,
 button {
     @apply font-rubrikRegular;
 }
+
+/* nav mobile*/
+.nav-mobile {
+    transform: translateY( -100%);
+}
+
+.nav-mobile__open {
+    transform: translateY(0%);
+}
