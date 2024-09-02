@@ -1,3 +1,97 @@
+:root {
+    /* colors */
+    --primary-color: #0B9FA3;
+    --secondary-color: #0D8485;
+    --text-dark-color: #202020;
+    --text-normal-color: #CCCCCC;
+    --text-light-color: #EAEAEA;
+    --text-grey-color: #B9B9BA;
+    --text-inverted-color: #ffffff;
+    --shadow-hue: #00000066;
+    --button-background-color: #13D5C4;
+    --button-background-transparent-color: #13D5C433;
+    --button-background-hover-color: #0B9FA3;
+    --link-active-color: #13D5C4;
+    --link-hover-color: #13D5C4;
+    --link-border-color: #13D5C4;
+    --link-border-active-color: #13D5C4;
+    --link-border-hover-color: #202020;
+    --link-dot-color: #13D5C4;
+    --link-dot-hover-color: #13D5C4;
+    --form-input-border-color: #CCCCCC;
+    --form-input-focus-hue: #0000001A;
+
+    /* sizes */
+    --link-border-size: 1px;
+    --nav-border-size: 2px;
+    --font-size-header1: 3rem;
+    /* 48px */
+    --font-size-header2: 2.5rem;
+    /* 40px */
+    --font-size-header3: 1.875rem;
+    /* 30px */
+    --font-size-header4: 1.5rem;
+    /* 24px */
+    --font-size-header5: 1.125rem;
+    /* 18px */
+    --font-size-header6: 1.125rem;
+    /* 18px */
+    --font-size-text: 1.125rem;
+    /* 18px */
+    --font-size-text-small: 0.875rem;
+    /* 14px */
+    --font-size-nav: 1.25rem;
+    /* 20px */
+    --font-size-button: 1rem;
+    /* 16px */
+    --form-input-border-size: 1px;
+
+    /* breakpoints */
+    --breakpoint-min-xs: 0;
+    --breakpoint-min-sm: 576px;
+    --breakpoint-min-md: 768px;
+    --breakpoint-min-lg: 992px;
+    --breakpoint-min-xl: 1200px;
+    --breakpoint-max-xs: 0;
+    --breakpoint-max-sm: 575px;
+    --breakpoint-max-md: 767px;
+    --breakpoint-max-lg: 991px;
+    --breakpoint-max-xl: 1199px;
+
+    /* radius */
+    --default-border-radius: 1rem;
+    --image-border-radius: 0.5rem;
+    --button-border-radius: 2rem;
+    --form-input-border-radius: 0.3rem;
+
+    /* spacing */
+    --padding-xs: 0.3rem;
+    /* 5px */
+    --padding-sm: 0.9375rem;
+    /* 15px */
+    --padding-md: 1.875rem;
+    /* 30px */
+    --padding-lg: 3.125rem;
+    /* 50px */
+    --padding-xl: 4.375rem;
+    /* 70px */
+
+    --margin-xs: 0.3rem;
+    /* 5px */
+    --margin-sm: 0.9375rem;
+    /* 15px */
+    --margin-md: 1.875rem;
+    /* 30px */
+    --margin-lg: 3.125rem;
+    /* 50px */
+    --margin-xl: 4.375rem;
+    /* 70px */
+
+    /* navbar sizes */
+    --odoo-navbar-height: 46px;
+    --navbar-height: 95px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
