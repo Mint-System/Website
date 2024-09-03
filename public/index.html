@@ -71,11 +71,11 @@
 </head>
 
 <body>
-  <header class="z-200 bg-white shadow-md py-4 px-2">
+  <header id="header" class="bg-white shadow-md py-2">
   <div class="container mx-auto flex justify-between items-center">
 
     <a href="/%20/ " class=" flex items-center">
-      <img src="/assets/logo/Logo-Mint-final.svg" alt="Mint System Logo" class="h-10 mr-4" />
+      <img src="/assets/logo/Logo-Mint-final.svg" alt="Mint System Logo" class="object-contain block w-auto h-[3rem] mr-4" />
     </a>
 
     <nav class="space-x-6 text-gray-600 hidden xl:flex">
@@ -126,35 +126,70 @@
 
     <button id="nav__trigger" class="lg:hidden text-teal-600 focus:outline-none">
       <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        <path stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
       </svg>
     </button>
 
   </div>
 </header>
 
-<div id="nav-mobile" class="nav-mobile z-100 fixed top-0 left-0 w-full  bg-white shadow-md transform transition-transform duration-300 ease-in-out lg:hidden">
+<div id="nav-mobile"
+    class="nav-mobile fixed top-0 left-0 w-full bg-white shadow-md transform -translate-x-full transition-transform duration-500 ease-in-out lg:hidden">
     <div class="p-4">
         <button id="nav-close__btn" class="text-text-dark focus:outline-none">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg class="nav-mobile__svg w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
         </button>
     </div>
     <nav class="flex flex-col p-4 space-y-4">
-        <a href="#" class="text-text-dark hover:text-primary">Odoo</a>
-        <a href="#" class="text-text-dark hover:text-primary">Angebot</a>
-        <a href="#" class="text-text-dark hover:text-primary">Unternehmen</a>
-        <a href="#" class="text-text-dark hover:text-primary">Blog</a>
+        <a href="/odoo" class="text-text-dark hover:text-primary">Odoo</a>
+
+        
+        <div class="relative">
+            <button
+                class="nav-mobile__button w-full text-left text-text-dark hover:text-primary flex items-center justify-between focus:outline-none">
+                Angebot
+                <svg class="nav-mobile__svg w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+                </svg>
+            </button>
+            <div class="nav-mobile__dropdown hidden flex flex-col space-y-2 py-4">
+                <a href="/odoo-zeiterfassung" class="text-text-dark hover:text-primary">Odoo
+                    Zeiterfassung</a>
+                <a href="/odoo-produktionsplanung" class="text-text-dark hover:text-primary">Odoo
+                    Produktionsplanung</a>
+                <a href="/software-engineering" class="text-text-dark hover:text-primary">Software
+                    Engineering</a>
+                <a href="/beratung" class="text-text-dark hover:text-primary">Beratung</a>
+            </div>
+        </div>
+
+        
+        <div class="relative">
+            <button
+                class="nav-mobile__button w-full text-left text-text-dark hover:text-primary flex items-center justify-between focus:outline-none">
+                Unternehmen
+                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+                </svg>
+            </button>
+            <div class="nav-mobile__dropdown hidden flex flex-col space-y-2 py-4">
+                <a href="/about" class="text-text-dark hover:text-primary">Über uns</a>
+                <a href="/partner" class="text-text-dark hover:text-primary">Partner</a>
+                <a href="/jobs" class="text-text-dark hover:text-primary">Jobs</a>
+            </div>
+        </div>
+
+        <a href="/blog" class="text-text-dark hover:text-primary">Blog</a>
         <a href="#" class="text-text-dark hover:text-primary">Jobs</a>
-        <a href="#" class="text-text-dark hover:text-primary">Anmelden</a>
     </nav>
 </div>
 
-
   
-    <main id="main home">
-        <section class="relative h-screen bg-cover bg-center"  style="background-image: url('/assets/images/home-hero.jpg')" >
+<main id="main home">
+    <section class="relative h-screen bg-cover bg-center"  style="background-image: url('/assets/images/home-hero.jpg')" >
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="container mx-auto relative z-10 flex flex-col items-center justify-center h-full text-center">
         <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight hyphens-auto">
@@ -173,7 +208,7 @@
     </div>
 </section>
 
-    </main>
+</main>
 
 
   
@@ -183,7 +218,7 @@
   </div>
 </footer>
    
-<script defer src="http://localhost:1313/js/main.min.d5aaab39e67f8d3ed15f40ae6d6465f21e5c8c22c6d354070ef019f425e16564.js" integrity="sha256-1aqrOeZ/jT7RX0CubWRl8h5cjCLG01QHDvAZ9CXhZWQ="></script>
+<script defer src="http://localhost:1313/js/main.min.1e77ec7820a092dea05f30736859d4521e1abfaf54fda7ca438c75ac2302bf95.js" integrity="sha256-HnfseCCgkt6gXzBzaFnUUh4av69U/afKQ4x1rCMCv5U="></script>
 
 </body>
 

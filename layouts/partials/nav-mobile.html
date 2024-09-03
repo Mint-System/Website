@@ -1,17 +1,53 @@
-<div id="nav-mobile" class="nav-mobile z-100 fixed top-0 left-0 w-full  bg-white shadow-md transform transition-transform duration-300 ease-in-out lg:hidden">
+<div id="nav-mobile"
+    class="nav-mobile fixed top-0 left-0 w-full bg-white shadow-md transform -translate-x-full transition-transform duration-500 ease-in-out lg:hidden">
     <div class="p-4">
         <button id="nav-close__btn" class="text-text-dark focus:outline-none">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg class="nav-mobile__svg w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
         </button>
     </div>
     <nav class="flex flex-col p-4 space-y-4">
-        <a href="#" class="text-text-dark hover:text-primary">Odoo</a>
-        <a href="#" class="text-text-dark hover:text-primary">Angebot</a>
-        <a href="#" class="text-text-dark hover:text-primary">Unternehmen</a>
-        <a href="#" class="text-text-dark hover:text-primary">Blog</a>
+        <a href="{{ "/odoo" | relURL }}" class="text-text-dark hover:text-primary">Odoo</a>
+
+        <!-- Angebot Dropdown -->
+        <div class="relative">
+            <button
+                class="nav-mobile__button w-full text-left text-text-dark hover:text-primary flex items-center justify-between focus:outline-none">
+                Angebot
+                <svg class="nav-mobile__svg w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+                </svg>
+            </button>
+            <div class="nav-mobile__dropdown hidden flex flex-col space-y-2 py-4">
+                <a href="{{ "/odoo-zeiterfassung" | relURL }}" class="text-text-dark hover:text-primary">Odoo
+                    Zeiterfassung</a>
+                <a href="{{ "/odoo-produktionsplanung" | relURL }}" class="text-text-dark hover:text-primary">Odoo
+                    Produktionsplanung</a>
+                <a href="{{ "/software-engineering" | relURL }}" class="text-text-dark hover:text-primary">Software
+                    Engineering</a>
+                <a href="{{ "/beratung" | relURL }}" class="text-text-dark hover:text-primary">Beratung</a>
+            </div>
+        </div>
+
+        <!-- Unternehmen Dropdown -->
+        <div class="relative">
+            <button
+                class="nav-mobile__button w-full text-left text-text-dark hover:text-primary flex items-center justify-between focus:outline-none">
+                Unternehmen
+                <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
+                </svg>
+            </button>
+            <div class="nav-mobile__dropdown hidden flex flex-col space-y-2 py-4">
+                <a href="{{ "/about" | relURL }}" class="text-text-dark hover:text-primary">Über uns</a>
+                <a href="{{ "/partner" | relURL }}" class="text-text-dark hover:text-primary">Partner</a>
+                <a href="{{ "/jobs" | relURL }}" class="text-text-dark hover:text-primary">Jobs</a>
+            </div>
+        </div>
+
+        <a href="{{ "/blog" | relURL }}" class="text-text-dark hover:text-primary">Blog</a>
         <a href="#" class="text-text-dark hover:text-primary">Jobs</a>
-        <a href="#" class="text-text-dark hover:text-primary">Anmelden</a>
     </nav>
 </div>

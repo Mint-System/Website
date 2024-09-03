@@ -19,7 +19,6 @@ module.exports = {
         'rubrikLight': ['RubrikEdgeNew Light', 'sans-serif'],
       },
       colors: {
-        // Custom colors using CSS variables
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
         'text-dark': 'var(--text-dark-color)',

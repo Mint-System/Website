@@ -31,3 +31,35 @@ if (navCloseBtn) {
         navMobile.classList.remove('nav-mobile__open');
     })
 }
+
+const buttons = document.querySelectorAll('.nav-mobile__button');
+
+buttons?.forEach(button => {
+    const svg = button.querySelector('svg');
+    button.addEventListener('click', function () {
+        // Toggle the visibility of the next sibling dropdown menu
+        const dropdown = this.nextElementSibling;
+
+        // Close other open dropdowns
+        document.querySelectorAll('.nav-mobile__dropdown').forEach(otherDropdown => {
+            if (otherDropdown !== dropdown) {
+                otherDropdown.classList.add('hidden');
+            }
+        });
+
+        // Toggle the clicked dropdown
+        if (dropdown.classList.contains('hidden')) {
+            dropdown.classList.remove('hidden');
+
+            if (svg) {
+                svg.classList.add('nav-mobile__svg--animated')
+            }
+        } else {
+            dropdown.classList.add('hidden');
+
+            if (svg) {
+                svg.classList.remove('nav-mobile__svg--animated')
+            }
+        }
+    });
+});

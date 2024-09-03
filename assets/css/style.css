@@ -90,6 +90,10 @@
     /* navbar sizes */
     --odoo-navbar-height: 46px;
     --navbar-height: 95px;
+
+    /* layers */
+    --layer-nav-mobile: 1000;
+    --layer-header: 2000;
 }
 
 @tailwind base;
@@ -132,11 +136,28 @@ button {
     @apply font-rubrikRegular;
 }
 
+
+#header {
+    position: relative;
+    z-index: var(--layer-header);
+}
+
 /* nav mobile*/
 .nav-mobile {
-    transform: translateY( -100%);
+    transform: translateY(-100%);
+    z-index: var(--layer-nav-mobile);
 }
 
 .nav-mobile__open {
     transform: translateY(0%);
+}
+
+.nav-mobile__svg {
+    transform: rotate(0deg);
+    transition: transform 200ms ease-in-out;
+}
+
+.nav-mobile__svg--animated {
+    transform: rotate(180deg);
+    transition: transform 200ms ease-in-out;
 }
