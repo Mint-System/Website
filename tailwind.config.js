@@ -6,12 +6,6 @@ module.exports = {
       container: {
         center: true,
         padding: '1rem',
-        screens: {
-          'sm': '100%',
-          'md': '100%',
-          'lg': '1140px',
-          'xl': '1140px',
-        },
       },
       fontFamily: {
         'rubrikBold': ['RubrikEdgeNew Bold', 'sans-serif'],
@@ -75,22 +69,16 @@ module.exports = {
         button: 'var(--font-size-button)',
       },
       height: {
-        // Custom heights using CSS variables
         'navbar-odoo': 'var(--odoo-navbar-height)',
         navbar: 'var(--navbar-height)',
       },
     },
     screens: {
-      xs: { min: 'var(--breakpoint-min-xs)' },
-      sm: { min: 'var(--breakpoint-min-sm)' },
-      md: { min: 'var(--breakpoint-min-md)' },
-      lg: { min: 'var(--breakpoint-min-lg)' },
-      xl: { max: 'var(--breakpoint-min-xl)' },
-      'max-xs': { max: 'var(--breakpoint-max-xs)' },
-      'max-sm': { max: 'var(--breakpoint-max-sm)' },
-      'max-md': { max: 'var(--breakpoint-max-md)' },
-      'max-lg': { max: 'var(--breakpoint-max-lg)' },
-      'max-xl': { max: 'var(--breakpoint-max-xl)' },
+      xs: '576px',
+      sm: '640px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
     },
   },
   plugins: [],

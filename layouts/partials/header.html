@@ -1,12 +1,20 @@
 <header id="header" class="bg-white shadow-md py-2">
   <div class="container mx-auto flex justify-between items-center">
 
-    <a href="{{" /" | relURL }} " class=" flex items-center">
-      <img src="/assets/logo/Logo-Mint-final.svg" alt="Mint System Logo" class="object-contain block w-auto h-[3rem] mr-4" />
+    <a href="{{"/" | relURL }} " class=" flex items-center">
+      <img src="/assets/logo/Logo-Mint-final.svg" alt="Mint System Logo"
+        class="object-contain block w-auto h-[3rem] mr-4" />
     </a>
 
-    <nav class="space-x-6 text-gray-600 hidden xl:flex">
-      <a href="{{ " /odoo" | relURL }}" class="hover:text-gray-800">Odoo</a>
+    
+    <button id="nav__trigger" class="lg:hidden text-teal-600 focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+    
+    <nav class="space-x-6 text-gray-600 hidden lg:flex">
+      <a href="{{ "/odoo" | relURL }}" class="hover:text-gray-800">Odoo</a>
 
       <div class="header-dropdown relative group">
         <button class="header-dropdown__button inline-flex items-center hover:text-gray-800">
@@ -16,13 +24,13 @@
           </svg>
         </button>
         <div class="header-dropdown__menu hidden absolute mt-2 w-48 bg-white rounded-md shadow-lg z-10">
-          <a href="{{ " /odoo-zeiterfassung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Odoo
+          <a href="{{ "/odoo-zeiterfassung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Odoo
             Zeiterfassung</a>
-          <a href="{{ " /odoo-produktionsplanung" | relURL }}"
+          <a href="{{ "/odoo-produktionsplanung" | relURL }}"
             class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Odoo Produktionsplanung</a>
-          <a href="{{ " /software-engineering" | relURL }}"
+          <a href="{{ "/software-engineering" | relURL }}"
             class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Software Engineering</a>
-          <a href="{{ " /beratung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Beratung</a>
+          <a href="{{ "/beratung" | relURL }}" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Beratung</a>
         </div>
       </div>
 
@@ -48,15 +56,9 @@
       </div>
 
       <a href="{{" /blog" | relURL }}" class="hover:text-gray-800">Blog</a>
+      <a href="https://erp.mint-system.ch/contactus" class="ml-4 btn btn-primary" target="_blank">Kontakt</a>
+
     </nav>
-
-
-    <button id="nav__trigger" class="lg:hidden text-teal-600 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-      </svg>
-    </button>
-
   </div>
 </header>
 
