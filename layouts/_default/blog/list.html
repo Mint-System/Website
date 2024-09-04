@@ -1,16 +1,50 @@
 {{ define "main" }}
 <main id="main blog-overview">
-    blog list
-    {{ partial "hero.html" . }}
+    {{ partial "hero-blog.html" . }}
 
-    <ul>
-        {{ range where .Pages "Section" "blog/posts" }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <p>{{ .Summary }}</p>
-            <small>Posted on {{ .Date.Format "Jan 2, 2006" }}</small>
-        </li>
-        {{ end }}
-    </ul>
+    <section class="bg-white">
+        
+        <!-- Blog Posts Section -->
+        <section class="container mx-auto py-12 px-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {{ range .Pages }}
+                <!-- Blog Post Card -->
+                <article class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <a href="{{ .Permalink }}">
+                        <!-- Featured Image -->
+                        {{ with .Params.featured_image }}
+                        <img class="w-full h-48 object-cover" src="{{ . }}" alt="{{ .Title }}">
+                        {{ else }}
+                        <img class="w-full h-48 object-cover" src="/path/to/default-image.jpg" alt="{{ .Title }}">
+                        {{ end }}
+                    </a>
+                    <div class="p-4">
+                        <!-- Blog Post Title -->
+                        <h2 class="font-bold text-xl text-gray-800"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+                        <!-- Blog Post Excerpt -->
+                        {{ if .Params.summary }}
+                        <p class="text-gray-600 mt-2">{{ .Params.summary }}</p>
+                        {{ else }}
+                        <p class="text-gray-600 mt-2">{{ .Summary }}</p>
+                        {{ end }}
+
+                        <div class="mt-4">
+                            <span class="text-sm text-gray-500">{{ .Date.Format "Jan 2, 2006" }}</span>
+                            <!-- Tags -->
+                            <div class="mt-2 space-x-2">
+                                {{ range .Params.tags }}
+                                <span class="inline-block bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded">{{ .
+                                    }}</span>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                {{ end }}
+            </div>
+        </section>
+    </section>
+
 </main>
 {{ end }}

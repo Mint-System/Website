@@ -1,19 +1,19 @@
 <!-- layouts/partials/footer.html -->
-<footer class="bg-gray-100 pt-8">
+<footer class="footer pt-8">
   <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
     
     <!-- Column 1: Unser Angebot & Direkte Links -->
     <div>
       <h5 class="font-rubrikBold text-primary mb-2">Unser Angebot</h5>
-      <ul class="space-y-2">
-        <li><a href="{{ " /odoo" | relURL }}" class="text-primary underline">ERP-System Odoo</a></li>
-        <li><a href="{{ " /software-engineering" | relURL }}" class="text-primary underline">Software Engineering</a></li>
-        <li><a href="{{ " /beratung" | relURL }}" class="text-primary underline">Beratung</a></li>
+      <ul class="space-y-1">
+        <li><a href="{{ "/odoo" | relURL }}" class="text-primary underline">ERP-System Odoo</a></li>
+        <li><a href="{{ "/software-engineering" | relURL }}" class="text-primary underline">Software Engineering</a></li>
+        <li><a href="{{ "/beratung" | relURL }}" class="text-primary underline">Beratung</a></li>
       </ul>
 
       <h5 class="font-rubrikBold text-primary mt-4 mb-2">Direkte Links</h5>
-      <ul class="space-y-2">
-        <li><a href="{{ " /blog" | relURL }}" class="text-primary underline">Blog</a></li>
+      <ul class="space-y-1">
+        <li><a href="{{ "/blog" | relURL }}" class="text-primary underline">Blog</a></li>
         <li><a href="https://wiki.mint-system.ch/" target="_blank" class="text-primary underline">Wiki Mint System</a></li>
         <li><a href="https://www.odoo-wiki.org/" target="_blank" class="text-primary underline">Odoo Wiki</a></li>
         <li><a href="https://odoo.build/" target="_blank" class="text-primary underline">Odoo Build</a></li>
@@ -29,10 +29,10 @@
 
       <div class="flex space-x-4 mt-4">
         <a href="https://www.linkedin.com/company/mint-system" target="_blank" class="text-primary">
-          <svg class="w-6 h-6" fill="currentColor"><!-- LinkedIn Icon --></svg>
+          <i class="fa fa-2x fa-linkedin"></i>
         </a>
         <a href="https://github.com/mint-system" target="_blank" class="text-primary">
-          <svg class="w-6 h-6" fill="currentColor"><!-- GitHub Icon --></svg>
+          <i class="fa fa-2x fa-github"></i>
         </a>
       </div>
 
@@ -46,12 +46,12 @@
       <p class="text-gray-700">
         Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren.
       </p>
-      <ul class="mt-4 space-y-2">
-        <li><a href="{{ " /privacy" | relURL }}" class="text-primary underline">Datenschutzerklärung</a></li>
-        <li><a href="{{ " /impressum" | relURL }}" class="text-primary underline">Impressum</a></li>
-        <li><a href="{{ " /branding" | relURL }}" class="text-primary underline">Branding</a></li>
-        <li><a href="{{ " /partner" | relURL }}" class="text-primary underline">Partner</a></li>
-        <li><a href="{{ " /jobs" | relURL }}" class="text-primary underline">Jobs</a></li>
+      <ul class="mt-4 mb-12 space-y-1">
+        <li><a href="{{ "/privacy" | relURL }}" class="text-primary underline">Datenschutzerklärung</a></li>
+        <li><a href="{{ "/impressum" | relURL }}" class="text-primary underline">Impressum</a></li>
+        <li><a href="{{ "/branding" | relURL }}" class="text-primary underline">Branding</a></li>
+        <li><a href="{{ "/partner" | relURL }}" class="text-primary underline">Partner</a></li>
+        <li><a href="{{ "/jobs" | relURL }}" class="text-primary underline">Jobs</a></li>
       </ul>
     </div>
 
