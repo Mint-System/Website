@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
+        footer: 'var(--secondary-color)',
         'text-dark': 'var(--text-dark-color)',
         'text-normal': 'var(--text-normal-color)',
         'text-light': 'var(--text-light-color)',

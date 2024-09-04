@@ -2,6 +2,7 @@
     /* colors */
     --primary-color: #0B9FA3;
     --secondary-color: #0D8485;
+    --footer-color: #F6F6F6;
     --text-dark-color: #202020;
     --text-normal-color: #CCCCCC;
     --text-light-color: #EAEAEA;
@@ -164,4 +165,8 @@ button {
 .nav-mobile__svg--animated {
     transform: rotate(180deg);
     transition: transform 200ms ease-in-out;
+}
+
+.footer {
+    background-color: var(--footer-color);
 }
