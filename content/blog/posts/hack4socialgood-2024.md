@@ -1,17 +1,10 @@
 ---
 title: "Hack4SocialGood 2024"
-date: 2024-01-15
-draft: false
-type: 'posts'
-layout: "posts"  
-tags: ["Bericht", "Bexio", "Odoo"]
-description: "Details about Hack4SocialGood 2024 event."
+author: "Mint System GmbH, Janik von Rotz"
+date: 2024-04-24
+layout: "posts"
+featured_image: "https://www.mint-system.ch/web/image/5941-684ea9a8/caritas.png"
 ---
 
-This post covers the Hack4SocialGood 2024 event details...
+Der Hack4SocialGood [1] ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt um Lösungen für die Anliegen im Digitalisierungbereicht zu entwickeln.  Um an einem Hackathon teil...
 
-
-![my image](/pic.png)
-
-
-Zurück zu zur Blog Übersicht [blog page](/blog)

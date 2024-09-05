@@ -1,5 +1,5 @@
 +++
-title = 'Index'
+title = 'Odoo'
 date = 2024-09-05T18:02:57+02:00
 draft = false
 layout = "single"

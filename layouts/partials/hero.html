@@ -1,18 +1,20 @@
-<section class="relative h-screen bg-cover bg-center" {{ if .Params.hero_image }} style="background-image: url('{{ .Params.hero_image }}')" {{ end }}>
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-    <div class="container mx-auto relative z-10 flex flex-col items-center justify-center h-full text-center">
-        <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight hyphens-auto">
-            {{ .Params.hero_text }}
-        </h1>
-
-        <h2 class="text-2xl md:text-4xl font-light text-white mt-4 hyphens-auto">
-            {{ .Params.hero_subtext }}
-        </h2>
-
-        {{ if .Params.hero_linktext }}
-        <a href="{{ .Params.hero_link }}" class="mt-8 px-8 py-4 bg-teal-500 text-white text-lg font-semibold rounded-md hover:bg-teal-600">
-            {{ .Params.hero_linktext }}
-        </a>
-        {{ end }}
-    </div>
-</section>
+{{ if .Params.hero_image }} 
+    <section class="relative h-screen bg-cover bg-center"style="background-image: url('{{ .Params.hero_image }}')">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto relative z-10 flex flex-col items-center justify-center h-full text-center">
+            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight hyphens-auto">
+                {{ .Params.hero_text }}
+            </h1>
+            {{ if .Params.hero_subtext }} 
+                <h2 class="text-2xl md:text-4xl font-light text-white mt-4 hyphens-auto">
+                    {{ .Params.hero_subtext }}
+                </h2>
+            {{ end }}
+            {{ if .Params.hero_linktext }}
+            <a href="{{ .Params.hero_link }}" class="mt-8 px-8 py-4 bg-teal-500 text-white text-lg font-semibold rounded-md hover:bg-teal-600">
+                {{ .Params.hero_linktext }}
+            </a>
+            {{ end }}
+        </div>
+    </section>
+{{ end }}
