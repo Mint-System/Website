@@ -2,7 +2,7 @@
 title: "Odoo 14"
 author: "Mint System GmbH, Marco Roeleven"
 date: 2020-11-09
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["ERP-System", "Open Source Software", "Unternehmen"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Aspekte die in Zukunft zählen"
 author: "Mint System GmbH, Kurt Gisler"
 date: 2020-08-19
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["OpenEduca"]
 ---
 

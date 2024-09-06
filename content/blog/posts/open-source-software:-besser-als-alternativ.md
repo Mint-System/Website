@@ -2,8 +2,7 @@
 title: "Open Source Software: Besser als Alternativ"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2022-11-08
-layout: "posts"
-featured_image: "https://www.mint-system.ch/web/image/2921-ca7f8e20/arrow.jpg"
+layout: "blog/posts/posts"
 tags: ["Engagement", "Open Source Software", "Software Engineering", "Unternehmen"]
 ---
 

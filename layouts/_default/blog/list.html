@@ -5,15 +5,11 @@
     <section class="bg-white">
         <section class="container mx-auto py-12 px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {{ range where .Pages "Type" "posts" }}
-                <!-- Blog Post Card -->
-                <article class="bg-white shadow-md rounded-lg overflow-hidden">
+                {{ range .Paginator.Pages }}
+                <article class="bg-white overflow-hidden">
                     <a href="{{ .Permalink }}">
-                        <!-- Featured Image -->
                         {{ with .Params.featured_image }}
-                        <img class="w-full h-48 object-cover" src="{{ . }}" alt="{{ .Title }}">
-                        {{ else }}
-                        <img class="w-full h-48 object-cover" src="/path/to/default-image.jpg" alt="{{ .Title }}">
+                        <img class="w-full h-48 rounded-lg object-cover" src="{{ .Params.featured_image }}" alt="{{ .Title }}">
                         {{ end }}
                     </a>
                     <div class="p-4">
@@ -39,6 +35,16 @@
                         </div>
                     </div>
                 </article>
+                {{ end }}
+            </div>
+        </section>
+        <section class="container">
+            <div class="mt-12">
+                {{ if .Paginator.HasPrev }}
+                <a href="{{ .Paginator.Prev.URL }}" class="mr-4 text-gray-600 hover:underline">&larr; Newer Posts</a>
+                {{ end }}
+                {{ if .Paginator.HasNext }}
+                <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Older Posts &rarr;</a>
                 {{ end }}
             </div>
         </section>

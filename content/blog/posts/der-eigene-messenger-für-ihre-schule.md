@@ -2,7 +2,7 @@
 title: "Der eigene Messenger für Ihre Schule"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-07-08
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Messaging", "OpenEduca"]
 ---
 

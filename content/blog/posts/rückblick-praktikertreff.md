@@ -2,7 +2,7 @@
 title: "Rückblick PraktikerTreff"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2020-10-06
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Open Source Software"]
 ---
 

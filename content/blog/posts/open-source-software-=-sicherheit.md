@@ -2,7 +2,7 @@
 title: "Open Source Software = Sicherheit"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-12-21
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Datenschutz", "Open Source Software", "Security"]
 ---
 

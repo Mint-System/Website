@@ -2,7 +2,7 @@
 title: "Odoo Experience 2021"
 author: "Mint System GmbH, Kurt Gisler"
 date: 2021-09-23
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Event", "Odoo"]
 ---
 

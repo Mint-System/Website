@@ -2,7 +2,7 @@
 title: "Hochwertiger Innenausbau für Flugzeuge"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-05-20
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Success Story"]
 ---
 

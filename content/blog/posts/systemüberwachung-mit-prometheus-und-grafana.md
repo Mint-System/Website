@@ -2,7 +2,7 @@
 title: "Systemüberwachung mit Prometheus und Grafana"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-02-08
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Open Source Software"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Odoo Customizing ohne unvorhergesehene Upgradekosten"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-07-08
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["ERP-System", "Odoo"]
 ---
 

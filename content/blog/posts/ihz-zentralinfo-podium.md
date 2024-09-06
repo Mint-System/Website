@@ -2,7 +2,7 @@
 title: "IHZ Zentralinfo Podium"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2020-09-30
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Artikel", "Unternehmen"]
 ---
 

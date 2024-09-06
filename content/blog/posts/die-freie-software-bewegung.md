@@ -2,7 +2,7 @@
 title: "Die Freie-Software-Bewegung"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2020-09-28
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Open Source Software"]
 ---
 

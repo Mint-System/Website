@@ -2,7 +2,7 @@
 title: "Digital Cluster Uri"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-11-15
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Engagement", "Open Source Software", "Unternehmen"]
 ---
 

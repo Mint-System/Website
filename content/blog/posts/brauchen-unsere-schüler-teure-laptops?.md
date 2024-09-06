@@ -2,7 +2,7 @@
 title: "Brauchen unsere Schüler teure Laptops?"
 author: "Mint System GmbH, Kurt Gisler"
 date: 2020-12-22
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Open Source Software", "OpenEduca"]
 ---
 

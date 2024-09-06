@@ -2,7 +2,7 @@
 title: "Software-Werkzeuge mit Potenzial"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2020-08-19
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["OpenEduca"]
 ---
 

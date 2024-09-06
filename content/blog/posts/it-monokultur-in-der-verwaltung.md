@@ -2,7 +2,7 @@
 title: "IT-Monokultur in der Verwaltung"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-03-25
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Politik"]
 ---
 

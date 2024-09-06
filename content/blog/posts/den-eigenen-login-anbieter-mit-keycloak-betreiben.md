@@ -2,7 +2,7 @@
 title: "Den eigenen Login-Anbieter mit Keycloak betreiben"
 author: "Mint System GmbH, Janik von Rotz"
 date: 2021-05-20
-layout: "posts"
+layout: "blog/posts/posts"
 tags: ["Identity and Access Management", "Keycloak"]
 ---
 
