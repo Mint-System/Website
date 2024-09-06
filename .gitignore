@@ -2,6 +2,9 @@
 /public
 ./public/*
 /resources
+/public/index.html
+/public/index.xml
+/public/sitemap.xml
 
 # npm assets
 node_modules/
