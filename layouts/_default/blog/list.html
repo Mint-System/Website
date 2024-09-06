@@ -9,7 +9,7 @@
                 <article class="bg-white overflow-hidden">
                     <a href="{{ .Permalink }}">
                         {{ with .Params.featured_image }}
-                        <img class="w-full h-48 rounded-lg object-cover" src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+                        <img src="{{ . | relURL }}" alt="{{ .Title }}" class="w-full h-auto">
                         {{ end }}
                     </a>
                     <div class="p-4">

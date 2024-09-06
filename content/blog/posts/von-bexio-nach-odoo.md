@@ -1,9 +1,10 @@
 ---
 title: "Von Bexio nach Odoo"
-author: "Mint System GmbH, Kurt Gisler"
+author: "Kurt Gisler"
 date: 2024-04-04
 layout: "blog/posts/posts"
 tags: ["Bericht", "Bexio", "Odoo", Migration]
+featured_image: "assets/images/blog/odoo-migration.png"
 
 ---
 
