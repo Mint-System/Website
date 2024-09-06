@@ -1,7 +1,7 @@
 ---
 title: "Erfolgreicher Auftrag für AfI Uri"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2020-10-07
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/2489/Rahtaus%20Altdorf.jpg"
 ---

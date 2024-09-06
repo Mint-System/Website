@@ -1,7 +1,7 @@
 ---
 title: "Odoo 16 - Ein Meilenstein"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2022-10-20
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/5057-52aaaa43/20221012_084210_6890.jpeg"
 ---

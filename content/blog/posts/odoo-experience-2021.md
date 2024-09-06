@@ -1,7 +1,7 @@
 ---
 title: "Odoo Experience 2021"
 author: "Mint System GmbH, Kurt Gisler"
-date: "Unknown Date"
+date: 2021-09-23
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/3026/odoo-experience-2021.jpg"
 ---

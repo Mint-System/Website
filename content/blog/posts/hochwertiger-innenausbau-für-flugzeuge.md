@@ -1,7 +1,7 @@
 ---
 title: "Hochwertiger Innenausbau für Flugzeuge"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-05-20
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/2841/Aersolution1.jpg"
 ---

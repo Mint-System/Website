@@ -1,7 +1,7 @@
 ---
 title: "Brauchen unsere Schüler teure Laptops?"
 author: "Mint System GmbH, Kurt Gisler"
-date: "Unknown Date"
+date: 2020-12-22
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/QckxruozjRg/students.jpe"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Paradigmenwechsel im Umgang mit Daten"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-03-25
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/zy4EGUhf4NM/locked.jpe"
 ---

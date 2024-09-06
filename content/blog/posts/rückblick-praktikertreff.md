@@ -1,7 +1,7 @@
 ---
 title: "Rückblick PraktikerTreff"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2020-10-06
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/1803/background_background%20management.jpg"
 ---

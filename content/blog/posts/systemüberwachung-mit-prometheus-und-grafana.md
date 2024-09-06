@@ -1,7 +1,7 @@
 ---
 title: "Systemüberwachung mit Prometheus und Grafana"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-02-08
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/xZCJN3BFkWY/surveillance.jpe"
 ---

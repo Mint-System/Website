@@ -1,7 +1,7 @@
 ---
 title: "Den eigenen Login-Anbieter mit Keycloak betreiben"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-05-20
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/2844/keyboard.png"
 ---

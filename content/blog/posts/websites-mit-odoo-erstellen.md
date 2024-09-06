@@ -1,7 +1,7 @@
 ---
 title: "Websites mit Odoo erstellen"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2022-03-09
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/5036-b1f7508a/Odoo%20Website%20Builder.png"
 ---

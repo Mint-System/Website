@@ -1,7 +1,7 @@
 ---
 title: "Herausforderung ERP-System"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2020-11-09
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/RLw-UC03Gwc/checklist.jpe"
 ---

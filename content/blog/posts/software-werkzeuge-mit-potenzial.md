@@ -1,7 +1,7 @@
 ---
 title: "Software-Werkzeuge mit Potenzial"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2020-08-19
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/QckxruozjRg/students.jpe"
 ---

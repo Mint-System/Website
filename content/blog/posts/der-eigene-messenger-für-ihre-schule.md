@@ -1,7 +1,7 @@
 ---
 title: "Der eigene Messenger für Ihre Schule"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-07-08
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/2910/element.png"
 ---

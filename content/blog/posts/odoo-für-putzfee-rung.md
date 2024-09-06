@@ -1,7 +1,7 @@
 ---
 title: "Odoo für Putzfee Rung"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2020-08-17
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/aJN-jjFLyCU/washing.jpe"
 ---

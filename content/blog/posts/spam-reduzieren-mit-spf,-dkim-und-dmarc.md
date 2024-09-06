@@ -1,7 +1,7 @@
 ---
 title: "Spam reduzieren mit SPF, DKIM und DMARC"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2021-09-20
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/3025/spam-mail.jpg"
 ---

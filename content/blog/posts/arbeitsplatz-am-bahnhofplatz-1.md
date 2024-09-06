@@ -1,7 +1,7 @@
 ---
 title: "Arbeitsplatz am Bahnhofplatz 1"
 author: "Mint System GmbH, Kurt Gisler"
-date: 2023-01-01
+date: 2022-08-04
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/4886-65b9bdd5/Hintergrund.jpg"
 ---

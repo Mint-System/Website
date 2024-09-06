@@ -1,7 +1,7 @@
 ---
 title: "Aspekte die in Zukunft zählen"
 author: "Mint System GmbH, Kurt Gisler"
-date: "Unknown Date"
+date: 2020-08-19
 layout: "posts"
 featured_image: "https://www.mint-system.ch/unsplash/C7B-ExXpOIE/direction.jpe"
 ---

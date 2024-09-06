@@ -1,7 +1,7 @@
 ---
 title: "Eine Sache des guten Geschmacks"
 author: "Mint System GmbH, Janik von Rotz"
-date: "Unknown Date"
+date: 2022-03-09
 layout: "posts"
 featured_image: "https://www.mint-system.chhttps://www.basis57.ch/wp-content/uploads/2019/09/Bild_2-1024x576.jpg"
 ---

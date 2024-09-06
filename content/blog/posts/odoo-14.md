@@ -1,7 +1,7 @@
 ---
 title: "Odoo 14"
 author: "Mint System GmbH, Marco Roeleven"
-date: "Unknown Date"
+date: 2020-11-09
 layout: "posts"
 featured_image: "https://www.mint-system.ch/web/image/2539/Odoo14.png"
 ---
