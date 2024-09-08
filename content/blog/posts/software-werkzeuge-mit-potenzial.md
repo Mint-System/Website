@@ -5,7 +5,7 @@ draft: false
 date: 2020-08-19
 layout: "blog/posts/posts"
 tags: ["OpenEduca"]
-featured_image: "/assets/images/blog/students.png"
+featured_image: "/assets/images/blog/students.jpeg"
 
 ---
 
