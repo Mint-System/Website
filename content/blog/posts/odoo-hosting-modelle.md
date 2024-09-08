@@ -1,6 +1,6 @@
 ---
 title: "Odoo Hosting-Modelle"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2020-05-19
 layout: "blog/posts/posts"
 tags: ["ERP-System"]

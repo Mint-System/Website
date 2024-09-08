@@ -1,6 +1,6 @@
 ---
 title: "Geschäftsapplikationen mit Odoo entwickeln"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2020-12-22
 layout: "blog/posts/posts"
 tags: ["ERP-System", "Software Engineering"]

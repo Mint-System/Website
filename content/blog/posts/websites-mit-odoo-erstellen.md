@@ -1,6 +1,6 @@
 ---
 title: "Websites mit Odoo erstellen"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2022-03-09
 layout: "blog/posts/posts"
 tags: ["ERP-System", "Open Source Software", "Odoo"]

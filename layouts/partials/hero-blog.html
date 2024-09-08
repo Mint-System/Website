@@ -1,9 +1,10 @@
-<section class="bg-gradient-to-b from-teal-500 to-teal-400 py-16 text-center text-white">
-    <div class="container mx-auto">
-        <h1 class="text-4xl font-bold"> {{ .Params.hero_title }}
+<section class="bg-gradient-to-b relative z-10  from-teal-500 to-teal-400 py-16 text-center text-white">
+    <div class="container mx-auto z-10">
+        <h1 class="text-4xl font-light"> {{ .Params.hero_title }}
         </h1>
         <p class="mt-2 text-lg">
             {{ .Params.hero_subtext }}
         </p>
     </div>
+    <div class="absolute inset-0 bg-custom-gradient -z-10"></div>
 </section>

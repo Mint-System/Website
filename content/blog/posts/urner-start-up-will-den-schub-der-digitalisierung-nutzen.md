@@ -1,6 +1,6 @@
 ---
 title: "Urner Start-up will den Schub der Digitalisierung nutzen"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2020-03-26
 layout: "blog/posts/posts"
 tags: ["Unternehmen"]

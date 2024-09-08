@@ -1,6 +1,6 @@
 ---
 title: "Erfolgreicher Auftrag für AfI Uri"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2020-10-07
 layout: "blog/posts/posts"
 tags: ["Success Story"]

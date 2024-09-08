@@ -1,6 +1,6 @@
 ---
 title: "Herausforderung ERP-System"
-author: "Mint System GmbH, Janik von Rotz"
+author: "Janik von Rotz"
 date: 2020-11-09
 layout: "blog/posts/posts"
 tags: ["ERP-System"]

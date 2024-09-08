@@ -1,6 +1,6 @@
 ---
 title: "Ein bierisches Odooprojekt"
-author: "Mint System GmbH, Marco Roeleven"
+author: "Marco Roeleven"
 date: 2021-02-22
 layout: "blog/posts/posts"
 tags: ["ERP-System", "Success Story"]
