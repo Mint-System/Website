@@ -2,26 +2,26 @@
 <main id="main blog-overview">
     {{ partial "hero-blog.html" . }}
 
-    <section class="bg-white">
-        <section class="container mx-auto py-12 px-4">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <section class="container mx-auto py-12 px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                {{ range .Paginator.Pages }}
-                    {{ partial "article-preview.html" . }}
-                {{ end }}
-            </div>
-        </section>
+            {{ range .Paginator.Pages }}
+            {{ partial "article-preview.html" . }}
+            {{ end }}
+        </div>
+    </section>
 
-        <section class="container w-full mb-24 mt-10">
-                <div class="flex justify-center">
-                    {{ if .Paginator.HasPrev }}
-                    <a href="{{ .Paginator.Prev.URL }}" class="mr-4 text-gray-600 hover:underline">&larr; Neuere Posts</a>    
-                    {{ end }}
-                    {{ if .Paginator.HasNext }}
-                    <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Ältere Posts &rarr;</a>
-                    {{ end }}
-                </div>
-        </section>
+    <section class="container w-full mb-24 mt-10">
+        <div class="flex justify-center space-x-4">
+            <!-- Display previous page link -->
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="text-gray-600 hover:underline">&larr; Neuere Posts</a>
+            {{ end }}
+
+            {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Ältere Posts &rarr;</a>
+            {{ end }}
+        </div>
     </section>
 </main>
 {{ end }}
