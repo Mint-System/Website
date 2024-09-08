@@ -11,6 +11,8 @@
                     <a href="{{ .Permalink }}" class="relative block">
                         {{ with .Params.featured_image }}
                         <img src="{{ . | relURL }}" alt="Bild" class="w-full object-cover rounded-xl h-auto aspect-[4/3]">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-black/70 to-transparent rounded-xl"></div>
+
                         {{ end }}
                         <span class="font-rubrikRegular absolute inline-block bottom-2 left-2 text-text text-white">
                             {{.Params.author}}
