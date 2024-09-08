@@ -7,39 +7,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                 {{ range .Paginator.Pages }}
-                <article class="bg-white overflow-hidden">
-                    <a href="{{ .Permalink }}" class="relative block">
-                        {{ with .Params.featured_image }}
-                        <img src="{{ . | relURL }}" alt="Bild" class="w-full object-cover rounded-xl h-auto aspect-[4/3]">
-                        <div class="absolute inset-0 bg-gradient-to-tr from-black/70 to-transparent rounded-xl"></div>
-
-                        {{ end }}
-                        <span class="font-rubrikRegular absolute inline-block bottom-2 left-2 text-text text-white">
-                            {{.Params.author}}
-                        </span>
-                    </a>
-                    <div class="py-4">
-                        <h2 class="font-rubrikBold text-xl text-gray-800">
-                            {{ .Title }}
-                        </h2>
-
-                        <!-- Blog Post Excerpt -->
-                        {{ if .Params.summary }}
-                        <p class="text-gray-600 font-rubrikRegular mt-2">{{ .Params.summary }}</p>
-                        {{ end }}
-
-                        <!-- Tags -->
-                        <div class="my-2 space-x-2">
-                            {{ range .Params.tags }}
-                            <span
-                                class="font-rubrikRegular inline-block bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded">{{.}}</span>
-                            {{ end }}
-                        </div>
-
-                        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date | time.Format ":date_long"}}</span>
-
-                    </div>
-                </article>
+                    {{ partial "article-preview.html" . }}
                 {{ end }}
             </div>
         </section>
