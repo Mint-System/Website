@@ -17,3 +17,4 @@ package-lock.json
 # ignore public folder
 /public/*
 /public/index.html
+/static/css/*

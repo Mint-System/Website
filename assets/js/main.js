@@ -12,15 +12,12 @@ if (headerDropdowns) {
     })
 }
 
-
-
 /* mobile nav */
 const navTriggerBtn = document.querySelector('#nav__trigger');
 const navCloseBtn = document.querySelector('#nav-close__btn');
 const navMobile = document.querySelector('#nav-mobile');
 
 if (navTriggerBtn) {
-    console.log("hello,world")
     navTriggerBtn.addEventListener('click', () => {
         navMobile.classList.toggle('nav-mobile__open');
     })
@@ -62,4 +59,32 @@ buttons?.forEach(button => {
             }
         }
     });
+});
+
+
+/* Header Intersection Observer */
+const header = document.getElementById('header');
+const heroSection = document.getElementById('hero');
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("hello")
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    header.classList.add('fixed', 'top-0', 'left-0', 'w-full', 'z-50', 'shadow-md');
+                    header.classList.remove('relative')
+                } else {
+                    header.classList.remove('fixed', 'top-0', 'left-0', 'w-full', 'z-50', 'shadow-md');
+                    header.classList.add('relative')
+                }
+            });
+        },
+        {
+            root: null,
+            threshold: 0
+        }
+    );
+
+    observer.observe(heroSection);
 });

@@ -132,7 +132,6 @@ h4,
 h5,
 h6 {
     @apply font-rubrikBold;
-
 }
 
 a,
@@ -141,20 +140,16 @@ button {
     @apply font-rubrikRegular;
 }
 
-
-#header {
-    position: relative;
-    z-index: var(--layer-header);
-}
-
 /* nav mobile*/
 .nav-mobile {
     transform: translateY(-100%);
-    z-index: var(--layer-nav-mobile);
+    transition: all 350ms ease-out;
 }
 
 .nav-mobile__open {
     transform: translateY(0%);
+    top: 64px;
+    transition: all 350ms ease-in;
 }
 
 .nav-mobile__svg {
