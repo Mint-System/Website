@@ -31,7 +31,7 @@
                             {{ end }}
                         </div>
 
-                        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date.Format "2. Januar 2006"}}</span>
+                        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date.Format "2. Jan 2006"}}</span>
 
                     </div>
                 </article>
@@ -39,17 +39,16 @@
             </div>
         </section>
 
-        {{/* <section class="container">
-            <div class="mt-12">
-                {{ if .Paginator.HasPrev }}
-                <a href="{{ .Paginator.Prev.URL }}" class="mr-4 text-gray-600 hover:underline">&larr; Newer Posts</a>
-                {{ end }}
-                {{ if .Paginator.HasNext }}
-                <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Older Posts &rarr;</a>
-                {{ end }}
-            </div>
-        </section> */}}
+        <section class="container w-full mb-24 mt-10">
+                <div class="flex justify-center">
+                    {{ if .Paginator.HasPrev }}
+                    <a href="{{ .Paginator.Prev.URL }}" class="mr-4 text-gray-600 hover:underline">&larr; Neuere Posts</a>    
+                    {{ end }}
+                    {{ if .Paginator.HasNext }}
+                    <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Ältere Posts &rarr;</a>
+                    {{ end }}
+                </div>
+        </section>
     </section>
-
 </main>
 {{ end }}

@@ -1,10 +1,11 @@
 ---
 title: "Eine Sache des guten Geschmacks"
 author: " Janik von Rotz"
+draft: false
 date: 2022-03-09
 layout: "blog/posts/posts"
 tags: ["Odoo", "ERP-System", "Success Story"]
-featured_image: "https://www.mint-system.chhttps://www.basis57.ch/wp-content/uploads/2019/09/Bild_2-1024x576.jpg"
+featured_image: "/assets/images/blog/Bild_2-1024x576.jpg"
 
 ---
 

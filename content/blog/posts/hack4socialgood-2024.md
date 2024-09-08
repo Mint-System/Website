@@ -1,6 +1,7 @@
 ---
 title: "Hack4SocialGood 2024"
 author: "Janik von Rotz"
+draft: false
 date: 2024-04-24
 layout: "blog/posts/posts"
 featured_image: "/assets/images/blog/caritas.png"

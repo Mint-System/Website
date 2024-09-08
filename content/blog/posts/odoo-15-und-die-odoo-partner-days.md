@@ -1,10 +1,11 @@
 ---
 title: "Odoo 15 und die Odoo Partner Days"
 author: "Janik von Rotz"
+draft: false
 date: 2021-11-12
 layout: "blog/posts/posts"
 tags: ["Odoo", "Unternehmen"]
-featured_image: "https://www.mint-system.ch/web/image/3205/Odoo%20B%C3%BCro.jpeg"
+featured_image: "/assets/images/blog/odoo-office.jpeg"
 
 ---
 

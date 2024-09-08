@@ -21,3 +21,17 @@ section = ["HTML"]
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+
+
+[languages]
+  [languages.de]
+    contentDir = 'content/'
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    weight = 2
+    [languages.de.pagination]
+      disableAliases = true
+      pagerSize = 12
+      path = 'blatt'

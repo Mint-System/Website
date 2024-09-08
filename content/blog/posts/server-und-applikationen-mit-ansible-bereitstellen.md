@@ -1,9 +1,10 @@
 ---
 title: "Server und Applikationen mit Ansible bereitstellen"
 author: "Janik von Rotz"
+draft: false
 date: 2022-07-20
 layout: "blog/posts/posts"
-featured_image: "https://www.mint-system.ch/web/image/4391-3572ae5f/Ansible%20Conference.png"
+featured_image: "/assets/images/blog/Ansible%20Conference.png"
 
 ---
 
