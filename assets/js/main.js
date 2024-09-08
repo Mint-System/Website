@@ -13,17 +13,16 @@ if (headerDropdowns) {
 }
 
 
-// Todo
-// /* mobile nav */
-// const navTriggerBtn = document.querySelector('#nav__trigger');
-// const navMobile = document.querySelector('#nav-mobile');
+/* mobile nav */
+const navTriggerBtn = document.querySelector('#nav__trigger');
+const navMobile = document.querySelector('#nav-mobile');
 
-// if (navTriggerBtn) {
-//     navTriggerBtn.addEventListener('click', () => {
-//         navTriggerBtn.classList.toggle('nav__trigger--active')
-//         navMobile.classList.toggle('nav-mobile__open');
-//     })
-// }
+if (navTriggerBtn) {
+    navTriggerBtn.addEventListener('click', () => {
+        navTriggerBtn.classList.toggle('nav__trigger--active')
+        navMobile.classList.toggle('nav-mobile__open');
+    })
+}
 
 
 /* Nav Mobile Dropdown */
