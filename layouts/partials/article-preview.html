@@ -25,6 +25,7 @@
             {{ end }}
         </div>
 
-        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date | time.Format ":date_long" }}</span>
+        {{ $format := "2. January 2006" }}
+        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date | time.Format $format }}</span>
     </div>
 </article>

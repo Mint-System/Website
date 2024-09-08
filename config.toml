@@ -1,18 +1,19 @@
 baseURL = 'https://mint-system.ch/'
-languageCode = 'de-CH'
+languageCode = 'de-DE'
 title = 'Mint System'
 draft = false
 
-defaultContentLanguage = "de"    
+defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 
 [pagination]
-  disableAliases = false
-  pagerSize = 12
-  path = ''
+disableAliases = false
+pagerSize = 12
+path = ''
 
 [languages]
 [languages.de]
+languageCode = 'de-DE'
 languageName = "Deutsch"
 weight = 1
 contentDir = "content/de"
