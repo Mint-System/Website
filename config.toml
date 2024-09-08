@@ -6,6 +6,11 @@ draft = false
 defaultContentLanguage = "de"    
 defaultContentLanguageInSubdir = false
 
+[pagination]
+  disableAliases = false
+  pagerSize = 12
+  path = 'page'
+
 [languages]
 [languages.de]
 languageName = "Deutsch"
