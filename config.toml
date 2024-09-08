@@ -17,11 +17,19 @@ languageCode = 'de-DE'
 languageName = "Deutsch"
 weight = 1
 contentDir = "content/de"
+[languages.de.pagination]
+disableAliases = false
+pagerSize = 12
+path = ''
 
 [languages.en]
 languageName = "English"
 weight = 2
 contentDir = "content/en"
+[languages.en.pagination]
+disableAliases = false
+pagerSize = 12
+path = ''
 
 [permalinks]
 blog = "/blog/:slug/"
