@@ -8,10 +8,13 @@
 
                 {{ range .Paginator.Pages }}
                 <article class="bg-white overflow-hidden">
-                    <a href="{{ .Permalink }}">
+                    <a href="{{ .Permalink }}" class="relative block">
                         {{ with .Params.featured_image }}
-                        <img src="{{ . | relURL }}" alt="Bild" class="w-full rounded-xl h-auto">
+                        <img src="{{ . | relURL }}" alt="Bild" class="w-full object-cover rounded-xl h-auto aspect-[4/3]">
                         {{ end }}
+                        <span class="font-rubrikRegular absolute inline-block bottom-2 left-2 text-text text-white">
+                            {{.Params.author}}
+                        </span>
                     </a>
                     <div class="py-4">
                         <h2 class="font-rubrikBold text-xl text-gray-800">
@@ -31,7 +34,7 @@
                             {{ end }}
                         </div>
 
-                        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date.Format "2. Jan 2006"}}</span>
+                        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date | time.Format ":date_long"}}</span>
 
                     </div>
                 </article>

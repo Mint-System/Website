@@ -76,6 +76,9 @@ module.exports = {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.369) 19%, rgba(0, 0, 0, 0.2705) 34%, rgba(0, 0, 0, 0.191) 47%, rgba(0, 0, 0, 0.139) 56.5%, rgba(0, 0, 0, 0.097) 65%, rgba(0, 0, 0, 0.063) 73%, rgba(0, 0, 0, 0.0375) 80.2%, rgba(0, 0, 0, 0.021) 86.1%, rgba(0, 0, 0, 0.0105) 91%, rgba(0, 0, 0, 0.004) 95.2%, rgba(0, 0, 0, 0.001) 98.2%, rgba(0, 0, 0, 0) 100%)'
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
     },
     screens: {
       xs: '576px',
