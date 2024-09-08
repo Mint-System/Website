@@ -8,6 +8,7 @@ defaultContentLanguageInSubdir = false
 
 [pagination]
 disableAliases = false
+pagination = 5
 pagerSize = 12
 path = ''
 
@@ -18,7 +19,7 @@ languageName = "Deutsch"
 weight = 1
 contentDir = "content/de"
 [languages.de.pagination]
-disableAliases = false
+disableAliases = true
 pagerSize = 12
 path = ''
 
@@ -27,7 +28,7 @@ languageName = "English"
 weight = 2
 contentDir = "content/en"
 [languages.en.pagination]
-disableAliases = false
+disableAliases = true
 pagerSize = 12
 path = ''
 
