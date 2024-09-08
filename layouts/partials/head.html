@@ -19,7 +19,7 @@
 
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:title" content="{{ .Params.seo_title }}">
     <meta property="og:description"
         content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">

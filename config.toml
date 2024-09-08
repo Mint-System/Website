@@ -17,8 +17,6 @@ filename = "sitemap.xml"
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-taxonomy = ["HTML"]
-taxonomyTerm = ["HTML"]
 
 [taxonomies]
 tag = "tags"

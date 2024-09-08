@@ -165,3 +165,7 @@ button {
 .footer {
     background-color: var(--footer-color);
 }
+
+.nav__trigger--active {
+    outline: 1px solid orange;
+}
