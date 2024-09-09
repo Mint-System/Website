@@ -9,4 +9,3 @@ featured_image: "/assets/images/blog/odoo-migration.png"
 type: "post"
 summary: "Das Ziel der folgenden Erläuterungen ist es, ein Beispiel-Projekt für den Wechsel von Bexio nach Odoo mit den wesentlichen Projektarbeiten zu beschreiben.  Wir kennen Bexio praktisch nur vom *Hörensag..."
 ---
-

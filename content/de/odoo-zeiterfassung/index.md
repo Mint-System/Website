@@ -6,4 +6,5 @@ draft = false
 hero_text="Odoo Zeiterfassung"
 hero_subtext="Mit der Odoo Zeiterfassung haben Sie Anwesenheit, Projektzeit, Abwesenheit und Überzeit im Griff."
 hero_image="/assets/images/zeiterfassung-hero.jpg"
+
 +++
