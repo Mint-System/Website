@@ -1,7 +1,19 @@
 {{ define "main" }}
 <main id="main blog-posts">
-    <div class="container">¨
-        {{.Title}}
+    {{ partial "hero-blog-post.html" . }}
+
+    <div class="container mx-auto py-12 px-4">
+        <article class="stack font-rubrikRegular">
+            {{ .Content }}
+        </article>
+        
+        <footer>
+            <div class="tags">
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        </footer>
     </div>
 </main>
 {{ end }}

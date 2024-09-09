@@ -170,3 +170,23 @@ button {
 .nav__trigger--active {
     outline: 1px solid orange;
 }
+
+.stack>*+* {
+    margin-block-start: 1.5rem;
+}
+
+.stack h2, .stack h3 {
+    font-family: 'RubrikEdgeNew Regular';
+    color: var(--primary-color);
+}
+
+.stack h2 {
+    font-size: var(--font-size-header3);
+}
+.stack h3 {
+    font-size: var(--font-size-header3);
+}
+
+.stack p {
+    font-size: var(--font-size-text);
+}
