@@ -5,6 +5,7 @@ draft = false
 
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
+paginate = 12
 
 [pagination]
 disableAliases = false
