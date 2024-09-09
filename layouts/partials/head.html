@@ -4,9 +4,9 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="robots" content="index, follow">
-    {{ range .AlternativeOutputFormats }}
+    {{/*  {{ range .AlternativeOutputFormats }}
         <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-        {{ end }}
+    {{ end }}  */}}
 
 
     <!-- Font Awesome -->
