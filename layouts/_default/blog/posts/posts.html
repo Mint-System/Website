@@ -51,7 +51,7 @@
                 <div class="flex items-center space-x-4">
                     <div class="flex-grow">
                         <h3 class="text-4xl font-bold mb-2">{{ .Next.Title }}</h3>
-                        <p class="text-lg">{{ .Next.Params.description }}</p> <!-- Optional: Short description -->
+                        <p class="text-lg">{{ .Next.Params.description }}</p>
                     </div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none"
@@ -61,7 +61,7 @@
                         </svg>
                     </div>
                 </div>
-                <!-- Display the next post's image (optional, if available) -->
+
                 {{ if .Next.Params.image }}
                 <div class="absolute inset-0 overflow-hidden rounded-lg opacity-30">
                     <img class="object-cover w-full h-full" src="{{ .Next.Params.image | relURL }}"
@@ -72,5 +72,7 @@
         </div>
         {{ end }}
     </div>
+
+    {{ partial "contact-teaser.html" . }}
 </main>
 {{ end }}
