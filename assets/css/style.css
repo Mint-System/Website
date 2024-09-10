@@ -182,7 +182,8 @@ button {
 }
 
 .stack h2 {
-    font-size: var(--font-size-header3);
+    font-size: var(--font-size-header2);
+    line-height: 1.25em;
 }
 
 .stack h3 {

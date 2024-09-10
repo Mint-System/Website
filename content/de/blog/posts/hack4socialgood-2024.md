@@ -10,8 +10,6 @@ lead: "Die Mint System war am Hack4SocialGood vertreten."
 summary: "Der Hack4SocialGood ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt um Lösungen für die Anliegen im Digitalisierungbereicht zu entwickeln.  Um an einem Hackathon teil..."
 ---
 
-## Mint System Blog: Hack4SocialGood 2024
-
 Der **Hack4SocialGood** ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt, um Lösungen für die Anliegen im Digitalisierungsbereich zu entwickeln.
 
 Um an einem Hackathon teilzunehmen, muss man kein Softwareentwickler sein. Ziel ist es, in einer interdisziplinären Gruppe Lösungen für eine konkrete Challenge zu entwickeln. Dazu hat man 24 Stunden Zeit und darf am Ende des Hackathons die Lösung pitchen.
