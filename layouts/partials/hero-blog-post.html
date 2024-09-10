@@ -1,5 +1,5 @@
 {{ if .Params.featured_image }}
-<section id="hero" class="-z-10 relative h-[32rem] bg-cover bg-center"
+<section id="hero" class="z-10 relative h-[32rem] bg-cover bg-center"
     style="background-image: url('{{ .Params.featured_image }}')">
     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="container mx-auto relative z-10 flex flex-col items-center justify-center h-full">
@@ -11,6 +11,9 @@
             {{ .Params.lead }}
         </p>
         {{ end }}
+        <div class="absolute top-50 hero__arrow">
+            <i class="fa-angle-down fa-3x text-white"></i>
+        </div>
     </div>
 </section>
 {{ end }}

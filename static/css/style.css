@@ -1313,7 +1313,8 @@ button {
   margin-block-start: 1.5rem;
 }
 
-.stack h2, .stack h3 {
+.stack h2,
+.stack h3 {
   font-family: 'RubrikEdgeNew Regular';
   color: var(--primary-color);
 }
@@ -1326,8 +1327,17 @@ button {
   font-size: var(--font-size-header3);
 }
 
-.stack p {
+.stack p,
+li {
   font-size: var(--font-size-text);
+}
+
+.stack ol,
+.stack ul {
+  list-style: disc;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 .hover\:bg-gray-100:hover {
