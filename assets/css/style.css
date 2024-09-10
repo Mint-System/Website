@@ -202,3 +202,7 @@ li {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+.stack a {
+    text-decoration: underline;
+}
