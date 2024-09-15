@@ -1,4 +1,5 @@
-baseURL = 'https://hugo-starter-murex.vercel.app/'
+# baseURL = 'https://hugo-starter-murex.vercel.app/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'de-DE'
 title = 'Mint System'
 draft = false
