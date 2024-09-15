@@ -7,14 +7,6 @@
             {{ .Content }}
         </article>
 
-        <footer>
-            <div class="tags">
-                {{ range .Params.tags }}
-                <span class="tag">{{ . }}</span>
-                {{ end }}
-            </div>
-        </footer>
-
         <div class="py-6 border-t border-gray-300 mt-8">
             <h3 class="text-xl font-bold mb-4">Diesen Beitrag teilen</h3>
             <div class="flex space-x-4">
@@ -42,7 +34,6 @@
                 {{ end }}
             </div>
         </div>
-
     </div>
 
     {{ partial "contact-teaser.html" . }}
