@@ -1,0 +1,14 @@
+- name: "Kurt Gisler"
+  title: "CEO"
+  bio: "Kurt is the CEO of Mint System GmbH and brings years of experience in IT and management."
+  image: "/images/team/kurt-gisler.jpg"
+
+- name: "Janik von Rotz"
+  title: "CTO"
+  bio: "Janik is the CTO, responsible for all things tech at Mint System."
+  image: "/images/team/janik-von-rotz.jpg"
+
+- name: "Marco Roeleven"
+  title: "CSO"
+  bio: "Marco is the CSO, focusing on sales and customer relationships."
+  image: "/images/team/marco-roeleven.jpg"

@@ -1,0 +1,12 @@
+<section>
+    <div class="team-grid">
+        {{ range site.Data.employees }}
+        <div class="team-member">
+            <img src="{{ .image }}" alt="{{ .name }}">
+            <h3>{{ .name }}</h3>
+            <p><strong>{{ .title }}</strong></p>
+            <p>{{ .bio }}</p>
+        </div>
+        {{ end }}
+    </div>
+</section>
