@@ -38,3 +38,5 @@ Gute Rahmenbedingungen für unsere **lokale Wirtschaft** sind unter anderem auf 
 
 Möchten Sie mehr über den Einsatz von **Open-Source-Software** in der öffentlichen Verwaltung und ihre Vorteile für KMU erfahren? Kontaktieren Sie uns gerne für weitere Informationen.
 
+
+

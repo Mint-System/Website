@@ -143,6 +143,7 @@ button {
 
 /* nav mobile*/
 .nav-mobile {
+    z-index: 500;
     transform: translateY(-100%);
     transition: all 350ms ease-out;
 }
@@ -161,6 +162,10 @@ button {
 .nav-mobile__svg--animated {
     transform: rotate(180deg);
     transition: transform 200ms ease-in-out;
+}
+
+.header {
+    z-index: 500;
 }
 
 .footer {

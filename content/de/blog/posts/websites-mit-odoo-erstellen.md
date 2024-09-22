@@ -56,4 +56,3 @@ Hier sind einige offizielle Beispiele von Odoo-Websites sowie Projekte von Kunde
 - [Gelso](https://www.gelso.ch/): Portal für die KMU-Industrie
 
 Und natürlich diese Website! 😄
-

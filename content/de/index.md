@@ -12,7 +12,6 @@ seo_description: "Wir sind ein Team von Spezialisten für Management-Software. A
 author: "Mint System GmbH"
 canonical_url: "https://www.mint-system.ch/"
 
-
 # Content - Hero
 hero_text: "**Prozessoptimierung** mit effizienter Software"
 hero_linktext: "Zu unserem Angebot"

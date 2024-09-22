@@ -50,3 +50,4 @@ Die **Webseiten-Funktionalität** wurde weiter ausgebaut. Es stehen nun mehrere 
 - **Einführungsvideo**: [Meet Odoo 14](https://youtu.be/1SMm2VHXv1Y)
 - **Odoo Experience 2020 Playlist**: [Odoo Experience 2020 Playlist](https://www.youtube.com/playlist?list=PL1-aSABtP6ADs7EmxpWIxLSPBiw6F_f4p)
 
+

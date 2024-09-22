@@ -2,7 +2,7 @@
   title: "Chief Executive Officer"
   education:  "Elektroingenieur"
   bio: "Kurt is the CEO of Mint System GmbH and brings years of experience in IT and management."
-  image: "/images/team/mint_team_V02_kurt.jpg"
+  image: "/assets/images/team/mint_team_V02_kurt.jpg"
   email: "kurt.gisler@mint-system.ch"
   tel: "+41 44 244 72 21"
 
@@ -11,7 +11,7 @@
   title: "Chief Technical Officer"
   education: "Wirtschaftsinformatiker"
   bio: "Durch die Berufserfahrung in Geschäftsleitungsgremien kennt er die Anforderungen des Management. Die effiziente organisatorische Umsetzung komplexer Anforderungen ist seine Leidenschaft."
-  image: "/images/team/mint_team_V02_janik.jpg"
+  image: "/assets/images/team/mint_team_V02_janik.jpg"
   email: "janik.vonrotz@mint-system.ch"
   tel: "+41 44 244 72 22"
 

@@ -54,5 +54,4 @@ Erweiterungen sollten möglichst **modular** aufgebaut sein, um Abhängigkeiten 
 
 Durch die Einhaltung dieser Prinzipien können wir sicherstellen, dass unsere Odoo-Anpassungen zukunftssicher sind und das Risiko von **Regressionsfehlern** minimiert wird. Indem wir häufige Updates durchführen, bestehende Lösungen wiederverwenden und auf eine saubere Dokumentation achten, schaffen wir eine robuste und skalierbare Odoo-Umgebung, die den Bedürfnissen unserer Kunden gerecht wird.
 
----
 Mehr Informationen zu unseren Anpassungsprozessen finden Sie auf [Mint System](#).

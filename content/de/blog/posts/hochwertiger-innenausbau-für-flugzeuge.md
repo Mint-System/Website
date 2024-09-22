@@ -41,3 +41,4 @@ Bei einem Audit wollte der Prüfer den Verlauf eines verbauten Teils nachverfolg
 Mehr Informationen zu **Aersolution Interior AG**: [www.aersolution.com](https://www.aersolution.com)  
 Allgemeines über **Odoo 14**: [www.odoo.com](https://www.odoo.com)
 
+

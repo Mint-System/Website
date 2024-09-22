@@ -1,11 +1,12 @@
-+++
-title = 'about'
-date = 2024-09-05T18:00:02+02:00
-draft = false
-layout ="about"
-
-+++
-# Über uns
+---
+title: 'about'
+date: 2024-09-05T18:00:02+02:00
+draft: false
+layout: "single"
+hero_text: "Software Engineering"
+hero_subtext: "Massgeschneiderte Werkzeuge für anspruchsvolle Manager. Integration von State of the Art Open Source Software."
+hero_image: "/assets/images/software-enginering-hero.jpg"
+---
 
 ## Leitbild
 **Vom Technischen Fortschritt müssen alle profitieren.** Der Machtposition einzelner grosser Software-Firmen und der damit geschaffenen Abhängigkeit der Unternehmungen ist entgegenzutreten. Open Source Software ist ein Beispiel wie durch Offenheit, Transparenz und Kooperation Produkte allerhöchster Qualität entstehen die allen Interessierten frei zur Verfügung stehen.

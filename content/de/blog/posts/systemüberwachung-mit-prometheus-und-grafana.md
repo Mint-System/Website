@@ -29,7 +29,6 @@ Ein praktisches Beispiel: Die Mint System betreibt einen **Linux-Server** namens
 
 ![Bildbeschreibung](/assets/images/blog/server-festplatte.png)
 
-
 Diese Zahl wird in **Bytes** vom **Node-Exporter** erfasst und auf einer **gesicherten Webseite** publiziert. Prometheus greift darauf zu und speichert die Zahl. Mit Grafana kann die gesamte **Zahlenreihe** visualisiert werden.
 
 ![Bildbeschreibung](/assets/images/blog/node-exporter.png)

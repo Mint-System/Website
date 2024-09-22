@@ -14,6 +14,7 @@ summary: "Odoo besteht aus einer Vielzahl einzelner Applikation. Sie können sel
 
 Technische Features wie die **Zugriffsverwaltung**, das **Generieren von Berichten**, die **Datenverwaltung** oder **Auswertungen** sind in der integrierten Oberfläche von Odoo verpackt. Diese Funktionen stehen **Software-Engineers** für neue Entwicklungen zur Verfügung. Mit verhältnismäßig geringem Aufwand können neue Anwendungen oder **Erweiterungen** zu bestehenden Apps entwickelt werden.
 
+
 Odoo ist also nicht nur ein **ERP-System**, sondern auch ein **Entwicklungs-Framework**. Mit Odoo können **maßgeschneiderte Anwendungen** entwickelt werden, die auf einem robusten Grundgerüst aufbauen.
 
 ## Beispiel: Migration einer Legacy-Anwendung

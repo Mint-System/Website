@@ -1,12 +1,17 @@
-+++
-title = 'Jobs'
-date = 2024-09-05T18:02:52+02:00
-draft = false
-layout = "single"
+---
+title: 'Jobs'
+date: 2024-09-05T18:02:52+02:00
+draft: false
+layout: 'about/single'
+---
 
-hero_text="Jobs"
-hero_subtext="Die weltweit erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma."
-hero_linktext="Zu unserem Angebot"
-hero_link="#offer"
-hero_image="/assets/images/home-hero.jpg"
-+++
+***Wir meinen es ernst mit Open Source!***
+Unterstütze uns und unsere Kunden bei der Realisierung von Software-Lösungen auf Open-Source-Basis.
+
+### Open Source Expert
+Bahnhofplatz 1, Work Lab 3. O, 6460 Altdorf, Schweiz
+ 07.11.2023 08:38:21
+
+### Support Engineer
+Bahnhofplatz 1, Work Lab 3. O, 6460 Altdorf, Schweiz
+ 07.11.2023 08:39:51

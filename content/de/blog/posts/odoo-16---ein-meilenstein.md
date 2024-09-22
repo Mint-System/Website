@@ -77,3 +77,4 @@ Wir waren an der Odoo Experience 2022 und haben die wichtigsten Neuerungen von O
 ## Zusammenfassung
 
 Mit Odoo 16 wurde ein Meilenstein erreicht. Das System ist technologisch fortgeschritten und gleichzeitig äußerst stabil. Wir freuen uns darauf, Odoo 16 bei neuen und bestehenden Kunden zu implementieren.
+

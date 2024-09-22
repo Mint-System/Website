@@ -25,6 +25,7 @@ Im neuen Gebäude **Bahnhofplatz 1** am Kantonsbahnhof Altdorf entstand auf der 
 
 ![](/assets/images/blog/IMG_2478.jpeg)
 
+
 ## Ein Meilenstein erreicht
 
 Auch im gemeinsamen Büro am Bahnhofplatz 1 werden wir uns die Arbeit per Mausklick weiterreichen. Schreibzeug, Papier oder einen Drucker haben wir nicht. Aber der **analoge zwischenmenschliche Dialog**, mit all seinen Unschärfen und unerwarteten Wendungen, bringt einen wichtigen Mehrwert.

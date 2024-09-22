@@ -73,6 +73,5 @@ Und dann noch:
 
 Am **08. Oktober 2021** ist die **Mint System GmbH** für den **Partner Day** am Odoo-Hauptsitz in **Louvain-La-Neuve (Belgien)** eingeladen. Wir haben die Möglichkeit, uns direkt mit den Mitarbeitenden von Odoo auszutauschen. Haben Sie ein Thema, das wir für Sie ansprechen sollen? Schicken Sie uns gerne Ihren Vorschlag!
 
----
 
 Weitere Infos und Anmeldung zur Odoo Experience finden Sie auf [www.odoo.com](https://www.odoo.com/event/odoo-experience-2021-2843/register).

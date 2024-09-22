@@ -48,4 +48,3 @@ Der heute 49-Jährige setzt sich für Open Source ein, seit er zum ersten Mal da
 
 Im Laufe seiner Karriere sollte Gisler Open Source noch oft begegnen: So war er später bei verschiedenen Firmen der Luftfahrtbranche in Management-Positionen tätig und entwickelte Führungssysteme. Oft mit Open Source. Über die Jahre kam einiges an Erfahrung auf dem Gebiet zusammen. Allerdings sagt er heute: «Der Rahmen innerhalb einer Firma ist mir manchmal zu eng. Deshalb gründe ich nun zum ersten Mal zusammen mit Kollegen eine Firma, mit der wir auch finanziell völlig unabhängig sind und unsere eigenen Entscheide treffen können.» Gisler kann es kaum erwarten, sich am Urner Markt zu messen. Die ersten Gespräche mit interessierten Firmen laufen bereits.
 
-

@@ -731,17 +731,16 @@ video {
   z-index: -10;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-30 {
   z-index: 30;
-}
-
-.mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
 }
 
 .mx-auto {
@@ -752,11 +751,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
 }
 
 .mb-12 {
@@ -813,10 +807,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .block {
@@ -1410,6 +1400,7 @@ button {
 /* nav mobile*/
 
 .nav-mobile {
+  z-index: 500;
   transform: translateY(-100%);
   transition: all 350ms ease-out;
 }
@@ -1428,6 +1419,10 @@ button {
 .nav-mobile__svg--animated {
   transform: rotate(180deg);
   transition: transform 200ms ease-in-out;
+}
+
+.header {
+  z-index: 500;
 }
 
 .footer {
