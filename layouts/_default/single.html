@@ -1,6 +1,17 @@
 {{ define "main" }}
 <main id="main single">
+
     {{ partial "hero.html" . }}
-    hello, world
+
+    <div class="container mt-12 pt-8">
+
+        <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto mb-4">
+            {{ .Title }}
+        </h1>
+
+        <article class="prose max-w-none prose-lg stack font-rubrikRegular">
+            {{ .Content }}
+        </article>
+    </div>
 </main>
 {{ end }}

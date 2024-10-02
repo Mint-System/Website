@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="b" x1=".035" x2=".786" y1=".365" y2=".896" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#14d6c4" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#0a6b62" stop-opacity=".502"/>
+    </linearGradient>
+    <clipPath id="a">
+      <path d="M0 0h1920v1080H0z"/>
+    </clipPath>
+  </defs>
+  <g style="clip-path:url(#a)">
+    <circle cx="695.602" cy="628.165" r="599.5" class="b" style="fill:#03595b;opacity:.93" transform="translate(-91 348)"/>
+    <circle cx="532" cy="532" r="532" class="b" style="opacity:.3;fill:url(#b)" transform="translate(345 -505)"/>
+  </g>
+</svg>
