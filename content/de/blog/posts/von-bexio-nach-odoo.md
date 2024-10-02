@@ -61,3 +61,4 @@ Aus unserer Sicht liegt der wesentliche Vorteil von **Odoo** gegenüber anderen 
 
 Natürlich muss stets zwischen dem Möglichen und dem Machbaren unterschieden werden, denn der Aufwand, um etwas zu bauen, das dem Konzept von Odoo widerspricht, kann sehr hoch werden. Der **Import aus Odoo** war deutlich einfacher als der **Export aus Bexio**, und durch den **Zugriff auf das Odoo-System** konnten wir Automatismen einrichten, die vorher nicht möglich waren.
 
+
