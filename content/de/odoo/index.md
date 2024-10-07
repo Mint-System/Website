@@ -10,7 +10,7 @@ hero_linktext: "Zu unserem Angebot"
 hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
 
-services:
+offerings:
   - title: "Beratung"
     icon: "path/to/icon1.svg"
     description: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
