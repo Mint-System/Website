@@ -1,5 +1,15 @@
 {{ define "main" }}
 <main id="main home z-0">
     {{ partial "hero.html" . }}
+
+    <div class="container my-12 py-8">
+        <article class="prose max-w-none prose-lg stack font-rubrikRegular">
+            {{ .Content }}
+        </article>
+    </div>
+
+    {{ partial "components/offer-teaser.html" (dict "title" "Unser Angebot" "lead" "Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." "context" .) }}
+    {{ partial "components/news-teaser.html" . }}
+    {{ partial "components/newsletter-teaser.html" . }}
 </main>
 {{ end }}

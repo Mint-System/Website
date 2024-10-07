@@ -60,5 +60,3 @@ Da die beiden Mandanten (Unternehmen) in der Schweiz und in Deutschland lokalisi
 Aus unserer Sicht liegt der wesentliche Vorteil von **Odoo** gegenüber anderen Systemen darin, dass man **Zugriff auf die Daten und den Quellcode** hat. Dadurch ist die Wahrscheinlichkeit, in Bezug auf den Funktionsumfang in eine Sackgasse zu geraten, deutlich geringer.
 
 Natürlich muss stets zwischen dem Möglichen und dem Machbaren unterschieden werden, denn der Aufwand, um etwas zu bauen, das dem Konzept von Odoo widerspricht, kann sehr hoch werden. Der **Import aus Odoo** war deutlich einfacher als der **Export aus Bexio**, und durch den **Zugriff auf das Odoo-System** konnten wir Automatismen einrichten, die vorher nicht möglich waren.
-
-

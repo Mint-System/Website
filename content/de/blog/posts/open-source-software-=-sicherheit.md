@@ -40,3 +40,4 @@ Im Gegensatz dazu steht der Ansatz der **"security through obscurity"** (Sicherh
 - **Open Source Code** ist sicherer als Closed Source Code.
 
 Transparenz ist der Schlüssel zu mehr Sicherheit in der Softwareentwicklung. Open Source fördert diese Transparenz und macht Software dadurch sicherer.
+

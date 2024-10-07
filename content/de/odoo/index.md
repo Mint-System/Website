@@ -30,6 +30,7 @@ featureIcons:
     icon: "/icons/sales.png"
 ---
 
+
 ## ÜBER ODOO
 
 1700 Mitarbeitende, 7 Millionen Benutzer in 110 Ländern, Übersetzungen in 32 Sprachen.
