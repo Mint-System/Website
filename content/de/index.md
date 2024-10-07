@@ -36,4 +36,17 @@ offerings:
     link: "/beratung"
     button_text: "weiterlesen"
     icon: "/assets/icons/icon-management.svg"
+
+solutions:
+  - title: "Zielorientiert"
+    lead: "Wir verkaufen und verrechnen nur was Sie wirklich brauchen und handeln stets zielorientiert."
+    icon: "/assets/icons/icon-zielscheibe.svg"
+
+  - title: "Modern"
+    lead: "Unsere Lösungen sind auf dem neuesten Stand der Technik und machen vor allen Dingen Spass."
+    icon: "/assets/icons/icon-ipads.svg"
+
+  - title: "Transparent"
+    lead: "Unsere Werkzeuge und Lösungen sind frei verfügbar. Das bedeutet mehr Unabhängigkeit für Sie."
+    icon: "/assets/icons/icon-transparenz.svg"
 --- 
