@@ -8,6 +8,7 @@ tags: ["Datenschutz", "Open Source Software", "Security"]
 featured_image: "/assets/images/blog/open-source.jpeg"
 type: "post"
 
+lead: "Open Source Software ist keine Alternative, sie ist einfach besser."
 summary: "Immer wieder sind wir mit dem Argument konfrontiert, dass Open Source Software (OSS) nicht sicher sein kann, weil es gratis ist. Oft fällt auch das 'there is no free lunch'-Idiom. Warum dieses Argumen..."
 ---
 
