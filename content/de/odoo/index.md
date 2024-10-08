@@ -128,6 +128,24 @@ featureIcons:
         url: "https://www.odoo.com/de_DE/app/sms-marketing"
       - title: "Social"
         url: "https://www.odoo.com/de_DE/app/social-marketing"
+
+wiki:
+  - title: "Odoo Wiki"
+    description: "Für unsere Kunden entwickeln wir ein Odoo Wiki. Damit lernen Benutzer den Umgang mit Odoo in kürzester Zeit und haben ein ausführliches Nachschlagewerk."
+    button_text: "www.odoo-wiki.org"
+    button_link: "https://www.odoo-wiki.org"
+  - title: "Odoo Development"
+    description: "Der Odoo-Code ist Open Source, das macht die Zusammenarbeit einfacher. Deshalb veröffentlichen wir unsere Odoo-Entwicklungen sowie unsere Entwicklungsumgebung."
+    button_text: "odoo.build"
+    button_link: "https://odoo.build"
+
+imageText:
+  title: "ALL-IN-ONE"
+  subtitle: "Odoo ist eine All-In-One Software-Lösung."
+  description: "Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte."
+  image: "/assets/images/ecosystem.jpeg"
+  caption: "Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem."
+
 ---
 
 

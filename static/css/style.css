@@ -1137,6 +1137,11 @@ video {
   background-color: var(--secondary-color);
 }
 
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1337,6 +1342,10 @@ video {
 
 .font-light {
   font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -1670,6 +1679,10 @@ a.btn-outline-secondary:hover:before {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-primary-dark:hover {
+  background-color: var(--primary-dark-color);
+}
+
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1770,6 +1783,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-4xl {
