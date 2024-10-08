@@ -127,13 +127,16 @@
     font-style: normal;
 }
 
-h1,
+h1 {
+    @apply font-rubrikBold;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    @apply font-rubrikBold;
+    @apply font-rubrikLight;
 }
 
 a,
@@ -181,9 +184,13 @@ button {
     margin-block-start: 1.5rem;
 }
 
+.stack > h2 {
+    margin-block-start: 3rem;
+}
+
 .stack h2,
 .stack h3 {
-    font-family: 'RubrikEdgeNew Regular';
+    @apply font-rubrikLight;
     color: var(--primary-color);
 }
 
@@ -251,5 +258,48 @@ a.btn-outline-primary:hover:before {
     height: 40px;
     width: calc(100% + 40px);
     background-color: var(--primary-color);
+    transition: width 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+a.btn-outline-secondary {
+    position: relative;
+    display: inline-block;
+    color: var(--white-color);
+    text-align: center;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: var(--button-border-radius);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    z-index: 1;
+    margin-left: 20px;
+}
+
+a.btn-outline-secondary:hover {
+    color: var(--primary-color);
+}
+
+a.btn-outline-secondary:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    z-index: -1;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: var(--button-border-radius);
+    height: 40px;
+    width: 40px;
+    background-color: var(--button-background-transparent-color);
+    transition: width 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+a.btn-outline-secondary:hover:before {
+    content: '';
+    border-radius: var(--button-border-radius);
+    height: 40px;
+    width: calc(100% + 40px);
+    background-color: var(--white-color);
     transition: width 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }

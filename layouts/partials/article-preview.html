@@ -15,13 +15,13 @@
 
         <!-- Blog Post Excerpt -->
         {{ if .Params.summary }}
-        <p class="text-gray-600 font-rubrikRegular mt-2">{{ .Params.summary }}</p>
+        <p class="text-black font-rubrikRegular mt-2">{{ .Params.summary }}</p>
         {{ end }}
 
         <!-- Tags -->
         <div class="my-2 space-x-2">
             {{ range .Params.tags }}
-            <span class="font-rubrikRegular inline-block bg-gray-200 text-gray-700 text-xs px-2 py-1 rounded">{{ . }}</span>
+            <span class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 rounded">{{ . }}</span>
             {{ end }}
         </div>
 

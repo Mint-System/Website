@@ -14,11 +14,11 @@
         <div class="flex justify-center space-x-4">
             <!-- Display previous page link -->
             {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" class="text-gray-600 hover:underline">&larr; Neuere Posts</a>
+            <a href="{{ .Paginator.Prev.URL }}" class="text-black hover:underline">&larr; Neuere Posts</a>
             {{ end }}
 
             {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" class="text-gray-600 hover:underline">Ältere Posts &rarr;</a>
+            <a href="{{ .Paginator.Next.URL }}" class="text-black hover:underline">Ältere Posts &rarr;</a>
             {{ end }}
         </div>
     </section>

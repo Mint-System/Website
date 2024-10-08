@@ -7,7 +7,7 @@ layout: "blog/posts/posts"
 type: "post"
 featured_image: "/assets/images/blog/caritas.png"
 lead: "Die Mint System war am Hack4SocialGood vertreten."
-summary: "Der Hack4SocialGood ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt um Lösungen für die Anliegen im Digitalisierungbereicht zu entwickeln.  Um an einem Hackathon teil..."
+summary: "Der Hack4SocialGood ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt um Lösungen für die Anliegen im Digitalisierungbereicht zu entwickeln. Um an einem Hackathon teil..."
 ---
 
 Der **Hack4SocialGood** ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt, um Lösungen für die Anliegen im Digitalisierungsbereich zu entwickeln.
@@ -50,7 +50,6 @@ Für die Challenge haben sich **13 Leute** angemeldet. Mit dabei waren:
 Aufgrund der Vielzahl der Teilnehmenden wurde das Team in zwei Gruppen aufgeteilt:
 1. Die eine Gruppe entwickelte ein Konzept für die Analyse und Visualisierung der Daten.
 2. Die andere Gruppe programmierte und integrierte technische Systeme, um die Anforderungen aus dem Konzept umzusetzen.
-
 
 
 ## Lösung

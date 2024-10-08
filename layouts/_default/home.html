@@ -2,11 +2,13 @@
 <main id="main home z-0">
     {{ partial "hero.html" . }}
 
+    {{/*  
     <div class="container my-12 py-8">
         <article class="prose max-w-none prose-lg stack font-rubrikRegular">
             {{ .Content }}
         </article>
-    </div>
+    </div>  
+    */}}
     
     {{ partial "components/offer-teaser.html" (dict "title" "Unser Angebot" "lead" "Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." "context" .) }}
     

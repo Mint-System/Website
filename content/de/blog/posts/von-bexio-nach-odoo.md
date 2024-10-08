@@ -7,6 +7,7 @@ layout: "blog/posts/posts"
 tags: ["Bericht", "Bexio", "Odoo", Migration]
 featured_image: "/assets/images/blog/odoo-migration.png"
 type: "post"
+lead: "Ein Erfahrungsbericht zur Migration von Bexio nach Odoo."
 summary: "Das Ziel der folgenden Erläuterungen ist es, ein Beispiel-Projekt für den Wechsel von Bexio nach Odoo mit den wesentlichen Projektarbeiten zu beschreiben.  Wir kennen Bexio praktisch nur vom *Hörensag..."
 ---
 
@@ -60,4 +61,3 @@ Da die beiden Mandanten (Unternehmen) in der Schweiz und in Deutschland lokalisi
 Aus unserer Sicht liegt der wesentliche Vorteil von **Odoo** gegenüber anderen Systemen darin, dass man **Zugriff auf die Daten und den Quellcode** hat. Dadurch ist die Wahrscheinlichkeit, in Bezug auf den Funktionsumfang in eine Sackgasse zu geraten, deutlich geringer.
 
 Natürlich muss stets zwischen dem Möglichen und dem Machbaren unterschieden werden, denn der Aufwand, um etwas zu bauen, das dem Konzept von Odoo widerspricht, kann sehr hoch werden. Der **Import aus Odoo** war deutlich einfacher als der **Export aus Bexio**, und durch den **Zugriff auf das Odoo-System** konnten wir Automatismen einrichten, die vorher nicht möglich waren.
-
