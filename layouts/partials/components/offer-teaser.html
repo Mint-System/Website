@@ -1,7 +1,7 @@
 <section class="offer-teaser bg-white my-12 py-12">
     <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-rubrikLight text-primary mb-4">{{ .teaserTitle }}</h2>
-        <p class="text-lg text-black mb-12">{{ .lead }}</p>
+        <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .teaserTitle }}</h2>
+        <p class="text-lg md:w-2/3 mx-auto text-black mb-12">{{ .lead }}</p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{ range .context.Params.offerings }}

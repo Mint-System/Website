@@ -10,7 +10,7 @@ hero_image="/assets/images/software-enginering-hero.jpg"
 +++
 
 
-###Integration vs Entwicklung
+### Integration vs Entwicklung
 Software entwickeln ist teuer. Wir empfehlen deshalb: Verwenden was es schon gibt.
 
 Entscheidend ist die Fokussierung auf die richtigen Standards. Proprietäre Lösungen sind bezüglich offenen Schnittstellen immer limitiert, deshalb setzen wir konsequent auf Open Source Lösungen. So lassen sich auch verschiedenste Systeme miteinander verknüpfen.
