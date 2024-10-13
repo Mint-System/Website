@@ -157,3 +157,14 @@ imageText:
 
 
 {{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" >}}
+
+{{< text-image title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung. Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte." image="/assets/images/environment.jpeg" >}}
+
+{{< text-center 
+  heading="Referenzen"
+  description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
+  buttonText="Unsere Referenzen"
+  buttonLink="https://www.odoo.com/de_DE/partners/mint-system-gmbh-3365849#right_column" >}}
+
+{{< text-two-col title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" texts="wiki" >}}
+
