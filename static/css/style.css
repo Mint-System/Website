@@ -768,11 +768,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -1273,10 +1268,6 @@ video {
   padding-top: 2rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1746,10 +1737,6 @@ a.btn-outline-secondary:hover:before {
 
   .md\:w-64 {
     width: 16rem;
-  }
-
-  .md\:w-1\/2 {
-    width: 50%;
   }
 
   .md\:grid-cols-2 {

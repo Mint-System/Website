@@ -18,7 +18,9 @@ hero_linktext: "Zu unserem Angebot"
 hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
 
-offerings:
+
+# Content - Offer Teaser
+featuresOffer:
   - title: "Odoo"
     lead: "Die weltweit erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma."
     link: "/odoo"
@@ -37,7 +39,8 @@ offerings:
     button_text: "weiterlesen"
     icon: "/assets/icons/icon-management.svg"
 
-solutions:
+# Content - Solution Teaser
+features:
   - title: "Zielorientiert"
     lead: "Wir verkaufen und verrechnen nur was Sie wirklich brauchen und handeln stets zielorientiert."
     icon: "/assets/icons/icon-zielscheibe.svg"
@@ -50,3 +53,21 @@ solutions:
     lead: "Unsere Werkzeuge und Lösungen sind frei verfügbar. Das bedeutet mehr Unabhängigkeit für Sie."
     icon: "/assets/icons/icon-transparenz.svg"
 --- 
+
+{{< feature-list title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." features="featuresOffer" >}}
+
+{{< text-image-inverted 
+  teaserTitle="mint system" 
+  subtitle="Arbeit nach Plan" 
+  description="Strukturiertes Arbeiten macht uns Freude. Alle unsere Projekte folgen einem durchdachten Vorgehensmodell."
+  image="/assets/images/computing.jpeg" 
+  buttonText="weiterlesen" 
+  buttonLink="#" >}}
+
+
+{{< feature-list title="Unsere Lösungen überzeugen" features="features" >}}
+
+
+
+{{< news-teaser teaserTitle="Latest News" >}}
+

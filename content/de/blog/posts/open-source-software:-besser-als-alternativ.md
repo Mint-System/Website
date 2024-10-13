@@ -19,6 +19,7 @@ Wir sehen es als unsere Aufgabe, diese Produkte und Anbieter noch besser bekannt
 
 Im Folgenden eine nicht abschliessende Liste von Produkten und Anbieter im Open Source, die sich in Sachen Produktivität, Benutzerfreundlichkeit etc. abheben:
 
+
 ### Hosting und Cloud:
 - **[Hetzner](https://www.hetzner.com/)**: Preiswertes Hosting
 - **[Infomaniak](https://www.infomaniak.com/)**: Mail und Hosting

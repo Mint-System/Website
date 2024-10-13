@@ -1,0 +1,22 @@
+<section class="feature-list bg-white my-12 py-12">
+    <div class="container mx-auto text-center">
+        <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
+        <p class="text-lg text-black mb-12">{{ .Get "lead" }}</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {{ $list := index .Page.Params (.Get "features" ) }}
+            {{ range $list }}
+            <div class="text-center">
+                <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-24 h-24 md:w-64 md:h-64 mx-auto mb-6">
+                <h3 class="text-3xl font-rubrikLight text-primary mb-4">{{ .title }}</h3>
+                <p class="text-black mb-6">{{ .lead }}</p>
+                {{ if .link }}
+                <a href="{{ .link }}" class="inline-block text-primary font-rubrikRegular hover:underline">
+                    {{ .button_text | default "weiterlesen" }}
+                </a>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
