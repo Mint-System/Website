@@ -1,0 +1,23 @@
+<section class="feature-icons container my-12 mx-auto text-center">
+    <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
+    <p class="text-lg text-black mb-12">{{ .Get "lead" }}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {{ $list := index .Page.Params (.Get "features" ) }}
+        {{ range $list }}
+        <div class="flex items-start space-x-4 p-4">
+            <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-12 h-12">
+            <div class="flex flex-col items-start">
+                <h3 class="font-rubrikRegular text-xl">{{ .title }}</h3>
+                {{ if .links }}
+                <div class="flex flex-wrap justify-start gap-x-2" role="list">
+                    {{ range .links }}
+                    <a href="{{ .url }}" class="inline-block text-primary-dark underline">{{ .title }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
