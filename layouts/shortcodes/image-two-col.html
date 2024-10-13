@@ -1,0 +1,19 @@
+<section class="flex flex-col md:flex-row items-center justify-between my-12 mx-auto container">
+    <div class="md:w-1/2 text-left mb-8 md:mb-0">
+        <h2 class="text-3xl font-rubrikLight text-black mb-4">
+            {{ .Get "heading" }}
+        </h2>
+        <p class="text-lg font-rubrikLight mb-4">{{ .Get "description" }}</p>
+        
+        {{ if .Get "buttonLink" }}
+        <a href="{{ .Get "buttonLink" }}" class="btn-outline-primary items-center text-black font-rubrikRegular hover:text-white transition">
+            {{ .Get "buttonText" }}
+        </a>
+        {{ end }}
+    </div>
+    
+    <div class="md:w-1/2 mb-8 md:mb-0">
+
+        <img src="{{ .Get "image" }}" alt="" class="rounded-lg w-full">
+    </div>
+</section>
