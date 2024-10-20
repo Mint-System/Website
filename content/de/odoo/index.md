@@ -167,5 +167,5 @@ imageText:
   buttonText="Unsere Referenzen"
   buttonLink="https://www.odoo.com/de_DE/partners/mint-system-gmbh-3365849#right_column" >}}
 
-{{< text-two-col title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" texts="wiki" >}}
+{{< text-two-col texts="wiki" >}}
 

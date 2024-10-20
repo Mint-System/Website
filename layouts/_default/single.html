@@ -1,8 +1,9 @@
 {{ define "main" }}
 <main id="main single">
 
-    {{ partial "hero.html" . }}
-
+    {{ if .Params.hero_text }}
+        {{ partial "hero.html" . }}
+    {{ end }}
 
     {{ if .Params.hide_title }}
     <div class="container my-12 py-8">
@@ -12,6 +13,15 @@
     </div>
     {{ end }}
 
-    {{ .Content }}
+    {{ if .Params.hero_text }}
+        <section class="container mx-auto prose max-w-none prose-lg stack font-rubrikRegular">
+            {{ .Content }}
+        </section>
+    {{ else }}
+        <section class="container mt-12 pt-12 mx-auto prose max-w-none prose-lg stack font-rubrikRegular">
+            {{ .Content }}
+        </section>
+    {{ end }}
+    
 </main>
 {{ end }}

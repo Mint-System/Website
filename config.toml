@@ -36,6 +36,7 @@ path = ''
 
 [permalinks]
 blog = "/blog/:slug/"
+jobs = "/jobs/:slug/"
 
 [params]
 description = "Your site description."

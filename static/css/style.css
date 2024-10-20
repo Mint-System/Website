@@ -1292,6 +1292,10 @@ video {
   padding-top: 2rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1834,5 +1838,11 @@ a.btn-outline-secondary:hover:before {
 
   .lg\:items-center {
     align-items: center;
+  }
+}
+
+@media (min-width: 1140px) {
+  .xl\:max-w-\[825px\] {
+    max-width: 825px;
   }
 }
