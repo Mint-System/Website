@@ -15,15 +15,18 @@ module.exports = {
       colors: {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
+        tertiary: 'var(--tertiary-color)',
+        'button': 'var(--button-background-color)',
         'primary-dark': 'var(--primary-dark-color)',
         'text-dark': 'var(--text-dark-color)',
         'text-normal': 'var(--text-normal-color)',
         'text-light': 'var(--text-light-color)',
         'text-grey': 'var(--text-grey-color)',
         'text-inverted': 'var(--text-inverted-color)',
+        
         shadow: 'var(--shadow-hue)',
         button: {
-          DEFAULT: 'var(--button-background-color)',
+          default: 'var(--button-background-color)',
           hover: 'var(--button-background-hover-color)',
           transparent: 'var(--button-background-transparent-color)',
         },

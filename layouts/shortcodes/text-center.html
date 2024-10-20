@@ -4,9 +4,10 @@
       
       <p class="text-lg font-light mb-4">{{ .Get "description" }}</p>  
       <p class="text-lg font-light mb-4">{{ .Get "description2" }}</p>  
+      <p class="text-lg font-light mb-4">{{ .Get "description3" }}</p>  
 
       {{ if .Get "buttonLink" }}
-        <a href="{{ .Get "buttonLink" }}" class="bg-primary no-underline text-white rounded-md px-1 py-2 ml-4 btn btn-primary">
+        <a href="{{ .Get "buttonLink" }}" class="btn btn-outline-primary no-underline text-white rounded-md px-1 py-2 btn btn-primary">
           {{ .Get "buttonText" }}
         </a>
       {{ end }}

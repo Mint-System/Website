@@ -3,6 +3,7 @@
   --primary-dark-color: #267372;
   --primary-color: #0B9FA3;
   --secondary-color: #0D8485;
+  --tertiary-color: #13D5C4;
   --white-color: #ffffff;
   --footer-color: #F6F6F6;
   --text-dark-color: #202020;
@@ -826,6 +827,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-\[10rem\] {
+  margin-top: 10rem;
 }
 
 .block {
@@ -1757,14 +1762,6 @@ a.btn-outline-secondary:hover:before {
 
   .md\:h-64 {
     height: 16rem;
-  }
-
-  .md\:h-\[70px\] {
-    height: 70px;
-  }
-
-  .md\:h-\[80px\] {
-    height: 80px;
   }
 
   .md\:h-\[72px\] {
