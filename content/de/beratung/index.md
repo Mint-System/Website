@@ -9,6 +9,6 @@ hero_subtext: "Beratungs-Mandate für Projekte und Qualitätsmanagement mit komp
 hero_image: "/assets/images/home-hero.jpg"
 ---
 
-
-Auf Basis langjähriger Berufserfahrung in Führungspositionen können wir sehr effizient Projekte leiten und Arbeiten der Rolle Qualitätsmanager übernehmen. Unsere Spezialisten werden zeitlich befristet und sehr fokussiert für bestimmte Aufgaben eingesetzt. Wir setzen für diese Arbeiten unsere eigenen Software-Werkzeuge ein. Nach dem Abschluss des Mandats können die lizenzkostenfreien Produkte ohne finanzielle Aufwendungen vom Kunden weiter verwendet werden.
-
+{{< text-center 
+  description="Auf Basis langjähriger Berufserfahrung in Führungspositionen können wir sehr effizient Projekte leiten und Arbeiten der Rolle Qualitätsmanager übernehmen. Unsere Spezialisten werden zeitlich befristet und sehr fokussiert für bestimmte Aufgaben eingesetzt. Wir setzen für diese Arbeiten unsere eigenen Software-Werkzeuge ein. Nach dem Abschluss des Mandats können die lizenzkostenfreien Produkte ohne finanzielle Aufwendungen vom Kunden weiter verwendet werden." >}}
+  

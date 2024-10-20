@@ -1,0 +1,15 @@
+<div class="container my-12 py-8">
+    <h2 class="text-3xl font-rubrikBold text-primary">{{ .Get "title" }}</h2>
+    <p class="text-lg mt-4">
+        {{ .Get "description1" }}
+    </p>
+    <p class="text-lg mt-4">
+        {{ .Get "description2" }}
+    </p>
+    <p class="text-lg mt-4">
+        {{ .Get "description3" }}
+    </p>
+    <div class="mt-6">
+        <a href="{{ .Get " buttonLink" }}" class="btn btn-primary">{{ .Get "buttonText" }}</a>
+    </div>
+</div>
