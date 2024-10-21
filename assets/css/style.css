@@ -192,7 +192,7 @@ button {
 .stack h2,
 .stack h3 {
     @apply font-rubrikLight;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 .stack h2 {
@@ -303,4 +303,13 @@ a.btn-outline-secondary:hover:before {
     width: calc(100% + 40px);
     background-color: var(--white-color);
     transition: width 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.header__logo {
+    transition: height 0.15s ease-in-out;
+}
+
+.header.header__scrolled .header__logo {
+    height: 2.5rem;
+    transition: height 0.15s ease-in-out;
 }

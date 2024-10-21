@@ -57,3 +57,26 @@ buttons?.forEach(button => {
         }
     });
 });
+
+
+
+// header scroll
+document.addEventListener("DOMContentLoaded", function() {
+    const header = document.querySelector('header');
+
+    function checkScroll() {
+        const scrollPosition = window.scrollY;
+        // Get the height of the viewport
+        const viewportHeight = window.innerHeight;
+
+        if (scrollPosition > viewportHeight) {
+            header.classList.add('header__scrolled');
+        } else {
+            header.classList.remove('header__scrolled');
+        }
+    }
+
+    checkScroll();
+
+    window.addEventListener('scroll', checkScroll);
+});
