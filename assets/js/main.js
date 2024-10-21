@@ -6,7 +6,15 @@ if (headerDropdowns) {
         const button = dropdown.querySelector('.header-dropdown__button')
         const menu = dropdown.querySelector('.header-dropdown__menu')
 
+
         button.addEventListener(('click'), () => {
+
+            document.querySelectorAll('.header-dropdown__menu').forEach(otherDropdown => {
+                if (otherDropdown !== dropdown) {
+                    otherDropdown.classList.add('hidden');
+                }
+            });
+
             menu.classList.toggle('hidden')
         })
     })
@@ -61,7 +69,7 @@ buttons?.forEach(button => {
 
 
 // header scroll
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const header = document.querySelector('header');
 
     function checkScroll() {
