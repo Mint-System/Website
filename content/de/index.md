@@ -39,7 +39,6 @@ featuresOffer:
     button_text: "weiterlesen"
     icon: "/assets/icons/icon-management.svg"
 
-# Content - Solution Teaser
 features:
   - title: "Zielorientiert"
     lead: "Wir verkaufen und verrechnen nur was Sie wirklich brauchen und handeln stets zielorientiert."
@@ -63,7 +62,6 @@ features:
   image="/assets/images/computing.jpeg" 
   buttonText="weiterlesen" 
   buttonLink="#" >}}
-
 
 {{< feature-list title="Unsere Lösungen überzeugen" features="features" >}}
 

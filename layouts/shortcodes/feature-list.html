@@ -7,11 +7,11 @@
             {{ $list := index .Page.Params (.Get "features" ) }}
             {{ range $list }}
             <div class="text-center">
-                <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-24 h-24 md:w-64 md:h-64 mx-auto mb-6">
-                <h3 class="text-3xl font-rubrikLight text-primary mb-4">{{ .title }}</h3>
-                <p class="text-black mb-6">{{ .description }}</p>
+                <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-24 h-24 md:w-60 md:h-60 mx-auto mb-6">
+                <h3 class="text-3xl font-rubrikLight text-primary mb-2">{{ .title }}</h3>
+                <p class="text-lg text-black mb-6">{{ .lead }}</p>
                 {{ if .link }}
-                <a href="{{ .link }}" class="inline-block text-primary font-rubrikRegular hover:underline">
+                <a href="{{ .link }}" class="btn btn-outline-primary inline-block text-primary font-rubrikRegular hover:underline">
                     {{ .button_text | default "weiterlesen" }}
                 </a>
                 {{ end }}

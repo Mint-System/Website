@@ -1781,6 +1781,10 @@ a.btn-outline-secondary:hover:before {
     height: 72px;
   }
 
+  .md\:h-60 {
+    height: 15rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1795,6 +1799,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:w-64 {
     width: 16rem;
+  }
+
+  .md\:w-60 {
+    width: 15rem;
   }
 
   .md\:grid-cols-2 {
