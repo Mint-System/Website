@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: '1rem',
+        padding: '1.5%',
       },
       fontFamily: {
         'rubrikBold': ['RubrikEdgeNew Bold', 'sans-serif'],

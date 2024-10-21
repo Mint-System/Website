@@ -8,15 +8,17 @@ subtitle: "Wir meinen es ernst mit Open Source!"
 
 jobs:
   - title: "Open Source Expert"
-    description: "Für unsere Kunden entwickeln wir ein Odoo Wiki. Damit lernen Benutzer den Umgang mit Odoo in kürzester Zeit und haben ein ausführliches Nachschlagewerk."
-    button_text: "www.odoo-wiki.org"
-    button_link: "https://www.odoo-wiki.org"
-  - title: "Odoo Development"
-    description: "Der Odoo-Code ist Open Source, das macht die Zusammenarbeit einfacher. Deshalb veröffentlichen wir unsere Odoo-Entwicklungen sowie unsere Entwicklungsumgebung."
-    button_text: "odoo.build"
-    button_link: "https://odoo.build"
+    button_text: "Zur Jobbeschreibung"
+    button_link: "/jobs/open-source-expert"
+  - title: "Support Engineer"
+    button_text: "Zur Jobbeschreibung"
+    button_link: "/jobs/support-engineer"
 ---
 
-{{< text-two-col title="Unsere Stellenangebote" lead="Wir meinen es ernst mit Open Source!" texts="jobs" >}}
+{{< text-two-col 
+  title="Unsere Stellenangebote" 
+  lead="Wir meinen es ernst mit Open Source!" 
+  text="Unterstütze uns und unsere Kunden bei der Realisierung von Software-Lösungen auf Open-Source-Basis." 
+  texts="jobs" >}}
 
 
