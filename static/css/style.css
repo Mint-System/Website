@@ -921,10 +921,6 @@ video {
   width: 1rem;
 }
 
-.w-48 {
-  width: 12rem;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -1205,16 +1201,16 @@ video {
      object-fit: cover;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-1 {
@@ -1623,6 +1619,7 @@ a.btn-outline-primary {
 
 a.btn-outline-primary:hover {
   color: var(--white-color);
+  text-decoration: none;
 }
 
 a.btn-outline-primary:before {
@@ -1667,6 +1664,7 @@ a.btn-outline-secondary {
 
 a.btn-outline-secondary:hover {
   color: var(--primary-color);
+  text-decoration: none;
 }
 
 a.btn-outline-secondary:before {
