@@ -1,5 +1,5 @@
-<div class="container my-12 py-8">
-    <h2 class="text-3xl font-rubrikBold text-primary">{{ .Get "title" }}</h2>
+<div class="my-12 md:my-[72px] container md:w-2/3">
+    <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
     <p class="text-lg mt-4">
         {{ .Get "description1" }}
     </p>
@@ -9,7 +9,9 @@
     <p class="text-lg mt-4">
         {{ .Get "description3" }}
     </p>
-    <div class="mt-6">
-        <a href="{{ .Get " buttonLink" }}" class="btn btn-primary">{{ .Get "buttonText" }}</a>
-    </div>
+    {{ if .Get "buttonLink" }}
+        <div class="mt-6">
+            <a href="{{ .Get "buttonLink" }}" class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all">{{ .Get "buttonText" }}</a>
+        </div>
+    {{ end }}
 </div>

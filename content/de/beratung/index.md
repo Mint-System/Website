@@ -3,6 +3,7 @@ title: 'Beratung'
 date: 2024-09-02T20:19:23+02:00
 draft: false
 layout: "single"
+hide_title: true
 
 hero_text: "Beratung"
 hero_subtext: "Beratungs-Mandate für Projekte und Qualitätsmanagement mit komplexen Regularien. Expertenwissen aus ERP-Projekten."

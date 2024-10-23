@@ -3,6 +3,7 @@ title: "Software Engineering"
 date: 2024-09-05T18:04:48+02:00
 draft: false
 layout: "single"
+hide_title: true
 
 hero_text: "Software Engineering"
 hero_subtext: "Massgeschneiderte Werkzeuge für anspruchsvolle Manager. Integration von State of the Art Open Source Software."
@@ -14,7 +15,6 @@ hero_image: "/assets/images/software-enginering-hero.jpg"
     description1="Software entwickeln ist teuer. Wir empfehlen deshalb: Verwenden was es schon gibt"
     description2="Entscheidend ist die Fokussierung auf die richtigen Standards. Proprietäre Lösungen sind bezüglich offenen Schnittstellen immer limitiert, deshalb setzen wir konsequent auf Open Source Lösungen. So lassen sich auch verschiedenste Systeme miteinander verknüpfen."
     description3="Mit der Verwendung von Open Source Software ist sichergestellt, dass man nicht mangels verfügbaren Schnittstellen teure Lösungen entwickeln muss.">}}
-
 
 {{< text 
     title="Open Source Lösungen"

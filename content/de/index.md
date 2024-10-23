@@ -18,7 +18,6 @@ hero_linktext: "Zu unserem Angebot"
 hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
 
-
 # Content - Offer Teaser
 featuresOffer:
   - title: "Odoo"
@@ -74,6 +73,4 @@ features:
   email="info@mint-system.ch"
   phone="+41 44 244 72 20" >}}
 
-
 {{< news-teaser teaserTitle="Neuigkeiten" >}}
-
