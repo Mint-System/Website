@@ -4,7 +4,7 @@
 
     <section class="container mx-auto py-12 px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
+            {{ range (.pagination.pagerSize (where .Data.Pages "Type" "post")).Pages }}
             {{ partial "article-preview.html" . }}
             {{ end }}
         </div>
@@ -26,3 +26,4 @@
     {{ partial "components/contact-teaser.html" (dict "Title" "Haben Sie eine Geschäftsapplikation, die Sie gerne ablösen möchten?" "Description" "Treten Sie mit uns in Kontakt und wir machen Ihnen ein unverbindliches Angebot." "ButtonLink" "/kontakt" "ButtonText" "KONTAKTIEREN SIE UNS") }}
 </main>
 {{ end }}
+

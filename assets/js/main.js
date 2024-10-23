@@ -10,7 +10,7 @@ if (headerDropdowns) {
         button.addEventListener(('click'), () => {
 
             document.querySelectorAll('.header-dropdown__menu').forEach(otherDropdown => {
-                if (otherDropdown !== dropdown) {
+                if (otherDropdown !== menu) {
                     otherDropdown.classList.add('hidden');
                 }
             });
