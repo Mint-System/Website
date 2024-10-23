@@ -1712,6 +1712,10 @@ a.btn-outline-secondary:hover:before {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-secondary:hover {
+  background-color: var(--secondary-color);
+}
+
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -1724,6 +1728,11 @@ a.btn-outline-secondary:hover:before {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1773,16 +1782,16 @@ a.btn-outline-secondary:hover:before {
     margin-top: 0px;
   }
 
+  .md\:h-60 {
+    height: 15rem;
+  }
+
   .md\:h-64 {
     height: 16rem;
   }
 
   .md\:h-\[72px\] {
     height: 72px;
-  }
-
-  .md\:h-60 {
-    height: 15rem;
   }
 
   .md\:w-1\/2 {
@@ -1797,12 +1806,12 @@ a.btn-outline-secondary:hover:before {
     width: 75%;
   }
 
-  .md\:w-64 {
-    width: 16rem;
-  }
-
   .md\:w-60 {
     width: 15rem;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:grid-cols-2 {

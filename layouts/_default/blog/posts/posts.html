@@ -36,5 +36,7 @@
     </div>
 
     {{ partial "components/contact-teaser.html" (dict "Title" "Haben Sie eine Geschäftsapplikation, die Sie gerne ablösen möchten?" "Description" "Treten Sie mit uns in Kontakt und wir machen Ihnen ein unverbindliches Angebot." "ButtonLink" "/kontakt" "ButtonText" "KONTAKTIEREN SIE UNS") }}
+
+    {{ .Content }}
 </main>
 {{ end }}
