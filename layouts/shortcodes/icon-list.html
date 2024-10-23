@@ -1,6 +1,6 @@
-<section class="icon-list container my-12 mx-auto text-center">
+<section class="icon-list container my-12 md:my-[72px] mx-auto text-center">
     <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
-    <p class="text-lg text-black mb-12">{{ .Get "lead" }}</p>
+    <p class="text-lg md:w-2/3 mx-auto text-black mb-10">{{ .Get "lead" }}</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {{ $list := index .Page.Params (.Get "features" ) }}
@@ -8,14 +8,14 @@
         <div class="flex items-start space-x-4 p-4">
             <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-12 h-12 lg:w-[70px] lg:h-[70px]">
             <div class="flex flex-col items-start">
-                <h4 class="font-rubrikBold text-left text-2xl text-black">{{ .title }}</h4>
+                <h4 class="font-rubrikBold text-left text-2xl text-dark">{{ .title }}</h4>
                 {{ if .lead }}
-                    <p class="mt-2 font-rubrikRegular text-left">{{ .lead }}</p>
+                    <p class="mt-1 text-lg font-rubrikRegular text-left">{{ .lead }}</p>
                 {{ end }}
                 {{ if .links }}
                 <div class="flex flex-wrap justify-start gap-x-2" role="list">
                     {{ range .links }}
-                    <a href="{{ .url }}" class="inline-block text-primary-dark underline">{{ .title }}</a>
+                    <a href="{{ .url }}" class="inline-block text-lg text-grey underline">{{ .title }}</a>
                     {{ end }}
                 </div>
                 {{ end }}
@@ -23,4 +23,5 @@
         </div>
         {{ end }}
     </div>
+    <p class="text-lg md:w-2/3 mx-auto text-black mt-10">{{ .Get "annotation" }}</p>
 </section>

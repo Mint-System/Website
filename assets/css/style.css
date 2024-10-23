@@ -221,6 +221,10 @@ li {
     text-decoration: underline;
 }
 
+.stack a:is(.bg-primary) {
+    text-decoration: none;
+}
+
 a.btn-outline-primary {
     position: relative;
     display: inline-block;

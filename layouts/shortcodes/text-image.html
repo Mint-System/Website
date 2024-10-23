@@ -1,6 +1,7 @@
 <section class="text-image container my-12 mx-auto text-center">
     <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
-    <p class="text-lg text-black mb-12">{{ .Get "lead" }}</p>
-
+    <p class="text-lg text-black">{{ .Get "lead" }}</p>
+    <p class="text-lg text-black mb-12">{{ .Get "lead2" }}</p>
     <img src="{{ .Get "image" }}" alt="" class="rounded-lg w-full">
+    <p class="text-lg text-black mt-4 md:text-left">{{ .Get "annotation" }}</p>
 </section>

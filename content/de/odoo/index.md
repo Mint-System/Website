@@ -6,19 +6,17 @@ layout:  "single"
 
 hero_text: "Odoo"
 hero_subtext: "Die weltweite erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma."
-hero_linktext: "Zu unserem Angebot"
-hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
 
 offerings:
   - title: "Beratung"
-    icon: "assets/icons/icon1.svg"
+    icon: "/assets/icons/icon-erp.svg"
     description: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
   - title: "Entwicklung"
-    icon: "assets/icons/icon2.svg"
+    icon: "/assets/icons/icon-erp.svg"
     description: "Wir passen Odoo Ihren Anforderungen und Prozessen an. Dabei bauen wir auf Erfahrungen und Entwicklungen aus vergangenen Projekten auf."
   - title: "Hosting"
-    icon: "assets/icons/icon3.svg"
+    icon: "/assets/icons/icon-erp.svg"
     description: "Egal ob in der Cloud, beim IT-Partner oder im eigenen Rechenzentrum, wir stellen ein zuverlässiges und stabiles Odoo-Hosting für Sie bereit."
 
 featureIcons:
@@ -134,7 +132,7 @@ wiki:
     description: "Für unsere Kunden entwickeln wir ein Odoo Wiki. Damit lernen Benutzer den Umgang mit Odoo in kürzester Zeit und haben ein ausführliches Nachschlagewerk."
     button_text: "www.odoo-wiki.org"
     button_link: "https://www.odoo-wiki.org"
-  - title: "Odoo Development"
+  - title: "ODOO DEVELOPMENT"
     description: "Der Odoo-Code ist Open Source, das macht die Zusammenarbeit einfacher. Deshalb veröffentlichen wir unsere Odoo-Entwicklungen sowie unsere Entwicklungsumgebung."
     button_text: "odoo.build"
     button_link: "https://odoo.build"
@@ -151,21 +149,29 @@ imageText:
 {{< feature-list title="Dienstleistungen" lead="Wir haben Erfahrung in der Konzeption und Implementierung von Odoo-Projekten." features="offerings" >}}
 
 {{< text-center 
-  heading="Referenzen"
-  description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
-  buttonText="Unsere Referenzen"
-  buttonLink="https://www.odoo.com/de_DE/partners/mint-system-gmbh-3365849#right_column" >}}
+  title="Über Odoo"
+  description="1700 Mitarbeitende, 7 Millionen Benutzer in 110 Ländern, Übersetzungen in 32 Sprachen."
+  description2="Die Unternehmung Odoo S.A. mit Sitz in in Belgien hat seit der Gründung im Jahr 2005 ein aussergewöhnliches Wachstum hingelegt. Die All-in-one Management-Software Odoo wurde mit diversen Preisen ausgezeichnet und erfreut sich ungebrochen wachsender Beliebtheit."
+  description3="Die Mint System GmbH ist offizieller Partner von Odoo. Wir sind ausgewiesene Fachleute und ein zuverlässiger Partner für die erfolgreiche Implementierung von Odoo in Ihrer Unternehmung."
+  buttonText="Mehr zu Odoo"
+  buttonLink="https://www.odoo.com/de_DE" >}}
 
 
-{{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" >}}
+{{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
 
-{{< text-image title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung. Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte." image="/assets/images/environment.jpeg" >}}
+{{< text-image title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
 
 {{< text-center 
-  heading="Referenzen"
+  title="Referenzen"
   description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
   buttonText="Unsere Referenzen"
   buttonLink="https://www.odoo.com/de_DE/partners/mint-system-gmbh-3365849#right_column" >}}
 
 {{< text-two-col texts="wiki" >}}
 
+{{< contact-teaser 
+    heading="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
+    paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
+    link="https://www.mint-system.ch/contactus" 
+    linkText="Kontaktieren Sie uns" 
+>}}

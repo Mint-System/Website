@@ -1,7 +1,7 @@
 <section class="feature-list bg-white my-12 py-12">
     <div class="container mx-auto text-center">
         <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2">{{ .Get "title" }}</h2>
-        <p class="text-lg text-black mb-12">{{ .Get "lead" }}</p>
+        <p class="text-lg text-black mb-12 mx-auto w-1/2">{{ .Get "lead" }}</p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             {{ $list := index .Page.Params (.Get "features" ) }}
