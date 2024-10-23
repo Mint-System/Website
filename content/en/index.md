@@ -17,5 +17,4 @@ hero_text: "**Prozessoptimierung** mit effizienter Software"
 hero_linktext: "Zu unserem Angebot"
 hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
-
 ---
