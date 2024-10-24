@@ -1,10 +1,10 @@
-<section id="text-image-inverted" class="my-12 py-12">
+<section id="text-image-inverted" class="bg-primary my-12 py-12" style="background: linear-gradient(to top, var(--primary-color), var(--primary-dark-color) 50%)">
     <div class="container py-12 mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div class="flex justify-center md:justify-end">
             <img src="{{ .Get "image" }}" alt="Team working" class="rounded-lg shadow-lg w-full">
         </div>
 
-        <div class="text-block">
+        <div class="text-white">
             <h2 class="text-5xl mb-4">
                 {{ .Get "teaserTitle" }} <br> <span class="font-rubrikLight">{{ .Get "subtitle" }}</span>
             </h2>

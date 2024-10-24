@@ -1,0 +1,12 @@
+<section class="flex flex-col md:my-12 md:flex-row items-center justify-between bg-white">
+    <div class="flex-1">
+        <img src="{{ .Get "image" }}" alt="Mint System Team" class="w-full max-w-md mx-auto">
+    </div>
+
+    <div class="flex-1 max-w-md mt-8 md:mt-0 md:ml-8">
+        <h2 class="text-3xl font-rubrikLight text-primary">{{ .Get "title" }}</h2>
+        <p class="mt-4 text-black">
+            {{ .Get "description" }}
+        </p>
+    </div>
+</section>

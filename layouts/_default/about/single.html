@@ -7,11 +7,10 @@
 
         {{ partial "intro-about.html" . }}
 
-        <article class="prose max-w-none prose-lg stack font-rubrikRegular">
-            {{ .Content }}
-        </article>
+        {{/*  {{ partial "team.html" . }}  */}}
 
-        {{ partial "team.html" . }}
+        {{ .Content }}
+
     </div>
 </main>
 {{ end }}
