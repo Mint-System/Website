@@ -978,6 +978,14 @@ video {
   max-width: 36rem;
 }
 
+.max-w-\[640px\] {
+  max-width: 640px;
+}
+
+.max-w-\[855px\] {
+  max-width: 855px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
