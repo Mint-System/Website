@@ -6,7 +6,7 @@
     {{ end }}
 
     {{ if not .Params.hide_title }}
-    <div class="container my-12 py-8">
+    <div class="container mt-[78px] md:mt-[112px] mb-12 py-8">
         <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto mb-4">
             {{ .Title }}
         </h1>
@@ -14,13 +14,13 @@
     {{ end }}
 
     {{ if .Params.hero_text }}
-    <section class="">
+    <div class="">
         {{ .Content }}
-    </section>
+    </div>
     {{ else }}
-    <section class="mt-12 pt-12">
+    <div class="mt-12 pt-12">
         {{ .Content }}
-    </section>
+    </div>
     {{ end }}
 
 </main>

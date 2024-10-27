@@ -769,6 +769,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -831,6 +836,22 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-\[120px\] {
+  margin-top: 120px;
+}
+
+.mt-\[88px\] {
+  margin-top: 88px;
+}
+
+.mt-\[166px\] {
+  margin-top: 166px;
+}
+
+.mt-\[78px\] {
+  margin-top: 78px;
 }
 
 .block {
@@ -1684,6 +1705,10 @@ a.btn-outline-secondary:hover:before {
   transition: height 0.15s ease-in-out;
 }
 
+.\*\:flex > * {
+  display: flex;
+}
+
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1762,6 +1787,34 @@ a.btn-outline-secondary:hover:before {
     margin-top: 3rem;
   }
 
+  .md\:mt-\[0px\] {
+    margin-top: 0px;
+  }
+
+  .md\:mt-\[112px\] {
+    margin-top: 112px;
+  }
+
+  .md\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .md\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .md\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:h-60 {
     height: 15rem;
   }
@@ -1810,6 +1863,11 @@ a.btn-outline-secondary:hover:before {
     text-align: left;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1818,11 +1876,6 @@ a.btn-outline-secondary:hover:before {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 

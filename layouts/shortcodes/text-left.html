@@ -1,0 +1,16 @@
+<div class="bg-white text-left py-12 px-8">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-5xl  text-center font-rubrikLight uppercase text-primary mb-2 md:mb-12">{{ .Get "title" }}</h2>
+      
+      <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight" }}</strong>{{ .Get "description" }}</p>  
+      <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight2" }}</strong>{{ .Get "description2" }}</p>  
+      <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight3" }}</strong>{{ .Get "description3" }}</p>  
+
+      {{ if .Get "buttonLink" }}
+        <a href="{{ .Get "buttonLink" }}" class="btn btn-outline-primary no-underline text-white rounded-md px-1 py-2 btn btn-primary">
+          {{ .Get "buttonText" }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+  
