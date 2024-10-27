@@ -1,0 +1,19 @@
+<section id="list" class="container">
+    <div class="my-8">
+        {{ if .Get "description" }}
+        <p class="mb-4 text-lg">{{ .Get "description" }}</p>
+        {{ end }}
+
+        <h2 class="text-lg font-rubrikBold mb-2">{{ .Get "listTitle" }}</h2>
+
+        <ul class="list-disc pl-5">
+            {{ $list := index .Page.Params (.Get "listItems" ) }}
+
+            {{ range $list }}
+            <li class="mb-2">
+                <a href="{{ .link }}" class="text-primary-500 hover:underline">{{ .title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>

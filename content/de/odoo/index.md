@@ -136,14 +136,6 @@ wiki:
     description: "Der Odoo-Code ist Open Source, das macht die Zusammenarbeit einfacher. Deshalb veröffentlichen wir unsere Odoo-Entwicklungen sowie unsere Entwicklungsumgebung."
     button_text: "odoo.build"
     button_link: "https://odoo.build"
-
-imageText:
-  title: "ALL-IN-ONE"
-  subtitle: "Odoo ist eine All-In-One Software-Lösung."
-  description: "Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte."
-  image: "/assets/images/ecosystem.jpeg"
-  caption: "Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem."
-
 --- 
 
 {{< feature-list title="Dienstleistungen" lead="Wir haben Erfahrung in der Konzeption und Implementierung von Odoo-Projekten." features="offerings" >}}
