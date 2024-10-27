@@ -16,6 +16,7 @@ module.exports = {
         primary: 'var(--primary-color)',
         secondary: 'var(--secondary-color)',
         tertiary: 'var(--tertiary-color)',
+        grey: 'var(--grey-color)',
         'button': 'var(--button-background-color)',
         'primary-dark': 'var(--primary-dark-color)',
         'text-dark': 'var(--text-dark-color)',

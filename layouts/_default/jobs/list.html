@@ -1,6 +1,26 @@
 {{ define "main" }}
-<main id="main blog-overview">
-    <h1>Unsere Stellenangebote</h1>
+<main id="main jobs single md:mt-12">
+    {{ if .Params.hero_text }}
+    {{ partial "hero.html" . }}
+    {{ end }}
+
+    {{ if not .Params.hide_title }}
+    <div class="container mt-[78px] md:mt-[112px] mb-12 py-8">
+        <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto mb-4">
+            {{ .Title }}
+        </h1>
+    </div>
+    {{ end }}
+
+    {{ if .Params.hero_text }}
+    <div class="">
+        {{ .Content }}
+    </div>
+    {{ else }}
+    <div class="mt-12 pt-12">
+        {{ .Content }}
+    </div>
+    {{ end }}
 
 </main>
 {{ end }}

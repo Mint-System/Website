@@ -1,1 +1,23 @@
-hello, world
+{{ define "main" }}
+<main id="main jobs single md:mt-12">
+    <div class="my-12 pt-12">
+        <div class="bg-grey">
+            <div class="container py-2  ">
+                <a href="/jobs" class="text-lg font-rubrikRegular">Jobs</a> /
+                <p href="#" class="text-lg inline-block text-gray-500">{{.Title}}</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="mt-8">
+                <h1 class="text-5xl md:text-6xl font-rubrikLight text-primary leading-tight hyphens-auto mb-4">
+                    {{.Title}}
+                </h1>
+            </div>
+
+            <article class="prose max-w-none prose-lg stack font-rubrikRegular">
+                {{ .Content }}
+            </article>
+        </div>
+    </div>
+</main>
+{{ end }}
