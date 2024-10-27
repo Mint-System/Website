@@ -1,6 +1,6 @@
 ---
-title: 'Über uns'
-slug: "about"
+title: "Über uns"
+slug: "aboutus"
 date: 2024-09-05T18:00:02+02:00
 draft: false
 layout: "single"
@@ -18,16 +18,11 @@ layout: "single"
   description-highlight3="Wir streben permanent nach intelligenten Lösungen zum bestmöglichen Preis-Leistungs-Verhältnis. " 
   description3="Wir sind nie fertig mit dem Optimieren. Aber wir können das Mögliche vom Machbaren unterscheiden. Kunden erleben die Zusammenarbeit mit uns als sehr strukturiert, planvoll und ergebnisorientiert." >}}
 
-
 {{< team >}}
 
-{{< text-image-inverted 
-  teaserTitle="mint system" 
-  subtitle="Arbeit nach Plan" 
-  description="Strukturiertes Arbeiten macht uns Freude. Alle unsere Projekte folgen einem durchdachten Vorgehensmodell."
-  image="/assets/images/computing.jpeg" 
-  buttonText="weiterlesen" 
-  buttonLink="#" >}}
-
-
-
+{{< text-image-reverse 
+  teaserTitle="open source" 
+  subtitle="software" 
+  description="Open Source bedeutet, dass der Quellcode einer Software offen und frei zugänglich ist. Das führt dazu, dass aus der Arbeit von weltweit vernetzten Gruppen Software-Produkte allerhöchster Qualität entstehen. Lizenzkostenfrei."
+  description2="Wir setzen diesen Ansatz ins Zentrum. Der Mehrwert für unsere Kunden sind Anpassungen auf individuelle Anforderungen."
+  image="/assets/images/background_background_software.jpg" >}}
