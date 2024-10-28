@@ -2,8 +2,9 @@
 title: "Digital Cluster Uri"
 author: "Janik von Rotz"
 draft: false
+
 date: 2021-11-15
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Engagement", "Open Source Software", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"

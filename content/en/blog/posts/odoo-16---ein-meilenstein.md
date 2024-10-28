@@ -3,7 +3,7 @@ title: "Odoo 16 - Ein Meilenstein"
 author: "Janik von Rotz"
 draft: false
 date: 2022-10-20
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Event", "Odoo"]
 featured_image: "/assets/images/blog/20221012_084210_6890.jpeg"
 type: "post"

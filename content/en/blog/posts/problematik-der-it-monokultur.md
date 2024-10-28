@@ -4,7 +4,7 @@ author: "Kurt Gisler"
 draft: false
 date: 2021-03-20
 
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"
 type: "post"

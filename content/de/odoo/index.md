@@ -7,17 +7,18 @@ layout:  "single"
 hero_text: "Odoo"
 hero_subtext: "Die weltweite erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma."
 hero_image: "/assets/images/home-hero.jpg"
+hide_title: true
 
 offerings:
   - title: "Beratung"
     icon: "/assets/icons/icon-erp.svg"
-    description: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
+    lead: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
   - title: "Entwicklung"
     icon: "/assets/icons/icon-erp.svg"
-    description: "Wir passen Odoo Ihren Anforderungen und Prozessen an. Dabei bauen wir auf Erfahrungen und Entwicklungen aus vergangenen Projekten auf."
+    lead: "Wir passen Odoo Ihren Anforderungen und Prozessen an. Dabei bauen wir auf Erfahrungen und Entwicklungen aus vergangenen Projekten auf."
   - title: "Hosting"
     icon: "/assets/icons/icon-erp.svg"
-    description: "Egal ob in der Cloud, beim IT-Partner oder im eigenen Rechenzentrum, wir stellen ein zuverlässiges und stabiles Odoo-Hosting für Sie bereit."
+    lead: "Egal ob in der Cloud, beim IT-Partner oder im eigenen Rechenzentrum, wir stellen ein zuverlässiges und stabiles Odoo-Hosting für Sie bereit."
 
 featureIcons:
   - title: "Website"

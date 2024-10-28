@@ -4,7 +4,7 @@
 
     <section class="container mx-auto py-12 px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {{ range (.pagination.pagerSize (where .Data.Pages "Type" "post")).Pages }}
+            {{ range (.Paginate (where .Data.Pages "Type" "blogpost")).Pages }}
             {{ partial "article-preview.html" . }}
             {{ end }}
         </div>
@@ -12,7 +12,6 @@
 
     <section class="container w-full mb-24 mt-10">
         <div class="flex justify-center space-x-4">
-            <!-- Display previous page link -->
             {{ if .Paginator.HasPrev }}
             <a href="{{ .Paginator.Prev.URL }}" class="text-black hover:underline">&larr; Neuere Posts</a>
             {{ end }}

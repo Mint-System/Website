@@ -21,12 +21,12 @@ module.exports = {
         secondary: 'var(--secondary-color)',
         tertiary: 'var(--tertiary-color)',
         grey: 'var(--grey-color)',
+        'grey-dark': 'var(--text-grey-color)',
         'button': 'var(--button-background-color)',
         'primary-dark': 'var(--primary-dark-color)',
         'text-dark': 'var(--text-dark-color)',
         'text-normal': 'var(--text-normal-color)',
         'text-light': 'var(--text-light-color)',
-        'text-grey': 'var(--text-grey-color)',
         'text-inverted': 'var(--text-inverted-color)',
 
         shadow: 'var(--shadow-hue)',

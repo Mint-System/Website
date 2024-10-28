@@ -3,7 +3,7 @@ title: "Urner Start-up will den Schub der Digitalisierung nutzen"
 author: "Janik von Rotz"
 draft: false
 date: 2020-05-26
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Unternehmen"]
 featured_image: "/assets/images/blog/newspaper.jpeg"
 type: "post"

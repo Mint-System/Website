@@ -3,7 +3,7 @@ title: "Die Freie-Software-Bewegung"
 author: "Janik von Rotz"
 draft: false
 date: 2020-09-28
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/gnu fsf.jpg"

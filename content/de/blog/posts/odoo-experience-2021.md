@@ -2,8 +2,9 @@
 title: "Odoo Experience 2021"
 author: "Kurt Gisler"
 draft: false
+
 date: 2021-09-23
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Event", "Odoo"]
 type: "post"
 

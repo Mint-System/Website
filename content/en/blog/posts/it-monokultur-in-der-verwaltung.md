@@ -3,7 +3,7 @@ title: "IT-Monokultur in der Verwaltung"
 author: "Janik von Rotz"
 draft: false
 date: 2021-03-25
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"

@@ -1,14 +1,14 @@
-<section id="text-image-inverted" class="my-12 py-12">
+<section id="text-image-inverted" class="my-12 py-12"  style="background: linear-gradient(to top, var(--primary-color), var(--primary-dark-color) 50%)">
     <div class="container py-12 mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         <div class="flex justify-center md:justify-end">
             <img src="{{ .Get "image" }}" alt="Team working" class="rounded-lg shadow-lg w-full">
         </div>
 
         <div class="text-block">
-            <h2 class="text-5xl mb-4">
+            <h2 class="text-5xl text-white mb-4 font-rubrikBold">
                 {{ .Get "teaserTitle" }} <br> <span class="font-rubrikLight">{{ .Get "subtitle" }}</span>
             </h2>
-            <p class="text-lg mb-6">
+            <p class="text-lg text-white mb-6">
                 {{ .Get "description" }}
             </p>
             <a href="{{ .Get "buttonLink" }}" class="btn-outline-secondary items-center text-primary-200 font-rubrikRegular hover:text-white transition">

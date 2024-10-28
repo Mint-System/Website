@@ -2,8 +2,9 @@
 title: "Aspekte die in Zukunft zählen"
 author: "Kurt Gisler"
 draft: false
+
 date: 2020-08-19
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["OpenEduca"]
 type: "post"
 featured_image: "/assets/images/blog/direction.jpeg"

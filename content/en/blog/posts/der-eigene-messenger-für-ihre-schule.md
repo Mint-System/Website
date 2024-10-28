@@ -3,7 +3,7 @@ title: "Der eigene Messenger für Ihre Schule"
 author: "Janik von Rotz"
 draft: false
 date: 2021-07-08
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Messaging", "OpenEduca"]
 featured_image: "/assets/images/blog/element.png"

@@ -2,8 +2,9 @@
 title: "Rückblick PraktikerTreff"
 author: "Janik von Rotz"
 draft: false
+
 date: 2020-10-06
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/backgroundmanagement.jpg"
 type: "post"

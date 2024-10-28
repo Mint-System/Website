@@ -23,4 +23,3 @@ jobs:
   lead="Wir meinen es ernst mit Open Source!" 
   text="Unterstütze uns und unsere Kunden bei der Realisierung von Software-Lösungen auf Open-Source-Basis." 
   texts="jobs" >}}
-

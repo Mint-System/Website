@@ -3,7 +3,7 @@ title: "IHZ Zentralinfo Podium"
 author: "Janik von Rotz"
 draft: false
 date: 2020-09-30
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Artikel", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"

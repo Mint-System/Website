@@ -3,7 +3,7 @@ title: "Odoo 15 und die Odoo Partner Days"
 author: "Janik von Rotz"
 draft: false
 date: 2021-11-12
-layout: "blog/posts/posts"
+layout: "blogpost"
 tags: ["Odoo", "Unternehmen"]
 featured_image: "/assets/images/blog/odoo-office.jpeg"
 type: "post"

@@ -2,8 +2,9 @@
 title: "Den eigenen Login-Anbieter mit Keycloak betreiben"
 author: "Janik von Rotz"
 draft: false
+
 date: 2021-05-20
-layout: "blog/posts/posts"
+layout: "blogpost"
 type: "post"
 tags: ["Identity and Access Management", "Keycloak"]
 featured_image: "/assets/images/blog/keyboard.png"
