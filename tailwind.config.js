@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       container: {
         center: true,
-        padding: '1.5%',
+        padding: {
+          DEFAULT: '4.5%',
+          sm: '2%',
+          md: '1.5%',
+        },
       },
       fontFamily: {
         'rubrikBold': ['RubrikEdgeNew Bold', 'sans-serif'],
@@ -24,7 +28,7 @@ module.exports = {
         'text-light': 'var(--text-light-color)',
         'text-grey': 'var(--text-grey-color)',
         'text-inverted': 'var(--text-inverted-color)',
-        
+
         shadow: 'var(--shadow-hue)',
         button: {
           default: 'var(--button-background-color)',

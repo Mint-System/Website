@@ -1,17 +1,17 @@
 <section id="text-two-col" class="my-12 md:my-[72px]">
     <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-rubrikBold text-primary mb-4">{{ .Get "title" }}</h2>
-        <h3 class="text-2lg text-gray mb-6">{{ .Get "lead" }}</h3>
-        <p class="text-lg text-black mb-6">{{ .Get "text" }}</p>
+        <h2 class="text-5xl text-center font-rubrikLight uppercase hyphens-auto text-primary mb-2 md:mb-4">{{ .Get "title" }}</h2>
+        <h3 class="text-3xl font-rubrikLight text-black mb-6">{{ .Get "lead" }}</h3>
+        <p class="text-sm text-black mb-6">{{ .Get "text" }}</p>
     </div>
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {{ $list := index .Page.Params (.Get "texts" ) }}
         {{ range $list }}
         <div class="text-center md:text-left">
-            <h2 class="text-4xl font-rubrikBold text-primary mb-4">{{ .title }}</h2>
+            <h2 class="text-4xl font-rubrikRegular text-primary mb-4">{{ .title }}</h2>
             <p class="text-lg text-black mb-6">{{ .description }}</p>
             <a href="{{ .button_link }}"
-                class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all">
+                class="text-sm inline-block bg-primary text-white font-rubrikBold py-2 px-4 rounded-md shadow-lg hover:bg-secondary transition-all">
                 {{ .button_text }}
             </a>
         </div>
