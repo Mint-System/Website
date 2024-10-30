@@ -1,0 +1,25 @@
+{
+    "version": 2,
+    "name": "Mint System GmbH",
+    "builds": [
+      {
+        "src": "public/**",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "public"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/$1"
+      }
+    ],
+    "buildCommand": "hugo --gc --baseURL=$HUGO_BASEURL"
+  }
+  

@@ -1424,10 +1424,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-grey-dark {
-  color: var(--text-grey-color);
-}
-
 .underline {
   text-decoration-line: underline;
 }
