@@ -42,7 +42,6 @@ description = ""
 author = "Mint System"
 default_image = "/images/default-social-image.jpg"
 logo = "/images/logo.png"
-twitter_username = "@yourTwitterHandle"
 
 [sitemap]
 changefreq = "weekly"
