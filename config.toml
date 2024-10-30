@@ -3,7 +3,7 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'de-DE'
 title = 'Mint System'
 draft = false
-
+publishDir = "public"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 
