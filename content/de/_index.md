@@ -52,7 +52,7 @@ features:
     icon: "/assets/icons/icon-transparenz.svg"
 --- 
 
-{{< feature-list title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." features="featuresOffer" >}}
+{{< feature-list id="offer" title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." features="featuresOffer" >}}
 
 {{< text-image-inverted 
   teaserTitle="mint system" 
