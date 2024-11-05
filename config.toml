@@ -56,4 +56,3 @@ section = ["HTML"]
 
 [taxonomies]
 tag = "tags"
-category = "categories"

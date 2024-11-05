@@ -13,19 +13,17 @@
             {{ .Title }}
         </h2>
 
-        <!-- Blog Post Excerpt -->
         {{ if .Params.summary }}
         <p class="text-black font-rubrikRegular mt-2">{{ .Params.summary }}</p>
         {{ end }}
 
-        <!-- Tags -->
-        <div class="my-2 space-x-2">
+        <div class="flex flex-row flex-wrap gap-2 justify-start mt-4">
             {{ range .Params.tags }}
             <a  href="{{ "tags/" | relURL }}{{ . | urlize }}" class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 border-2 border-transparent rounded hover:border-gray-400 hover:border-2">{{ . }}</a>
             {{ end }}
         </div>
 
         {{ $format := "2. January 2006" }}
-        <span class="font-rubrikRegular inline-block text-sm text-gray-500">{{ .Date | time.Format $format }}</span>
+        <span class="font-rubrikRegular mt-4 inline-block text-sm text-gray-500">{{ .Date | time.Format $format }}</span>
     </div>
 </article>
