@@ -1,9 +1,9 @@
 {{ define "main" }}
-<main id="main blog-posts">
+<main class="main blog-posts" id="main">
     {{ partial "hero-blog-post.html" . }}
 
     <div class="container mx-auto py-12 px-4">
-        <article class="prose max-w-none prose-lg stack font-rubrikRegular">
+        <article class="prose max-w-none prose-lg stack font-rubrikRegular " id="content">
             {{ .Content }}
         </article>
 
