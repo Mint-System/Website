@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 date: 2022-11-08
 draft: false
 
-layout: "blogpost"
+layout: "blog/post"
 tags: ["Engagement", "Open Source Software", "Software Engineering", "Unternehmen"]
 featured_image: "/assets/images/blog/arrow.jpg"
 type: "post"

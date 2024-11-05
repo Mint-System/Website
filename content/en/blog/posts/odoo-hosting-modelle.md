@@ -3,7 +3,7 @@ title: "Odoo Hosting-Modelle"
 author: "Janik von Rotz"
 draft: false
 date: 2020-05-19
-layout: "blogpost"
+layout: "blog/post"
 tags: ["ERP-System"]
 type: "post"
 

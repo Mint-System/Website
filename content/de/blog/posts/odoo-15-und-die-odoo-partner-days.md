@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2021-11-12
-layout: "blogpost"
+layout: "blog/post"
 tags: ["Odoo", "Unternehmen"]
 featured_image: "/assets/images/blog/odoo-office.jpeg"
 type: "post"

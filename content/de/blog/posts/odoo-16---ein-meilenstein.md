@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2022-10-20
-layout: "blogpost"
+layout: "blog/post"
 tags: ["Event", "Odoo"]
 featured_image: "/assets/images/blog/20221012_084210_6890.jpeg"
 type: "post"

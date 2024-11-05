@@ -3,7 +3,7 @@ title: "Software-Werkzeuge mit Potenzial"
 author: "Janik von Rotz"
 draft: false
 date: 2020-08-19
-layout: "blogpost"
+layout: "blog/post"
 tags: ["OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
 type: "post"

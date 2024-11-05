@@ -3,7 +3,7 @@ title: "Ein bierisches Odooprojekt"
 author: "Marco Roeleven"
 draft: false
 date: 2021-02-22
-layout: "blogpost"
+layout: "blog/post"
 type: "post"
 tags: ["ERP-System", "Success Story"]
 featured_image: "/assets/images/blog/Bild Newsletter Febr 2021.png"

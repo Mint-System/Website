@@ -3,7 +3,7 @@ title: "Herausforderung ERP-System"
 author: "Janik von Rotz"
 draft: false
 date: 2020-11-09
-layout: "blogpost"
+layout: "blog/post"
 tags: ["ERP-System"]
 type: "post"
 featured_image: "/assets/images/blog/checklist.jpeg"

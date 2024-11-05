@@ -3,7 +3,7 @@ title: "Von Bexio nach Odoo"
 author: "Kurt Gisler"
 draft: false
 date: 2024-04-04
-layout: "blogpost"
+layout: "blog/post"
 tags: ["Bericht", "Bexio", "Odoo", Migration]
 featured_image: "/assets/images/blog/odoo-migration.png"
 type: "post"

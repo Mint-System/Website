@@ -4,7 +4,7 @@ author: "Kurt Gisler"
 draft: false
 
 date: 2020-12-22
-layout: "blogpost"
+layout: "blog/post"
 type: "post"
 tags: ["Open Source Software", "OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"

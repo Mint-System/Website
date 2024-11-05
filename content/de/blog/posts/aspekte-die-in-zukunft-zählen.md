@@ -4,7 +4,7 @@ author: "Kurt Gisler"
 draft: false
 
 date: 2020-08-19
-layout: "blogpost"
+layout: "blog/post"
 tags: ["OpenEduca"]
 type: "post"
 featured_image: "/assets/images/blog/direction.jpeg"

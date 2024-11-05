@@ -3,7 +3,7 @@ title: "Erfolgreicher Auftrag für AfI Uri"
 author: "Janik von Rotz"
 draft: false
 date: 2020-10-07
-layout: "blogpost"
+layout: "blog/post"
 tags: ["Success Story"]
 type: "post"
 featured_image: "/assets/images/blog/rathaus-altdorf.jpg"
