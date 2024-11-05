@@ -21,7 +21,7 @@
         <!-- Tags -->
         <div class="my-2 space-x-2">
             {{ range .Params.tags }}
-            <span class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 rounded">{{ . }}</span>
+            <a  href="{{ "tags/" | relURL }}{{ . | urlize }}" class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 border-2 border-transparent rounded hover:border-gray-400 hover:border-2">{{ . }}</a>
             {{ end }}
         </div>
 
