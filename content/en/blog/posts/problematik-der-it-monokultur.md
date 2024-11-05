@@ -7,7 +7,7 @@ date: 2021-03-20
 layout: "blog/posts/posts"
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"
-type: "post"
+type: "blogpost"
 summary: "Es kommt vor, dass Parlamente Verpflichtungskredite für Software-Lizenzen bewilligen müssen. Richtig, sie müssen. Weil sie keine Wahl haben. Oft besteht zum Lieferanten Microsoft ein Abhängigkeitsverh..."
 ---
 

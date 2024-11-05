@@ -6,7 +6,7 @@ date: 2020-08-19
 layout: "blog/posts/posts"
 tags: ["OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
-type: "post"
+type: "blogpost"
 
 summary: "Die Corona-Krise hat hohe Wellen geworfen. Existenzängste bei Unternehmen und Einschränkungen bei der Bevölkerung. Grosse Veränderungen in der Wirtschaft und so auch im Bereich der Bildung. Aufgrund d..."
 ---

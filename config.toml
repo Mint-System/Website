@@ -37,6 +37,7 @@ path = ''
 [permalinks]
 blog = "/blog/:slug/"
 jobs = "/jobs/:slug/"
+tags = "/blog/tags/:slug/"
 
 [params]
 description = ""
