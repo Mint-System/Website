@@ -846,6 +846,18 @@ video {
   margin-top: 78px;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
 .block {
   display: block;
 }
@@ -1869,6 +1881,11 @@ a.btn-outline-secondary:hover:before {
     margin-bottom: 72px;
   }
 
+  .md\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1903,6 +1920,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[88px\] {
     margin-top: 88px;
+  }
+
+  .md\:mt-\[-3rem\] {
+    margin-top: -3rem;
   }
 
   .md\:h-60 {
