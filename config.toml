@@ -49,6 +49,8 @@ changefreq = "weekly"
 priority = 0.5
 filename = "sitemap.xml"
 
+disableKinds = ['rss']
+
 [outputs]
 home = ["HTML"]
 page = ["HTML"]
@@ -61,4 +63,3 @@ term = ["HTML"]
 tag = "tags"
 
 
-# disableKinds = ['rss']
