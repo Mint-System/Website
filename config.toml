@@ -61,4 +61,4 @@ term = ["HTML"]
 tag = "tags"
 
 
-disableKinds = ['rss']
+# disableKinds = ['rss']
