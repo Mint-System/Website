@@ -5,6 +5,7 @@ draft = false
 publishDir = "public"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
+disableKinds = ['rss', 'xml']
 
 [pagination]
 disableAliases = false
@@ -49,14 +50,12 @@ changefreq = "weekly"
 priority = 0.5
 filename = "sitemap.xml"
 
-disableKinds = ['rss', 'xml']
-
 [outputs]
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-tags = ["HTML"]
 tag = ["HTML"]
+tags = ["HTML"]
 term = ["HTML"]
 
 [taxonomies]
