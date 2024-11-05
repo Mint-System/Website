@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2020-09-30
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["Artikel", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"

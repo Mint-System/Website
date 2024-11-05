@@ -3,7 +3,7 @@ title: "Odoo Customizing ohne unvorhergesehene Upgradekosten"
 author: "Janik von Rotz"
 draft: false
 date: 2021-07-08
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["ERP-System", "Odoo"]
 featured_image: "/assets/images/blog/arrow.jpg"

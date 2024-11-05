@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2022-07-20
-layout: "blog/post"
+layout: "blog/posts/posts"
 featured_image: "/assets/images/blog/Ansible%20Conference.png"
 type: "post"
 

@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2020-08-17
-layout: "blog/post"
+layout: "blog/posts/posts"
 tags: ["Success Story"]
 type: "post"
 featured_image: "/assets/images/blog/washing.jpeg"

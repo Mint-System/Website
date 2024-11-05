@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2021-05-20
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["Identity and Access Management", "Keycloak"]
 featured_image: "/assets/images/blog/keyboard.png"

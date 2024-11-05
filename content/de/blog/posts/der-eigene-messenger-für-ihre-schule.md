@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2021-07-08
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["Messaging", "OpenEduca"]
 featured_image: "/assets/images/blog/element.png"

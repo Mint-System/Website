@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2021-05-20
-layout: "blog/post"
+layout: "blog/posts/posts"
 tags: ["Success Story"]
 type: "post"
 featured_image: "/assets/images/blog/Aersolution1.jpg"

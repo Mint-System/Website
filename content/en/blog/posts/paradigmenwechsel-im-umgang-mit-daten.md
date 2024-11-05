@@ -3,7 +3,7 @@ title: "Paradigmenwechsel im Umgang mit Daten"
 author: "Janik von Rotz"
 draft: false
 date: 2021-03-25
-layout: "blog/post"
+layout: "blog/posts/posts"
 tags: ["Datenschutz"]
 featured_image: "/assets/images/blog/locked.jpeg"
 type: "post"

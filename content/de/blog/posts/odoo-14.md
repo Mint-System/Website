@@ -4,7 +4,7 @@ author: "Marco Roeleven"
 draft: false
 
 date: 2020-11-09
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["ERP-System", "Open Source Software", "Unternehmen"]
 featured_image: "/assets/images/blog/Odoo14.png"

@@ -3,7 +3,7 @@ title: "Websites mit Odoo erstellen"
 author: "Janik von Rotz"
 draft: false
 date: 2022-03-09
-layout: "blog/post"
+layout: "blog/posts/posts"
 tags: ["ERP-System", "Open Source Software", "Odoo"]
 featured_image: "assets/images/blog/odoo-website-builder.png"
 type: "post"

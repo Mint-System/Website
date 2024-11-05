@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 
 date: 2020-12-22
-layout: "blog/post"
+layout: "blog/posts/posts"
 type: "post"
 tags: ["ERP-System", "Software Engineering"]
 featured_image: "/assets/images/blog/drawboard.jpeg"
