@@ -13,6 +13,7 @@ summary: "In Zusammenhang mit Open Source Software spricht man immer noch davon,
 
 # Custom SEO fields (optional)
 seo_title: "Open Source Software: Besser als Alternativen - Mint System GmbH"
+seo_description: "Open Source Software ist keine Alternative, sie ist einfach besser."
 ---
 
 In Zusammenhang mit Open Source Software spricht man immer noch davon, dass es eine Alternative zu den bestehenden Produkten sei.

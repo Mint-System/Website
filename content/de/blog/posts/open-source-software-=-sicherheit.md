@@ -13,6 +13,7 @@ summary: "Immer wieder sind wir mit dem Argument konfrontiert, dass Open Source 
 
 # Custom SEO fields (optional)
 seo_title: "Open Source Software = Sicherheit - Mint System GmbH"
+seo_description: "Open Source Software ist keine Alternative, sie ist einfach besser."
 ---
 
 Immer wieder begegnen wir dem Argument, dass **Open Source Software (OSS)** nicht sicher sein kann, weil sie kostenlos ist. Häufig wird das Sprichwort "there is no free lunch" angeführt. Warum dieses Argument falsch ist, möchten wir hier erläutern.

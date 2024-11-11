@@ -12,6 +12,7 @@ summary: "Das Ziel der folgenden Erläuterungen ist es, ein Beispiel-Projekt fü
 
 # Custom SEO fields (optional)
 seo_title: "Von Bexio nach Odoo - Mint System GmbH"
+seo_description: "Ein Erfahrungsbericht zur Migration von Bexio nach Odoo."
 ---
 
 # Wechsel von Bexio nach Odoo: Ein Beispiel-Projekt
