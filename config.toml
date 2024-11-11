@@ -50,15 +50,18 @@ changefreq = "weekly"
 priority = 0.5
 filename = "sitemap.xml"
 
+[taxonomies]
+tag = "tags"
+
 [outputs]
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-tag = ["HTML"] # Ensure only HTML is specified here
+tag = ["HTML"]
 tags = ["HTML"]
+taxonomy = ["HTML"] 
 term = ["HTML"]
 
-[taxonomies]
-tag = "tags"
+
 
 
