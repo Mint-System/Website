@@ -24,7 +24,7 @@
     <!-- Open Graph Tags -->
     <meta property="og:title" content="{{ .Params.seo_title }}">
     <meta property="og:description"
-        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        content="{{ with .Params.seo_description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image"
@@ -35,14 +35,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description"
-        content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+        content="{{ with .Params.seo_description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta name="twitter:image"
         content="{{ with .Params.featured_image }}{{ . }}{{ else }}{{ .Site.Params.default_image }}{{ end }}">
     <meta name="twitter:site" content="{{ .Site.Params.twitter_username }}">
 
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ .Permalink }}">
-
 
     <!-- CSS and JavaScript -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
