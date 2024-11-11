@@ -19,7 +19,7 @@ hero_link: "#offer"
 hero_image: "/assets/images/home-hero.jpg"
 
 # Content - Offer Teaser
-featuresOffer:
+list:
   - title: "Odoo"
     lead: "Die weltweit erfolgreiche All-in-one Management Software. Dank modernster Technik so individuell wie ihre Firma."
     link: "/odoo"
@@ -52,7 +52,7 @@ features:
     icon: "/assets/icons/icon-transparenz.svg"
 --- 
 
-{{< feature-list id="offer" title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." features="featuresOffer" >}}
+{{< feature-list id="offer" title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." list="list" >}}
 
 {{< text-image-inverted 
   teaserTitle="mint system" 
@@ -62,7 +62,7 @@ features:
   buttonText="weiterlesen" 
   buttonLink="#" >}}
 
-{{< feature-list title="Unsere Lösungen überzeugen" features="features" >}}
+{{< feature-list title="Unsere Lösungen überzeugen" list="features" >}}
 
 {{< bubble-background 
   headingSmall="Kontakt Aufnehmen"

@@ -144,7 +144,7 @@ wiki:
     button_link: "https://odoo.build"
 --- 
 
-{{< feature-list title="Dienstleistungen" lead="Wir haben Erfahrung in der Konzeption und Implementierung von Odoo-Projekten." features="offerings" >}}
+{{< feature-list title="Dienstleistungen" lead="Wir haben Erfahrung in der Konzeption und Implementierung von Odoo-Projekten." list="offerings" >}}
 
 {{< text-center 
   title="Über Odoo"
