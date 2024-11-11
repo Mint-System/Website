@@ -57,11 +57,4 @@ tag = "tags"
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-tag = ["HTML"]
-tags = ["HTML"]
 taxonomy = ["HTML"] 
-term = ["HTML"]
-
-
-
-
