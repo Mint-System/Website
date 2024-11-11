@@ -16,6 +16,11 @@ jobs:
     description: "Mint System ist Open Source durch und durch! Als dynamisches, remote-first Unternehmen begleiten wir Kunden bei der Implementierung von modernen Lösungen wie Odoo und Nextcloud. Werde Teil unseres Teams und gestalte die Zukunft der Open Source mit!"
     button_text: "Zur Jobbeschreibung"
     button_link: "/jobs/support-engineer"
+
+# Custom SEO fields (optional)
+seo_title: "Jobs - Mint System GmbH"
+seo_description: "Unterstütze uns und unsere Kunden bei der Realisierung von Software-Lösungen auf Open-Source-Basis."
+author: "Mint System GmbH"
 ---
 
 {{< text-two-col 

@@ -9,6 +9,10 @@ type: "blogpost"
 featured_image: "/assets/images/blog/caritas.png"
 lead: "Die Mint System war am Hack4SocialGood vertreten."
 summary: "Der Hack4SocialGood ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt um Lösungen für die Anliegen im Digitalisierungbereicht zu entwickeln. Um an einem Hackathon teil..."
+
+# Custom SEO fields (optional)
+seo_title: "Hack4SocialGood 2024 - Mint System GmbH"
+seo_description: "Die Mint System war am Hack4SocialGood vertreten."
 ---
 
 Der **Hack4SocialGood** ist ein Hackathon, der Menschen aus dem Sozialwesen und der IT zusammenbringt, um Lösungen für die Anliegen im Digitalisierungsbereich zu entwickeln.

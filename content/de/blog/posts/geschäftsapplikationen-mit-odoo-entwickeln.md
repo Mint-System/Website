@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["ERP-System", "Software Engineering"]
 featured_image: "/assets/images/blog/drawboard.jpeg"
 summary: "Odoo besteht aus einer Vielzahl einzelner Applikation. Sie können selektiv installiert und als Basis für die Entwicklung neuer Geschäftsapplikationen verwendet werden. Dadurch wird der Aufwand reduzie..."
+
+# Custom SEO fields (optional)
+seo_title: "Geschäftsapplikationen mit Odoo entwickeln - Mint System GmbH"
 ---
 
 **Odoo** besteht aus einer Vielzahl einzelner **Applikationen**, die selektiv installiert und als Basis für die Entwicklung neuer **Geschäftsapplikationen** verwendet werden können. Dadurch wird der **Aufwand reduziert** und die **Projektrisiken** wesentlich mitigiert.

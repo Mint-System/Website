@@ -5,6 +5,11 @@ pagerSize: 12
 pagination: 12
 hero_title: "Mint System Blog"
 hero_subtext: "Hier teilen wir unsere Erfahrungen und Erkenntnisse rund um unsere Arbeit."
+
+# Custom SEO fields (optional)
+seo_title: "Blog - Mint System"
+seo_description: "Hier teilen wir unsere Erfahrungen und Erkenntnisse rund um unsere Arbeit."
+author: "Mint System GmbH"
 ---
 
 {{< contact-teaser 

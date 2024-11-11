@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Artikel", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"
 summary: "Die Aufgaben der Politik lassen sich in zwei Sätzen zusammenfassen: Für Recht und Ordnung sorgen. Die Wohlfahrt maximieren. Über diese Aussagen lässt sich diskutieren. Sie sind ziemlich abstrakt. Die ..."
+
+# Custom SEO fields (optional)
+seo_title: "IHZ Zentralinfo Podium - Mint System GmbH"
 ---
 
 Die Aufgaben der Politik lassen sich in zwei Sätzen zusammenfassen: **Für Recht und Ordnung sorgen** und die **Wohlfahrt maximieren**. Diese Aussagen sind abstrakt und können diskutiert werden. Doch die Politik hat auch eine sehr konkrete Aufgabe: **die öffentliche Verwaltung effizient organisieren**.

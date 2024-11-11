@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["ERP-System", "Odoo"]
 featured_image: "/assets/images/blog/arrow.jpg"
 summary: "Der folgende Artikel beschreibt, wie wir als Integratoren das Odoo-System den Bedürfnissen des Kunden anpassen und gleichzeitig sicherstellen, dass in Zukunft keine funktionalen Einschränkungen oder R..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo Customizing ohne unvorhergesehene Upgradekosten - Mint System GmbH"
 ---
 
 Der folgende Artikel beschreibt, wie wir als **Odoo-Integratoren** das System an die Bedürfnisse des Kunden anpassen und gleichzeitig sicherstellen, dass **keine funktionalen Einschränkungen oder Regressionen** in der Zukunft entstehen.

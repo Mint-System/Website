@@ -3,6 +3,11 @@ title: "Open Source Expert"
 date: 2024-10-22
 layout: "jobs/posts/posts"
 type: "jobs"
+
+# Custom SEO fields (optional)
+seo_title: "Stellenangaben - Mint System GmbH"
+seo_description: "Jobausschreibung für einen Open Source Expert."
+author: "Mint System GmbH"
 ---
 
 ## Wer wir sind

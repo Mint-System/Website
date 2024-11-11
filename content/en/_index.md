@@ -10,7 +10,6 @@ featured_image: "images/homepage-featured.jpg"
 seo_title: "Wirkungsvolles Management mit moderner Software"
 seo_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren."
 author: "Mint System GmbH"
-canonical_url: "https://www.mint-system.ch/"
 
 # Content - Hero
 hero_text: "**Prozessoptimierung** mit effizienter Software"

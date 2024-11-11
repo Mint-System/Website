@@ -10,6 +10,9 @@ type: "blogpost"
 
 featured_image: "/assets/images/blog/odoo-experience-2021.jpg"
 summary: "Am 06. bis 07. Oktober 2021 ist es wieder soweit. Odoo veranstaltet ihre jährliche   Odoo Experience .  Was erwartet Sie?** Mit diesen Worten begrüsst Sie der Veranstalter:  Two days that will change ..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo Experience 2021 - Mint System GmbH"
 ---
 
 Vom **06. bis 07. Oktober 2021** ist es wieder soweit: Odoo veranstaltet ihre jährliche **Odoo Experience**.

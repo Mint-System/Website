@@ -4,6 +4,12 @@ slug: "aboutus"
 date: 2024-09-05T18:00:02+02:00
 draft: false
 layout: "single"
+
+
+# Custom SEO fields (optional)
+seo_title: "Über uns - Mint System GmbH"
+seo_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. "
+author: "Mint System GmbH"
 --- 
 
 {{< intro-section image="/assets/images/team/Team.jpg" 

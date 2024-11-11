@@ -9,6 +9,11 @@ hero_subtext: "Die weltweite erfolgreiche All-in-one Management Software. Dank m
 hero_image: "/assets/images/home-hero.jpg"
 hide_title: true
 
+# Custom SEO fields (optional)
+seo_title: "Ihr Schweizer Partner für Odoo - Mint System GmbH"
+seo_description: "Erhalten Sie Unterstützung für Odoo von einem kompetenten Schweizer Partner. Dank modernster Technik schaffen wir den entscheidenden Vorsprung für Ihr Unternehmen."
+author: "Mint System GmbH"
+
 offerings:
   - title: "Beratung"
     icon: "/assets/icons/icon-erp.svg"

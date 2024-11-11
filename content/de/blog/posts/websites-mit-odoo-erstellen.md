@@ -8,6 +8,9 @@ tags: ["ERP-System", "Open Source Software", "Odoo"]
 featured_image: "assets/images/blog/odoo-website-builder.png"
 type: "blogpost"
 summary: "Odoo ist nicht nur ein sehr leistungsfähiges Management-System, sondern auch ein ausgezeichneter Website-Builder. Mit der Odoo Website-App können sie ganz natürlich ihre Unternehmenswebsite gestalten...."
+
+# Custom SEO fields (optional)
+seo_title: "Websites mit Odoo erstellen - Mint System GmbH"
 ---
 
 

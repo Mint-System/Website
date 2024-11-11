@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Identity and Access Management", "Keycloak"]
 featured_image: "/assets/images/blog/keyboard.png"
 summary: "Vielleicht ist ihnen auch schon aufgefallen, dass wenn sie auf einer Webmail-Seite wie Outlook oder im eBanking-Portal wie bei Raiffeisen einloggen wollen, werden sie immer zuerst umgeleitet. Ruft man..."
+
+# Custom SEO fields (optional)
+seo_title: "Den eigenen Login-Anbieter mit Keycloak betreiben - Mint System GmbH"
 ---
 
 Vielleicht ist Ihnen auch schon aufgefallen, dass Sie beim Einloggen auf einer **Webmail-Seite** wie Outlook oder einem **eBanking-Portal** wie Raiffeisen immer zuerst umgeleitet werden. 

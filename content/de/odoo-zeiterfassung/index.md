@@ -8,6 +8,13 @@ hero_subtext: "Mit der Odoo Zeiterfassung haben Sie Anwesenheit, Projektzeit, Ab
 hero_image: "/assets/images/zeiterfassung-hero.jpg"
 hide_title: true
 
+
+# Custom SEO fields (optional)
+seo_title: "Odoo Zeiterfassung - Mint System GmbH"
+seo_description: "Mit der Odoo Zeiterfassung haben Sie Anwesenheit, Projektzeit, Abwesenheit und Überzeit im Griff."
+author: "Mint System GmbH"
+
+
 featureIcons:
   - title: "Ein- und Auschecken"
     lead: "Flexible Erfassung mit App, im Browser oder am Terminal."

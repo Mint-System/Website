@@ -10,6 +10,9 @@ featured_image: "/assets/images/blog/locked.jpeg"
 type: "blogpost"
 
 summary: "Das Thema Datenschutz ist in aller Munde. Private und sensible Daten müssen passend geschützt werden. Beim Betrieb eines ERP-System fallen sensible sowie private Daten an. Mit verschiedenen Massnahmen..."
+
+# Custom SEO fields (optional)
+seo_title: "Paradigmenwechsel im Umgang mit Daten - Mint System GmbH"
 ---
 
 Das Thema **Datenschutz** ist in aller Munde. Private und sensible Daten müssen angemessen geschützt werden. Beim Betrieb eines **ERP-Systems** fallen sowohl sensible als auch private Daten an. Durch Maßnahmen wie die **laufende Aktualisierung** der Software stellt auch die Mint System sicher, dass kein **Datenleck** entsteht.

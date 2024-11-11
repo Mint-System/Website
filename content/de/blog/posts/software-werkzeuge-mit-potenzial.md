@@ -8,6 +8,9 @@ tags: ["OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
 type: "blogpost"
 summary: "Die Corona-Krise hat hohe Wellen geworfen. Existenzängste bei Unternehmen und Einschränkungen bei der Bevölkerung. Grosse Veränderungen in der Wirtschaft und so auch im Bereich der Bildung. Aufgrund d..."
+
+# Custom SEO fields (optional)
+seo_title: "Software-Werkzeuge mit Potenzial - Mint System GmbH"
 ---
 
 ## Die Zukunft der IT-Lösungen in der Bildung: Open Source als nachhaltige Alternative?

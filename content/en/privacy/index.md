@@ -1,9 +1,9 @@
-+++
-title = 'Datenschutz'
-date = 2024-09-05T17:57:27+02:00
-draft = false
-layout = 'single'
-+++
+---
+title: 'Datenschutz'
+date: 2024-09-05T17:57:27+02:00
+draft: false
+layout: 'single'
+---
 
 ## Geltungsbereich
 

@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Odoo", "ERP-System", "Success Story"]
 featured_image: "/assets/images/blog/Bild_2-1024x576.jpg"
 summary: "Die Mint System GmbH durfte die Basis 57 nachhaltige Wassernutzung AG (Basis 57) bei der Inbetriebnahme von Odoo unterstützen. Wer die Basis 57 ist und wie dort Odoo zum Einsatz kommt, wird in diesem ..."
+
+# Custom SEO fields (optional)
+seo_title: "Eine Sache des guten Geschmacks - Mint System GmbH"
 ---
 
 

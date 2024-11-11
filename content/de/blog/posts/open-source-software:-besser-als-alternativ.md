@@ -1,5 +1,5 @@
 ---
-title: "Open Source Software: Besser als Alternativ"
+title: "Open Source Software: Besser als Alternativen"
 author: "Janik von Rotz"
 date: 2022-11-08
 draft: false
@@ -10,6 +10,9 @@ featured_image: "/assets/images/blog/arrow.jpg"
 type: "blogpost"
 lead: "Open Source Software ist keine Alternative, sie ist einfach besser."
 summary: "In Zusammenhang mit Open Source Software spricht man immer noch davon, dass es eine Alternative zu den bestehenden Produkten sei. Dies obwohl fast alle Software-Systeme der Welt mit Open Source Softwa..."
+
+# Custom SEO fields (optional)
+seo_title: "Open Source Software: Besser als Alternativen - Mint System GmbH"
 ---
 
 In Zusammenhang mit Open Source Software spricht man immer noch davon, dass es eine Alternative zu den bestehenden Produkten sei.

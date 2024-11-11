@@ -9,6 +9,9 @@ tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/Aersolution1.jpg"
 summary: "Aersolution startete im Jahr 2006 mit den Projekten B747 Patient Elevator und B747 Medical Room. Das sind hochwertige Innenausbauten in Boeing Flugzeugen.  Später kamen weitere Projekte dazu wie Galle..."
+
+# Custom SEO fields (optional)
+seo_title: "Hochwertiger Innenausbau für Flugzeuge - Mint System GmbH"
 ---
 
 **Aersolution** startete im Jahr 2006 mit den Projekten **B747 Patient Elevator** und **B747 Medical Room** – hochwertige Innenausbauten in **Boeing Flugzeugen**. Später kamen weitere Projekte hinzu, wie **Galleys** (Küchen in Flugzeugen) für den **B767-400** und **B737 FWD**.

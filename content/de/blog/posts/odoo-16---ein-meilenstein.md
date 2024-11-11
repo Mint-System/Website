@@ -9,6 +9,9 @@ tags: ["Event", "Odoo"]
 featured_image: "/assets/images/blog/20221012_084210_6890.jpeg"
 type: "blogpost"
 summary: "Wir waren an der Odoo Experience 2022 und die wichtigsten Neuerung von Odoo 16 zusammengefasst. Kurzum ist das System schneller und stabiler geworden. Statt in neue Features zu investieren, hat Odoo d..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo 16 - Ein Meilenstein - Mint System GmbH"
 ---
 
 Wir waren an der Odoo Experience 2022 und haben die wichtigsten Neuerungen von Odoo 16 zusammengefasst. Kurzum: Das System ist schneller und stabiler geworden. Statt in neue Features zu investieren, hat Odoo die bestehenden Funktionen verbessert. Das freut uns sehr, und wir gehen davon aus, dass Odoo 16 uns und unsere Kunden lange begleiten wird.

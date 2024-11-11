@@ -9,6 +9,9 @@ tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"
 type: "blogpost"
 summary: "Es kommt vor, dass Parlamente Verpflichtungskredite für Software-Lizenzen bewilligen müssen. Richtig, sie müssen. Weil sie keine Wahl haben. Oft besteht zum Lieferanten Microsoft ein Abhängigkeitsverh..."
+
+# Custom SEO fields (optional)
+seo_title: "Problematik der IT-Monokultur - Mint System GmbH"
 ---
 
 

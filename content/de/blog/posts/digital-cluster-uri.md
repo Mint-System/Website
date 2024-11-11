@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Engagement", "Open Source Software", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"
 summary: "Digitalisierung ist die Zukunft. So hört man oft. Aber was heisst das konkret? «Digitalisierung ist mehr, als einfach einen Computer zu kaufen», sagt Kurt Gisler. Digitalisierung sei weniger eine Frag..."
+
+# Custom SEO fields (optional)
+seo_title: "Digital Cluster Uri - Mint System GmbH"
 ---
 
 **"Digitalisierung ist die Zukunft"** – so hört man es oft. Aber was bedeutet das konkret? **„Digitalisierung ist mehr, als einfach einen Computer zu kaufen“,** sagt Kurt Gisler, CEO der **Mint System GmbH**. **„Digitalisierung ist weniger eine Frage der Hardware als eine Denkweise,“** ergänzt Thomas Tresch, Inhaber von **Binary One**. Die Digitalisierung hat mittlerweile fast alle Wirtschaftsbranchen erfasst, auch im **Kanton Uri**. Viele Unternehmen versuchen irgendwie, ihren Kopf über Wasser zu halten. **„Dabei sollte die Digitalisierung doch unser Leben vereinfachen,“** meint Tresch. Um die Digitalisierungswelle gekonnt reiten zu können, braucht es Fachwissen – und genau dieses Wissen wollen sie nun im Kanton Uri einem breiten Publikum zugänglich machen.

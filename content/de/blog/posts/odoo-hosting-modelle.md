@@ -10,6 +10,9 @@ type: "blogpost"
 
 featured_image: "/assets/images/blog/server.jpeg"
 summary: "Odoo ist eine Webapplikation und braucht zur Verwendung lediglich den Browser. Damit Odoo in Betrieb genommen werden kann, muss eine Installation des Odoo Server gehostet werden. Der Odoo Server kann a..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo Hosting-Modelle - Mint System GmbH"
 ---
 
 # Odoo: Installation und Modelle

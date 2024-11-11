@@ -9,6 +9,9 @@ tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/backgroundmanagement.jpg"
 type: "blogpost"
 summary: "Am Donnerstag, 17. September 2020 fand in Altdorf der 148. PraktikerTreff Innovation des ITZ statt. Mint System GmbH ging der Frage nach, ob Open Source für Businessanwendungen eine innovative Entsche..."
+
+# Custom SEO fields (optional)
+seo_title: "Rückblick PraktikerTreff - Mint System GmbH"
 ---
 
 Am **Donnerstag, 17. September 2020** fand in Altdorf der **148. PraktikerTreff Innovation** des **ITZ** statt. Die **Mint System GmbH** stellte die Frage in den Raum: **Ist Open Source für Businessanwendungen eine innovative Entscheidung** – und nur etwas für Querdenker?

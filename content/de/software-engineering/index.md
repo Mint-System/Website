@@ -8,6 +8,11 @@ hide_title: true
 hero_text: "Software Engineering"
 hero_subtext: "Massgeschneiderte Werkzeuge für anspruchsvolle Manager. Integration von State of the Art Open Source Software."
 hero_image: "/assets/images/software-enginering-hero.jpg"
+
+# Custom SEO fields (optional)
+seo_title: "Software Engineering - Mint System GmbH"
+seo_description: "Diese Datenschutzerklärung soll die Nutzer dieser Website gemäß europäschischer Datenschutzgrundverordnung (DSGVO) über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber Mint System GmbH informieren."
+author: "Mint System GmbH"
 ---
 
 {{< text 

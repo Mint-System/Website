@@ -8,6 +8,11 @@ hide_title: true
 hero_text: "Beratung"
 hero_subtext: "Beratungs-Mandate für Projekte und Qualitätsmanagement mit komplexen Regularien. Expertenwissen aus ERP-Projekten."
 hero_image: "/assets/images/home-hero.jpg"
+
+# Custom SEO fields (optional)
+seo_title: "Beratung - Mint System GmbH"
+seo_description: "Mit unserer Erfarhung aus ERP-Projekten wissen wir wie Unternehmen die digitale Transformation gelingt."
+author: "Mint System GmbH"
 ---
 
 {{< text-center 

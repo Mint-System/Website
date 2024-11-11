@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Open Source Software", "OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
 summary: "Der Urner Landrat hat am 16. Dezember 2020 über einen Verpflichtungskredit für die Kantonale Mittelschule debattiert. Beantragt wurden CHF 372'000 für die Beschaffung von Laptops plus Zubehör und Schu..."
+
+# Custom SEO fields (optional)
+seo_title: "Brauchen unsere Schüler teure Laptops? - Mint System GmbH"
 ---
 
 Am **16. Dezember 2020** hat der **Urner Landrat** über einen Verpflichtungskredit für die **Kantonale Mittelschule** debattiert. Beantragt wurden **CHF 372'000** für die Beschaffung von **Laptops**, Zubehör und Schulungen. Doch braucht es wirklich **teure Hardware**, um die Digitalisierung in der Bildung voranzutreiben?

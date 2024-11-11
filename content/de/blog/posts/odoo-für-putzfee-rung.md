@@ -9,6 +9,9 @@ tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/washing.jpeg"
 summary: "Rungthiwa Kaewmukda hat im Jahr 2018 in Bonstetten die Einzelfirma Putzfee Rung gegründet und bietet den Putzservice im Bezirk Affoltern an. Die Arbeiten nach der Rückkehr ins Büro darf keinen grossen..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo für Putzfee Rung - Mint System GmbH"
 ---
 
 

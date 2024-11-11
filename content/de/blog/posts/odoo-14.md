@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["ERP-System", "Open Source Software", "Unternehmen"]
 featured_image: "/assets/images/blog/Odoo14.png"
 summary: "Mit dem Start des Odoo Experience 2020 am 30. September 2020 wurde die neue Odoo Version 14 vorgestellt. Odoo Gründer Fabien Pinckaers eröffnete die Odoo Experience 2020 mit der Präsentation der neue..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo 14 - Mint System GmbH"
 ---
 
 Mit dem Start der **Odoo Experience 2020** am 30. September 2020 wurde die neue **Odoo Version 14** vorgestellt. Odoo-Gründer **Fabien Pinckaers** eröffnete das Event mit einer Präsentation der neuen Version und ihrer vielen **neuen Features**. Odoo rückt damit dem Marktführer SAP wieder ein Stück näher.

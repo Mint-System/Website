@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Messaging", "OpenEduca"]
 featured_image: "/assets/images/blog/element.png"
 summary: "Whatsapp-Verbote an Schulen machen Sinn. Doch wie sieht eine Alternative aus? Grundsätzlich möchte man so komfortabel kommunizieren wie man es sich mit Whatsapp und Co gewohnt ist. E-Mail wäre viellei..."
+
+# Custom SEO fields (optional)
+seo_title: "Der eigene Messenger für Ihre Schule - Mint System GmbH"
 ---
 
 **Whatsapp-Verbote an Schulen** machen Sinn. Aber welche Alternativen gibt es? Man möchte so komfortabel kommunizieren, wie man es von Whatsapp & Co gewohnt ist. E-Mail wäre vielleicht eine Lösung, doch eine Mail-Adresse für jede Schülerin ist nicht praktikabel, und der **Datenschutz** spielt eine große Rolle. Ist das ein unerfüllbarer Wunsch? Die Antwort lautet: **Nein**. In diesem Beitrag zeigen wir, wie Schulen einen eigenen Messenger-Dienst betreiben können.

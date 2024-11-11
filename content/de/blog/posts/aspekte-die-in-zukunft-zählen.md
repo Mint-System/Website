@@ -9,6 +9,9 @@ tags: ["OpenEduca"]
 type: "blogpost"
 featured_image: "/assets/images/blog/direction.jpeg"
 summary: "Rund 60% der Kantonalen Bildungsinstitute in Uri setzen strategisch auf Microsoft Office 365. Diese Institutionen haben damit ein System, das für den Fernunterricht offensichtlich wie geschaffen ist u..."
+
+# Custom SEO fields (optional)
+seo_title: "Aspekte die in Zukunft zählen - Mint System GmbH"
 ---
 
 Rund **60% der Kantonalen Bildungsinstitute in Uri** setzen strategisch auf **Microsoft Office 365**. Diese Institutionen haben damit ein System, das für den **Fernunterricht** offensichtlich wie geschaffen ist und keine Wünsche offen lässt. Doch Fakt ist: Man begibt sich damit in die **Abhängigkeit** eines Produktanbieters.

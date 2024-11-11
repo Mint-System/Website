@@ -8,6 +8,9 @@ tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/surveillance.jpeg"
 type: "blogpost"
 summary: "Die Mint System bietet für Kunden das Cloud-Hosting Mintsys Cloud an. Zum Betrieb werden Server in existierenden Rechenzentren gemietet. Der Hosting-Partner stellt sicher, dass die physischen Server f..."
+
+# Custom SEO fields (optional)
+seo_title: "Systemüberwachung mit Prometheus und Grafana - Mint System GmbH"
 ---
 
 Die **Mint System** bietet für Kunden das Cloud-Hosting **Mintsys Cloud** an. Zum Betrieb werden **Server in existierenden Rechenzentren** gemietet. Der Hosting-Partner stellt sicher, dass die **physischen Server** funktionieren und ist für die **Ausfallsicherheit** verantwortlich. Für alle **Software**, die auf den Servern installiert wird, ist jedoch die **Mint System** verantwortlich. Um sicherzustellen, dass die Software einwandfrei funktioniert, betreiben wir ein **Überwachungs- bzw. Monitoringsystem**. In diesem Beitrag möchten wir dieses System genauer erklären.

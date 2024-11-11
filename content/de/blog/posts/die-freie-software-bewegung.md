@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/gnu fsf.jpg"
 summary: "Nicht viele werden von GNU [1] und der Freie-Software-Bewegung gehört haben. Dennoch profitieren wir tagtäglich davon. Denn die meiste Software, die wir heute verwenden, ist freie Software. Doch das w..."
+
+# Custom SEO fields (optional)
+seo_title: "Die Freie-Software-Bewegung - Mint System GmbH"
 ---
 
 Nicht viele haben von **GNU** und der **Freie-Software-Bewegung** gehört, doch wir profitieren täglich davon. Ein Großteil der Software, die wir heute nutzen, basiert auf **freier Software**. Doch das war nicht immer so.

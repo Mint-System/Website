@@ -9,6 +9,9 @@ tags: ["Odoo", "Unternehmen"]
 featured_image: "/assets/images/blog/odoo-office.jpeg"
 type: "blogpost"
 summary: "Mit der Veröffentlichung von Odoo 15 wurden im Rahmen der 'Odoo Partner Days' Odoo Partner aus der ganzen Welt nach Belgien ins Hauptquartier eingeladen. Im letzten Oktober sind wir mit Zug und Auto n..."
+
+# Custom SEO fields (optional)
+seo_title: "Odoo 15 - Mint System GmbH"
 ---
 
 Mit der Veröffentlichung von **Odoo 15** wurden im Rahmen der **"Odoo Partner Days"** Partner aus der ganzen Welt ins Hauptquartier von Odoo nach **Belgien** eingeladen. Im letzten Oktober sind wir mit Zug und Auto nach **Ottignies-Louvain-la-Neuve** gereist und haben dort zwei spannende Tage verbracht.

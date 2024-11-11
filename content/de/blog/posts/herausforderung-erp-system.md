@@ -9,6 +9,9 @@ tags: ["ERP-System"]
 type: "blogpost"
 featured_image: "/assets/images/blog/checklist.jpeg"
 summary: "Wenn ein Projekt zur Implementierung eines ERP-Systems fehlschlägt, hat bestimmt mindestens einer der folgenden vier Faktoren dazu beigetragen:  Zu wenig Support vom Management Zu viel Customization F..."
+
+# Custom SEO fields (optional)
+seo_title: "Herausforderung ERP-System - Mint System GmbH"
 ---
 
 Wenn ein **ERP-Projekt** fehlschlägt, ist in der Regel mindestens einer der folgenden vier Faktoren ausschlaggebend:

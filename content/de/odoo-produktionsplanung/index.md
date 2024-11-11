@@ -3,12 +3,16 @@ title: 'Odoo Produktionsplanung'
 date: 2024-09-05T18:03:24+02:00
 draft: false
 layout: "single"
-
 hide_title: true
 
 hero_text: "Odoo Produktionsplanung"
 hero_subtext: "Mit der Odoo Produktionsplanung behalten Sie die Kontrolle über Fertigungsaufträge, Materialfluss, Lagerbestände und Lieferversprechen."
 hero_image: "/assets/images/home-hero.jpg"
+
+# Custom SEO fields (optional)
+seo_title: "Odoo Produktionsplanung - Mint System GmbH"
+seo_description: "Mit der Odoo Produktionsplanung behalten Sie die Kontrolle über Fertigungsaufträge, Materialfluss, Lagerbestände und Lieferversprechen."
+author: "Mint System GmbH"
 
 featureIcons:
   - title: "Interaktive Berichte"

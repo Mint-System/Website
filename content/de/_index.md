@@ -2,12 +2,12 @@
 title: "Home"
 draft: false
 date: 2024-08-28T14:31:16+02:00
-description: "Mint Systems offers cutting-edge solutions in Odoo implementation, software engineering, and process optimization."
+description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren."
 layout: "home"
 featured_image: "images/homepage-featured.jpg"
 
 # Custom SEO fields (optional)
-seo_title: "Wirkungsvolles Management mit moderner Software"
+seo_title: "Wirkungsvolles Management mit moderner Software - Mint System GmbH"
 seo_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren."
 author: "Mint System GmbH"
 canonical_url: "https://www.mint-system.ch/"

@@ -9,6 +9,9 @@ tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/rathaus-altdorf.jpg"
 summary: "Auch das AfI hat ihren Patch-Day. Regelmässig werden Sicherheits-, Software- und Systemupdates für die Windows-Server automatisiert aufgespielt. Für die rund 20 im Einsatz stehenden Linux Server stand..."
+
+# Custom SEO fields (optional)
+seo_title: "Erfolgreicher Auftrag für AfI Uri - Mint System GmbH"
 ---
 
 Auch das **Amt für Informatik (AfI)** des Kantons Uri hat seinen **Patch-Day**. Regelmäßig werden **Sicherheits-, Software- und Systemupdates** für die **Windows-Server** automatisiert aufgespielt. Für die rund **20 Linux-Server** im Einsatz gab es bislang keinen vergleichbaren Service.

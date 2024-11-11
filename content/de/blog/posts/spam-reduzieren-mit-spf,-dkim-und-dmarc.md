@@ -9,6 +9,9 @@ tags: ["Infrastruktur", "Software Engineering"]
 featured_image: "/assets/images/blog/spam-mail.jpg"
 type: "blogpost"
 summary: "Spam verursacht tagtäglich Kosten in Miliardenhöhe. E-Mail-Server werden geflutet, Mails landen fälschlicherweise im Spamordner und unerfahrene Anwender werden mit Mails 'gefischt'. Ebenso viele Massn..."
+
+# Custom SEO fields (optional)
+seo_title: "Spam reduzieren mit SPF, DKIM und DMARC - Mint System GmbH"
 ---
 
 **Spam verursacht tagtäglich Kosten in Milliardenhöhe**. E-Mail-Server werden geflutet, legitime Nachrichten landen im Spamordner, und unerfahrene Anwender werden Opfer von Phishing-Attacken. Es gibt jedoch viele Maßnahmen, um dem entgegenzuwirken. Aktuell besonders wichtig sind die Begriffe **SPF**, **DKIM** und **DMARC** – Begriffe, die jeder Administrator kennen sollte.

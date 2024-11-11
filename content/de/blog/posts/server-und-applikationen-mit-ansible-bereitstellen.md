@@ -9,6 +9,9 @@ featured_image: "/assets/images/blog/Ansible%20Conference.png"
 type: "blogpost"
 
 summary: "Was ist Ansible?    Ansible ist ein Open Source Automatisierungs-Werkzeug für die allgemeine Konfiguration und Administration von Computern. Mit Ansible beschreibt man die Arbeitsschritte, die es brau.."
+
+# Custom SEO fields (optional)
+seo_title: "Server und Applikationen mit Ansible bereitstellen - Mint System GmbH"
 ---
 
 **Ansible** ist ein Open-Source-Automatisierungs-Werkzeug für die allgemeine Konfiguration und Administration von Computern. Mit Ansible beschreibt man die Arbeitsschritte, die es braucht, um ein Betriebssystem oder eine Anwendung zu installieren und konfigurieren. Diese Arbeitsschritte enthalten Platzhalter und können so mit Variablen flexibel ausgeführt werden.

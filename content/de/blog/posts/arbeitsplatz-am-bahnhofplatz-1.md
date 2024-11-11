@@ -8,6 +8,9 @@ layout: "blog/posts/posts"
 type: "blogpost"
 featured_image: "/assets/images/blog/Hintergrund.jpg"
 summary:  "Braucht man heute ein gemeinsames Büro?     Seit wir im Juli 2020 mit Mint System GmbH gestartet sind arbeiteten wir im Homeoffice. Sich zu dritt die Arbeit aufzuteilen, den notwendigen Informationsfl..."
+
+# Custom SEO fields (optional)
+seo_title: "Arbeitsplatz am Bahnhofplatz 1 - Mint System GmbH"
 ---
 
 Seit wir im Juli 2020 mit der Mint System GmbH gestartet sind, arbeiteten wir im Homeoffice. Sich zu dritt die Arbeit aufzuteilen, den notwendigen Informationsfluss sicherzustellen und effiziente Schnittstellen einzurichten, ist eine große Herausforderung. Selbstverständlich haben wir die Systeme eingesetzt, die wir auch unseren Kunden empfehlen. Mit **Odoo** und **Nextcloud** organisieren wir alle unsere operativen Tätigkeiten. Dazu gehört: Dateien ablegen und gemeinsam daran arbeiten, Arbeitsaufträge formulieren und intern beauftragen, Arbeitsstunden rapportieren usw. Die interne Kommunikation führen wir über die integrierte **Chatter-Funktion** und für Online-Meetings nutzen wir **BigBlueButton**.

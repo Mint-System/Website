@@ -9,6 +9,9 @@ type: "blogpost"
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"
 summary: "Der Druck auf die Arbeitsmethodik in öffentlichen Verwaltungen und Institutionen steigt. Innovation und Kreativität ist gefordert. Ein Paradebeispiel war das Bundesamt für Gesundheit (BAG). Im vergang..."
+
+# Custom SEO fields (optional)
+seo_title: "IT-Monokultur in der Verwaltung - Mint System GmbH"
 ---
 
 Es kommt vor, dass Parlamente **Verpflichtungskredite für Software-Lizenzen** bewilligen müssen. Richtig – sie müssen, weil sie **keine Wahl** haben.

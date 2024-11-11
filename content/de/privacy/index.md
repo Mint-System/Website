@@ -1,9 +1,14 @@
-+++
-title = 'Datenschutz'
-date = 2024-09-05T17:57:27+02:00
-draft = false
-layout = 'single'
-+++
+---
+title: 'Datenschutz'
+date: 2024-09-05T17:57:27+02:00
+draft: false
+layout: 'single'
+
+# Custom SEO fields (optional)
+seo_title: "Datenschutzerklärung - Mint System GmbH"
+seo_description: "Diese Datenschutzerklärung soll die Nutzer dieser Website gemäß europäschischer Datenschutzgrundverordnung (DSGVO) über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber Mint System GmbH informieren."
+author: "Mint System GmbH"
+---
 
 ## Geltungsbereich
 
