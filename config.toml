@@ -54,7 +54,7 @@ filename = "sitemap.xml"
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-tag = ["HTML"]
+tag = ["HTML"] # Ensure only HTML is specified here
 tags = ["HTML"]
 term = ["HTML"]
 
