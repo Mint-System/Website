@@ -168,8 +168,8 @@ wiki:
 {{< text-two-col texts="wiki" >}}
 
 {{< contact-teaser 
-    heading="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
+    title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
-    link="https://www.mint-system.ch/contactus" 
-    linkText="Kontaktieren Sie uns" 
+    buttonLink="https://www.mint-system.ch/contactus" 
+    buttonText="Kontaktieren Sie uns" 
 >}}
