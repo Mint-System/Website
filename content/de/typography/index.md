@@ -50,6 +50,7 @@ list2:
     icon: "/assets/images/element-logo.svg"
 ---
 
+Die hier folgenden Inhalte sind alle Shortcodes
 
 {{< bubble-background 
   headingSmall="Bubble Background"
@@ -61,7 +62,7 @@ list2:
   phone="+41 44 244 72 20" >}}
 
 {{< contact-teaser 
-    title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
+    title="contact-teaser" 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
     buttonLink="https://www.mint-system.ch/contactus" 
     buttonText="Kontaktieren Sie uns" 
