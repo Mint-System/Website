@@ -1,5 +1,6 @@
-<div id="bubble-background" class="bg-primary text-white py-20 px-10 bg-cover " style="background-image: url('assets/background/bg-kreise.png')">
-    <div class="container py-12 my-12 ">
+<section id="bubble-background" class="bg-primary mt-12 text-white p-20 bg-cover"
+    style="background-image: url('/assets/background/bg-kreise.png')">
+    <div class="container">
         <h2 class="text-lg font-rubrikLight uppercase mb-12">{{ .Get "headingSmall" }}</h2>
         <h1 class="text-5xl font-rubrikBold mb-4">{{ .Get "headingLarge" }}</h1>
 
@@ -7,12 +8,9 @@
             <p class="text-lg">{{ .Get "companyName" }}</p>
             <p>{{ .Get "addressLine1" }}</p>
             <p>{{ .Get "addressLine2" }}</p>
-            <p class="mt-4">
-                <a href="mailto:{{ .Get "email" }}" class="text-white underline">{{ .Get "email" }}</a>
-            </p>
-            <p>
-                <a href="tel:{{ .Get "phone" }}" class="text-white underline">{{ .Get "phone" }}</a>
-            </p>
+
+            <a href="mailto:{{ .Get " email" }}" class="inline-block mt-4 text-white underline">{{ .Get "email" }}</a>
+            <a href="tel:{{ .Get " phone" }}" class="block text-white underline">{{ .Get "phone" }}</a>
         </div>
     </div>
-</div>
+</section>

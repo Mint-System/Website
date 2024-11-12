@@ -60,4 +60,3 @@ list2:
   email="info@mint-system.ch"
   phone="+41 44 244 72 20" >}}
 
-{{< news-teaser teaserTitle="Neuigkeiten" >}}
