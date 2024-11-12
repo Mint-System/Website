@@ -1,11 +1,11 @@
 {{ define "main" }}
 <main id="main blog-overview">
-    {{ partial "hero-blog.html" . }}
+    {{ partial "hero/hero-blog.html" . }}
 
     <section class="container mx-auto py-12 px-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {{ range (.Paginate (where .Data.Pages "Type" "blogpost")).Pages }}
-            {{ partial "article-preview.html" . }}
+            {{ partial "components/article-preview.html" . }}
             {{ end }}
         </div>
     </section>

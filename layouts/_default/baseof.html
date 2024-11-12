@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="de-CH" dir="ltr" class="scroll-smooth">
 
-{{ partial "head.html" . }}
+{{ partial "layout/head.html" . }}
 
 <body>
-  {{ partial "header.html" . }}
+  {{ partial "layout/header.html" . }}
 
   {{ block "main" . }}{{ end }}
 
-  {{ partial "footer.html" . }}
-  {{ partial "scripts.html" . }}
+  {{ partial "layout/footer.html" . }}
+  {{ partial "layout/scripts.html" . }}
 </body>
 
 </html>

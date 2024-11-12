@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main id="main jobs single md:mt-12">
     {{ if .Params.hero_text }}
-    {{ partial "hero.html" . }}
+    {{ partial "hero/hero.html" . }}
     {{ end }}
 
     {{ if not .Params.hide_title }}
