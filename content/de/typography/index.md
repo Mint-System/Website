@@ -6,13 +6,13 @@ draft: false
 layout: "single"
 hide_title: true
 
-hero_text: "Typograhy"
+hero_text: "Typography"
 hero_subtext: "Zusammenstellung aller shortcodes und elemente."
 hero_image: "/assets/images/students.jpeg"
 
 # Custom SEO fields (optional)
 seo_title: "Typography - Mint System GmbH"
-seo_description: "Zusammenstellung aller shortcodes und elemente"
+seo_description: "Zusammenstellung aller Shortcodes und elemente"
 author: "Mint System GmbH"
 
 list:
@@ -53,8 +53,8 @@ list2:
 Die hier folgenden Inhalte sind alle Shortcodes
 
 {{< bubble-background 
-  headingSmall="Bubble Background"
-  headingLarge="Wir freuen uns auf Ihre Nachricht"
+  headingSmall="Kontaktieren Sie uns"
+  headingLarge="Bubble Background"
   companyName="Mint System GmbH"
   addressLine1="Bahnhofplatz 1, Work Lab 3. OG"
   addressLine2="6460 Altdorf"

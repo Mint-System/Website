@@ -973,10 +973,6 @@ video {
   flex: 1 1 0%;
 }
 
-.flex-grow {
-  flex-grow: 1;
-}
-
 .-translate-x-full {
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1188,10 +1184,6 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
 }
@@ -1200,16 +1192,6 @@ video {
   --tw-gradient-from: rgb(0 0 0 / 0.7) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-blue-900 {
-  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-blue-700 {
-  --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
 }
 
 .to-transparent {
@@ -1234,6 +1216,10 @@ video {
      object-fit: cover;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -1242,18 +1228,9 @@ video {
   padding: 2rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .px-2 {
@@ -1296,11 +1273,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1335,10 +1307,6 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .text-left {
@@ -1805,11 +1773,6 @@ a.btn-outline-secondary:hover:before {
 }
 
 @media (min-width: 768px) {
-  .md\:my-12 {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
   .md\:my-\[72px\] {
     margin-top: 72px;
     margin-bottom: 72px;
@@ -1883,6 +1846,10 @@ a.btn-outline-secondary:hover:before {
     width: 15rem;
   }
 
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .md\:scroll-mt-\[112px\] {
     scroll-margin-top: 112px;
   }
@@ -1905,6 +1872,14 @@ a.btn-outline-secondary:hover:before {
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
   }
 
   .md\:py-\[4\.5rem\] {
