@@ -1,26 +1,25 @@
-<section class="container" id="team">
-    <div class="flex flex-col md:flex-row justify-center items-center gap-12 my-12">
-        {{ range site.Data.employees }}
-        <div class="flex flex-col items-center text-center">
-            <div class="rounded-full overflow-hidden  w-full bg-gradient-to-b from-primary-400 to-primary-600">
-                <img class="object-cover w-full h-full" src="{{ .image }}" alt="{{ .name }}">
-            </div>
-            <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ .name }}</h3>
-            <p class="text-lg text-black">{{ .title }}</p>
-            <p class="text-lg text-black">{{ .education }}</p>
-            <br>
-            <p class="text-lg text-black font-rubrikRegular">{{ .bio }}</p>
+<section id="team" class="container mt-12 md:mt-[96px] flex flex-col md:flex-row justify-center items-center gap-12">
 
-
-            <a href="mailto:{{ .email }}"
-                class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
-                Email
-            </a>
-
-            <a href="tel:{{.tel}}" class="text-black underline mt-4">
-                {{.tel}}
-            </a>
+    {{ range site.Data.employees }}
+    <div class="flex flex-col items-center text-center">
+        <div class="rounded-full overflow-hidden  w-full bg-gradient-to-b from-primary-400 to-primary-600">
+            <img class="object-cover w-full h-full" src="{{ .image }}" alt="{{ .name }}">
         </div>
-        {{ end }}
+        <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ .name }}</h3>
+        <p class="text-lg text-black">{{ .title }}</p>
+        <p class="text-lg text-black">{{ .education }}</p>
+        <br>
+        <p class="text-lg text-black font-rubrikRegular">{{ .bio }}</p>
+
+        <a href="mailto:{{ .email }}"
+            class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+            Email
+        </a>
+
+        <a href="tel:{{.tel}}" class="text-black underline mt-4">
+            {{.tel}}
+        </a>
     </div>
+    {{ end }}
+
 </section>

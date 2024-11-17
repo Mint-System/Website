@@ -1,9 +1,10 @@
-<section id="text-image-reverse" class=" my-12 py-12">
+<section id="text-image-two-col" class="md:mt-[96px]">
     <div class="container py-12 mx-auto grid grid-cols-1 md:grid-cols-2 items gap-8">
-        <div class="text-black">
+        <div class="my-auto">
             <h2 class="text-5xl mb-4 font-rubrikBold text-primary">
-                {{ .Get "teaserTitle" }} <br> <span class="font-rubrikLight">{{ .Get "subtitle" }}</span>
+                {{ .Get "title" }} <br> <span class="font-rubrikLight">{{ .Get "subtitle" }}</span>
             </h2>
+
             <p class="text-lg mb-6">
                 {{ .Get "description" }}
             </p>
@@ -13,14 +14,13 @@
             </p>
             
             {{ if and (.Get "buttonLink") (.Get "buttonText") }}    
-            <a href="{{ .Get "buttonLink" }}" class="btn-outline-secondary items-center text-primary-200 font-rubrikRegular hover:text-white transition">
+            <a href="{{ .Get "buttonLink" }}" class="btn-outline-primary ml-4 items-center text-primary-200 font-rubrikRegular hover:text-white transition">
                 {{ .Get "buttonText" }}
             </a>
             {{ end }}
         </div>
         <div class="flex justify-center md:justify-end">
-            <img src="{{ .Get "image" }}" alt="Team working" class="object-cover rounded-lg shadow-lg w-full">
+            <img src="{{ .Get "image" }}" alt="Team working" class="object-cover rounded-lg w-full">
         </div>
-
     </div>
 </section>

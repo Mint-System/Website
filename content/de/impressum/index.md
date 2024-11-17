@@ -12,6 +12,6 @@ author: "Mint System GmbH"
 
 {{< text 
   title="Impressum" 
-  description1="Mint System GmbH, Bahnhofplatz 1, 6460 - Altdorf, Schweiz, USt.-ID:  CHE-150.248.608 MWST" >}}
+  description="Mint System GmbH, Bahnhofplatz 1, 6460 - Altdorf, Schweiz, USt.-ID:  CHE-150.248.608 MWST" >}}
 
 

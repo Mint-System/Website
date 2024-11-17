@@ -55,7 +55,7 @@ features:
 {{< feature-list id="offer" title="Unser Angebot" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." list="list" >}}
 
 {{< text-image-inverted 
-  teaserTitle="mint system" 
+  title="mint system" 
   subtitle="Arbeit nach Plan" 
   description="Strukturiertes Arbeiten macht uns Freude. Alle unsere Projekte folgen einem durchdachten Vorgehensmodell. Mit unseren Kunden vereinbaren wir Ergebnisse. Diese erreichen wir durch konsequente Planung."
   image="/assets/images/computing.jpeg" 

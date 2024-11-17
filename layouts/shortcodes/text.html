@@ -1,7 +1,7 @@
-<div class="my-12 md:my-[72px] container md:w-2/3">
+<section class="mt-12 md:mt-[96px] container md:w-2/3">
     <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2 hyphens-auto">{{ .Get "title" }}</h2>
     <p class="text-lg mt-4">
-        {{ .Get "description1" }}
+        {{ .Get "description" }}
     </p>
     <p class="text-lg mt-4">
         {{ .Get "description2" }}
@@ -14,4 +14,4 @@
             <a href="{{ .Get "buttonLink" }}" class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all">{{ .Get "buttonText" }}</a>
         </div>
     {{ end }}
-</div>
+</section>

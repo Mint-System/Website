@@ -63,15 +63,15 @@ list2:
 {{< feature-list id="offer" list="list2" >}}
 
 {{< text-image-inverted
-  teaserTitle="Unterricht mit BigBlueButton"
+  title="Unterricht mit BigBlueButton"
   subtitle=""
   description="Die Kantonale Mittelschule Uri setzt seit langer Zeit auf Moodle. Mit der Umstellung zum Fernunterricht wurde eine BigBlueButton-Installation in Betrieb genommen und verknüpft."
   image="/assets/images/kmsu.jpg"
   buttonText="ksmu.ch"
   buttonLink="https://www.kmsu.ch/" >}}
 
-{{< text-image-reverse
-  teaserTitle="Moodle im Einsatz für Schule Sachseln"
+{{< text-image-two-col
+  title="Moodle im Einsatz für Schule Sachseln"
   subtitle="software"
   description="Die Schule Sachseln verwendet bereits seit mehreren Jahren die Software 'Moodle' als eLearning-Plattform. Über den Lernplatz Sachseln erreichen Lehrer und Schüler ihre Kurse und die dazugehörigen Unterrichtsmaterialien."
   image="/assets/images/background_background_software.jpg" >}}
@@ -84,8 +84,8 @@ list2:
   buttonText="medizintechnik-hf.ch"
   buttonLink="https://www.medizintechnik-hf.ch/" >}}
 
-{{< text-image-reverse
-  teaserTitle="Website der Schule Sisikon"
+{{< text-image-two-col
+  title="Website der Schule Sisikon"
   subtitle="software"
   description="Die Schule Sisikon verwendet für ihr Portal die Software 'Odoo App Website' und für die Video-Telefonie 'jitsi'. Auf den Computern für den Informatik-Unterricht ist der Lernstick im Einsatz."
   description2="Wir setzen diesen Ansatz ins Zentrum. Der Mehrwert für unsere Kunden sind Anpassungen auf individuelle Anforderungen."

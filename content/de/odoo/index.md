@@ -157,7 +157,7 @@ wiki:
 
 {{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
 
-{{< text-image title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
+{{< text-image-one-col title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
 
 {{< text-center 
   title="Referenzen"

@@ -37,15 +37,15 @@ featureIcons:
 {{< icon-list title="Funktionen" features="featureIcons" >}}
 
 {{< text-image-inverted 
-  teaserTitle="Terminal Zeiterfassung" 
+  title="Terminal Zeiterfassung" 
   subtitle="" 
   description="Teure Hardware und dann noch abhängig zum Hersteller sein? Das finden wir eine schlechte Idee. Unser Terminal basiert auf Open Source Hardware. Alle Komponenten inklusiv Software werden von verschiedenen Herstellern angeboten und entwickelt."
   image="/assets/images/terminal.png" 
   buttonText="Hardware im Detail" 
   buttonLink="https://wiki.mint-system.ch/terminal-zeiterfassung.html" >}}
 
-{{< image-two-col 
-  heading="App nach Wahl"
+{{< text-image-two-col 
+  title="App nach Wahl"
   description="Für die Odoo Zeiterfassung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
   buttonText="Übersicht der Apps"
   buttonLink="/apps" 

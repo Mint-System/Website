@@ -765,6 +765,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -801,10 +806,6 @@ video {
   margin-left: 20px;
 }
 
-.mr-4 {
-  margin-right: 1rem;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -839,6 +840,10 @@ video {
 
 .mt-\[78px\] {
   margin-top: 78px;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -1214,10 +1219,6 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.p-20 {
-  padding: 5rem;
 }
 
 .p-4 {
@@ -1814,8 +1815,24 @@ a.btn-outline-secondary:hover:before {
     margin-top: 112px;
   }
 
+  .md\:mt-\[172px\] {
+    margin-top: 172px;
+  }
+
   .md\:mt-\[88px\] {
     margin-top: 88px;
+  }
+
+  .md\:mt-\[128px\] {
+    margin-top: 128px;
+  }
+
+  .md\:mt-\[96px\] {
+    margin-top: 96px;
+  }
+
+  .md\:mt-\[196px\] {
+    margin-top: 196px;
   }
 
   .md\:h-60 {
@@ -1834,6 +1851,10 @@ a.btn-outline-secondary:hover:before {
     width: 50%;
   }
 
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .md\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1844,10 +1865,6 @@ a.btn-outline-secondary:hover:before {
 
   .md\:w-60 {
     width: 15rem;
-  }
-
-  .md\:w-1\/3 {
-    width: 33.333333%;
   }
 
   .md\:scroll-mt-\[112px\] {
@@ -1872,10 +1889,6 @@ a.btn-outline-secondary:hover:before {
 
   .md\:gap-12 {
     gap: 3rem;
-  }
-
-  .md\:p-4 {
-    padding: 1rem;
   }
 
   .md\:p-20 {

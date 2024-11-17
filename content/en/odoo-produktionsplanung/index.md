@@ -36,15 +36,15 @@ featureIcons:
 {{< icon-list title="Funktionen" features="featureIcons" >}}
 
 {{< text-image-inverted 
-  teaserTitle="Kritische Vorhersage" 
+  title="Kritische Vorhersage" 
   subtitle="" 
   description="Der Bericht Kritische Vorhersage ist eine Entwicklung der Mint System GmbH. Sie gibt bietet eine umfassende Übersicht zu Engpässen in der Materialverfügbarkeit und ermöglicht koordinierte Planung der Massnahmen."
   image="/assets/images/kritische-vorhersage-detail.png" 
   buttonText="Details im Odoo Wiki" 
   buttonLink="https://www.odoo-wiki.org/stock-critical-forecast.html" >}}
 
-{{< image-two-col 
-  heading="App nach Wahl"
+{{< text-image-two-col 
+  title="App nach Wahl"
   description="Für die Odoo Produktionsplanung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
   buttonText="Übersicht der Apps"
   buttonLink="/apps" 

@@ -48,6 +48,146 @@ list2:
     link: "https://element.io/"
     button_text: "element.io/"
     icon: "/assets/images/element-logo.svg"
+
+features:
+  - title: "Zielorientiert"
+    lead: "Wir verkaufen und verrechnen nur was Sie wirklich brauchen und handeln stets zielorientiert."
+    icon: "/assets/icons/icon-zielscheibe.svg"
+
+  - title: "Modern"
+    lead: "Unsere Lösungen sind auf dem neuesten Stand der Technik und machen vor allen Dingen Spass."
+    icon: "/assets/icons/icon-ipads.svg"
+
+  - title: "Transparent"
+    lead: "Unsere Werkzeuge und Lösungen sind frei verfügbar. Das bedeutet mehr Unabhängigkeit für Sie."
+    icon: "/assets/icons/icon-transparenz.svg"
+
+
+featureIcons:
+  - title: "Website"
+    icon: "/assets/icons/website.svg"
+    links:
+      - title: "Website Builder"
+        url: "https://www.odoo.com/de_DE/app/website"
+      - title: "E-Commerce"
+        url: "https://www.odoo.com/de_DE/app/ecommerce"
+      - title: "Blogs"
+        url: "https://www.odoo.com/de_DE/app/blog"
+      - title: "Forum"
+        url: "https://www.odoo.com/de_DE/app/forum"
+      - title: "Veranstaltungen"
+        url: "https://www.odoo.com/de_DE/app/events"
+      - title: "Livechat"
+        url: "https://www.odoo.com/de_DE/app/live-chat"
+      - title: "Termine"
+        url: "https://www.odoo.com/de_DE/app/appointments"
+  - title: "Verkauf"
+    icon: "/assets/icons/sale.svg"
+    links:
+      - title: "CRM"
+        url: "https://www.odoo.com/de_DE/app/crm"
+      - title: "Point of Sale"
+        url: "https://www.odoo.com/de_DE/app/point-of-sale-shop"
+      - title: "Verkauf"
+        url: "https://www.odoo.com/de_DE/app/sales"
+      - title: "Abonnements"
+        url: "https://www.odoo.com/de_DE/app/subscriptions"
+      - title: "Vermietung"
+        url: "https://www.odoo.com/de_DE/app/rental"
+  - title: "Buchhaltung"
+    icon: "/assets/icons/account_accountant.svg"
+    links:
+      - title: "Finanzen"
+        url: "https://www.odoo.com/de_DE/app/accounting"
+      - title: "Rechnungsstellung"
+        url: "https://www.odoo.com/de_DE/app/invoicing"
+      - title: "Auslagen"
+        url: "https://www.odoo.com/de_DE/app/expenses"
+  - title: "Betrieb"
+    icon: "/assets/icons/project.svg"
+    links:
+      - title: "Bestand"
+        url: "https://www.odoo.com/de_DE/app/inventory"
+      - title: "Stundennachweise"
+        url: "https://www.odoo.com/de_DE/app/timesheet"
+      - title: "Projekt"
+        url: "https://www.odoo.com/de_DE/app/project"
+      - title: "Einkauf"
+        url: "https://www.odoo.com/de_DE/app/purchase"
+      - title: "Helpdesk"
+        url: "https://www.odoo.com/de_DE/app/helpdesk"
+      - title: "Dokumente"
+        url: "https://www.odoo.com/de_DE/app/documents"
+      - title: "Aussendienst"
+        url: "https://www.odoo.com/de_DE/app/field-service"
+      - title: "Planung"
+        url: "https://www.odoo.com/de_DE/app/planning"
+  - title: "Fertigung"
+    icon: "/assets/icons/mrp.svg"
+    links:
+      - title: "MRP"
+        url: "https://www.odoo.com/de_DE/app/manufacturing"
+      - title: "PLM"
+        url: "https://www.odoo.com/de_DE/app/plm"
+      - title: "MRP Maintenance"
+        url: "https://www.odoo.com/de_DE/app/maintenance"
+      - title: "Qualität"
+        url: "https://www.odoo.com/de_DE/app/quality"
+  - title: "Personal"
+    icon: "/assets/icons/hr_recruitment.svg"
+    links:
+      - title: "Personalrekrutierung"
+        url: "https://www.odoo.com/de_DE/app/recruitment"
+      - title: "Mitarbeiter"
+        url: "https://www.odoo.com/de_DE/app/employees"
+      - title: "Fuhrpark"
+        url: "https://www.odoo.com/de_DE/app/fleet"
+      - title: "Abwesenheit"
+        url: "https://www.odoo.com/de_DE/app/time-off"
+      - title: "Beurteilung"
+        url: "https://www.odoo.com/de_DE/app/appraisals"
+      - title: "Refferal"
+        url: "https://www.odoo.com/de_DE/app/referrals"
+      - title: "Genehmigung"
+        url: "https://www.odoo.com/de_DE/app/approvals"
+  - title: "Kommunikation"
+    icon: "/assets/icons/mail.svg"
+    links:
+      - title: "Diskutieren"
+        url: "https://www.odoo.com/de_DE/app/discuss"
+      - title: "eSignatur"
+        url: "https://www.odoo.com/de_DE/app/sign"
+      - title: "Umfrage"
+        url: "https://www.odoo.com/de_DE/app/surveys"
+  - title: "Marketing"
+    icon: "/assets/icons/mass_mailing.svg"
+    links:
+      - title: "Automatisierung"
+        url: "https://www.odoo.com/de_DE/app/marketing-automation"
+      - title: "E-Mail"
+        url: "https://www.odoo.com/de_DE/app/email-marketing"
+      - title: "SMS"
+        url: "https://www.odoo.com/de_DE/app/sms-marketing"
+      - title: "Social"
+        url: "https://www.odoo.com/de_DE/app/social-marketing"
+
+odooPartners:
+  - title: "nivels GmbH"
+    link: "https://www.nivels.ch/"
+  - title: "giordano.ch"
+    link: "https://www.giordano.ch/"
+  - title: "Syscoon GmbH"
+    link: "https://syscoon.com/"
+  - title: "Equitania Software GmbH"
+    link: "https://www.equitania.de/"
+
+jobs:
+  - title: "Open Source Expert"
+    button_text: "Zur Jobbeschreibung"
+    button_link: "/jobs/open-source-expert"
+  - title: "Support Engineer"
+    button_text: "Zur Jobbeschreibung"
+    button_link: "/jobs/support-engineer"
 ---
 
 Die hier folgenden Inhalte sind alle Shortcodes
@@ -65,5 +205,63 @@ Die hier folgenden Inhalte sind alle Shortcodes
     title="contact-teaser" 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
     buttonLink="https://www.mint-system.ch/contactus" 
-    buttonText="Kontaktieren Sie uns" 
->}}
+    buttonText="Kontaktieren Sie uns" >}}
+
+{{< feature-list id="offer" title="Feature List" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." list="features" >}}
+
+{{< icon-list title="Icon List" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
+
+{{< text-image-two-col 
+  title="text-image-two-col"
+  description="Für die Odoo Produktionsplanung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
+  buttonText="Übersicht der Apps"
+  buttonLink="/apps" 
+  image="/assets/images/odoo-produktionsplanung.svg" >}}
+
+{{< text-image-one-col title="text-image-one-col" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
+
+
+{{< intro-section image="/assets/images/team/Team.jpg" 
+    title="intro-section" description="Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. Mit Open Source Software implementieren wir Systeme in einem erstklassigen Preis-Leistungs-Verhältnis." >}}
+
+{{< list 
+  description="Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen. Hier eine Auswahl unserer wichtigsten Partner:" 
+  listTitle="list"
+  listItems="odooPartners" >}}
+
+{{< news-teaser teaserTitle="news-teaser  " >}}
+
+
+{{< team >}}
+
+
+{{< text-center 
+  title="text-center"
+  description="Auf Basis langjähriger Berufserfahrung in Führungspositionen können wir sehr effizient Projekte leiten und Arbeiten der Rolle Qualitätsmanager übernehmen. Unsere Spezialisten werden zeitlich befristet und sehr fokussiert für bestimmte Aufgaben eingesetzt. Wir setzen für diese Arbeiten unsere eigenen Software-Werkzeuge ein. Nach dem Abschluss des Mandats können die lizenzkostenfreien Produkte ohne finanzielle Aufwendungen vom Kunden weiter verwendet werden." >}}
+
+
+{{< text-image-inverted 
+  title="text-image-inverted" 
+  subtitle="Arbeit nach Plan" 
+  description="Strukturiertes Arbeiten macht uns Freude. Alle unsere Projekte folgen einem durchdachten Vorgehensmodell. Mit unseren Kunden vereinbaren wir Ergebnisse. Diese erreichen wir durch konsequente Planung."
+  image="/assets/images/computing.jpeg" 
+  buttonText="weiterlesen" 
+  buttonLink="#" >}}
+
+{{< text-image-two-col 
+  title="text-image-two-col" 
+  subtitle="software" 
+  description="Open Source bedeutet, dass der Quellcode einer Software offen und frei zugänglich ist. Das führt dazu, dass aus der Arbeit von weltweit vernetzten Gruppen Software-Produkte allerhöchster Qualität entstehen. Lizenzkostenfrei."
+  description2="Wir setzen diesen Ansatz ins Zentrum. Der Mehrwert für unsere Kunden sind Anpassungen auf individuelle Anforderungen."
+  image="/assets/images/background_background_software.jpg" >}}
+
+
+{{< text-two-col 
+  title="text-two-col" 
+  lead="Wir meinen es ernst mit Open Source!" 
+  text="Unterstütze uns und unsere Kunden bei der Realisierung von Software-Lösungen auf Open-Source-Basis." 
+  texts="jobs" >}}
+
+{{< text 
+  title="text" 
+  description="Mint System GmbH, Bahnhofplatz 1, 6460 - Altdorf, Schweiz, USt.-ID:  CHE-150.248.608 MWST" >}}
