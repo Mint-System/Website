@@ -10,7 +10,7 @@ seo_title: "Partner - Mint System GmbH"
 seo_description: "Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen."
 author: "Mint System GmbH"
 
-odooPartners:
+partners:
   - title: "nivels GmbH"
     link: "https://www.nivels.ch/"
   - title: "giordano.ch"
@@ -38,7 +38,7 @@ trustees:
 {{< list 
   description="Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen. Hier eine Auswahl unserer wichtigsten Partner:" 
   listTitle="Odoo Partner"
-  listItems="odooPartners" >}}
+  listItems="partners" >}}
 
 {{< list 
   listTitle="Softwareentwicklung"

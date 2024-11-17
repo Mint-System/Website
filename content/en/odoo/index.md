@@ -165,7 +165,7 @@ imageText:
   title="Referenzen"
   description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
   buttonText="Unsere Referenzen"
-  buttonLink="https://www.odoo.com/de_DE/partners/mint-system-gmbh-3365849#right_column" >}}
+  buttonLink="/referenzen" >}}
 
 {{< text-two-col texts="wiki" >}}
 
