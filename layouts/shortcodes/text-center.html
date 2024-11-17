@@ -3,13 +3,24 @@
     <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2 hyphens-auto">
       {{ .Get "title" }}
     </h2>
-
-    <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight" }}</strong>{{
-      .Get "description" }}</p>
-    <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight2" }}</strong>{{
-      .Get "description2" }}</p>
-    <p class="text-lg font-light mb-4"><strong class="font-rubrikBold">{{ .Get "description-highlight3" }}</strong>{{
-      .Get "description3" }}</p>
+    <p class="text-lg font-light mb-4">
+      <strong class="font-rubrikBold">
+        {{ .Get "description-highlight" }}
+      </strong>
+      {{.Get "description" }}
+    </p>
+    <p class="text-lg font-light mb-4">
+      <strong class="font-rubrikBold">
+        {{ .Get "description-highlight2" }}
+      </strong>
+      {{.Get "description2" }}
+    </p>
+    <p class="text-lg font-light mb-4">
+      <strong class="font-rubrikBold">
+        {{ .Get "description-highlight3" }}
+      </strong>
+      {{ .Get "description3" }}
+    </p>
 
     {{ if .Get "buttonLink" }}
     <a href="{{ .Get " buttonLink" }}"
