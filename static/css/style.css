@@ -756,16 +756,6 @@ video {
   margin-bottom: auto;
 }
 
-.my-\[72px\] {
-  margin-top: 72px;
-  margin-bottom: 72px;
-}
-
-.my-\[64px\] {
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -792,6 +782,10 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
 }
 
 .ml-1 {
@@ -840,10 +834,6 @@ video {
 
 .mt-\[78px\] {
   margin-top: 78px;
-}
-
-.mb-\[72px\] {
-  margin-bottom: 72px;
 }
 
 .block {
@@ -932,6 +922,10 @@ video {
 
 .w-24 {
   width: 6rem;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-4 {
@@ -1296,10 +1290,6 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .pt-8 {
@@ -1770,13 +1760,12 @@ a.btn-outline-secondary:hover:before {
 }
 
 @media (min-width: 768px) {
-  .md\:my-\[88px\] {
-    margin-top: 88px;
-    margin-bottom: 88px;
-  }
-
   .md\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .md\:mb-\[88px\] {
+    margin-bottom: 88px;
   }
 
   .md\:ml-8 {
@@ -1805,10 +1794,6 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[96px\] {
     margin-top: 96px;
-  }
-
-  .md\:mb-\[88px\] {
-    margin-bottom: 88px;
   }
 
   .md\:h-60 {
@@ -1857,6 +1842,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
   }
 
   .md\:p-20 {
