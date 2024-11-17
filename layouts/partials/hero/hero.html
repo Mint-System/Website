@@ -1,7 +1,7 @@
 {{ if .Params.hero_image }}
 <section id="hero" class="z-100 relative h-screen md:h-[75vh] bg-cover bg-center" style="background-image: url('{{ .Params.hero_image }}')">
     <div class="container relative z-10 flex flex-col items-center justify-center h-full">
-        <div class="absolute flex-1 bottom-20  md:w-2/3 md:bottom-25 left-5 z-10 text-white">
+        <div class="absolute flex-1 bottom-20  md:w-2/3 lg:w-3/5 md:bottom-25 left-5 z-10 text-white">
             <h1 class="text-5xl md:text-6xl font-rubrikBold text-white leading-tight hyphens-auto">
                 {{ .Params.hero_text| markdownify }}
             </h1>
