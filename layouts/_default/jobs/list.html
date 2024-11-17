@@ -1,24 +1,19 @@
 {{ define "main" }}
-<main id="main jobs single md:mt-12">
+
+<main id="main" class="jobs single md:mt-12 mb-[72px]">
+
     {{ if .Params.hero_text }}
     {{ partial "hero/hero.html" . }}
     {{ end }}
 
     {{ if not .Params.hide_title }}
-    <div class="container mt-[78px] md:mt-[112px] mb-12 py-8">
-        <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto mb-4">
+    <div id="title-wrapper" class="container mt-12 md:mt-[96px]">
+        <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto">
             {{ .Title }}
         </h1>
     </div>
     {{ end }}
 
-    {{ if .Params.hero_text }}
     {{ .Content }}
-    {{ else }}
-    <div class="mt-12 pt-12">
-        {{ .Content }}
-    </div>
-    {{ end }}
-
 </main>
 {{ end }}

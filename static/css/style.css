@@ -756,6 +756,16 @@ video {
   margin-bottom: auto;
 }
 
+.my-\[72px\] {
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.my-\[64px\] {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -830,6 +840,10 @@ video {
 
 .mt-\[78px\] {
   margin-top: 78px;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
 }
 
 .block {
@@ -1756,6 +1770,11 @@ a.btn-outline-secondary:hover:before {
 }
 
 @media (min-width: 768px) {
+  .md\:my-\[88px\] {
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
@@ -1786,6 +1805,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[96px\] {
     margin-top: 96px;
+  }
+
+  .md\:mb-\[88px\] {
+    margin-bottom: 88px;
   }
 
   .md\:h-60 {

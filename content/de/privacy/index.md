@@ -3,7 +3,7 @@ title: 'Datenschutz'
 date: 2024-09-05T17:57:27+02:00
 draft: false
 layout: 'single'
-hide_title: true
+hide_title: false
 
 # Custom SEO fields (optional)
 seo_title: "Datenschutzerklärung - Mint System GmbH"
@@ -12,7 +12,6 @@ author: "Mint System GmbH"
 ---
 
 {{< text 
-  title="Datenschutzerklärung " 
   description="Diese Datenschutzerklärung soll die Nutzer dieser Website gemäß europäischer Datenschutzgrundverordnung (DSGVO) über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten durch den Websitebetreiber Mint System GmbH informieren."
   description2="Der Websitebetreiber nimmt Ihren Datenschutz sehr ernst und behandelt Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Vorschriften. Bedenken Sie, dass die Datenübertragung im Internet grundsätzlich mit Sicherheitslücken bedacht sein kann. Ein vollumfänglicher Schutz vor dem Zugriff durch Fremde ist nicht realisierbar." >}}
 
