@@ -1879,6 +1879,10 @@ a.btn-outline-secondary:hover:before {
     width: 15rem;
   }
 
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:scroll-mt-\[112px\] {
     scroll-margin-top: 112px;
   }
