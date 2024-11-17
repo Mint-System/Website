@@ -846,6 +846,14 @@ video {
   margin-left: 1rem;
 }
 
+.-mt-\[72px\] {
+  margin-top: -72px;
+}
+
+.mt-\[72px\] {
+  margin-top: 72px;
+}
+
 .block {
   display: block;
 }
@@ -1833,6 +1841,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[196px\] {
     margin-top: 196px;
+  }
+
+  .md\:mt-\[72px\] {
+    margin-top: 72px;
   }
 
   .md\:h-60 {

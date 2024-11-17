@@ -211,15 +211,6 @@ Die hier folgenden Inhalte sind alle Shortcodes
 
 {{< icon-list title="Icon List" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="featureIcons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
 
-{{< text-image-two-col 
-  title="text-image-two-col"
-  description="Für die Odoo Produktionsplanung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
-  buttonText="Übersicht der Apps"
-  buttonLink="/apps" 
-  image="/assets/images/odoo-produktionsplanung.svg" >}}
-
-{{< text-image-one-col title="text-image-one-col" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
-
 
 {{< intro-section image="/assets/images/team/Team.jpg" 
     title="intro-section" description="Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. Mit Open Source Software implementieren wir Systeme in einem erstklassigen Preis-Leistungs-Verhältnis." >}}
@@ -231,9 +222,7 @@ Die hier folgenden Inhalte sind alle Shortcodes
 
 {{< news-teaser teaserTitle="news-teaser  " >}}
 
-
 {{< team >}}
-
 
 {{< text-center 
   title="text-center"
@@ -247,6 +236,9 @@ Die hier folgenden Inhalte sind alle Shortcodes
   image="/assets/images/computing.jpeg" 
   buttonText="weiterlesen" 
   buttonLink="#" >}}
+
+{{< text-image-one-col title="text-image-one-col" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
+
 
 {{< text-image-two-col 
   title="text-image-two-col" 
