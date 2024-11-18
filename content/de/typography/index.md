@@ -208,6 +208,10 @@ Die hier folgenden Inhalte sind alle Shortcodes
 
 {{< news-teaser teaserTitle="news-teaser  " >}}
 
+{{< partners >}}
+
+{{< references >}}
+
 {{< team >}}
 
 {{< text-center 

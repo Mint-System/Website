@@ -46,6 +46,3 @@ Schreib eine Mail an [info@mint-system.ch](mailto:info@mint-system.ch) und teile
 Dazu gehört ein Lebenslauf, aber kein Motivationsschreiben.
 
 Wir freuen uns, dich bei einem ersten Videocall kennenzulernen.
-
-
-[Jetzt Bewerben!](jobs/apply/open-source-expert-2) 

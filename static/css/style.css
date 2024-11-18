@@ -756,6 +756,16 @@ video {
   margin-bottom: auto;
 }
 
+.my-\[64px\] {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1785,6 +1795,16 @@ a.btn-outline-secondary:hover:before {
 }
 
 @media (min-width: 768px) {
+  .md\:my-\[88px\] {
+    margin-top: 88px;
+    margin-bottom: 88px;
+  }
+
+  .md\:my-\[96px\] {
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+
   .md\:mb-4 {
     margin-bottom: 1rem;
   }

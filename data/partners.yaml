@@ -10,15 +10,18 @@
   - name: "Equitania Software GmbH"
     link: "https://www.equitania.de/"
     tag: Odoo Partner
+    
   - name: "BINARY one GmbH"
     link: "https://www.binaryone.ch/"
     tag: Software
   - name: "Juleg GmbH"
     link: "https://www.juleg.ch/"
     tag: Software
+
   - name: "ddpConcepts GmbH"
     link: "https://www.ddpconcepts.ch/"
     tag: Aerospace
+
   - name: "Gaapex GmbH"
     link: "https://www.gaapex.ch/"
     tag: Trustees
