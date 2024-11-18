@@ -171,16 +171,6 @@ featureIcons:
       - title: "Social"
         url: "https://www.odoo.com/de_DE/app/social-marketing"
 
-odooPartners:
-  - title: "nivels GmbH"
-    link: "https://www.nivels.ch/"
-  - title: "giordano.ch"
-    link: "https://www.giordano.ch/"
-  - title: "Syscoon GmbH"
-    link: "https://syscoon.com/"
-  - title: "Equitania Software GmbH"
-    link: "https://www.equitania.de/"
-
 jobs:
   - title: "Open Source Expert"
     button_text: "Zur Jobbeschreibung"
@@ -215,10 +205,6 @@ Die hier folgenden Inhalte sind alle Shortcodes
 {{< intro-section image="/assets/images/team/Team.jpg" 
     title="intro-section" description="Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. Mit Open Source Software implementieren wir Systeme in einem erstklassigen Preis-Leistungs-Verhältnis." >}}
 
-{{< list 
-  description="Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen. Hier eine Auswahl unserer wichtigsten Partner:" 
-  listTitle="list"
-  listItems="odooPartners" >}}
 
 {{< news-teaser teaserTitle="news-teaser  " >}}
 

@@ -1,0 +1,24 @@
+  - name: "nivels GmbH"
+    link: "https://www.nivels.ch/"
+    tag: Odoo Partner
+  - name: "giordano.ch"
+    link: "https://www.giordano.ch/"
+    tag: Odoo Partner
+  - name: "Syscoon GmbH"
+    link: "https://syscoon.com/"
+    tag: Odoo Partner
+  - name: "Equitania Software GmbH"
+    link: "https://www.equitania.de/"
+    tag: Odoo Partner
+  - name: "BINARY one GmbH"
+    link: "https://www.binaryone.ch/"
+    tag: Software
+  - name: "Juleg GmbH"
+    link: "https://www.juleg.ch/"
+    tag: Software
+  - name: "ddpConcepts GmbH"
+    link: "https://www.ddpconcepts.ch/"
+    tag: Aerospace
+  - name: "Gaapex GmbH"
+    link: "https://www.gaapex.ch/"
+    tag: Trustees

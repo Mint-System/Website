@@ -836,6 +836,10 @@ video {
   margin-top: 78px;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1381,6 +1385,10 @@ video {
   font-weight: 300;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1811,6 +1819,14 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[96px\] {
     margin-top: 96px;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-\[24px\] {
+    margin-bottom: 24px;
   }
 
   .md\:h-60 {
