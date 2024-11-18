@@ -1853,6 +1853,10 @@ a.btn-outline-secondary:hover:before {
     flex-direction: row;
   }
 
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .md\:justify-end {
     justify-content: flex-end;
   }
