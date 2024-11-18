@@ -1,21 +1,20 @@
 <section id="references" class="container mt-12 md:mt-[96px]">
-    <div class="flex flex-col gap-12 md:gap-16">
+    <div class="flex flex-col gap-12 md:gap-24">
         {{ range site.Data.references }}
         <article class="reference">
             {{ if .image }}
-            <div class="inline-block rounded-full w-32 overflow-hidde mb-6">
+            <div class="inline-block rounded-full w-48 overflow-hidde mb-4">
                 <img class="object-cover " src="{{ .image }}" alt="{{ .name }}">
             </div>
             {{ end }}
 
             <h4 class="text-2xl mb-2 text-black">{{ .name }}</h4>
             <p class="text-lg text-black">{{ .description }}</p>
-            <br>
             {{ if .website }}
                 <a href="{{.website}}"
-                    class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all"
+                    class="inline-block mt-4 bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all"
                     target="_blank">
-                    {{.website}}
+                    Zur Webseite
                 </a>
             {{ end }}
 
