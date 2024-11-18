@@ -160,6 +160,12 @@ button {
     transition: all 350ms ease-in;
 }
 
+@media screen and (min-width: 768px) {
+    .nav-mobile__open {
+        top: 82px;
+    }
+}
+
 .nav-mobile__svg {
     transform: rotate(0deg);
     transition: transform 200ms ease-in-out;

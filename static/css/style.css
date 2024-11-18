@@ -751,9 +751,9 @@ video {
   margin-right: auto;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .my-\[64px\] {
@@ -761,9 +761,9 @@ video {
   margin-bottom: 64px;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mb-10 {
@@ -784,6 +784,10 @@ video {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mb-6 {
@@ -834,20 +838,12 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[64px\] {
-  margin-top: 64px;
-}
-
 .mt-\[72px\] {
   margin-top: 72px;
 }
 
 .mt-\[78px\] {
   margin-top: 78px;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -938,12 +934,12 @@ video {
   width: 6rem;
 }
 
-.w-32 {
-  width: 8rem;
-}
-
 .w-4 {
   width: 1rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-6 {
@@ -960,10 +956,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .max-w-4xl {
@@ -1149,16 +1141,8 @@ video {
   border-width: 2px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-t {
   border-top-width: 1px;
-}
-
-.border-b-2 {
-  border-bottom-width: 2px;
 }
 
 .border-gray-300 {
@@ -1168,11 +1152,6 @@ video {
 
 .border-transparent {
   border-color: transparent;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -1395,10 +1374,6 @@ video {
   font-weight: 300;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -1572,6 +1547,12 @@ button {
   transform: translateY(0%);
   top: 64px;
   transition: all 350ms ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile__open {
+    top: 82px;
+  }
 }
 
 .nav-mobile__svg {
@@ -1841,14 +1822,6 @@ a.btn-outline-secondary:hover:before {
     margin-top: 96px;
   }
 
-  .md\:mb-16 {
-    margin-bottom: 4rem;
-  }
-
-  .md\:mb-\[24px\] {
-    margin-bottom: 24px;
-  }
-
   .md\:h-60 {
     height: 15rem;
   }
@@ -1889,20 +1862,12 @@ a.btn-outline-secondary:hover:before {
     flex-direction: row;
   }
 
-  .md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .md\:justify-end {
     justify-content: flex-end;
   }
 
   .md\:gap-12 {
     gap: 3rem;
-  }
-
-  .md\:gap-16 {
-    gap: 4rem;
   }
 
   .md\:gap-24 {
