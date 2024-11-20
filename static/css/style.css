@@ -734,6 +734,10 @@ video {
   top: 0px;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -918,6 +922,10 @@ video {
   height: 100vh;
 }
 
+.h-\[60vh\] {
+  height: 60vh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -956,6 +964,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[90vw\] {
+  width: 90vw;
+}
+
+.w-\[90vh\] {
+  width: 90vh;
 }
 
 .max-w-4xl {
@@ -1820,6 +1836,10 @@ a.btn-outline-secondary:hover:before {
 
   .md\:mt-\[96px\] {
     margin-top: 96px;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
   }
 
   .md\:h-60 {
