@@ -46,3 +46,7 @@ Schreib eine Mail an [info@mint-system.ch](mailto:info@mint-system.ch) und teile
 Dazu gehört ein Lebenslauf, aber kein Motivationsschreiben.
 
 Wir freuen uns, dich bei einem ersten Videocall kennenzulernen.
+
+{{< button 
+    buttonText="Jetzt bewerben" 
+    buttonLink="https://mint-system.ch."  >}}

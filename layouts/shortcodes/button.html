@@ -1,0 +1,5 @@
+{{ if and (.Get "buttonLink") (.Get "buttonText") }}    
+    <a href="{{ .Get "buttonLink" }}" class="btn-outline-primary ml-4 items-center text-primary-200 font-rubrikRegular hover:text-white transition">
+        {{ .Get "buttonText" }}
+    </a>
+{{ end }}
