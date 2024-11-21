@@ -1,0 +1,8 @@
+{
+  "interfaceFontFamily": "Ubuntu Mono",
+  "textFontFamily": "Ubuntu Mono",
+  "monospaceFontFamily": "Ubuntu Mono",
+  "enabledCssSnippets": [
+    "snippet"
+  ]
+}

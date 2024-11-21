@@ -13,7 +13,6 @@ package-lock.json
 # ignore system files
 .DS_Store
 
-
 # ignore public folder
 /public/*
 /public/index.html
@@ -21,3 +20,7 @@ package-lock.json
 
 /dist
 /scripts
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/plugins
