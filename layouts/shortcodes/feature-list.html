@@ -11,7 +11,7 @@
                 <h3 class="text-3xl font-rubrikLight text-primary mb-2">{{ .title }}</h3>
                 <p class="text-lg text-black mb-6">{{ .lead }}</p>
                 {{ if .link }}
-                <a href="{{ .link }}" class="btn btn-outline-primary inline-block text-primary font-rubrikRegular hover:underline">
+                <a href="{{ .link }}" aria-label="Weiterlesen" class="btn btn-outline-primary inline-block text-primary font-rubrikRegular hover:underline">
                     {{ .button_text | default "weiterlesen" }}
                 </a>
                 {{ end }}

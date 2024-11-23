@@ -7,7 +7,7 @@
     </a>
 
     
-    <button id="nav__trigger" class="lg:hidden text-primary-600 focus:outline-none">
+    <button aria-label="NavTrigger" id="nav__trigger" class="lg:hidden text-primary-600 focus:outline-none">
       <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
         <path stroke="rgba(0, 0, 0, 0.5)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
       </svg>
@@ -17,7 +17,7 @@
       <a href="{{ "/odoo" | relURL }}" class="text-lg hover:text-gray-800">Odoo</a>
 
       <div class="header-dropdown relative group">
-        <button class="text-lg header-dropdown__button inline-flex items-center hover:text-gray-800">
+        <button aria-label="Angebot Dropdown" class="text-lg header-dropdown__button inline-flex items-center hover:text-gray-800">
           Angebot
           <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
             <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
@@ -39,7 +39,7 @@
 
 
       <div class="header-dropdown relative group">
-        <button class="text-lg header-dropdown__button inline-flex items-center hover:text-gray-800">
+        <button aria-label="Unternehmen Dropdown" class="text-lg header-dropdown__button inline-flex items-center hover:text-gray-800">
           Unternehmen
           <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
             <path d="M5.5 7.5l4.5 4.5 4.5-4.5H5.5z"></path>
