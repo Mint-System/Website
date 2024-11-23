@@ -8,12 +8,12 @@
         <div class="flex items-start space-x-4 p-4">
             <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-12 h-12 lg:w-[70px] lg:h-[70px]">
             <div class="flex flex-col items-start">
-                <h4 class="font-rubrikBold text-left text-2xl text-dark">{{ .title }}</h4>
+                <h3 class="font-rubrikBold text-left text-2xl text-dark">{{ .title }}</h3>
                 {{ if .lead }}
                     <p class="mt-1 text-lg font-rubrikRegular text-left">{{ .lead }}</p>
                 {{ end }}
                 {{ if .links }}
-                <div class="flex flex-wrap justify-start gap-x-2" role="list">
+                <div class="flex flex-wrap justify-start gap-x-2">
                     {{ range .links }}
                     <a href="{{ .url }}" class="inline-block text-lg text-black opacity-60 underline">{{ .title }}</a>
                     {{ end }}
