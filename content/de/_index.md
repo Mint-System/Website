@@ -15,7 +15,7 @@ canonical_url: "https://www.mint-system.ch/"
 hero_text: "**Prozessoptimierung** mit effizienter Software"
 hero_linktext: "Zu unserem Angebot"
 hero_link: "#offer"
-hero_image: "/assets/images/home-hero.jpg"
+hero_image: "/assets/images/home-hero.webp"
 
 # Content - Offer Teaser
 list:
