@@ -846,6 +846,14 @@ video {
   margin-top: 78px;
 }
 
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
+.mt-\[96px\] {
+  margin-top: 96px;
+}
+
 .block {
   display: block;
 }
@@ -1537,6 +1545,18 @@ a,
 p,
 button {
   font-family: RubrikEdgeNew Regular, sans-serif;
+}
+
+/* fixes */
+
+main > .contact-teaser:last-child {
+  margin-bottom: -72px;
+}
+
+@media screen and (min-width: 768px) {
+  main > .contact-teaser:last-child {
+    margin-bottom: -96px;
+  }
 }
 
 /* nav mobile*/
