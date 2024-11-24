@@ -15,7 +15,7 @@ seo_description: "Mit der Odoo Zeiterfassung haben Sie Anwesenheit, Projektzeit,
 author: "Mint System GmbH"
 
 
-featureIcons:
+icons:
   - title: "Ein- und Auschecken"
     lead: "Flexible Erfassung mit App, im Browser oder am Terminal."
     icon: "/assets/icons/website.svg"
@@ -41,7 +41,7 @@ featureIcons:
   description="Mit Odoo erhalten Sie eine flexible Lösung für die Zeiterfassung. Mitarbeitende können direkt im Browser oder Smartphone einchecken und die Projektzeit rapportieren. Abwesenheiten sind mit wenigen Klicks erfasst und freigegeben. Mit dem Zeiterfassungsterminal und einem Badge können Mitarbeitende ihre Anwesenheit auch ohne Odoo-Login registrieren."
   description2="Der Funktionsumfang beinhaltet alles, was sich die Personalabteilung wünscht. Mit übersichtlichen Berichten kann die An- und Abwesenheit von Mitarbeitenden ausgewertet werden. Im Fall von Stundenlohn können die erfassten Stunden direkt in die Personalbuchhaltung übertragen werden." >}}
 
-{{< icon-list title="Funktionen" features="featureIcons" >}}
+{{< icon-list title="Funktionen" features="icons" >}}
 
 {{< text-image-inverted 
   title="Terminal Zeiterfassung" 
