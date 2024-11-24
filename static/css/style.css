@@ -1915,6 +1915,11 @@ a.btn-outline-secondary:hover:before {
     padding-bottom: 4.5rem;
   }
 
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
