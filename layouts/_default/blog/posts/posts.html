@@ -24,15 +24,18 @@
                 </a>
             </div>
         </div>
-
-        <div class="py-6 border-t border-gray-300">
-            <h3 class="text-xl font-rubrikLight mb-4">Stichwörter</h3>
-            <div class="flex space-x-2">
-                {{ range .Params.tags }}
-                <a  href="{{ "tags/" | relURL }}{{ . | urlize }}" class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 border-2 border-transparent rounded hover:border-gray-400 hover:border-2">{{ . }}</a>
-                {{ end }}
+        
+        {{ if .Params.tags }}
+            <div class="py-6 border-t border-gray-300">
+                <h3 class="text-xl font-rubrikLight mb-4">Stichwörter</h3>
+                <div class="flex space-x-2">
+                    {{ range .Params.tags }}
+                    <a  href="{{ "tags/" | relURL }}{{ . | urlize }}" class="font-rubrikRegular inline-block bg-gray-200 text-black text-xs px-2 py-1 border-2 border-transparent rounded hover:border-gray-400 hover:border-2">{{ . }}</a>
+                    {{ end }}
+                </div>
             </div>
-        </div>
+        {{ end }}
+
     </div>
 
     {{ partial "components/contact-teaser.html" (dict "Title" "Haben Sie eine Geschäftsapplikation, die Sie gerne ablösen möchten?" "Description" "Treten Sie mit uns in Kontakt und wir machen Ihnen ein unverbindliches Angebot." "ButtonLink" "/kontakt" "ButtonText" "KONTAKTIEREN SIE UNS") }}
