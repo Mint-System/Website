@@ -9,7 +9,7 @@ disableKinds = ['rss', 'xml']
 
 [pagination]
 disableAliases = false
-pagination = 5
+pagination = 12
 pagerSize = 12
 path = ''
 
@@ -92,3 +92,8 @@ Cache-Control = "public, max-age=31536000"
 for = "*.jpg"
 [headers.values]
 Cache-Control = "public, max-age=31536000"
+
+
+[imaging]
+  quality = 85
+  hint = "photo"
