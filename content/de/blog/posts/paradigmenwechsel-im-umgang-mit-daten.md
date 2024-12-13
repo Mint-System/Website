@@ -31,7 +31,7 @@ Wenn ein Benutzer ein App oder eine Webseite aufruft und auf seine Daten zugreif
 Ohne Applikation gibt es keine Daten, auch wenn diese der Benutzerin gehören.
 
 
-## Der neue Weg
+## Der neue Weg
 
 Auf [Zero Data App](https://0data.app/) ist beschrieben wie diese Problematik gelöst werden kann. Daten werden entkoppelt von der Applikation gespeichert. Wenn eine Applikation Zugriff auf die Daten haben möchte, muss der Benutzer das explizit erlauben.
 

@@ -14,7 +14,7 @@ summary:  "Braucht man heute ein gemeinsames Büro?     Seit wir im Juli 2020 mi
 seo_title: "Arbeitsplatz am Bahnhofplatz 1 - Mint System GmbH"
 ---
 
-## Braucht man heute ein gemeinsames Büro?
+## Braucht man heute ein gemeinsames Büro?
 Seit wir im Juli 2020 mit Mint System GmbH gestartet sind arbeiteten wir im Homeoffice. Sich zu dritt die Arbeit aufzuteilen, den notwendigen Informationsfluss sicherzustellen und effiziente Schnittstellen einzurichten ist eine grosse Herausforderung. Selbstverständlich wurden die Systeme eingesetzt, die wir auch unseren Kunden empfehlen. Mit Odoo und Nextcloud organisieren wir alle unsere operativen Tätigkeiten. Dazu gehört: Dateien ablegen und gemeinsam daran arbeiten, Arbeitsaufträge formulieren und intern beauftragen, Arbeitsstunden rapportieren usw. Die interne Kommunikation führen wir über die integrierte Chatter-Funktion und für online Meetings nutzen wir BigBlueButton.
 
 Das funktioniert alles. Und trotzdem: Gemeinsam in einem Büro zu arbeiten bietet einen wesentlichen Vorteil. Es führt zu mehr Innovation.

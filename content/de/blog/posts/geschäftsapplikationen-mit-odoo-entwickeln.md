@@ -58,7 +58,7 @@ Odoo verwaltet mehrere hunderte Geschäftsobjekte wie Projekte, Aufgaben, Arbeit
 
 Odoo bietet verschiedene Ansichten für die darzustellenden Daten: Listen, Graphen, Kanban, Pivot, Gitter, Gantt oder Map. Diese Charts können für Eigenentwicklung übernommen werden.
 
-### Mobile Support
+### Mobile Support
 Alle Odoo-Apps funktionieren auch auf dem Mobilgerät. Der Entwickler muss kein Responsive-Design entwickeln.
 
 ### Sicherheit und Robustheit

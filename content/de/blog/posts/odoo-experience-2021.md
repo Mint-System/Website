@@ -30,7 +30,7 @@ Etwas hoch gegriffen? Beurteilen Sie selbst. Die Agenda ist auf jeden Fall beein
 Die Veranstaltung startet jeweils um 14:00 Uhr mit einer Keynote von Fabien Pinckaers, dem Founder & CEO von Odoo. Anschliessend werden parallel aus 9 Studios im Halbstundentakt bis Abends um 22:00 Uhr Livestreams gesendet. Das ist geballtes Odoo-Wissen in Kompaktform!
 
 
-### An wen richtet sich die Odoo Experience?
+### An wen richtet sich die Odoo Experience?
 
 Die Veranstaltung richtet sich an Odoo-Neulinge, erfahrene Anwender und Entwickler. Die Fülle der Veranstaltungen bietet die Möglichkeit, dass sich alle Interessierten ihr eigenes Programm zusammenstellen können.
 

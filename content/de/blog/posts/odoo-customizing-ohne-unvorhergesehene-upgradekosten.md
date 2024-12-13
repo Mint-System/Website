@@ -51,8 +51,7 @@ Bei jeder Anpassung wollen wir wissen, ob das Kosten-Nutzen-Verhältnis stimmt. 
 
 ## Visuelle Änderungen vorziehen
 
-![](/assets/images/blog/002-us.png)
-
+![ux](/assets/images/blog/002-ux.png)
 
 Anpassungen der Benutzeroberfläche sind günstiger in der Wartung, weil sie weiter weg vom Kern des System sind. Visuelle Änderungen beziehen sich im Normalfall auf die bestehende Datenstruktur und haben dadurch eine geringe Integrationstiefe.
 
@@ -60,7 +59,7 @@ Anpassungen der Benutzeroberfläche sind günstiger in der Wartung, weil sie wei
 
 ## Vererbungssystem nutzen
 
-![](/assets/images/blog/007-shapes.png)
+![shapes](/assets/images/blog/007-shapes.png)
 
 
 Odoo verfügt über ein ausgeklügeltes Vererbungssystem. Das heisst jede Anpassung einer Ansicht oder einem Geschäftsobjekt kann so formuliert werden, dass sie sich immer auf eine bestehende Ansicht oder Objekt bezieht. Man überschreibt also nie den bestehenden Code, sondern erweitert diesen um die neue Funktion.
@@ -68,13 +67,13 @@ Odoo verfügt über ein ausgeklügeltes Vererbungssystem. Das heisst jede Anpass
 
 ## Änderungen am System dokumentieren
 
-![](/assets/images/blog/005-paper.png)
+![Paper](/assets/images/blog/005-paper.png)
 
 
 Alle Anpassungen an einer Odoo-Installation werden dokumentiert. Das macht es einfacher für Dritte nachzuvollziehen, was bei der Entwicklung von neuen Erweiterungen (und insbesondere Systemupgrades) beachtet werden muss.
 
 ## Erweiterungen modular halten
 
-![](/assets/images/blog/006-construction.png)
+![Construction](/assets/images/blog/006-construction.png)
 
 Erweiterungen lassen sich entweder zusammenfassen oder aufteilen und dadurch erstellt oder vermeidet man Abhängigkeiten zwischen den Erweiterungen. Die Philosophie von Odoo sieht vor, dass man Erweiterungen so klein wie möglich hält. Das heisst Abhängigkeiten zischen Odoo-Modulen gilt es zu vermeiden.

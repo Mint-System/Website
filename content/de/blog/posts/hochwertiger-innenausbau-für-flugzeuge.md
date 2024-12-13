@@ -26,7 +26,7 @@ Mit diesen Anforderungen an ein ERP-System suchte Geschäftsführer Roger Bünte
 Jeder bei Aersolution Interior hergestellte oder verbaute Artikel muss eine vollständig nachvollziehbare Lieferkette haben. Odoo unterstützt dies perfekt. Zudem verknüpft Odoo einzelne Arbeitsschritte mit Dokumenten. Zum Beispiel vereinfacht die Verbindung der Produkte mit den CAD-Zeichnungen und Zertifikaten die Bestellungen, die nun elektronisch erfolgen.
 
 
-![](/assets/images/blog/Aersolution2.png)
+![](/assets/images/blog/Aersolution2.jpg)
 
 ## Implementierung
 Nach dem ersten Kick-Off wurde das Augenmerk auf die Artikel gesetzt. Dabei war das Luftfahrt-Fachwissen des Mint-Projektteams von grossem Nutzen. Zusammen mit den Spezialisten von Aersolution Interior wurde der Artikelstamm überarbeitet, in Odoo importiert und neu mit einem Barcode ergänzt. So wird nun jede Lagerbewegung einfach und effizient in Odoo festgehalten.

@@ -234,6 +234,10 @@ li {
     font-size: var(--font-size-text);
 }
 
+.stack p strong {
+    font-weight: 700;
+}
+
 .stack ol,
 .stack ul {
     list-style: disc;

@@ -25,6 +25,6 @@ Doch würde genau dieser Ansatz die KMU und damit einen bedeu- tungsvollen Motor
 
 
 
-### ES BRAUCHT UNTERNEHMERISCH HANDELNDE POLITIKER
+### Es braucht unternehmerisch handelnde Politiker
 
 Politikerinnen und Politiker sollten in der aktuellen Zeit Trendsetter für den Einsatz digitaler Technik in der Unternehmensorgani- sation sein. In ihrer Führungsaufgabe inner- halb der öffentlichen Verwaltung haben sie hierfür alle Möglichkeiten. Die Förderung des Einsatzes von Open-Source-Software ist ein konkretes Beispiel, wie Schweizer KMU unter- stützt werden können. Gute Rahmenbedin- gungen für unsere lokale Wirtschaft sind unter anderem unternehmerisch handelnde Exekutiv-Politikerinnen und -Politiker als Manager der öffentlichen Verwaltung.
