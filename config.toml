@@ -20,6 +20,9 @@ languageName = "Deutsch"
 weight = 1
 contentDir = "content/de"
 
+[languages.de.params]
+dateFormat = "2. January 2006"
+
 [languages.de.pagination]
 disableAliases = true
 pagerSize = 12
@@ -57,35 +60,35 @@ tag = "tags"
 home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
-taxonomy = ["HTML"] 
+taxonomy = ["HTML"]
 
 
 [build]
-  writeStats = true
-  
+writeStats = true
+
 [minify]
-  disableHTML = false
-  disableCSS = false
-  disableJS = false
-  disableSVG = false
+disableHTML = false
+disableCSS = false
+disableJS = false
+disableSVG = false
 
 
 [[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
+for = "/*"
+[headers.values]
+Cache-Control = "public, max-age=604800"
 
 [[headers]]
-  for = "*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "*.css"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "*.js"
+[headers.values]
+Cache-Control = "public, max-age=31536000"
 
 [[headers]]
-  for = "*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+for = "*.jpg"
+[headers.values]
+Cache-Control = "public, max-age=31536000"

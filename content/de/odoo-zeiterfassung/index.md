@@ -1,5 +1,6 @@
 ---
 title: 'Odoo Zeiterfassung'
+description: "Mit der Odoo Zeiterfassung haben Sie Anwesenheit, Projektzeit, Abwesenheit und Überzeit im Griff."
 date: 2024-09-05T18:04:04+02:00
 draft: false
 layout: "single"
