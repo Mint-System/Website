@@ -15,29 +15,28 @@ seo_title: "Problematik der IT-Monokultur - Mint System GmbH"
 ---
 
 
-Es kommt vor, dass Parlamente **Verpflichtungskredite für Software-Lizenzen** bewilligen müssen. Richtig, sie müssen – weil sie **keine Wahl** haben.
+Es kommt vor, dass Parlamente Verpflichtungskredite für Software-Lizenzen bewilligen müssen. Richtig, sie müssen. Weil sie keine Wahl haben.
 
-Oft besteht ein **Abhängigkeitsverhältnis** zum Lieferanten Microsoft, das schwer zu durchbrechen ist. Diese Abhängigkeit wird mit der Erweiterung der Produktpalette auf **Office 365** zunehmend extremer. Damit begeben wir uns in die Arme der **Microsoft-Cloud**, und unsere **Daten** sind nur noch teilweise unser Eigentum – schließlich wissen wir nicht genau, wo sie gespeichert werden. Die **Sicherheitsrisiken** sind schwer zu beherrschen und die **Lizenzkosten** steigen.
+
+Oft besteht zum Lieferanten Microsoft ein Abhängigkeitsverhältnis, das nicht zu knacken ist. Und es wird immer extremer. Mit der Erweiterung der Produktpalette auf Office365 begibt man sich in die Arme der Datenkrake Microsoft-Cloud. Damit sind dann auch unsere Daten nur noch teilweise unser Eigentum. (Wir wissen ja schliesslich nicht genau wo sie sind.) Nebeneffekte sind unter anderem die schwer beherrschbaren Sicherheitsrisiken und steigende Lizenzkosten.
+
 
 ## Wir reden alle von Digitalisierung. Aber ...
+Mit dem Slogan "Digitalisierung" sind wir auf der Suche nach neuen technischen Lösungen. Wir versuchen ein Umfeld zu schaffen das Kreativität fördert. Wir wünschen uns Querdenken und Innovationsgeist. Aber was oft passiert ist: Wir pflegen eine IT-Monokultur.
 
-Unter dem Slogan **"Digitalisierung"** suchen wir nach **neuen technischen Lösungen** und einem Umfeld, das **Kreativität** fördert. Wir wünschen uns **Querdenken** und **Innovationsgeist**. Doch was oft passiert, ist, dass wir eine **IT-Monokultur** pflegen.
+Die Produktpalette von Microsoft zu installieren hat nichts mit Innovation zu tun. Wenn der Einfachheit halber keine Alternativen geprüft werden, dann erstickt die Innovationskraft.
 
-Die **Installation der Microsoft-Produktpalette** hat nichts mit Innovation zu tun. Wenn aus Bequemlichkeit keine **Alternativen** geprüft werden, wird die **Innovationskraft erstickt**.
 
 ## Verwaltungen von Bund und Kanton: Ein Vorbild?
+Die Verwaltungen auf Stufe Bund oder Kanton sind für viele Organisationen ein Vorbild. Zum Beispiel für Schulen oder Gemeindeverwaltungen. Wenn dort innovative Lösungen entwickelt werden, dann hat das Strahlkraft.
 
-Die Verwaltungen auf Bundes- und Kantonsebene sind für viele Organisationen, wie Schulen oder Gemeindeverwaltungen, ein **Vorbild**. Wenn dort **innovative Lösungen** entwickelt werden, hat das eine **Signalwirkung**.
+Von einer Verwaltung darf man Innovation erwarten. Es sind unsere Steuergelder die investiert werden. Diese Investitionen sollen unter anderem zu technischem Fortschritt führen, damit sie der Gesellschaft einen nachhaltigen Nutzen bringen.
 
-Von einer Verwaltung darf man **Innovation** erwarten – schließlich werden **Steuergelder** investiert. Diese Investitionen sollten unter anderem zu **technischem Fortschritt** führen und der Gesellschaft einen **nachhaltigen Nutzen** bringen.
 
-## Was wir erwarten dürfen:
+Wir dürfen von Verwaltungen auf auf Stufe Bund und Kanton erwarten, dass
 
-1. **Reduzierung der Abhängigkeit** von Microsoft durch den Einsatz **alternativer Produkte**.
-2. Vermeidung einer **IT-Monokultur** in öffentlichen Verwaltungen.
+- durch den Einsatz von alternativen Produkten die Abhängigkeit von Microsoft reduziert wird.
+- in den Verwaltungen nicht eine IT-Monokultur gepflegt wird
 
-Nur so können unsere **IT-Systeme** **innovativer**, **sicherer** und **kostengünstiger** werden.
+Damit unsere IT-Systeme innovativer, sicherer und kostengünstiger sind.
 
----
-
-Möchten Sie mehr über **alternative Softwarelösungen** und die Möglichkeiten zur **Reduzierung der Abhängigkeit** von Microsoft erfahren? Kontaktieren Sie uns – wir helfen Ihnen gerne weiter.

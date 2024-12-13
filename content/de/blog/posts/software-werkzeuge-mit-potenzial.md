@@ -8,57 +8,45 @@ tags: ["OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
 type: "blogpost"
 summary: "Die Corona-Krise hat hohe Wellen geworfen. Existenzängste bei Unternehmen und Einschränkungen bei der Bevölkerung. Grosse Veränderungen in der Wirtschaft und so auch im Bereich der Bildung. Aufgrund d..."
-
+lead: "Digitales Lernen"
 # Custom SEO fields (optional)
 seo_title: "Software-Werkzeuge mit Potenzial - Mint System GmbH"
 ---
 
-## Die Zukunft der IT-Lösungen in der Bildung: Open Source als nachhaltige Alternative?
+Die Corona-Krise hat hohe Wellen geworfen. Existenzängste bei Unternehmen und Einschränkungen bei der Bevölkerung. Grosse Veränderungen in der Wirtschaft und so auch im Bereich der Bildung. Aufgrund des notwendigen Umstiegs auf Fernunterricht, waren viele Schulen mit der Aufrüstung der IT-Lösungen konfrontiert. Schnelle Lösungen zu Video-Konferenz, Kommunikation, Dateiablage und eLearning wurden gefordert.
 
-Die **Corona-Krise** hat hohe Wellen geschlagen. Unternehmen kämpfen mit Existenzängsten, die Bevölkerung erlebt Einschränkungen, und auch im Bereich der **Bildung** gab es einschneidende Veränderungen. Mit dem nötigen Umstieg auf **Fernunterricht** standen viele Schulen plötzlich vor der Herausforderung, ihre **IT-Lösungen** aufzurüsten. Schnelle Lösungen für **Video-Konferenzen**, **Kommunikation**, **Dateiablage** und **eLearning** waren gefragt.
+Diese Nachfrage haben Unternehmen wie Microsoft bereits antizipiert und Schulen adhoc beim Aufrüsten unterstützt. Die kurzfristige Lösung liegt auf der Hand. Nun stellt sich die Frage wie man die Bereiche Video-Konferenz, Kommunikation, Dateiablage und eLearning langfristig gestalten möchte. Und vor allem wie viel darf das Kosten? Bei der Selektion des richtigen Werkzeugs befindet man sich im Spannungsfeld zwischen **Qualität**, **Kosten** und **Abhängigkeit**. Zu tiefen Kosten und hoher Qualität erhält man Software-Lösungen, die Abhängigkeiten schaffen. Abhängigkeiten in Form von Unterstützung beim Opt-in (Einstieg), aber Schwierigkeiten beim Opt-out (Ausstieg oder Umstieg). Unabhängig sein, heisst offene Standards und Software einzusetzen. Zu jeder proprietären Software gibt es heute eine offene und unabhängige Variante. Nun möchten wir die Software der genannten Bereiche genauer anschauen und aufzeigen wie man zu tiefen Kosten eine qualitative und unabhängige Software-Lösung erhält.
 
-### Die Kurzfrist-Lösung: Unterstützung durch etablierte Anbieter
 
-Große Unternehmen wie **Microsoft** haben diese Nachfrage bereits antizipiert und unterstützten Schulen bei der schnellen Aufrüstung ihrer Systeme. Die kurzfristigen Lösungen lagen auf der Hand. Doch nun stellt sich die Frage, wie man die genannten Bereiche langfristig gestalten möchte – und vor allem, welche Kosten dies mit sich bringt. Im Spannungsfeld zwischen **Qualität**, **Kosten** und **Unabhängigkeit** stellt sich die zentrale Frage: Wie viel Abhängigkeit von großen Anbietern ist akzeptabel?
+Hier die genannten Bereiche:
 
-Zu geringen Kosten und hoher Qualität erhält man oft proprietäre Software-Lösungen, die zwar schnelle Unterstützung bieten, jedoch Abhängigkeiten schaffen. Der Wechsel zu anderen Anbietern kann später Schwierigkeiten bereiten. Eine **unabhängige Lösung** bedeutet hingegen den Einsatz von **offenen Standards** und **Open Source Software**. Zu fast jeder proprietären Lösung gibt es heutzutage eine **offene, unabhängige Alternative**. Im Folgenden wollen wir die Software in den relevanten Bereichen genauer betrachten und zeigen, wie sich qualitativ hochwertige und unabhängige Lösungen zu niedrigen Kosten umsetzen lassen.
+### Video-Konferenz
+Der Fernunterricht fordert eine neue Modalität des Unterrichtens. Per Video-Konferenz spricht man mit den Schülern im virtuellen Klassenzimmer. Zoom, Teams, Skype oder Hangout kennen die meisten. Jitsi und BigBlueButton sind weniger bekannt, können aber genauso viel wie die Grossen. Gerade BigBlueButton ist für Schulen sehr interessant. Nebst dem Konferenz-Modul können auch Webinare mit Whiteboard und integriertem Präsentationsmodus durchgeführt werden.
 
----
+### Dateiablage
+Bis anhin landeten die meisten PDF-Dateien an einer Schule auf dem Drucker. Nun müssen Sie in die Cloud, wo alle Lehrer und Schüler darauf zugreifen können. Aber wohin genau? Der Himmel scheint unendlich. Nebst den bekannten Anbietern wie OneDrive (Office365), Dropbox oder Google Drive gibt es auch hier eine äusserst interessante Option. Wir sprechen von [Nextcloud](https://nextcloud.com/). Wer wissen möchte wo seine Daten genau landen und stets die Kontrolle haben möchte, ist mit Nextcloud gut bedient.
 
-## Die relevanten Bereiche und Open Source Alternativen
+### Kommunikation
+Vor 7 Jahren wurde [Slack](https://slack.com/intl/de-ch/) bei IT-Unternehmen zur Standardsoftware für zeitnahe Kommunikation. Ein Chat-Programm, das durch die simple Erstellung von Gruppen-Chats (Channels) überzeugte. Daraus ist dann das Konkurrenzprodukt Microsoft Teams entstanden. Doch auch hier gibt es namhafte Produkte wie Mattermost, [Nextcloud Talk](https://nextcloud.com/talk/), [Riot](https://element.io/) oder [RocketChat](https://www.rocket.chat/), die unabhängig sind und die gleichen Funktionen bieten.
 
-### 1. **Video-Konferenzen**
-Der Fernunterricht fordert eine neue Modalität des Unterrichtens: **Video-Konferenzen**. Bekannte Anbieter wie **Zoom**, **Teams**, **Skype** oder **Google Hangouts** dominieren den Markt. Weniger bekannt, aber ebenso leistungsfähig, sind **Jitsi** und **BigBlueButton**. Besonders BigBlueButton ist für Schulen interessant, da es neben dem Konferenz-Modul auch Funktionen wie **Webinare**, **Whiteboard** und **Präsentationsmodi** integriert bietet.
+### eLearning
+[Moodle](https://moodle.org/) ist eine mächtige und umfangreiche Software zur Gestaltung und Durchführung von eLearning. Die Software wird bereits von namhaften Unis und Hochschulen eingesetzt und profitiert von einer aktiven Community, die das Projekt weiterentwickeln. Die Bedienung ist zu Beginn gewöhnungsbedürftig und erfordert Einarbeitungszeit. Jedoch ist gerade bei der aufwändigen Gestaltung von Unterrichtsmodulen die Unabhängigkeit der Plattform ein grosser Vorteil.
 
-### 2. **Dateiablage**
-Bisher landeten viele Schulmaterialien als **PDF-Dateien** auf dem Drucker. Nun müssen diese in die **Cloud** verschoben werden, damit Lehrer und Schüler darauf zugreifen können. Neben etablierten Anbietern wie **OneDrive** (Office365), **Dropbox** oder **Google Drive** bietet sich hier eine besonders interessante Alternative: **Nextcloud**. Wer volle Kontrolle über seine Daten haben möchte, ist mit Nextcloud bestens bedient.
+### Komplettlösung
+Kombiniert man die aufgelisteten Produkte miteinander, hat der Benutzer sehr viel Komfort. Der Schlüssel um diese Produkte miteinander zu kombinieren ist das Login. Ein Anbieter, der unter einer Login-Maske alle diese Software-Lösungen vereinen kann, ist zu bevorzugen. Und auch hier gibt es bereits namhafte Unternehmen, die eine Komplettlösung anbieten.
 
-### 3. **Kommunikation**
-Vor einigen Jahren setzte sich **Slack** als Standard-Tool für zeitnahe Kommunikation in der IT durch. Daraus entstand das Konkurrenzprodukt **Microsoft Teams**. Doch auch hier gibt es namhafte Open Source Alternativen wie **Mattermost**, **Nextcloud Talk**, **Riot** oder **RocketChat**, die unabhängig sind und die gleichen Funktionen bieten.
+[onschool](https://www.onschool.ch/)
 
-### 4. **eLearning**
-**Moodle** ist eine der bekanntesten Open Source Plattformen für **eLearning**. Die Software wird bereits von zahlreichen Universitäten und Hochschulen weltweit eingesetzt und profitiert von einer aktiven Entwickler-Community. Zwar erfordert Moodle eine gewisse Einarbeitungszeit, doch die **Unabhängigkeit** und **Flexibilität** der Plattform sind gerade bei der Gestaltung von komplexen Unterrichtsmodulen ein großer Vorteil.
+Onschool von der Firma Liip und Infomaniak bietet Moodle, BigBlueButton, Dateiablage sowie eine Kurs- und Benutzerverwaltung. Also alles was man sich zurzeit als Schule wünscht. Ausserdem erhält man das ganze aktuell gratis.
 
----
+[openeduserver](https://openeduserver.ch/)
 
-## Komplettlösungen für Schulen
+Der Open Education Server ist ein Angebot von CH-Open. Der Verein setzt sich in der Schweiz für offene Standards und Open Source Software ein. Der Open Education Server bietet eine Nextcloud Installation mit allen Funktionen zum Unterrichten.
 
-Kombiniert man die oben genannten Produkte, erhält man eine äußerst komfortable Lösung für den Schulalltag. Der Schlüssel liegt in der **Integration** dieser Tools unter einer gemeinsamen **Login-Maske**. Zwei namhafte Anbieter, die bereits solche Komplettlösungen anbieten, sind:
 
-### 1. **Onschool**
-**Onschool**, entwickelt von **Liip** und **Infomaniak**, vereint **Moodle**, **BigBlueButton**, eine **Dateiablage** sowie eine **Kurs- und Benutzerverwaltung** unter einer Oberfläche. Der Clou: Onschool ist derzeit **kostenlos** verfügbar.
 
-### 2. **OpenEduServer**
-Der **Open Education Server** ist ein Angebot des Vereins **CH-Open**, der sich in der Schweiz für **offene Standards** und **Open Source Software** einsetzt. Der OpenEduServer bietet eine **Nextcloud**-Installation mit allen Funktionen, die für den Unterricht erforderlich sind.
+## Herausforderung
 
----
+Nun kann man sich fragen von was diese freien Software-Produkte leben. Das Fundament ist eine aktive Community, also kompetente Entwickler und Benutzer, die Software gemeinsam weiterentwickeln. Die Inbetriebnahme solcher Software erfordert demnach hohe Kompetenz auf Seiten des IT-Anbieters. Ein Anbieter der sich auf die Produkte von Microsoft, Google und Co fokussiert hat wird Mühe haben, diese Open Source-Werkzeuge zu unterstützen. Es fehlt Erfahrung und Wissen. Das ist im Moment so, wird sich aber in naher Zukunft verändern. Open Source Software hat in den vergangenen Jahren einen grossen Sprung nach vorne hingelegt. Die Benutzerfreundlichkeit der Produkte, oft auch die Achilles-Ferse, hat sich verbessert. Der Anwender ist auch hier ins Zentrum der Anforderungen gerückt.
 
-## Herausforderung: Die Zukunft von Open Source Software
-
-Eine berechtigte Frage ist, wie sich diese **freien Software-Produkte** langfristig finanzieren. Die Antwort liegt in der **Community**. Open Source lebt von aktiven Entwicklern und Benutzern, die die Software kontinuierlich weiterentwickeln. Doch die Inbetriebnahme solcher Software erfordert ein hohes Maß an **Kompetenz** auf Seiten des IT-Anbieters. Ein Anbieter, der sich ausschließlich auf Produkte von Microsoft, Google und Co. spezialisiert hat, könnte Schwierigkeiten haben, Open Source Werkzeuge effektiv zu unterstützen. Doch das wird sich in naher Zukunft ändern. Open Source Software hat in den vergangenen Jahren einen gewaltigen Sprung nach vorn gemacht, und auch die **Benutzerfreundlichkeit** hat sich deutlich verbessert.
-
----
-
-## Fazit: Open Source gewinnt an Beliebtheit
-
-Wir sind gespannt, welche Entwicklungen uns in den kommenden Jahren erwarten. Eines ist jedoch sicher: **Open Source Software** und die hier vorgestellten Lösungen werden in der **Bildung** weiter an Bedeutung gewinnen. Sie bieten **Unabhängigkeit**, **Flexibilität** und oft auch das bessere **Preis-Leistungs-Verhältnis** – ganz ohne versteckte Abhängigkeiten.
+Wir sind gespannt welche Entwicklungen bevorstehen, sind aber überzeugt, dass Open Source Software und die hier genannten Lösungen an Beliebtheit gewinnen werden.

@@ -9,82 +9,108 @@ type: "blogpost"
 tags: ["Messaging", "OpenEduca"]
 featured_image: "/assets/images/blog/element.png"
 summary: "Whatsapp-Verbote an Schulen machen Sinn. Doch wie sieht eine Alternative aus? Grundsätzlich möchte man so komfortabel kommunizieren wie man es sich mit Whatsapp und Co gewohnt ist. E-Mail wäre viellei..."
-
+lead: "Wie sieht eine Alternative zu Whatsapp und Co für den Schulbetrieb aus?"
 # Custom SEO fields (optional)
 seo_title: "Der eigene Messenger für Ihre Schule - Mint System GmbH"
 ---
 
-**Whatsapp-Verbote an Schulen** machen Sinn. Aber welche Alternativen gibt es? Man möchte so komfortabel kommunizieren, wie man es von Whatsapp & Co gewohnt ist. E-Mail wäre vielleicht eine Lösung, doch eine Mail-Adresse für jede Schülerin ist nicht praktikabel, und der **Datenschutz** spielt eine große Rolle. Ist das ein unerfüllbarer Wunsch? Die Antwort lautet: **Nein**. In diesem Beitrag zeigen wir, wie Schulen einen eigenen Messenger-Dienst betreiben können.
+**Whatsapp-Verbote an Schulen machen Sinn.** Doch wie sieht eine Alternative aus? Grundsätzlich möchte man so komfortabel kommunizieren wie man es sich mit Whatsapp und Co gewohnt ist. E-Mail wäre vielleicht eine Lösung, doch eine Mail-Adresse für jede Schülerin ist keine Option. Der Datenschutz spielt eine grosse Rolle. Ist das ein unverfüllbarer Wunsch? Es wäre super, wenn man selber eine sichere Messenger-Lösung für die Schule betreiben kann. "Ist das überhaupt möglich?", fragen Sie sich vermutlich.
 
-## Warum Matrix und wie funktioniert es?
+Die Antwort ist: ja. In diesem Beitrag zeigen wir auf, wie eine Schule einen eigenen Messenger-Dienst betreiben kann.
 
-E-Mail hat modernen Messengern eines voraus: Jeder, der möchte, kann seinen eigenen **E-Mail-Server** installieren und ein E-Mail-Programm entwickeln. Dieses Prinzip funktioniert inzwischen auch für Messenger, aber nur für spezielle Protokolle wie **Matrix**. Jeder Messenger, der das Matrix-Protokoll unterstützt, kann mit anderen Matrix-Messengern kommunizieren. Würde beispielsweise **Whatsapp** das Matrix-Protokoll nutzen, könnten Sie Nachrichten an **Threema**-Nutzer senden.
+Aber zuerst ein wichtiger Punkt zum allgemeinen Verständnis: E-Mail hat den modernen Messengern immer noch etwas voraus. Jeder, der möchte, kann seinen eigenen E-Mail-Server installieren und sein eigenes E-Mail-Programm entwickeln. Alle Protokolle zur Kommunikation mit E-Mail sind offengelegt. Jeder kann mitmachen.
 
-### Was ist Matrix?
 
-Matrix ist ein **offenes Kommunikationsprotokoll**, das es ermöglicht, eigene Messenger-Server zu betreiben, die mit anderen Matrix-Servern verbunden werden können. So bleiben alle **Benutzerdaten** sicher auf dem eigenen Server.
+Was E-Mail schon lange kann, funktioniert erst bis vor kurzen mit Messenger. Zumindest für ganz bestimmte Messenger. Jeder Messenger, der das [Matrix-Protokoll](https://matrix.org/) versteht, ermöglicht die Kommunikation mit anderen Matrix-Messengern. Würde beispielsweise Whatsapp und Threema das Matrix-Protokoll implementieren, könnte man mit Whatsapp an einen Threema-Kontakt eine Nachricht schreiben.
 
-## Die Einkaufsliste: Was brauche ich für eine eigene Messenger-Lösung?
+So viel zur Technik. Nun fragen Sie sich vielleicht wie man selber zu einem Matrix-Messenger kommt und haben vielleicht Mühe die neuen Begriffe und Themen einzuordnen.
 
-Hier ist eine Übersicht über die Dinge, die Sie für den Betrieb eines eigenen Messenger-Dienstes in der Schule benötigen:
+Um das zu vereinfachen haben wir ein Messenger-Paket für Schulen zusammengestellt, schauen wir uns dazu die Einkaufsliste an.
 
-### 1. Domain
 
-Eine Webadresse wie **matrix.schule-sisikon.ch** dient als Zugang zum Matrix-Server.
+## Einkaufsliste
+Was brauche ich für die eigene Messenger-Lösung an der Schule und was kostet das?
 
-**Kosten**: 20 CHF pro Jahr
+### 1x Domain
+Sie brauche eine Webadresse wie zum Beispiel matrix.schule-sisikon.ch. Unter dieser Adresse ist der Matrix-Server erreichbar.
 
-### 2. Managed Server
+Kosten: 20 CHF pro Jahr
 
-Ein **Server** ist notwendig, um die Lösung zu hosten. Sie können diesen selbst betreiben oder von einem Anbieter mieten. Die Kosten hängen von der Benutzerzahl ab.
+### 1x Managed Server
+Sie brauchen einen Server um die Lösung zu hosten. Entweder betreiben Sie diesen selber oder fragen bei einem Anbieter um eine Offerte. Die Kosten sind abhängig von der Benutzerzahl.
 
-**Kosten**: ca. 80 CHF pro Monat pro 100 Benutzer
+Kosten: ca. 80 CHF pro Monat pro 100 Benutzer
 
-### 3. Software-Installation
+### 1x Software-Installation
+Matrix ist die Software, welche den Einsatz eines eigenen Messenger ermöglicht. Sie brauchen Unterstützung bei der Installation.
 
-Die **Matrix-Software** wird benötigt, um den Messenger-Dienst zu betreiben. Unterstützung bei der Installation ist empfehlenswert.
+Kosten: Einmalig ca. 500 CHF
 
-**Kosten**: Einmalig ca. 500 CHF
+### Element-App
+Die Messenger-App [Element](https://element.io/) kommuniziert mit dem Matrix-Server. Sie ist gratis und kann auf allen Geräten installiert werden.
 
-### 4. Element-App
+Kosten: 0 CHF
 
-**Element** ist eine kostenlose Messenger-App, die mit dem Matrix-Server kommuniziert und auf allen Geräten installiert werden kann.
+## Unterstützung
 
-**Kosten**: 0 CHF
+Es gibt viele Unternehmen, die sich mit Open Source Software auskennen und Sie beim Einkauf und der Inbetriebnahme unterstützen können.
 
-### 5. Unterstützung
+### Mint System
 
-Es gibt viele Unternehmen, die sich mit **Open Source Software** auskennen und Sie bei der Inbetriebnahme unterstützen können:
+Mint System unterstützten Schulen beim Betrieb von Open Source Software. Mit der [OpenEduca-Initiative](/openeduca) präsentieren wir sinnvolle Lösungen für den Schulbetrieb.
 
-- **Mint System**: Unterstützt Schulen bei der Implementierung von Open Source Software.  
-- **Ungleich**: Bietet seit Jahren alternative Softwarelösungen und ist Partner von Matrix ([ungleich.ch](https://ungleich.ch/)).
+### Ungleich
+[https://ungleich.ch/](https://ungleich.ch/)
 
-## Funktionsweise von Matrix
+Ungleich leistet seit Jahren Pionierarbeit im Bereich von alternativen Softwarelösungen. Sie ist Partner von Matrix und dazu verschiedene Produkte im Angebot.
 
-Ein Matrix-Server funktioniert ähnlich wie ein **E-Mail-Server**. Anstatt Postfächer gibt es **Accounts**. Benutzer registrieren sich auf einem Matrix-Server oder erhalten einen vordefinierten Account vom Administrator. Die Benutzer-Identität ist ähnlich einer E-Mail-Adresse (z.B. marta.muster@schule-sisikon.ch), und sie können mit anderen Matrix-Benutzern kommunizieren.
 
-### Räume und Umgebungen
 
-Auf dem Matrix-Server gibt es **Räume (Rooms)** und **Umgebungen (Spaces)**. Ein Raum kann z.B. eine Klasse darstellen, während eine Umgebung alle Unterstufenklassen umfasst. Die Struktur ähnelt der von **Gruppen-Chats** in herkömmlichen Messengern.
+## Funktionsweise
+Haben wir Ihre Neugierde geweckt? Sie möchten genaueres zu Matrix und Element wissen? Im folgenden Abschnitt erläutern wir die Funktionen von Matrix und Element.
 
-## Vorteile der Matrix-Lösung
+Den Matrix-Server kann man sich wie einen Mail-Server vorstellen. Anstatt Postfächer gibt es Accounts. Als Benutzer registriere ich mich auf einem Matrix-Server nach Wahl oder erhalte einen vordefinierten Account vom Administrator. Die Benutzer-Identität ist ähnlich wie die E-Mail-Adresse, beispielsweise marta.muster@schule-sisikon.ch. Mit dieser Adresse kann ich mit anderen Matrix-Benutzern Kontakt aufnehmen.
 
-Die eigene Messenger-Lösung bietet zahlreiche Vorteile:
+Auf dem Matrix-Server gibt es Räume (Rooms) und Umgebungen (Spaces). Ein Raum kann beispielsweise eine Klasse repräsentieren und eine mögliche Umgebung wären alle Unterstufenklassen. Matrix-Benutzer können sich selber in Räumen organisieren, ganz ähnlich den Gruppen-Chats von Messengern.
 
-- **Datenmissbrauch unmöglich**: Alle Daten sind verschlüsselt auf dem Matrix-Server gespeichert. Administratoren haben keinen Zugriff auf Benutzerdaten.
-- **Geringer Administrationsaufwand**: Der Matrix-Server läuft stabil und ist leicht zu warten. Neue Accounts können problemlos erstellt werden.
-- **Pädagogisch sinnvoll**: Die Software ist intuitiv und leicht zu verstehen – ideal für den Schulbetrieb.
-- **Eigener Account**: Benutzer behalten ihren Account auch nach einem Schulwechsel und können ihn von Server zu Server migrieren.
-- **Open Source**: Die Lösung ist unabhängig von Entwicklern oder Anbietern.
+Mehrere Matrix-Server bilden ein Netztwerk. Das ist eine grossartige Sache, denn nur so kann die Messenger-Vielfalt gesichert und das Problem der Datenhoheit behoben werden.
 
-## Die Zukunft von Matrix
 
-Matrix funktioniert ähnlich wie E-Mail – jede Schule mit einem Matrix-Server kann mit anderen Schulen kommunizieren. Unsere Vision bei **Mint System**:
+![hack 4 social ](/assets/images/blog/Messenger-Vielfalt.png)
 
-> **Im Jahr 2030 verfügt jede öffentliche Institution der Schweiz über einen eigenen Matrix-Server. Jede/r Angestellte hat Zugriff auf einen Matrix-Account und nutzt diesen aktiv zur Kommunikation.**
+Alle Benutzerdaten bleiben immer auf dem eigenen Matrix-Server. Verlässt eine Benutzerin die Schule kann der Account auch auf einen neuen Matrix-Server migriert werden.
 
-Wir glauben, dass **Matrix das gängige E-Mail ablösen** wird, weil es effizienter und sicherer ist. Die Bedeutung von sicherer Kommunikation wird weiter zunehmen – und Matrix/Element bietet hierfür die passende Lösung.
+## Vorteile
+Der Einsatz der Messenger-Lösung hat folgende Vorteile für Sie:
 
-## Kontakt
+### Datenmissbrauch unmöglich
+Alle Daten sind verschlüsselt auf dem Matrix-Server gespeichert. Der Nachrichtenaustausch erfolgt verschlüsselt. Administratoren haben keinen Zugriff auf die Benutzerdaten.
 
-Haben Sie Fragen oder Interesse an einer **Demo zu Matrix/Element**? Wir freuen uns auf ein unverbindliches Gespräch mit Ihnen. Kontaktieren Sie uns gerne!
+### Geringer Administrationsaufwand
+Der Matrix-Server läuft stabil und ist einfach zu warten. Neue Accounts können ohne Aufwand angelegt werden.
+
+### Pädagogisch Sinnvoll
+Intuitiv und einfach soll Software an Schulen sein. Mit Element haben sie eine Messenger-Lösung, die jeder versteht.
+
+### Eigener Account
+Die Schülerin/Lehrerin ist im Besitz des Matrix-Accounts und das auch nach dem Wechsel der Schule. Matrix-Accounts können von Server zu Server transportiert werden.
+
+### Open Source
+Die präsentierte Lösung ist Open Source. Man ist weder vom Entwickler noch vom Lieferanten abhängig.
+
+## Chance
+Wir erinnern uns: Matrix funktioniert ähnlich wie E-Mail. Jeder Matrix-Server kann mit jedem Matrix-Server kommunizieren. Jede Schule mit einem Matrix-Server kann mit einer anderen Schule kommunizieren. Es ist also möglich ein Netzwerk aus Matrix-Servern zu bauen.
+
+
+Bei Mint System verfolgen wir folgende Vision:
+
+
+> Im Jahr 2030 verfügt jede öffentliche Institution der Schweiz, die über eine Domäne identifiziert werden kann, einen eigenen Matrix-Server. Jede/r Angestellte hat Zugriff auf einen Matrix-Account und nutzt diesen aktiv zur Kommunikation.
+
+
+Das ist eine gewagte Aussage. Doch wir glauben fest daran, dass Matrix das gängige E-Mail ablösen wird. Effizient und sicher zu kommunizieren wird an Bedeutung gewinnen und Matrix/Element trifft hier genau ins Schwarze.
+
+### Kontakt 
+
+Haben Sie noch Fragen oder sind Sie an einer Demo zu Matrix/Element interessiert? Nehmen Sie mit uns Kontakt auf. Wir freuen uns über ein unverbindliches Gespräch mit Ihnen.
+

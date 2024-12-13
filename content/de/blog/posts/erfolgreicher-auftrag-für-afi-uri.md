@@ -9,27 +9,18 @@ tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/rathaus-altdorf.jpg"
 summary: "Auch das AfI hat ihren Patch-Day. Regelmässig werden Sicherheits-, Software- und Systemupdates für die Windows-Server automatisiert aufgespielt. Für die rund 20 im Einsatz stehenden Linux Server stand..."
-
+lead: "Amt für Informatik patcht Linux Server mit Lösung der Mint System"
 # Custom SEO fields (optional)
 seo_title: "Erfolgreicher Auftrag für AfI Uri - Mint System GmbH"
 ---
+Auch das AfI hat ihren Patch-Day. Regelmässig werden Sicherheits-, Software- und Systemupdates für die Windows-Server automatisiert aufgespielt. Für die rund 20 im Einsatz stehenden Linux Server stand dieser elegante Service bis anhin nicht zur Verfügung.
 
-Auch das **Amt für Informatik (AfI)** des Kantons Uri hat seinen **Patch-Day**. Regelmäßig werden **Sicherheits-, Software- und Systemupdates** für die **Windows-Server** automatisiert aufgespielt. Für die rund **20 Linux-Server** im Einsatz gab es bislang keinen vergleichbaren Service.
+Wir durften dem Amt für Informatik des Kantons Uri ein Angebot unterbreiten und bekamen den Zuschlag für das Einrichten einer modernen Automatisierungslösung. Mit dem Expertenwissen von Mint System konnte eine hoch professionelle Linux Server Patching-Lösung installiert werden.
 
-Wir hatten die Ehre, dem AfI ein Angebot zu unterbreiten, und erhielten den Zuschlag zur Einrichtung einer modernen **Automatisierungslösung**. Mit dem Expertenwissen der **Mint System** konnte eine **hochprofessionelle Linux Server Patching-Lösung** implementiert werden.
+Unsere Lösung setzt auf das weiterverbreitete Automatisierungs-Werkzeug Ansible. Es dient zur Konfiguration und Administration von Serverumgebungen und kann für verschiedenste Anwendungsszenarien angepasst werden.
 
-## Die Lösung: Automatisierung mit Ansible
+Konsequent nach der Strategie für Offenheit und Transparenz sind die Systemdokumentation und die verwendeten Tools auf GitHub frei zugänglich.
 
-Unsere Lösung basiert auf dem weitverbreiteten **Automatisierungs-Werkzeug Ansible**. Es dient zur **Konfiguration** und **Administration** von Serverumgebungen und kann für unterschiedlichste Anwendungsszenarien flexibel angepasst werden.
+Eine typische Win-Win Situation: Wir durften einen interessanten Auftrag realisieren. Das AfI konnte eine Lücke in der Systemadministration schliessen und IT-Dienstleistung aus der Region einkaufen.
+Wir sind der Überzeugung, diese Zusammenarbeit ist eine Erfolgsgeschichte im Sinn von "IT-Kompetenz made in Uri".
 
-Ganz im Sinne der Strategie für **Offenheit und Transparenz** sind die **Systemdokumentation** und die verwendeten Tools auf GitHub **frei zugänglich**.
-
-## Eine Win-Win-Situation
-
-Diese Zusammenarbeit war eine klassische **Win-Win-Situation**: Wir durften einen spannenden Auftrag realisieren, während das AfI eine **Lücke in der Systemadministration** schließen und auf **IT-Dienstleistungen aus der Region** zurückgreifen konnte.
-
-Wir sind überzeugt, dass diese Partnerschaft ein voller Erfolg ist – ein echtes Beispiel für **"IT-Kompetenz made in Uri"**.
-
----
-
-Möchten Sie mehr über unsere Automatisierungslösungen mit **Ansible** erfahren? Kontaktieren Sie uns gerne für weitere Informationen.

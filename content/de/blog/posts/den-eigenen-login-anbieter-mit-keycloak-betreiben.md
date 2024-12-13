@@ -7,6 +7,7 @@ date: 2021-05-20
 layout: "blog/posts/posts"
 type: "blogpost"
 tags: ["Identity and Access Management", "Keycloak"]
+lead: "Welche Software heutzutage für Login-Dienste zum Einsatz kommt."
 featured_image: "/assets/images/blog/keyboard.png"
 summary: "Vielleicht ist ihnen auch schon aufgefallen, dass wenn sie auf einer Webmail-Seite wie Outlook oder im eBanking-Portal wie bei Raiffeisen einloggen wollen, werden sie immer zuerst umgeleitet. Ruft man..."
 
@@ -14,43 +15,32 @@ summary: "Vielleicht ist ihnen auch schon aufgefallen, dass wenn sie auf einer W
 seo_title: "Den eigenen Login-Anbieter mit Keycloak betreiben - Mint System GmbH"
 ---
 
-Vielleicht ist Ihnen auch schon aufgefallen, dass Sie beim Einloggen auf einer **Webmail-Seite** wie Outlook oder einem **eBanking-Portal** wie Raiffeisen immer zuerst umgeleitet werden. 
+Vielleicht ist ihnen auch schon aufgefallen, dass wenn sie auf einer Webmail-Seite wie Outlook oder im eBanking-Portal wie bei Raiffeisen einloggen wollen, werden sie immer zuerst umgeleitet.
 
-Ruft man beispielsweise [https://outlook.live.com](https://outlook.live.com) auf und klickt auf **Sign in**, landet man bei [https://login.live.com](https://login.live.com). Das bedeutet, Sie befinden sich nun auf einer **separaten Login-Seite**.
+Ruft man zum Beispiel [https://outlook.live.com](https://www.microsoft.com/de-de/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook?deeplink=%2fowa%2f&sdf=0) auf und klickt auf Sign in, dann landet man bei [https://login.live.com](https://login.live.com/). Man ist genau genommen nicht mehr bei Outlook, sondern auf einer separaten Login-Seite.
 
-## SP und IdP: Was ist der Unterschied?
 
-Man unterscheidet hier zwischen dem **Service-Provider (SP)** und dem **Identity-Provider (IdP)**:
+## SP und IdP
 
-- **SP (Service-Provider)**: Er bietet den Dienst an, wie z. B. Webmail oder eBanking, kümmert sich jedoch nicht um die Authentifizierung.
-- **IdP (Identity-Provider)**: Er regelt die **Authentifizierung** und stellt sicher, dass Ihre Identität geprüft wird.
+Man unterscheidet hier zwischen Service-Provider (SP) und Identity-Provider (IdP). Der SP erlaubt die Nutzung eines Dienstes wie Mail oder eBanking, kümmert sich aber nicht darum wie sie authentifiziert werden. Der IdP regelt die Authentifizierung und stellt ihre Identität sicher.
 
-### Der Vorteil dieses Ansatzes
+## Der Vorteil
+Der grosse Vorteil dieses Ansatzes ist, dass man einen IdP für mehrere SPs verwenden kann. Wenn man sich einmal eingeloggt hat, sind die Anmeldeinformationen für weitere Dienste gültig. Das gilt natürlich nur für Dienste, denen vertraut wird.
 
-Der große Vorteil dieser Aufteilung ist, dass man einen **IdP** für mehrere **SPs** nutzen kann. Wenn Sie sich einmal eingeloggt haben, sind die Anmeldeinformationen für weitere Dienste gültig – vorausgesetzt, es handelt sich um **vertrauenswürdige** Dienste.
 
-## Die zugrundeliegende Technologie
+## Die Technologie
+Die Technologie hinter diesen Anmeldeverfahren nennt sich OpenID Connect. Das ist eine Schicht im Webverkehr, die mit Hilfe des OAuth 2.0 protocol den Austausch von Identitäten regelt.
 
-Die Technologie hinter diesen Anmeldeverfahren nennt sich **OpenID Connect**. Dies ist eine Schicht im Webverkehr, die mit Hilfe des **OAuth 2.0-Protokolls** den Austausch von Identitäten regelt. Was früher eine komplexe Architektur war, lässt sich heute dank **Open Source** relativ einfach umsetzen.
+Diese Software-Architekturen waren früher eine komplexe Angelegenheit. Open Source sei Dank, kann man heutzutage ganz einfach einen eigenen IdP betreiben und diesen mit verschiedenen Diensten integrieren.
 
-## Keycloak: Ein leistungsstarker IdP
+## Keycloak
+Ein solcher IdP ist Keycloak. Diese Software wird von Unternehmen weltweit eingesetzt. Mit Keycloak kann man Benutzer, Gruppen, Richtlinien und Berechtigungen verwalten. Registrierte SP können mit Keycloak ein Single-Sing On (SSO) bewerkstelligen.
 
-Ein solcher **Identity-Provider** ist **Keycloak**. Diese Open-Source-Software wird von Unternehmen weltweit eingesetzt. Mit **Keycloak** können Sie Benutzer, Gruppen, Richtlinien und Berechtigungen verwalten. Registrierte Service-Provider können durch Keycloak ein **Single-Sign-On (SSO)** bewerkstelligen, sodass sich Benutzer nur einmal einloggen müssen, um auf verschiedene Dienste zuzugreifen.
 
-### Warum Keycloak?
+## Kein ActiveDirectory
+Vielleicht haben sie schon von ActiveDirectory gehört. Das ist sozusagen der IdP in Windows-Netzwerken. Im ActiveDirectory werden ebenfalls Benutzer, Gruppen, Berechtigungen und Richtlinien verwaltet.
 
-- **Benutzerverwaltung**: Keycloak bietet eine umfassende Verwaltung von Benutzern, Gruppen und Berechtigungen.
-- **SSO-Funktionalität**: Einmaliges Anmelden für mehrere Dienste spart Zeit und erhöht die Sicherheit.
-- **Open Source**: Sie sind unabhängig von teuren Lizenzen und können die Software frei anpassen.
+In naher Zukunft wird es ActiveDirectory nicht mehr geben. Da fast alle Anwendungen im Browser funktionieren und somit das lokale Login auf dem Windows-Computer im Unternehmensnetzwerk überflüssig wird, braucht es auch keine Authentifizierungsschicht für lokale Unternehmensnetze.
 
-## Kein ActiveDirectory mehr?
-
-Vielleicht haben Sie schon von **ActiveDirectory** gehört. In Windows-Netzwerken übernimmt ActiveDirectory die Rolle des **Identity-Providers** und verwaltet ebenfalls Benutzer, Gruppen und Berechtigungen. Doch die Zeiten von ActiveDirectory neigen sich dem Ende zu. Da immer mehr Anwendungen im **Browser** laufen, wird das **lokale Login** in Unternehmensnetzwerken zunehmend überflüssig. Die Authentifizierungsschicht für lokale Netzwerke verliert an Bedeutung, und **IdP-Lösungen** wie Keycloak werden die Zukunft sein.
-
-## Keycloak bei Mint System
-
-Die **Mint System** setzt Keycloak von Beginn an für ihre Dienste (Odoo, Nextcloud, Monitoring) ein und hat bereits positive Erfahrungen gemacht. Wir empfehlen jedem Unternehmen, das viele **Webanwendungen** verwendet, zu prüfen, ob sich der Einsatz von **Keycloak** lohnt.
-
----
-
-Wenn Sie Fragen haben oder eine Demo von Keycloak sehen möchten, kontaktieren Sie uns. Wir helfen Ihnen gerne weiter!
+## Seit Stunde 0
+Natürlich hat die Mint System Keycloak für ihre Dienste (Odoo, Nextcloud, Monitoring) im Einsatz. Wir haben bereits gute Erfahrungen gemacht und empfehlen jedem Unternehmen, die viele Webanwendungen im Einsatz haben zu prüfen, ob sich der Einsatz von Keycloak lohnt.

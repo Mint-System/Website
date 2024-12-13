@@ -9,38 +9,22 @@ type: "blogpost"
 tags: ["Artikel", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"
 summary: "Die Aufgaben der Politik lassen sich in zwei Sätzen zusammenfassen: Für Recht und Ordnung sorgen. Die Wohlfahrt maximieren. Über diese Aussagen lässt sich diskutieren. Sie sind ziemlich abstrakt. Die ..."
-
+lead: "Wann wird der Politiker zum Unternehmer?"
 # Custom SEO fields (optional)
 seo_title: "IHZ Zentralinfo Podium - Mint System GmbH"
 ---
 
-Die Aufgaben der Politik lassen sich in zwei Sätzen zusammenfassen: **Für Recht und Ordnung sorgen** und die **Wohlfahrt maximieren**. Diese Aussagen sind abstrakt und können diskutiert werden. Doch die Politik hat auch eine sehr konkrete Aufgabe: **die öffentliche Verwaltung effizient organisieren**.
+Die Aufgaben der Politik lassen sich in zwei Sätzen zusammenfassen: Für Recht und Ordnung sorgen. Die Wohlfahrt maximieren. Über diese Aussagen lässt sich diskutieren. Sie sind ziemlich abstrakt. Die Politik hat aber noch eine andere, viel konkretere Aufgabe: die öffentliche Verwaltung effizient organisieren.
 
-> Quelle: IHZ Zentralinfo September 2020
+Wenn es darum geht, die administrativen Prozesse effizient zu gestal- ten, die dafür notwendigen Ressourcen sorgfältig und kundenorien- tiert einzusetzen, dann werden Politiker zu Unternehmern. Im Zeitalter der Digitalisierung wird der Hebel zwischen dem intelligenten Einsatz moderner Technik und erreichter Wirkung zudem stetig grösser. Per- sönliche Attribute wie technischer Sachverstand, strategische Weit- sicht und Mut zum Risiko sind für die Entscheidungsträger der Ver- waltung besonders wichtig. Auch hier gilt: Querdenker sind gefragt. Unternehmer, die ihren eigenen Weg gehen, sind den anderen voraus.
 
-## Die Bedeutung von Effizienz in der Verwaltung
+### Auch in der Politik auf innovative Produkte setzen
+Ein Beispiel: Open-Source-Software bietet viele Vorteile, darin sind sich Experten einig. Der Quellcode ist frei verfügbar, er gehört nie- mandem. Alle Interessierten können teilhaben und die Verwendung ist meistens lizenzkostenfrei. Warum ist diese Technologie in den öffentlichen Verwaltungen so selten anzutreffen? Wahrscheinlich weil die Entscheidungsträger nicht bereit sind, einen eigenen Weg zu gehen. Fernab vom Mainstream auf neue innovative Produkte zu set- zen, ist in der Politik nicht üblich.
 
-Laut **Kurt Gisler**, CEO der Mint System GmbH und Landrat im Kanton Uri, werden Politiker zu **Unternehmern**, wenn es darum geht, **administrative Prozesse effizient zu gestalten** und Ressourcen sorgfältig sowie kundenorientiert einzusetzen. Im **Zeitalter der Digitalisierung** wird der Hebel zwischen dem intelligenten Einsatz moderner Technik und der erreichten Wirkung immer größer. Persönliche Attribute wie **technischer Sachverstand**, **strategische Weitsicht** und der **Mut zum Risiko** sind für Entscheidungsträger in der Verwaltung von besonderer Bedeutung. Auch in der Politik gilt: **Querdenker sind gefragt**. Unternehmer, die ihren eigenen Weg gehen, sind den anderen voraus.
-
-## Auf innovative Produkte setzen – auch in der Politik
-
-**Open-Source-Software** bietet viele Vorteile, darin sind sich Experten einig. Der **Quellcode ist frei verfügbar**, gehört niemandem und die Nutzung ist in der Regel **lizenzkostenfrei**. Doch warum ist diese Technologie in der öffentlichen Verwaltung so selten anzutreffen? **Marco Roeleven**, CSO der Mint System GmbH und ebenfalls Landrat im Kanton Uri, ist der Ansicht, dass **Entscheidungsträger oft nicht bereit sind**, einen eigenen Weg zu gehen. Es ist nicht üblich, abseits des Mainstreams auf **neue innovative Produkte** zu setzen.
-
-### Unterstützung der KMU durch Open Source
-
-Ein solcher Ansatz würde besonders die **KMU** unterstützen, die ein **bedeutungsvoller Motor** unserer Wohlfahrt sind. Wenn politische Entscheidungsträger in der Führung ihrer „Firma“ (sprich: der öffentlichen Verwaltung) eine **innovative Haltung** einnehmen, könnten **moderne KMU** profitieren – zum Beispiel Schweizer Firmen, die sich mit **Software-Engineering** beschäftigen.
-
-Leider haben es KMU in der Software-Industrie oft schwer, sich gegen die großen amerikanischen IT-Giganten zu behaupten. Es ist ein klassischer Kampf **„David gegen Goliath“**, obwohl dies aus technologischer Sicht nicht gerechtfertigt ist. Dank Open-Source-Software haben weltweit vernetzte **Entwickler-Communities** eine beeindruckende **Innovationskraft** entwickelt, der sich auch **lokale Anbieter** anschließen können. Dadurch kann die **Wertschöpfung in der Region** deutlich gesteigert werden.
-
-## Unternehmerisch handelnde Politiker sind gefragt
-
-**Politikerinnen und Politiker** sollten in der heutigen Zeit **Trendsetter für den Einsatz digitaler Technik** in der Organisation der öffentlichen Verwaltung sein. In ihrer **Führungsaufgabe** innerhalb der Verwaltung haben sie alle Möglichkeiten, diesen Wandel voranzutreiben. Die Förderung des Einsatzes von **Open-Source-Software** ist ein konkretes Beispiel dafür, wie Schweizer KMU unterstützt werden können. 
-
-Gute Rahmenbedingungen für unsere **lokale Wirtschaft** sind unter anderem auf **unternehmerisch handelnde Politikerinnen und Politiker** zurückzuführen, die als Manager der öffentlichen Verwaltung agieren.
-
----
-
-Möchten Sie mehr über den Einsatz von **Open-Source-Software** in der öffentlichen Verwaltung und ihre Vorteile für KMU erfahren? Kontaktieren Sie uns gerne für weitere Informationen.
+Doch würde genau dieser Ansatz die KMU und damit einen bedeu- tungsvollen Motor unserer Wohlfahrt unterstützen. Wenn politische Entscheidungsträger in der Führung ihrer «Firma» (sprich öffentliche Verwaltung) mit einer innovativen Haltung neue Produkte einsetzen, dann können moderne KMU profitieren. Zum Beispiel viele Schwei- zer Firmen, die sich mit Software-Engineering beschäftigen. Leider haben es KMU in der Software-Industrie schwer, gegen die grossen amerikanischen IT-Giganten erfolgreich zu sein. Es ist ein Kampf «David gegen Goliath». Dieses Kräfteverhältnis ist aber aus techno- logischer Sicht nicht gerechtfertigt. Mit den Möglichkeiten von Open-Source-Software vereinigen sich weltweit vernetzte Entwickler- Communities zu Expertennetzwerken mit einer beeindruckenden Innovationskraft. Lo- kale Anbieter können sich anschliessen. Die Wertschöpfung in der Region kann wesent- lich gesteigert werden.
 
 
 
+### ES BRAUCHT UNTERNEHMERISCH HANDELNDE POLITIKER
+
+Politikerinnen und Politiker sollten in der aktuellen Zeit Trendsetter für den Einsatz digitaler Technik in der Unternehmensorgani- sation sein. In ihrer Führungsaufgabe inner- halb der öffentlichen Verwaltung haben sie hierfür alle Möglichkeiten. Die Förderung des Einsatzes von Open-Source-Software ist ein konkretes Beispiel, wie Schweizer KMU unter- stützt werden können. Gute Rahmenbedin- gungen für unsere lokale Wirtschaft sind unter anderem unternehmerisch handelnde Exekutiv-Politikerinnen und -Politiker als Manager der öffentlichen Verwaltung.

@@ -10,22 +10,19 @@ type: "blogpost"
 
 featured_image: "/assets/images/blog/server.jpeg"
 summary: "Odoo ist eine Webapplikation und braucht zur Verwendung lediglich den Browser. Damit Odoo in Betrieb genommen werden kann, muss eine Installation des Odoo Server gehostet werden. Der Odoo Server kann a..."
-
+lead: "Das richtige Odoo Hosting wählen."
 # Custom SEO fields (optional)
 seo_title: "Odoo Hosting-Modelle - Mint System GmbH"
 ---
 
-# Odoo: Installation und Modelle
+Odoo ist eine Webapplikation und braucht zur Verwendung lediglich den Browser. Damit Odoo in Berieb genommen werden kann, muss eine Installation des Odoo Server gehostet werden. Der Odoo Server kann auf unterschiedliche Art und Weise installiert werden. Dazu möchten wir einen Überblick verschaffen.
 
-Odoo ist eine Webapplikation und braucht zur Verwendung lediglich den Browser. Damit Odoo in Betrieb genommen werden kann, muss eine Installation des Odoo Servers gehostet werden. Der Odoo Server kann auf unterschiedliche Art und Weise installiert werden. Dazu möchten wir einen Überblick verschaffen.
 
-## Modelle
-
-Eine Odoo Installation wird von Mint System in drei Ausführungen angeboten:
+## Modelle 
+Eine Odoo Installation wird von Mint System in drei Ausführungen angeboten.
 
 ### On-Premise
-
-Wir installieren Odoo in Ihrer lokalen Server-Umgebung und integrieren es in die umliegenden Systeme.
+Wir installieren Odoo in ihrer lokalen Server-Umgebung und integrieren es in die umliegenden Systeme.
 
 ### Mint System Hosting
 
