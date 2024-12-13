@@ -8,41 +8,36 @@ tags: ["Datenschutz", "Open Source Software", "Security"]
 featured_image: "/assets/images/blog/open-source.jpeg"
 type: "blogpost"
 
-lead: "Open Source Software ist keine Alternative, sie ist einfach besser."
+lead: "Warum ist Open Source Software sicherer als Closed Source Software?."
 summary: "Immer wieder sind wir mit dem Argument konfrontiert, dass Open Source Software (OSS) nicht sicher sein kann, weil es gratis ist. Oft fällt auch das 'there is no free lunch'-Idiom. Warum dieses Argumen..."
 
 # Custom SEO fields (optional)
 seo_title: "Open Source Software = Sicherheit - Mint System GmbH"
-seo_description: "Open Source Software ist keine Alternative, sie ist einfach besser."
+seo_description: "Warum ist Open Source Software sicherer als Closed Source Software?."
 ---
 
-Immer wieder begegnen wir dem Argument, dass **Open Source Software (OSS)** nicht sicher sein kann, weil sie kostenlos ist. Häufig wird das Sprichwort "there is no free lunch" angeführt. Warum dieses Argument falsch ist, möchten wir hier erläutern.
+Immer wieder begegnen wir dem Argument, dass Open Source Software (OSS) nicht sicher sein kann, weil sie kostenlos ist. Häufig wird das Sprichwort “there is no free lunch” angeführt. Warum dieses Argument falsch ist, möchten wir hier erläutern.
 
-## Software Code vs. Produkte
+Zuerst muss man wissen, dass Software Code nicht mit handfesten Produkten vergleichbar ist. Software Code hat ein besonderes Merkmal - Es kann ohne erheblichen Aufwand vervielfältigt werden. Das ist beispielsweise mit einem Auto eher schwierig. Jede Fertigung eines Autos kostet gleich viel. Code hingegen wird nur einmal geschrieben. Möchte man Software also verkaufen, geht das nur über Lizenzen. Man verkauft sozusagen das geistige Eigentum, aber nicht die Programmzeilen.
 
-Zunächst muss man wissen, dass **Software Code** nicht mit physischen Produkten vergleichbar ist. Software hat ein einzigartiges Merkmal – sie kann ohne großen Aufwand vervielfältigt werden. Das ist zum Beispiel bei einem Auto nicht der Fall. Jedes Auto kostet in der Herstellung immer gleich viel. **Software hingegen wird nur einmal geschrieben** und lässt sich dann beliebig oft kopieren. Der Verkauf von Software basiert daher meist auf **Lizenzen**, die das geistige Eigentum und nicht den eigentlichen Code verkaufen.
+> Software Code hat eine Besonderheit - Er kann ohne Aufwand vervielfältigt werden.
 
-### Der Wert von Software Code
+Daraus stellt sich die Frage: Was hat Software Code für einen Wert, wenn man ihn ganz einfach vervielfältigen kann? Unsere Antwort darauf ist einfach. Der Wert eines Software Codes schlägt sich in der Anzahl der Systeme / Nutzer nieder, die den Code verwenden und ausführen.
 
-Da Software Code ohne große Kosten vervielfältigt werden kann, stellt sich die Frage: **Was ist Software Code wert, wenn er so leicht zu vervielfältigen ist?** Unsere Antwort ist einfach: Der Wert von Code ergibt sich aus der **Anzahl der Systeme und Nutzer**, die den Code verwenden und ausführen.
+> Der Wert von Software Code liegt in der Anzahl der Ausführungen.
 
-### Der Wert von Software Code liegt in der Ausführung
+Demnach steigt der Wert von Code mit der Anzahl der Systeme / Nutzer welche diesen ausführen. Und genau deshalb liegt der grösste Teil von Code auf Kollaborationsplattformen wie [GitHub](https://github.com/) oder [GitLab](https://about.gitlab.com/). Man findet dort den Code zu Millionen von Softwaresystemen, beispielsweise den [Code zum Linux-Betriebssystem](https://github.com/torvalds/linux), welches es [bis auf den Mars geschafft hat](https://www.theverge.com/2021/2/19/22291324/linux-perseverance-mars-curiosity-ingenuity).
 
-Der Wert von Code steigt mit der Anzahl der Systeme und Nutzer, die diesen Code ausführen. Deshalb findet sich der Großteil des Codes auf Kollaborationsplattformen wie **GitHub** oder **GitLab**. Auf diesen Plattformen liegen Millionen von Open-Source-Projekten, darunter auch der **Code des Linux-Betriebssystems**, das es sogar bis auf den Mars geschafft hat.
+Diese Plattformen werden von Sicherheitsforschern genutzt um Sicherheitslücken in Code zu finden. Es ist ein Ökosystem entstanden, in dem Entwickler bezahlt werden um Sicherheitslücken zu finden und zu schliessen (siehe beispielsweise [hackerone](https://www.hackerone.com/)). Den Code offen zu legen schafft also mehr Sicherheit.
 
-## Transparenz schafft Sicherheit
+> Transparenz schafft Sicherheit.
 
-Diese Plattformen sind nicht nur für Entwickler, sondern auch für **Sicherheitsforscher** von großem Nutzen, um Schwachstellen im Code zu finden. Ein Ökosystem ist entstanden, in dem Entwickler dafür bezahlt werden, Sicherheitslücken zu entdecken und zu beheben (siehe zum Beispiel [HackerOne](https://www.hackerone.com/)). **Der offene Zugang zu Code erhöht also die Sicherheit**, da mehr Augenpaare den Code prüfen können.
+Das Gegenteil nennt man "security through obscurity", also Sicherheit durch Verschleierung. Dieser Ansatz wird von Sicherheitsforschern [nicht mehr empfohlen](https://en.wikipedia.org/wiki/Security_through_obscurity#Criticism).
 
-Im Gegensatz dazu steht der Ansatz der **"security through obscurity"** (Sicherheit durch Verschleierung), welcher von Sicherheitsforschern längst als überholt angesehen wird.
+Zusammenfassend kann man die folgenden Schlussfolgerungen ziehen:
 
-## Zusammenfassung
-
-- Der **Wert von Software Code** liegt in der Anzahl der Systeme und Nutzer, die ihn ausführen.
-- Je mehr Nutzer ein Code hat, desto höher der Wert und desto mehr **Sicherheit** bietet er.
-- Plattformen wie GitHub und GitLab fördern durch Transparenz die Sicherheit.
-- Es gibt **Anreize**, den Code auf diesen Plattformen auf Sicherheitslücken zu untersuchen und diese zu schließen.
-- **Open Source Code** ist sicherer als Closed Source Code.
-
-Transparenz ist der Schlüssel zu mehr Sicherheit in der Softwareentwicklung. Open Source fördert diese Transparenz und macht Software dadurch sicherer.
+- Der Wert von Software Code liegt in der Anzahl der Ausführungen.
+- Die Anzahl der Ausführungen steigt, wenn der Code auf offenen Plattformen liegt.
+- Es gibt Anreize den Code auf diesen Plattformen nach Sicherheitslücken zu durchsuchen und diese zu schliessen.
+- Open Source Code ist sicherer als Closed Source Code.
 

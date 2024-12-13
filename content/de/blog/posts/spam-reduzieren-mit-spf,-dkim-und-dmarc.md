@@ -8,20 +8,20 @@ layout: "blog/posts/posts"
 tags: ["Infrastruktur", "Software Engineering"]
 featured_image: "/assets/images/blog/spam-mail.jpg"
 type: "blogpost"
+lead: "Mit diesem Beitrag möchten wir einen Einblick in eine komplexe Thematik geben: Spam."
 summary: "Spam verursacht tagtäglich Kosten in Miliardenhöhe. E-Mail-Server werden geflutet, Mails landen fälschlicherweise im Spamordner und unerfahrene Anwender werden mit Mails 'gefischt'. Ebenso viele Massn..."
 
 # Custom SEO fields (optional)
 seo_title: "Spam reduzieren mit SPF, DKIM und DMARC - Mint System GmbH"
 ---
 
-**Spam verursacht tagtäglich Kosten in Milliardenhöhe**. E-Mail-Server werden geflutet, legitime Nachrichten landen im Spamordner, und unerfahrene Anwender werden Opfer von Phishing-Attacken. Es gibt jedoch viele Maßnahmen, um dem entgegenzuwirken. Aktuell besonders wichtig sind die Begriffe **SPF**, **DKIM** und **DMARC** – Begriffe, die jeder Administrator kennen sollte.
+Spam verursacht tagtäglich Kosten in Miliardenhöhe. E-Mail-Server werden geflutet, Mails landen fälschlicherweise im Spamordner und unerfahrene Anwender werden mit Mails "gefischt". Ebenso viele Massnahmen gibt es dagegen. Gerade aktuell ist SPF, DKIM und DMARC. Jeder Administrator sollte diese kryptischen Begriffe kennen.
 
 ## Versand und Empfang von E-Mails
 
-Beim Klick auf "Versenden" im E-Mail-Programm passiert im Normalfall Folgendes:
+Beim Klick auf Versenden im E-Mail-Programm passiert im Normalfall Folgendes:
 
 ![Bildbeschreibung](/assets/images/blog/smtp.png)
-
 
 1. Das **Mail-Programm** übermittelt die Nachricht an den Mail-Server (SMTP-Protokoll).
 2. Der **Mail-Server** prüft den Empfänger und sucht den Mail-Server des Empfängers (DNS-Protokoll).
@@ -29,47 +29,52 @@ Beim Klick auf "Versenden" im E-Mail-Programm passiert im Normalfall Folgendes:
 4. Der **Empfänger-Mail-Server** legt die Mail im Postfach des Empfängers ab.
 5. Das **Mail-Programm** des Empfängers aktualisiert die Übersicht der Mails.
 
-Die Filterung von **Spam-Nachrichten** erfolgt im Schritt 3. Hierbei wird anhand bestimmter Kriterien überprüft, ob eine Nachricht als **Spam** einzustufen ist. Doch manchmal werden valide E-Mails fälschlicherweise als Spam markiert und umgekehrt. Es gibt jedoch einen weiteren wichtigen Check, der hilft, die Authentizität des Absenders zu verifizieren.
-
-### Wie weiß der empfangende Mail-Server, dass der Absender berechtigt ist, von diesem Mail-Server zu senden?
-
-Angenommen, wir haben die E-Mail-Adresse **info@example.com**. Das bedeutet, dass die Organisation im Besitz der Domain **example.com** ist und unter dieser Domain E-Mails versenden darf. Um dies sicherzustellen, gibt es eine Reihe von Checks: **SPF**, **DKIM** und **DMARC**.
-
-## SPF: Sender Policy Framework
-
-![Bildbeschreibung](/assets/images/blog/spf.png)
+Die Filterung von Spam-Nachrichten erfolgt im Schritt 3. Der Mail-Server prüft eingehende Nachrichten nach bestimmten Stichwörtern. Dabei kann es passieren, dass eine valide Mail als Spam klassifiziert wird und umgekehrt eine Spam-Mail als valide deklariert wird. Doch es gibt einen weiteren wichtigen Check. Dazu folgende Einstiegsfrage:
 
 
-Das **Sender Policy Framework (SPF)** verhindert, dass E-Mails von einem nicht autorisierten Mail Transfer Agent (MTA) gesendet werden. Der empfangende Mail-Server überprüft, ob der MTA für die Domain berechtigt ist, E-Mails zu versenden.
+> Wie weiss der empfangende Mail-Server, dass der Absender der Nachricht wirklich vom versendenden Mail-Server verschicken darf?
+
+Angenommen wir haben die Mail-Adresse info@example.com, dann heisst das, meine Organisation ist im Besitz der Domain example.com und ich darf unter dieser Domain E-Mails versenden und empfangen. Damit der empfangende Mail-Server überprüfen kann ob man wirklich der Besitzer dieser Domain ist und E-Mails versenden darf, braucht es eine Reihe von Checks: SPF, DKIM und DMARC
+
+
+## SPF:
+
+![spf](/assets/images/blog/spf.png)
+
+Das Sender Policy Framework (SPF) unterbindet das E-Mails von einem nicht legitimierten Mail Transfer Agent (MTA) versendet werden. Der empfangende Mail-Server kann überprüfen, ob der MTA unter einer bestimmten Domäne Mails versenden darf.
 
 ### Implementation
+Für jeden MTA stellt man einen spezifischen DNS-Eintrag zur Verfügung. Dieser SPF-Eintrag enthält die Adresse des MTA und weist darauf hin, dass es Richtlinien zur Verarbeitung der Mails gibt.
 
-Für jeden MTA wird ein spezifischer **DNS-Eintrag** bereitgestellt. Dieser SPF-Eintrag enthält die Adresse des MTA und definiert die Richtlinien zur Verarbeitung von E-Mails.
-
-## DKIM: DomainKeys Identified Mail
+## DKIM
 
 ![Bildbeschreibung](/assets/images/blog/dkim.png)
 
-**DomainKeys Identified Mail (DKIM)** funktioniert ähnlich wie SPF, konzentriert sich jedoch auf die Überprüfung des Absenders der E-Mail. Jede ausgehende E-Mail wird digital signiert. Der empfangende Mail-Server kann diese Signatur überprüfen, um sicherzustellen, dass die Nachricht authentisch ist.
+
+DomainKeys Identified Mail (DKIM) funktioniert ähnlich wie SPF. Jedoch wird nicht der Mail Transfer Agent (MTS) geprüft, sondern der Absender des Mails. Mit DKIM werden alle ausgehenden Mails signiert. Der empfangende Mail-Server kann diese Signatur überprüfen.
 
 ### Implementation
 
-Für jede Anwendung, die eine E-Mail signiert, wird ein **öffentlicher Schlüssel** auf einer spezifischen DNS-Adresse bereitgestellt. Der Administrator kopiert diesen öffentlichen Schlüssel und erstellt den entsprechenden **DNS-Eintrag**.
+Für jede Applikation die eine E-Mail signiert, stell einen öffentlichen Schlüssen für eine bestimmte DNS-Adresse zur Verfügung. Als Administrator kopiert man den öffentlichen Schlüssel und erstellt einen DNS-Eintrag für die Adresse bereit.
 
-## DMARC: Domain-based Message Authentication, Reporting & Conformance
 
-**DMARC** bestimmt, wie ein E-Mail-Versand authentifiziert, protokolliert und verarbeitet wird. Es kombiniert die Funktionen von SPF und DKIM, um ein umfassendes Authentifizierungsprotokoll zu gewährleisten.
+## DMARC
+
+DMARC steht für Domain-based Message Authentication, Reporting & Conformance. Es bestimmt wie ein E-Mail-Versand authentisiert, protokolliert und verarbeitet wird. DMARC beinhaltet SPF und DKIM.
 
 ![Bildbeschreibung](/assets/images/blog/dmarc.png)
 
-
 ### Implementation
 
-Als Administrator legen Sie **Richtlinien** und eine **Berichts-E-Mail-Adresse** fest und veröffentlichen diese als DNS-Eintrag. Diese Richtlinien weisen den empfangenden Mail-Server an, wie die E-Mail überprüft werden soll und wie im Falle eines **Spamverdachts** zu verfahren ist.
+Als Administrator des Mail-Systems bestimmen sie Richtlinien und eine Berichts-Mail-Adresse und publizieren diese Informationen als DNS-Eintrag. Die Richtlinien erklären dem Empfänger wie er die Mail prüfen soll und wie er im Falle eines Spamverdachts verfahren soll.
+
 
 ## Fazit
 
-Eine detaillierte Zusammenfassung zum Zusammenspiel von SPF, DKIM und DMARC finden Sie [hier](#).  
-Diese Maßnahmen erhöhen die **Reputation** Ihres Mail-Servers. Andere Mail-Server können anhand dieser Checks sicherstellen, dass alle ausgehenden E-Mails legitim sind.
+Eine gute Zusammenfassung für das Zusammenspiel von SPF, DKIM und DMARC ist [hier verfügbar](https://dmarc.globalcyberalliance.org/how-it-works/).
 
-Als technischer Administrator eines Mail-Systems empfehlen wir dringend, diese Maßnahmen zu implementieren, um die Sicherheit Ihres E-Mail-Verkehrs zu gewährleisten.
+
+
+Diese Massnahmen erhöhen die Reputation des eigenen Mail-Servers. Andere Mail-Server können anhand dieser Checks sicherstellen, dass alle ausgehenden Mails legitim sind.
+
+Als technischer Administrator für ein Mail-System empfehlen wir unbedingt diese Massnahmen zu implementieren.

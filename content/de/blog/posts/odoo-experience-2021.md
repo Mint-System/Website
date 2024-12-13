@@ -10,72 +10,65 @@ type: "blogpost"
 
 featured_image: "/assets/images/blog/odoo-experience-2021.jpg"
 summary: "Am 06. bis 07. Oktober 2021 ist es wieder soweit. Odoo veranstaltet ihre jährliche   Odoo Experience .  Was erwartet Sie?** Mit diesen Worten begrüsst Sie der Veranstalter:  Two days that will change ..."
+lead: "Einblick in die Neuerungen von Odoo 15."
 
 # Custom SEO fields (optional)
 seo_title: "Odoo Experience 2021 - Mint System GmbH"
 ---
 
-Vom **06. bis 07. Oktober 2021** ist es wieder soweit: Odoo veranstaltet ihre jährliche **Odoo Experience**.
+Am 06. bis 07. Oktober 2021 ist es wieder soweit. Odoo veranstaltet ihre jährliche Odoo Experience.
+
 
 ## Was erwartet Sie?
 
-Mit diesen Worten begrüßt Sie der Veranstalter:
+Mit diesen Worten begrüsst Sie der Veranstalter:
 
-> **"Two days that will change the way you think about business."**
+> Two days that will change the way you think about business.
 
-Klingt ambitioniert? Beurteilen Sie selbst. Die **Agenda** ist in jedem Fall beeindruckend: In über **200 Vorträgen**, Produktemos und Gesprächsrunden erklären Experten wichtige **Odoo-Schlüsselfunktionen** und stellen Best-Practice-Vorschläge vor. Ein Highlight ist natürlich die Präsentation der Neuerungen des nächsten Release: **Odoo 15**.
+Etwas hoch gegriffen? Beurteilen Sie selbst. Die Agenda ist auf jeden Fall beeindruckend. In über 200 Vorträgen, Produktemos und Gesprächsrunden in zwei Tagen erklären Experten wichtige Odoo-Schlüsselfuktionen und ihre Vorschläge für Best-Practice. Ein Highlight ist natürlich die Präsentation der Neuerungen des nächsten Release Odoo 15.
 
-Die Veranstaltung startet jeweils um **14:00 Uhr** mit einer Keynote von **Fabien Pinckaers**, dem Gründer & CEO von Odoo. Danach werden parallel aus **9 Studios** im Halbstundentakt bis abends um 22:00 Uhr Livestreams gesendet – das ist geballtes **Odoo-Wissen** in Kompaktform!
-
-## Für wen ist die Odoo Experience?
-
-Die Odoo Experience richtet sich an **Odoo-Neulinge**, erfahrene Anwender und Entwickler. Durch die Vielfalt der Veranstaltungen kann jeder Interessierte sein eigenes Programm zusammenstellen.
-
-Die Veranstaltungen sind mit den folgenden **Schlüsselwörtern** markiert:  
-- Demo  
-- Functional  
-- Business  
-- Customer Success Story  
-- Developer  
-- Workshop  
-- Partner  
-- AMA (Ask Me Anything)
-
-Diese Gruppierung beschreibt die Art der Veranstaltung und gibt Hinweise auf die **Zielgruppe**.
-
-## Anmeldung
-
-Die Anmeldung erfolgt ganz unkompliziert über diesen Link: [Odoo Experience 2021](https://www.odoo.com/event/odoo-experience-2021-2843/register).
-
-## Auf welche Vorträge freut sich die Mint System?
-
-Wir sind besonders gespannt auf die neuen Funktionen von **Odoo 15**. Hier sind einige der Vorträge, die unser Interesse geweckt haben:
-
-- **What's New in Project?**  
-- **What's New in MRP?**  
-- **What's New in Odoo PLM?**  
-- **What's New in the Odoo HR Suite?**  
-- **What's New in Discuss?**  
-- **What's New in Inventory?**  
-- **What's New in Field Service?**
-
-Im Zusammenhang mit der Optimierung der **Produktionsabläufe** und **Projekte** finden wir folgende Veranstaltungen besonders interessant:
-
-- **Tutorial to Improve Quality Management for Industries**  
-- **Automating Direct Printing**  
-- **Organize Projects Perfectly with Odoo**  
-- **Barcode Scanner: Advanced Flows for Inventory Optimization**
-
-Und dann noch:
-
-- **Forecasting & Budgeting with Odoo Spreadsheets**  
-- **VoIP: How Does it Work with Odoo?**  
-- **Audit-proof Storage of Documents in Odoo**  
-- **Odoo Payroll Compliance: The Case of Switzerland**
-
-## Übrigens …
-
-Am **08. Oktober 2021** ist die **Mint System GmbH** für den **Partner Day** am Odoo-Hauptsitz in **Louvain-La-Neuve (Belgien)** eingeladen. Wir haben die Möglichkeit, uns direkt mit den Mitarbeitenden von Odoo auszutauschen. Haben Sie ein Thema, das wir für Sie ansprechen sollen? Schicken Sie uns gerne Ihren Vorschlag!
+Die Veranstaltung startet jeweils um 14:00 Uhr mit einer Keynote von Fabien Pinckaers, dem Founder & CEO von Odoo. Anschliessend werden parallel aus 9 Studios im Halbstundentakt bis Abends um 22:00 Uhr Livestreams gesendet. Das ist geballtes Odoo-Wissen in Kompaktform!
 
 
-Weitere Infos und Anmeldung zur Odoo Experience finden Sie auf [www.odoo.com](https://www.odoo.com/event/odoo-experience-2021-2843/register).
+### An wen richtet sich die Odoo Experience?
+
+Die Veranstaltung richtet sich an Odoo-Neulinge, erfahrene Anwender und Entwickler. Die Fülle der Veranstaltungen bietet die Möglichkeit, dass sich alle Interessierten ihr eigenes Programm zusammenstellen können.
+
+Die Veranstaltungen sind mit den folgenden Keywords markiert:
+Demo, Functional, Business, Customer Success Story, Developer, Workshop, Partner und AMA (Ask Me Anything). Diese Gruppierung beschreibt die Art der Veranstaltung und gibt Hinweise auf die Zielgruppe.
+
+
+
+### Anmeldung
+
+Die Anmeldung erfolgt ganz unkompliziert über die folgenden Link: [Odoo Experience 2021](https://www.odoo.com/de_DE/event/odoo-experience-2021-2847/page/oxp21-introduction)
+
+
+### Auf welche Vorträge freut sich die Mint System?
+
+Wir interessieren uns natürlich sehr für die neuen Funktionen von Odoo 15. Diesbezüglich fokussieren wir auf die folgenden Veranstaltungen:
+
+- What's New in Project?
+- What's New in MRP?
+- What's New in Odoo PLM?
+- What's New in the Odoo HR Suite?
+- What's New in Discuss?
+- What's New in Inventory?
+- What's New in Field Service?
+
+Im Zusammenhang mit der Optimierung der Produktionsabläufe und Projekte ist Folgendes interessant:
+
+- Tutorial to improve Quality Management for industries
+- Automating Direct Printing
+- Organize Projects Perfectly with Odoo
+- Barcode Scanner: Advanced Flows for Inventory Optimization
+
+... und dann noch
+
+- Forecasting & Budgeting with Odoo Spreadsheets
+- VoIP: How Does it Work with Odoo?
+- Audit-proof storage of documents in Odoo
+- Odoo Payroll Compliance: The Case of Switzerland
+
+### Übrigens ...
+Am 08. Oktober 2021 ist die Mint System GmbH für den Partner Day am Odoo Hauptsitz in in Louvain-La-Neuve (Belgien) eingeladen. Wir haben die Möglichkeit uns mit den Mitarbeitenden von Odoo direkt auszutauschen. Vielleicht wollen Sie uns ein Thema mitgeben? Sie dürfen uns Ihren Vorschlag gerne zusenden.

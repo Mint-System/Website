@@ -9,72 +9,76 @@ featured_image: "/assets/images/blog/20221012_084210_6890.jpeg"
 type: "blogpost"
 summary: "Wir waren an der Odoo Experience 2022 und die wichtigsten Neuerung von Odoo 16 zusammengefasst. Kurzum ist das System schneller und stabiler geworden. Statt in neue Features zu investieren, hat Odoo d..."
 ---
-
-Wir waren an der Odoo Experience 2022 und haben die wichtigsten Neuerungen von Odoo 16 zusammengefasst. Kurzum: Das System ist schneller und stabiler geworden. Statt in neue Features zu investieren, hat Odoo die bestehenden Funktionen verbessert. Das freut uns sehr, und wir gehen davon aus, dass Odoo 16 uns und unsere Kunden lange begleiten wird.
+Wir waren an der Odoo Experience 2022 und die wichtigsten Neuerung von Odoo 16 zusammengefasst. Kurzum ist das System schneller und stabiler geworden. Statt in neue Features zu investieren, hat Odoo die bestehenden Funktionen verbessert. Das freut uns sehr und wir gehen davon aus, dass Odoo 16 uns und unsere Kunden am längsten begleiten wird.
 
 ## Performance
 
-**Millisekunden:** Mit der neuen Version ist alles nochmal viel schneller. Jeder Klick auf der Benutzeroberfläche führt direkt zum Ergebnis. Auch wenn es absurd wirkt, dass Odoo jetzt im Millisekundenbereich eine Antwort gibt, darf man diese Verbesserung nicht unterschätzen. Das Benutzererlebnis hängt unbewusst zu einem großen Teil von der Performance des Systems ab.
+**Millisekunden**: Mit der neuen Version ist alles nochmal viel schneller. Jeder Klick auf der Benutzeroberfläche führt direkt zum Ergebnis. Auch wenn es absurd wirkt, dass Odoo jetzt im Millisekundenbereich eine Antwort gibt, darf man diesen Verbesserung nicht unterschätzen. Das Benutzererlebnis hängt unbewusst zu einem grossen Teil von der Performance des Systems ab.
 
-**SAP im Vergleich:** Zum Einstieg der Keynote hat Fabien einmal in SAP und anschließend in Odoo eine Rechnung erstellt. Der Unterschied war immens. In SAP dauerte der Vorgang 10x so lange. Die verlorene Zeit äußert sich im Endeffekt als Frustration bei den Anwendern.
+
+**SAP im Vergleich**: Zum Einstieg der Keynote hat Fabien einmal in SAP und anschließend in Odoo eine Rechnung erstellt. Der Unterschied war immens. In SAP dauerte der Vorgang 10x solange. Die verlorene Zeit äusserst sich im Endeffekt als Frustration bei den Anwendern.
 
 ## Benutzeroberfläche
 
-**Keine Leseansicht:** Die Formularansicht der Geschäftsobjekte wird jetzt immer im Bearbeitungsmodus geöffnet. Das heißt, es gibt keinen Lese-/Bearbeitungsmodus mehr. Änderungen kann man so direkter und schneller vornehmen. Zugegeben, es braucht eine gewisse Umgewöhnungszeit.
+**Keine Leseansicht:** Die Formularansicht der Geschäftsobjekte wird jetzt immer im Bearbeitungsmodus geöffnet. Dass heisst, es gibt keinen Lese-/Bearbeitungsmodus mehr. Änderungen kann man so direkter und schneller machen. Zugegeben braucht es eine gewisse Umgewöhnungszeit.
 
-**Darkmode:** Odoo-Benutzer, die lieber nachts arbeiten, haben jetzt den Darkmode. Die Farben der Oberfläche werden im Darkmode invertiert, um die Augen zu schonen.
+**Darkmode:** Odoo-Benutzer, die lieber in der Nacht arbeiten haben jetzt den Darkmode. Die Farben der Oberfläche werden im Darkmode invertiert, was die Augen schonen soll.
 
 **Wechsel Website/Backend:** Der Wechsel zwischen Backend und Website gelingt nahtlos. Bis anhin dauerte der Sprung von der Website ins Backend immer zu lange.
 
-**Kommander:** Die wichtigste Tastenkombination wird `Ctrl + k` sein. Damit öffnet man den sogenannten Kommander. Über den Kommander kann man auf jede Ansicht navigieren und Aktionen auslösen.
+**Kommander:** Die wichtigste Tastenkombination wird Ctrl + k sein. Damit öffnet man den sog. Kommander. Über den Kommander kann man auf jede Ansicht navigieren und Aktionen auslösen.
 
 ## Website
 
 **Grid:** Elemente können im Grid-Layout positioniert werden. Damit kann die Darstellung der Elemente auf der Website präziser gesteuert werden.
 
-**Analytics:** Besonders freut uns, dass der Analytics-Service Plausible jetzt direkt integriert ist. Wir nutzen Plausible für alle unsere Websites.
+**Analytics:** Was uns besonders freut, der Analytic-Service Plausible ist jetzt direkt integriert. Wir nutzen Plausible für alle unsere Websites.
+
 
 ## Knowledge
 
-**Neue App:** Die einzige neue App in Odoo 16 heißt **Knowledge**, und diese hat es in sich. Mit der Knowledge App können Dokumentationen und Vorlagen in einer Knowledgebase erstellt und verwaltet werden. Wie der Chatter auf der Formularansicht verfügbar ist, kann man mit einem Knopfdruck auf die Knowledgebase zugreifen und Inhalte verlinken.
+**Neue App:** Die einzige neue App in Odoo 16 heisst Knowledge und diese hat es in sich. Mit der Knowledge App können Dokumentationen und Vorlagen in einer Knowledgebase erstellt und verwalten werden. Sowie der Chatter auf der Formularansicht verfügbar ist, kann man mit einem Knopfdruck auf die Knowledgebase zugreifen und die Inhalte verlinken.
 
 ## Fertigung
 
-**Forecast:** Mit dem **Manufacture Forecast** wird für eine bestimmte Stückliste die Lieferfristen und Verfügbarkeit des BoMs unter Berücksichtigung einer definierten Stückzahl dargestellt.
+**Forecast:** Mit dem Manufacture Forecast wird für eine bestimmte Stückliste die Lieferfristen und Verfügbarkeit des BoMs unter Berücksichtigung einer definierten Stückzahl dargestellt.
 
-**Tablet:** Die Tablet-Ansicht wurde überarbeitet. Die Operatoren können sich nun mittels PIN einloggen, was den Wechsel an den Arbeitsplätzen vereinfacht.
+**Tablet:** Die Tablet-Ansicht wurde überarbeitet. Die Operator können Login mittels PIN machen, das vereinfacht den Wechsel an den Arbeitsplätzen.
 
-**Arbeitspläne:** Arbeitspläne können während der Bearbeitung verändert und als **ECO** (Engineering Change Order) gemeldet werden.
+**Arbeitspläne:** Arbeitspläne können während der Bearbeitung verändert und als ECO gemeldet werden.
 
 ## Planning
 
-**Automatische Planung:** Die Planning App ermöglicht eine automatische Planung der Aufgaben gemäß Priorität und Verfügbarkeit der Mitarbeiter-Ressourcen.
+**Automatische Planung:** Die Planning App ermöglicht eine automatische Planung der Aufgaben gemäss Priorität und Verfügbarkeit der Mitarbeiter-Ressourcen.
 
 ## Projekt
 
-**Meilensteine:** Für jedes Projekt können **Meilensteine** angelegt werden. Diese Meilensteine können mit Auftragszeilen aus Verkaufsaufträgen verknüpft werden, wodurch eine Verrechnung nach Abschluss eines Meilensteins möglich wird.
+**Meilensteine:** Für jedes Projekt können Meilensteine angelegt werden. Meilensteine können mit Auftragszeilen aus Verkaufsaufträgen verknüpft werden. Dadurch ist eine Verrechnung nach Abschluss eines Meilensteins möglich.
+
 
 ## Dashboard
 
-**Standard-Dashboards:** Eine Auswahl von Dashboards wird nun vorgefertigt installiert. Im besten Fall müssen die Benutzer keine eigenen Dashboards erstellen. Die Standardansichten werden basierend auf der Spreadsheet-Funktion von Odoo generiert.
+**Standard**: Eine Auswahl von Dashboards werden nun vorgefertigt installiert. Die Benutzer müssten im besten Falls keine eigenen Dashboards erstellen. Die Standard-Ansichten werden basierend auf der Spreadsheet-Funktion von Odoo generiert.
 
 ## Buchhaltung
 
-**Kontoabgleich:** Die Ansicht für den Kontoabgleich wurde vollständig überarbeitet. Der Abgleich kann nun wesentlich einfacher durchgeführt werden. Abgebrochene oder fehlgeschlagene Zahlungen können einfach abgeglichen werden.
+**Kontoabgleich:** Die Ansicht für den Kontoabgleich wurde total überarbeitet. Der Abgleich kann nun einiges Einfacher erledigt werden. Abgebrochene oder fehlgeschlagene Zahlungen können einfach abgeglichen werden.
 
-**Skonto:** Rabatte und Skonto können sowohl für Kunden als auch Lieferanten gewährt werden.
+**Skonto:** Rabatte und Skonto können für Kunden und Lieferanten gewährt werden.
 
-**Wiederholende Rechnungen:** Wiederholende Rechnungen können direkt beim Erstellen konfiguriert werden.
+**Wiederholung:** Wiederholende Rechnungen können direkt beim Erstellen konfiguriert werden.
+
 
 ## Lizenzierung
 
-**Neues Modell:** Das Lizenzierungsmodell für die Odoo Enterprise-Version hat sich geändert. Mehr dazu erfahren Sie auf [der Odoo-Preisseite](https://www.odoo.com/de_DE/pricing-plan). Jede Odoo-Installation braucht Anpassungen, und deshalb wird nur in Ausnahmefällen eine Installation mit der Standard-Lizenz angeboten.
+**Neues Modell:** Das Lizenzierungsmodell für die Odoo Enterprise Version hat geändert. Mehr dazu erfahren Sie auf https://www.odoo.com/de_DE/pricing-plan. Jede Odoo-Installation braucht Anpassungen und deshalb wird nur in Ausnahmefällen eine Installation mit der Standard-Lizenz geben.
+
 
 ## Technisch
 
-**Framework:** Odoo hat ein eigenes Server- und Client-Framework, was immer wieder zu hitzigen Diskussionen führt. Was Odoo von anderen Software-Systemen unterscheidet, ist die **Multimodul-Fähigkeit**. Odoo kann horizontal getrennt werden, was es einzigartig flexibel macht.
+**Framework:** Odoo hat ein eigenes Server und Client-Framework. Das sorgt immer wieder für hitzige Diskussionen. Was Odoo von allen anderen Software-Systemen unterscheidet ist die Multimodul-Fähigkeit. Odoo kann in der horizontal getrennt werden und das macht es so einzigartig flexibel.
 
 ## Zusammenfassung
 
-Mit Odoo 16 wurde ein Meilenstein erreicht. Das System ist technologisch fortgeschritten und gleichzeitig äußerst stabil. Wir freuen uns darauf, Odoo 16 bei neuen und bestehenden Kunden zu implementieren.
+Mit Odoo 16 wurde ein Meilenstein erreicht. Das System ist technologisch Fortgeschritten und gleichzeitig läuft es äusserst stabil. Wir freuen uns Odoo 16 bei neuen und bestehenden Kunden zu implementieren.
 

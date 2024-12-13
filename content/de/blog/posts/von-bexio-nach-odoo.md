@@ -15,53 +15,54 @@ seo_title: "Von Bexio nach Odoo - Mint System GmbH"
 seo_description: "Ein Erfahrungsbericht zur Migration von Bexio nach Odoo."
 ---
 
-# Wechsel von Bexio nach Odoo: Ein Beispiel-Projekt
+Das Ziel der folgenden Erläuterungen ist es, ein Beispiel-Projekt für den Wechsel von Bexio nach Odoo mit den wesentlichen Projektarbeiten zu beschreiben.
 
-Das Ziel der folgenden Erläuterungen ist es, ein Beispiel-Projekt für den **Wechsel von Bexio nach Odoo** mit den wesentlichen Projektarbeiten zu beschreiben. Obwohl wir Bexio nur vom *Hörensagen* kennen und keine Aussagen zur Qualität dieses Produkts machen wollen, gab es einen entscheidenden Grund für den Wechsel: **Die Lagerverwaltung über mehrere Standorte** hinweg war in Bexio nicht möglich.
+Wir kennen Bexio praktisch nur vom *Hörensagen*. Deshalb wollen wir hier keine Aussagen zur Qualität dieses Produktes machen. Einen konkreten Grund für den Wechsel will ich hier trotzdem nennen: Die Lagerverwaltung über verschiedene Standorte hinweg war in Bexio nicht möglich.
 
-## Customizing in Odoo
 
-### 1. **Listen und Masken**
-Der Kunde hatte sehr spezifische Anforderungen, wie die **Darstellung von Listen und Masken** gestaltet werden sollte. Mit **Snippets** können in Odoo alle Ansichten kundenspezifisch angepasst werden. Hierfür nutzen wir die **Mint System Snippets-Bibliothek**, welche kontinuierlich erweitert und auf GitHub veröffentlicht wird.
+## Customizing
 
-### 2. **Business-Logik**
-Ein wichtiger Punkt war, dass der Verkäufer sofort erkennen sollte, ob die Rechnungen zu einem Auftrag schon bezahlt wurden. Mit **zusätzlichen Feldern** und **Python-Code** lassen sich komplexe Algorithmen realisieren. In diesem Fall genügte es, die mit dem Verkaufsauftrag verknüpften Rechnungen zu durchsuchen und ein entsprechendes Attribut zu setzen.
+**Listen und Masken**: Der Kunde hatte sehr spezifische Anforderungen wie die Darstellung der Listen und Masken gestaltet werden soll. Mittels Snippets können in Odoo alle Ansichten kundenspezifisch geändert werden. Hierfür bedienen wir uns aus der Mint System Snippets-Bibliothek welche kontinuierlich ergänzt und auf GitHub veröffentlicht wird.
 
-### 3. **Layout der Berichte**
-Erfahrungsgemäß benötigt das spezifische **Gestalten der Berichte** wie Bestellung, Angebot, Verkaufsauftrag und Rechnung erheblichen Aufwand. Dazu gehören unter anderem automatische Texte im Bemerkungsfeld des Lieferscheins, spezielle Logiken für das Adressfeld sowie die Verwendung **spezifischer Schriftarten**.
+**Business-Logik**: Unter anderem sollte der Verkäufer direkt erkennen können, ob die Rechnungen zu einem Auftrag schon bezahlt sind. Mit zusätzlichen Feldern in Verbindung mit Python-Code können komplexe Algorithmen realisiert werden. In diesem Fall hat ein Durchsuchen der mit dem Verkaufsauftrag in Verbindung stehenden Rechnungen und das Setzen eines Attributs genügt.
+
+
+
+**Layout der Berichte**: Erfahrungsgemäss wird relativ viel Aufwand für das spezifische Gestalten der versendeten Dokumente Bestellung, Angebot, Verkaufsauftrag, Rechnung usw. notwendig. Das geht von automatischen Texten im Bemerkungsfeld des Lieferscheins über spezielle Logiken für das Adressfeld bis zu spezifischen Schriftarten.
+
+
 
 ## Datenmigration
 
-### 1. **Excel-Transfer**
-Ein Export/Import über **Excel-Tabellen** ist oft der einfachste Weg für die Datenmigration. Für die systematische Aufbereitung der Daten (wie das Umbenennen von Spalten oder das Ändern von Feldinhalten) verwenden wir **Jupyter Notebooks**. Sobald der Prozess stabil läuft, benötigt man nur ein kleines Zeitfenster für die vollständige **Datenmigration**.
+**Excel-Transfer**: Sehr oft ist ein Export/Import über Excel-Tabellen der einfachste Weg. Für die systematische Datenaufbereitung (Feldinhalte nach einer bestimmten Logik ändern, Spalten umbenennen usw.) verwenden wir Jupyter Notebooks. Wenn der Prozess stabil läuft, braucht es zum Zeitpunkt x nur ein schmales Zeitfenster für die vollständige Datenmigration zwischen den Systemen.
 
-### 2. **Migration der Buchhaltung**
-Es ist einfacher, auf den Übertrag aller Buchungszeilen zu verzichten. Stattdessen sollten die Konten im Quellsystem geschlossen und im Zielsystem mit einer Eröffnungsbuchung eingerichtet werden. Dieser Ansatz wurde auch hier gewählt.
+
+
+**Migration der Buchhaltung**: Auf den Übertrag aller Buchungszeilen sollte verzichtet werden. Einfacher ist das Schliessen der Konti im Quellsystem und Einrichten der Konti mit je einer Eröffnungsbuchung im Zielsystem. Dieser Ansatz wurde auch hier gewählt.
 
 ## EDI-Anbindung
 
-Eine wesentliche Anforderung war die Integration von Odoo in das bestehende **EDI-System** (Electronic Data Interchange). Ein EDI-System ermöglicht den Austausch von Dokumenten (Bestellungen, Rechnungen usw.) zwischen verschiedenen Systemen. Diese Entwicklung wurde mit dem bestehenden EDI-Partner koordiniert, sodass die Erstellung von **Verkaufsaufträgen und Rechnungen** vollständig automatisiert wurde.
+Eine entscheidende Anforderung war, dass Odoo in das bestehende EDI-System (electronic data interchange) integriert werden kann. Ein EDI-System ermöglicht den Austausch von Dokumenten (Bestellungen, Rechnungen usw.) zwischen Systemen mit unterschiedlichen Schnittstellen. Diese Entwicklung wurde von uns mit dem bestehenden EDI-Partner koordiniert. Mit der EDI-Anbindung wurde die Erstellung von Verkaufsaufträgen und dazugehörigen Rechnungen vollständig automatisiert.
 
 ## Lagerverwaltung und Routen
 
-### 1. **Lager und Lagerorte**
-Die Lagerung von Komponenten und Fertigprodukten ist auf **mehrere Standorte** mit diversen Lagerorten aufgeteilt. Das automatische **Reservieren** und **Kommissionieren** über **Barcode-Scannen** ist eine Odoo-Standardfunktion.
+**Lager und Lagerorte**: Die Lagerung von Komponenten und Fertigprodukten ist auf mehrere Standorte mit diversen Lagerorten aufgeteilt. Das automatische Reservieren und das Kommissionieren über Barcode-Scannen ist eine Odoo Standardfunktion.
 
-### 2. **Routen**
-Über die Konfiguration von **Lager-Routen** konnte der kundenspezifische Prozess des Rüstens an den Produktionsstandort und das Weiterreichen an die Verpackungsstelle eingerichtet werden. Das unkomplizierte **Transferieren der Produkte** mithilfe von Barcodes und passender Hardware ist essenziell für die Sicherstellung des korrekten Bestands.
+**Routen**: Über die Konfiguration von Lager-Routen konnte der kundenspezifische Prozess des Rüsten an den Produktionsstandort und das Weiterreichen an die Verpackungsstelle eingerichtet werden. Das unkomplizierte Transferieren der Produkte mit Barcodes und der richtigen Hardware ist sehr wichtig für die Sicherstellung des korrekten Bestands.
 
 ## Mehrere Mandanten
 
-### 1. **Sichtbarkeit der Stammdaten**
-Eine Installation von Odoo kann für mehrere Unternehmungen genutzt werden. Das ist eine Spezialität von Odoo. Die **Sichtbarkeit der Stammdaten** kann konfiguriert werden, sodass die Produkte beispielsweise von beiden Unternehmen gemeinsam gepflegt werden.
+**Sichtbarkeit der Stammdaten**: Auf einer Installation können unterschiedliche Unternehmungen betrieben werden. Das ist eine Spezialität von Odoo. Die Sichtbarkeit der Stammdaten kann konfiguriert werden. Zum Beispiel können die Produkte von beiden Unternehmen gemeinsam gepflegt werden.
 
-### 2. **Unterschiedliche Kontenrahmen**
-Da die beiden Mandanten (Unternehmen) in der Schweiz und in Deutschland lokalisiert sind, wurden unterschiedliche **Kontenrahmen** angelegt:
+**Unterschiedliche Kontenrahmen**: Die beiden Mandanten (Unternehmen) sind in der Schweiz und Deutschland lokalisiert. Entsprechend wurden zwei unterschiedliche Kontenrahmen angelegt:
 - **Unternehmen in der Schweiz**: Kontenrahmen 2015 (Schweiz)
 - **Unternehmen in Deutschland**: Deutscher Kontenplan SRK04
 
 ## Fazit
 
-Aus unserer Sicht liegt der wesentliche Vorteil von **Odoo** gegenüber anderen Systemen darin, dass man **Zugriff auf die Daten und den Quellcode** hat. Dadurch ist die Wahrscheinlichkeit, in Bezug auf den Funktionsumfang in eine Sackgasse zu geraten, deutlich geringer.
+Aus unserer Sicht der wesentliche Vorteil von Odoo gegenüber anderen Systemen: Wir haben Zugriff auf die Daten und den Quellcode!
 
-Natürlich muss stets zwischen dem Möglichen und dem Machbaren unterschieden werden, denn der Aufwand, um etwas zu bauen, das dem Konzept von Odoo widerspricht, kann sehr hoch werden. Der **Import aus Odoo** war deutlich einfacher als der **Export aus Bexio**, und durch den **Zugriff auf das Odoo-System** konnten wir Automatismen einrichten, die vorher nicht möglich waren.
+Die Wahrscheinlichkeit bezüglich Funktionsumfang in einer Sackgasse zu landen ist dadurch wesentlich kleiner. Selbstverständlich muss immer das Mögliche vom Machbaren unterschieden werden. Der Aufwand um etwas zu bauen was dem Konzept von Odoo widerspricht kann absurd hoch werden.
+
+Der Import aus Odoo war wesentlich leichter als der Export aus Bexio.
+Durch die Zugänglichkeit auf das Odoo-System konnten wir Automatismen einrichten die vorher nicht möglich waren.
