@@ -59,6 +59,7 @@ features:
   description="Strukturiertes Arbeiten macht uns Freude. Alle unsere Projekte folgen einem durchdachten Vorgehensmodell. Mit unseren Kunden vereinbaren wir Ergebnisse. Diese erreichen wir durch konsequente Planung."
   image="/assets/images/computing.jpeg" 
   buttonText="weiterlesen" 
+  target="_self"
   buttonLink="#" >}}
 
 {{< feature-list title="Unsere Lösungen überzeugen" list="features" >}}

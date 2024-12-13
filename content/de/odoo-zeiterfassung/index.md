@@ -49,6 +49,7 @@ icons:
   description="Teure Hardware und dann noch abhängig zum Hersteller sein? Das finden wir eine schlechte Idee. Unser Terminal basiert auf Open Source Hardware. Alle Komponenten inklusiv Software werden von verschiedenen Herstellern angeboten und entwickelt."
   image="/assets/images/terminal.png" 
   buttonText="Hardware im Detail" 
+  target="_blank"
   buttonLink="https://wiki.mint-system.ch/terminal-zeiterfassung.html" >}}
 
 {{< text-image-two-col 
@@ -56,4 +57,5 @@ icons:
   description="Für die Odoo Zeiterfassung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
   buttonText="Übersicht der Apps"
   buttonLink="/apps" 
+  target="_self"
   image="/assets/images/zeiterfassung.svg" >}}

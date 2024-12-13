@@ -21,6 +21,7 @@ hero_image: "/assets/images/software-enginering-hero.jpg"
     description="Wir setze auf etablierte Open Source Software. Wir integrieren verschiedene Software Produkte in ihre IT Umgebung. Diese Produkte sind weltweit im Einsatz und werden von einer globalen Community weiterentwickelt."
     description2="Mit Ansible bauen wir unsere Infrastruktur und konfigurieren unsere Server. Wie die Software Produkte ist auch unser Ansible Code öffentlich."
     buttonLink="https://ansible.build/"
+    target="_blank"
     buttonText="ansible.build" >}}
 
 {{< text 
@@ -29,4 +30,5 @@ hero_image: "/assets/images/software-enginering-hero.jpg"
     description2="Damit entwickeln wir blitzschnell ihre neue Applikation ohne, dass wir das Rad neu erfinden. Tausende Applikationen, die millionenfach im Einsatz sind, wurden mit dem Odoo Framework entwickelt. Dieses Basis nutzen wir um das optimale Preis- / Leistungsverhältnis zu finden."
     description3="Wir leben Open Source und deshalb unsere Odoo Entwicklungsumgebung veröffentlicht."
     buttonLink="https://odoo.build"
+    target="_blank"
     buttonText="ODOO.BUILD" >}}

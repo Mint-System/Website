@@ -23,7 +23,7 @@
     </p>
 
     {{ if .Get "buttonLink" }}
-    <a href="{{ .Get " buttonLink" }}" aria-label="Mehr erfahren" 
+    <a href="{{ .Get " buttonLink" }}" target="{{ .Get "target" }}"  aria-label="Mehr erfahren" 
       class="btn btn-outline-primary no-underline text-white rounded-md px-1 py-2 btn btn-primary">
       {{ .Get "buttonText" }}
     </a>

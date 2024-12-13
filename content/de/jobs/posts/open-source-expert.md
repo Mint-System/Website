@@ -46,4 +46,6 @@ Wir freuen uns, dich bei einem ersten Videocall kennenzulernen.
 
 {{< button 
     buttonText="Jetzt bewerben" 
-    buttonLink="https://mint-system.ch."  >}}
+    buttonLink="https://mint-system.ch."  
+    target="_self"
+        >}}

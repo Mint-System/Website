@@ -11,7 +11,7 @@
     </p>
     {{ if .Get "buttonLink" }}
         <div class="mt-6">
-            <a href="{{ .Get "buttonLink" }}" class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all">{{ .Get "buttonText" }}</a>
+            <a href="{{ .Get "buttonLink" }}"  target="{{ .Get "target" }}"  class="inline-block bg-primary text-white font-rubrikBold py-3 px-6 rounded-md shadow-lg hover:bg-secondary transition-all">{{ .Get "buttonText" }}</a>
         </div>
     {{ end }}
 </section>

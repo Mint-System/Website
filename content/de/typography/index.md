@@ -195,6 +195,7 @@ Die hier folgenden Inhalte sind alle Shortcodes
     title="contact-teaser" 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
     buttonLink="https://www.mint-system.ch/contactus" 
+    target="_self"
     buttonText="Kontaktieren Sie uns" >}}
 
 {{< feature-list id="offer" title="Feature List" lead="Wir evaluieren Ihre individuellen Unternehmensprozesse und integrieren die passende Open Source Software." list="features" >}}

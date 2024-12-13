@@ -152,7 +152,8 @@ wiki:
   description2="Die Unternehmung Odoo S.A. mit Sitz in in Belgien hat seit der Gründung im Jahr 2005 ein aussergewöhnliches Wachstum hingelegt. Die All-in-one Management-Software Odoo wurde mit diversen Preisen ausgezeichnet und erfreut sich ungebrochen wachsender Beliebtheit."
   description3="Die Mint System GmbH ist offizieller Partner von Odoo. Wir sind ausgewiesene Fachleute und ein zuverlässiger Partner für die erfolgreiche Implementierung von Odoo in Ihrer Unternehmung."
   buttonText="Mehr zu Odoo"
-  buttonLink="https://www.odoo.com/de_DE" >}}
+  buttonLink="https://www.odoo.com/de_DE"
+  target="_self" >}}
 
 
 {{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="icons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
@@ -163,6 +164,7 @@ wiki:
   title="Referenzen"
   description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
   buttonText="Unsere Referenzen"
+  target="_self"
   buttonLink="/referenzen" >}}
 
 {{< text-two-col texts="wiki" >}}
@@ -171,5 +173,6 @@ wiki:
     title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
     buttonLink="https://www.mint-system.ch/contactus" 
+    target="_self"
     buttonText="Kontaktieren Sie uns" 
 >}}

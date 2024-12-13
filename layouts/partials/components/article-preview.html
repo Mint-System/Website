@@ -9,8 +9,11 @@
         </span>
     </a>
     <div class="py-4">
-        <h2 class="font-rubrikBold text-xl text-gray-800">
-            {{ .Title }}
+
+        <h2 class="font-rubrikBold text-xl text-black">
+            <a href="{{ .Permalink }}" class="font-rubrikBold text-xl text-black">
+                {{ .Title }}
+            </a>
         </h2>
 
         {{ if .Params.summary }}
