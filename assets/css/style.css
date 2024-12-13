@@ -147,6 +147,17 @@ button {
     @apply font-rubrikRegular;
 }
 
+/* fixes */
+.single.main > .contact-teaser:last-child {
+    margin-bottom: -72px;
+}
+
+@media screen and (min-width: 768px) {
+    .single.main > .contact-teaser:last-child {
+        margin-bottom: -96px;
+    }
+}
+
 /* nav mobile*/
 .nav-mobile {
     z-index: 100;

@@ -54,7 +54,7 @@ featureIcons:
   title="App nach Wahl"
   description="Für die Odoo Produktionsplanung bedienen wir uns an einer Auswahl von Apps. Sie nehmen was Sie brauchen. Odoo wächst mit ihren Bedürfnissen."
   buttonText="Übersicht der Apps"
-  buttonLink="/apps" 
+  buttonLink="/odoo#apps" 
   target="_self"
   image="/assets/images/odoo-produktionsplanung.svg" >}}
 
