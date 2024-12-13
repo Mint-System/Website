@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://mint-system.ch/sitemap.xml
+Sitemap: https://mint-system.ch/de/sitemap.xml
 
 # Disallow ChatGPT bot, as there's no benefit to allowing it to index your site
 User-agent: GPTBot
