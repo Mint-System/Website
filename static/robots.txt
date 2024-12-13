@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://mint-system.ch/sitemap.xml
+
+# Disallow ChatGPT bot, as there's no benefit to allowing it to index your site
+User-agent: GPTBot
+Disallow: /
+
+# Disallow Google Bard and Vertex AI bots, as there's no benefit to allowing it to index your site
+User-agent: Google-Extended
+Disallow: /
+
+# Disallow Perplexity bot, as there's no benefit to allowing it to index your site
+User-agent: PerplexityBot
+Disallow: /

@@ -42,11 +42,11 @@ jobs = "/jobs/:slug/"
 [params]
 description = ""
 author = "Mint System"
-default_image = "/images/default-social-image.jpg"
-logo = "/images/logo.png"
+default_image = "/assets/logos/Logo-Mint-final.svg"
+logo = "/assets/logos/Logo-Mint-final.svg"
 
 [sitemap]
-changefreq = "weekly"
+changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
 
@@ -58,3 +58,34 @@ home = ["HTML"]
 page = ["HTML"]
 section = ["HTML"]
 taxonomy = ["HTML"] 
+
+
+[build]
+  writeStats = true
+  
+[minify]
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
+  disableSVG = false
+
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"

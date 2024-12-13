@@ -46,26 +46,5 @@
     <!-- CSS and JavaScript -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "{{ .Title }}",
-            "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
-            "image": "{{ with .Params.featured_image }}{{ . }}{{ else }}{{ .Site.Params.default_image }}{{ end }}",
-            "author": {
-                "@type": "Person",
-                "name": "{{ .Site.Params.author }}"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "{{ .Site.Title }}",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "{{ .Site.Params.logo }}"
-                }
-            },
-            "datePublished": "{{ .Date }}"
-        }
-    </script>
+    {{ partial "layout/schema.html" . }}
 </head>

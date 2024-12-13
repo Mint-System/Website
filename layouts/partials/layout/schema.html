@@ -1,0 +1,24 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ .Site.Params.description }}"
+    }
+    </script>
+{{ if .IsPage }}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "{{ .Title }}",
+      "author": {
+        "@type": "Mint System",
+        "name": "{{ .Params.author }}"
+      },
+      "datePublished": "{{ .PublishDate }}",
+      "description": "{{ .Description }}"
+    }
+    </script>
+{{ end }}
