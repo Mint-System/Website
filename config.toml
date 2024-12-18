@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'http://localhost:1313'
 languageCode = 'de-DE'
 title = 'Mint System'
 draft = false
@@ -6,6 +6,7 @@ publishDir = "public"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 disableKinds = ['rss', 'xml']
+uglyURLs = true
 
 [pagination]
 disableAliases = false
@@ -62,7 +63,6 @@ page = ["HTML"]
 section = ["HTML"]
 taxonomy = ["HTML"]
 
-
 [build]
 writeStats = true
 
@@ -71,7 +71,6 @@ disableHTML = false
 disableCSS = false
 disableJS = false
 disableSVG = false
-
 
 [[headers]]
 for = "/*"
@@ -92,7 +91,6 @@ Cache-Control = "public, max-age=31536000"
 for = "*.jpg"
 [headers.values]
 Cache-Control = "public, max-age=31536000"
-
 
 [imaging]
   quality = 85

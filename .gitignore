@@ -24,3 +24,6 @@ package-lock.json
 # Obsidian
 .obsidian/workspace.json
 .obsidian/plugins
+
+# Hugo
+hugo_stats.json
