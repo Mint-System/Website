@@ -46,6 +46,6 @@ Wir freuen uns, dich bei einem ersten Videocall kennenzulernen.
 
 {{< button 
     buttonText="Jetzt bewerben" 
-    buttonLink="https://mint-system.ch."  
+    buttonLink="https://erp.mint-system.ch/de_CH/jobs/apply/open-source-expert-5"  
     target="_self"
         >}}
