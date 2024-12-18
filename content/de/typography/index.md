@@ -248,3 +248,7 @@ Die hier folgenden Inhalte sind alle Shortcodes
 {{< text 
   title="text" 
   description="Mint System GmbH, Bahnhofplatz 1, 6460 - Altdorf, Schweiz, USt.-ID:  CHE-150.248.608 MWST" >}}
+
+{{< rawhtml >}}
+<iframe src="https://archive.org/embed/doom-play" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+{{< /rawhtml >}}
