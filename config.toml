@@ -6,7 +6,6 @@ publishDir = "public"
 defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 disableKinds = ['rss', 'xml']
-uglyURLs = true
 
 [pagination]
 disableAliases = false
