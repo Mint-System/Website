@@ -47,6 +47,7 @@ description = ""
 author = "Mint System"
 default_image = "/assets/logos/Logo-Mint-final.svg"
 logo = "/assets/logos/Logo-Mint-final.svg"
+plausibleAnalaytics = "mint-system.ch"
 
 [sitemap]
 changefreq = "monthly"
