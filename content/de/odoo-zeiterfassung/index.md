@@ -19,25 +19,23 @@ author: "Mint System GmbH"
 icons:
   - title: "Ein- und Auschecken"
     lead: "Flexible Erfassung mit App, im Browser oder am Terminal."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/checkin.png"
   - title: "Individuelle Arbeitszeit"
     lead: "Arbeitspensen und Regelungen können individuell festgelegt werden."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/individual.png"
   - title: "Kalenderansicht"
     lead: "Die Arbeitszeiten können in verschiedenen Ansichten dargestellt und exportiert werden."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/calendar.png"
   - title: "Soll- und Ist-Vergleich"
     lead: "Vergleichen der effektiv erfasste Arbeitszeit mit der geplanten Zeit."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/compare.png"
   - title: "Abwesenheit"
     lead: "Mitarbeiter können ihre Abwesenheiten erfassen und bestätigen lassen."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/attendance.png"
   - title: "Feiertage"
     lead: "Feiertage werden zentral erfasst und in den Berechnungen berücksichtigt."
-    icon: "/assets/icons/website.svg"
+    icon: "/assets/icons/holidays.png"
 ---
-
-
 {{< text-center 
   description="Mit Odoo erhalten Sie eine flexible Lösung für die Zeiterfassung. Mitarbeitende können direkt im Browser oder Smartphone einchecken und die Projektzeit rapportieren. Abwesenheiten sind mit wenigen Klicks erfasst und freigegeben. Mit dem Zeiterfassungsterminal und einem Badge können Mitarbeitende ihre Anwesenheit auch ohne Odoo-Login registrieren."
   description2="Der Funktionsumfang beinhaltet alles, was sich die Personalabteilung wünscht. Mit übersichtlichen Berichten kann die An- und Abwesenheit von Mitarbeitenden ausgewertet werden. Im Fall von Stundenlohn können die erfassten Stunden direkt in die Personalbuchhaltung übertragen werden." >}}
