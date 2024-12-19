@@ -6,12 +6,19 @@
   email: "kurt.gisler@mint-system.ch"
   tel: "+41 44 244 72 21"
 
-
 - name: "Janik von Rotz"
   title: "Chief Technical Officer"
   education: "Wirtschaftsinformatiker"
-  bio: "Durch die Berufserfahrung in Geschäftsleitungsgremien kennt er die Anforderungen des Management. Die effiziente organisatorische Umsetzung komplexer Anforderungen ist seine Leidenschaft."
+  bio: "Fundiertes modernes IT-KnowHow und sein Expertenwissen aus der Arbeit in Software Entwicklungs-Teams sind sein \"Rucksack\". Die Faszination für die Errungenschaften der Open Source Communities treiben ihn an."
   image: "/assets/images/team/mint_team_V02_janik.jpg"
   email: "janik.vonrotz@mint-system.ch"
   tel: "+41 44 244 72 22"
+
+- name: "Ulrich Kilian"
+  title: "Open Source Expert"
+  education: "Dipl. Physiker"
+  bio: "Machte sich als Redaktor selbstständig und betreute zahlreiche Projekte aus Wissenschaft und Bildung. Datenverwaltung und kollaboratives Arbeiten sind seine Stärken."
+  image: "/assets/images/team/ulrich_kilian.png"
+  email: "ulrich.kilian@mint-system.ch"
+  tel: "+41 44 244 72 23"
 
