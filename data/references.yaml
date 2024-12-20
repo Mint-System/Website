@@ -46,9 +46,11 @@
   
   - name: Hygentile AG
     website: https://hygentile.com/de/
+    image: /assets/images/references/hygentile.png
 
   - name: INVITAIC Finance AG
     website: https://www.invitaic.ch/
+    image: /assets/images/references/invitaic.png
 
   - name: Kleinbrauerei Stiär Biär AG
     description: >
@@ -86,6 +88,7 @@
   
   - name: Ops ONE AG
     website: https://opsone.ch/de
+    image: /assets/images/references/opsone.png
 
   - name: Pavić d.o.o
     description: >
