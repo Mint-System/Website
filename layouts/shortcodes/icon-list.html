@@ -2,18 +2,18 @@
     <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2 hyphens-auto">{{ .Get "title" }}</h2>
     <p class="text-lg md:w-2/3 mx-auto text-black mb-10">{{ .Get "lead" }}</p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         {{ $list := index .Page.Params (.Get "features" ) }}
         {{ range $list }}
         <div class="flex items-start space-x-4 p-4">
-            <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-12 h-12 lg:w-[70px] lg:h-[70px]">
+            <img src="{{ .icon }}" alt="{{ .title }} Icon" class="w-12 h-12 lg:w-[60px] lg:h-[60px]">
             <div class="flex flex-col items-start">
                 <h3 class="font-rubrikBold text-left text-2xl text-dark">{{ .title }}</h3>
                 {{ if .lead }}
                     <p class="mt-1 text-lg font-rubrikRegular text-left">{{ .lead }}</p>
                 {{ end }}
                 {{ if .links }}
-                <div class="flex flex-wrap justify-start gap-x-2">
+                <div class="flex flex-wrap justify-start gap-x-2 text-left">
                     {{ range .links }}
                     <a href="{{ .url }}" class="inline-block text-lg text-black opacity-60 underline">{{ .title }}</a>
                     {{ end }}
