@@ -174,7 +174,7 @@ wiki:
 
 {{< text-center 
   title="Referenzen"
-  description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
+  description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenbeziehungen schaffen wir langjährige Partnerschaften."
   buttonText="Unsere Referenzen"
   target="_self"
   buttonLink="/referenzen" >}}
