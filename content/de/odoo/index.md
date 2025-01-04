@@ -160,7 +160,7 @@ wiki:
 
 {{< text-center 
   title="Über Odoo"
-  description="1700 Mitarbeitende, 7 Millionen Benutzer in 110 Ländern, Übersetzungen in 32 Sprachen."
+  description="2800+ Mitarbeitende, 5000+ Partner und 12 Millionen Benutzer."
   description2="Die Unternehmung Odoo S.A. mit Sitz in in Belgien hat seit der Gründung im Jahr 2005 ein aussergewöhnliches Wachstum hingelegt. Die All-in-one Management-Software Odoo wurde mit diversen Preisen ausgezeichnet und erfreut sich ungebrochen wachsender Beliebtheit."
   description3="Die Mint System GmbH ist offizieller Partner von Odoo. Wir sind ausgewiesene Fachleute und ein zuverlässiger Partner für die erfolgreiche Implementierung von Odoo in Ihrer Unternehmung."
   buttonText="Mehr zu Odoo"
