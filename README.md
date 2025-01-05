@@ -6,8 +6,30 @@ Open repo in Obsidian. Use these links to navigate the repo:
 
 ## Usage
 
-### Development
-
 Clone the repo.
 
-Install hugo and run `hugo server --baseURL http://localhost:1313`.
+```bash
+git clone git@github.com:Mint-System/Website.git
+```
+
+### Build
+
+Build the website.
+
+```bash
+hugo --gc
+```
+
+Serve from publish directory.
+
+```bash
+npx -y serve public
+```
+
+### Develop
+
+Install hugo and run local server.
+
+```bash
+hugo server --baseURL http://localhost:1313`
+```
