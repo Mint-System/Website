@@ -27,3 +27,4 @@ package-lock.json
 
 # Hugo
 hugo_stats.json
+.vercel
