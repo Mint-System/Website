@@ -6,8 +6,10 @@ Open repo in Obsidian. Use these links to navigate the repo:
 
 ## Requirements
 
+To run the project you need these build tools:
+
 * node 20+
-* hugo
+* hugo 39+
 
 ## Usage
 
@@ -32,7 +34,7 @@ hugo --gc
 vercel build
 ```
 
-Serve from publish directory.
+Serve from public directory.
 
 ```bash
 npx -y serve public
