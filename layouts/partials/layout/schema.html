@@ -1,24 +1,25 @@
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "{{ .Site.Title }}",
-      "url": "{{ .Site.BaseURL }}",
-      "description": "{{ .Site.Params.description }}"
-    }
-    </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}"
+  }
+</script>
+
 {{ if .IsPage }}
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "{{ .Title }}",
-      "author": {
-        "@type": "Mint System",
-        "name": "{{ .Params.author }}"
-      },
-      "datePublished": "{{ .PublishDate }}",
-      "description": "{{ .Description }}"
-    }
-    </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ .Title }}",
+    "author": {
+      "@type": "Organization",
+      "name": "{{ .Params.author | default "Mint System GmbH" }}"
+    },
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}",
+    "description": "{{ .Description }}"
+  }
+</script>
 {{ end }}
