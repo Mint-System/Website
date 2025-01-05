@@ -19,7 +19,7 @@ Clone the repo.
 git clone git@github.com:Mint-System/Website.git
 ```
 
-Install the vercel cli and login.
+Optionally install the vercel cli and login.
 
 ```bash
 npm i -g vercel
