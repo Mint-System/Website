@@ -1,134 +1,114 @@
   - name: Aerni AG
     description: >
-      Die Aerni AG ist heute ein führendes Unternehmen auf dem Gebiet der Planung, Installation und Wartung von industriellen Wärmeanlagen, speziell Dampfkesselanlagen, der Herstellung von Druckgeräten und dem Schweissen von Behältern und Apparaten. Service Dienstleistungen im Bereich Dampf runden unser Portfolio ab.
-
-      Mit Odoo erledigt die Aerni AG die gesamte Projektabwicklung, vom Angebot bis zur Lieferung der fertigen Teile. Mitarbeiter erfassen ihre Anwesenheits-, Abwesenheits- und Projektzeit. Verschiedene Erweiterungen wurden im Alleingang entwickelt. Im Verkauf haben Angebote dynamische Stücklisten, die jederzeit aktualisiert und neu berechnet werden können. Der Kioskmodus zur Erfassung der Anwesenheit wurde raffiniert angepasst, damit beispielsweise auf bestimmte Kostenstellen Zeit erfasst werden kann.
+      Die Aerni AG ist ein führendes Unternehmen auf dem Gebiet der Planung, Installation und Wartung von Dampfkesselanlagen und industriellen Wärmesystemen. Sie bieten auch Druckgeräteherstellung und Schweißdienstleistungen für Behälter und Apparate an. Ihr Service umfasst auch Lösungen im Bereich Dampf.
+    category: Fertigung
     image: /assets/images/references/aerni-ag.png
 
   - name: Aersolution Interior AG
     description: >
       Aersolution startete im Jahr 2006 mit den Projekten B747 Patient Elevator und B747 Medical Room. Das sind hochwertige Innenausbauten in Boeing Flugzeugen. Später kamen weitere Projekte dazu wie Galleys (so heissen Küchen in den Flugzeugen) für den Typ B767-400 und B737 FWD dazu. Kein anderes Transportmittel ist so stark reguliert wie die Flugbranche. Bis hin zur einzelnen Schraube ist jedes Teil genormt und mit Nachweisen/Zertifikaten belegbar.
-
-      Jeder bei Aersolution Interior hergestellte oder verbaute Artikel muss eine vollständig nachvollziehbare Lieferkette haben. Odoo unterstützt dies perfekt. Zudem verknüpft Odoo einzelne Arbeitsschritte mit Dokumenten. Zum Beispiel vereinfacht die Verbindung der Produkte mit den CAD-Zeichnungen und Zertifikaten die Bestellungen, die nun elektronisch erfolgen. Bei der Lagerbewirtschaftung kommt ein Scanner mit Tablett zum Einsatz. Die Etiketten zu den Artikeln werden über einen mobilen Etikettendrucker ausgegeben. Jedes Produkt verlässt Aersolution Interior AG erst nachdem es fotografiert wurde. Selbstverständlich sind die Fotos in Odoo abgelegt.
+    category: Luftfahrt
     website: https://www.aersolution.com/
     image: /assets/images/references/aersolution.gif
 
   - name: AirWork & Heliseilerei GmbH
+    description: >
+      AirWork & Heliseilerei GmbH ist auf Arbeiten in der Luft und auf Seilen spezialisiert. Sie bieten Lösungen für Seilzugang, Wartung und Installationsdienste in den Bereichen Bauwesen, Telekommunikation und Energie.
+    category: Luftfahrt
     website: https://air-work.com/de
     image: https://air-work.com/themes/air-work/assets/logo.svg
 
   - name: Arnold Umzüge AG
     description: >
       Die Arnold Umzüge AG ist ein zertifiziertes Umzugsunternehmen in der Zentralschweiz. Wir bieten professionelle Dienstleistungen rund um den privaten oder geschäftlichen Umzug an. Dazu gehören Transport, Lagerung, Entsorgung und Räumung. Egal ob in Uri, Schwyz, Nidwalden, Obwalden, Luzern, Zug, Tessin oder dem Rest der Schweiz. Wir erledigen das für Sie.
+    category: Logistik
     image: /assets/images/references/arnold-umzuege.png
 
   - name: Basis 57 nachhaltige Wassernutzung AG
     description: >
-      Aufgrund des Baus der Eisenbahn-Alpentransversale (NEAT) entspringt in Erstfeld (UR) reinstes Bergwasser. Eine handvoll Visionäre kamen zusammen und hatten Vorschläge für die wirtschaftliche Nutzung des Bergwassers eingebracht. Das Rennen machte die Basis 57 mit der Idee, das Wasser zur Zucht des einzigartigen Gotthard-Zanders zu verwenden. Was Vision war, ist heute Realität. Die Basis 57 verarbeitet bereits mehrere Hundert Kilogramm Fisch pro Woche und wird dabei in entscheidenden Vorgängen von Odoo unterstützt.
-
-      Eine hohe Automatisierung wurde als kritische Anforderungen beim Projektstart genannt. Produktion und Vertrieb von Lebensmitteln unterliegt strengen Bedingungen. Für Basis 57 ist es essenziell, dass ihre hochwertigen Produkte mit einem zuverlässigen System verarbeitet und geliefert werden. Odoo unterstützt dabei perfekt.
+      Aufgrund des Baus der Eisenbahn-Alpentransversale (NEAT) entspringt in Erstfeld (UR) reinstes Bergwasser. Eine Handvoll Visionäre kamen zusammen und hatten Vorschläge für die wirtschaftliche Nutzung des Bergwassers eingebracht. Das Rennen machte die Basis 57 mit der Idee, das Wasser zur Zucht des einzigartigen Gotthard-Zanders zu verwenden. Was Vision war, ist heute Realität. Die Basis 57 verarbeitet bereits mehrere Hundert Kilogramm Fisch pro Woche und wird dabei in entscheidenden Vorgängen von Odoo unterstützt.
+    category: Lebensmittelproduktion
     website: https://www.basis57.ch/
     image: /assets/images/references/basis-57.png
 
   - name: Carbo-Link AG
     description: >
       Das Unternehmen Carbo-Link AG aus Fehraltorf ist auf den Entwurf, die Konstruktion und die Herstellung von Strukturelementen für hohe Belastungen spezialisiert. Carbo-Link AG führt das gesamte Design, Engineering und die Produktion in seiner hochmodernen Anlage in Fehraltorf durch.
+    category: Fertigung
     website: https://www.carbo-link.com/
-    image:  /assets/images/references/carbo-link.png
+    image: /assets/images/references/carbo-link.png
 
   - name: GELSO AG
     description: >
-      Von Klein- und Mittelserien, mechatronischen Baugruppen bis zu einer Gesamtlösung im Bereich Outsourcing von Lohnfertigung, lassen wir keine Ihrer renommierten Wünsche offen. Wir verstehen uns als Sourcing Office mit komplementären Dienstleistungen für die KMU-Industrie. Heutzutage konkurrieren nicht mehr Unternehmen gegen Unternehmen, sondern deren Supply Chain. Wir ermöglichen auch nicht multinationalen Organisationen vorne mithalten zu können.
-
-      Mit der ERP-Software von Odoo sind wir für eine moderne und digitale Auftragsabwicklung ausgerüstet.
+      Von Klein- und Mittelserien, mechatronischen Baugruppen bis zu einer Gesamtlösung im Bereich Outsourcing von Lohnfertigung, lassen wir keine Ihrer renommierten Wünsche offen. Wir verstehen uns als Sourcing Office mit komplementären Dienstleistungen für die KMU-Industrie. Heutzutage konkurrieren nicht mehr Unternehmen gegen Unternehmen, sondern deren Supply Chain. Wir ermöglichen es auch nicht multinationalen Organisationen, vorne mithalten zu können.
+    category: Beschaffung
     website: https://www.gelso.ch/
     image: /assets/images/references/gelso.png
-  
+
   - name: Hygentile AG
+    description: >
+      Hygentile AG ist auf die Entwicklung und Herstellung von Hygienelösungen spezialisiert. Sie bieten innovative Produkte und Dienstleistungen, die auf den Bedarf von Gesundheitseinrichtungen und Unternehmen ausgerichtet sind.
+    category: Lebensmittelproduktion
     website: https://hygentile.com/de/
     image: /assets/images/references/hygentile.png
 
   - name: INVITAIC Finance AG
+    description: >
+      INVITAIC Finance AG ist ein Finanzdienstleistungsunternehmen, das sich auf maßgeschneiderte Finanzlösungen für Unternehmen und Privatpersonen spezialisiert hat. Ihr Fokus liegt auf Investitionsberatung und strategischer Finanzplanung.
+    category: Beratung
     website: https://www.invitaic.ch/
     image: /assets/images/references/invitaic.png
 
   - name: Kleinbrauerei Stiär Biär AG
     description: >
-      Mit dem Einsatz von Odoo wurden nebst den üblichen Prozesse eines Produktionsbetriebes wie Kreditoren- und Debitorenverwaltung, die Finanz- und Lohnbuchhaltung auch das App «Webshop» verwendet. Sämtliche Prozesse rund um die Bestellungen laufen in Odoo ohne Medienunterbrüche zusammen. Der Bierliebhaber bestellt bequem auf dem Sofa seine Lieblingsbiere und auf Seite Stiär Biär wird in Odoo gleich der Auftrag, der Lieferschein und die Rechnung generiert.
-      Vom Entscheid für Odoo bis hin zum GoLive vergingen zwei Monate. Der enge Projektplan konnte auch aufgrund dem grossen Anteil an Arbeiten in Eigenregie eingehalten werden. Odoo setzt sich nämlich zum Ziel, durch eine einfache Bedienung dem Benutzer eine grosse Unabhängigkeit zu geben.
+      Mit dem Einsatz von Odoo wurden neben den üblichen Prozessen eines Produktionsbetriebes wie Kreditoren- und Debitorenverwaltung, die Finanz- und Lohnbuchhaltung auch das App «Webshop» verwendet. Sämtliche Prozesse rund um die Bestellungen laufen in Odoo ohne Medienunterbrüche zusammen. Der Bierliebhaber bestellt bequem auf dem Sofa seine Lieblingsbiere und auf Seite Stiär Biär wird in Odoo gleich der Auftrag, der Lieferschein und die Rechnung generiert.
+    category: E-Commerce
     website: https://shop.stiaerbiaer.ch/
     image: /assets/images/references/stier-bier.png
 
   - name: Kreativartikel GmbH
     description: >
       Kreativartikel.ch ist ein Online-Shop, der sich auf den Verkauf von Bastelmaterial, Dekorationsartikeln und DIY-Zubehör spezialisiert hat. Das Sortiment umfasst eine Vielzahl von Produkten, wie beispielsweise Stoffe, Wolle, Perlen, Farben, Schmuckzubehör und vieles mehr. Die Webseite ist übersichtlich gestaltet und bietet eine schnelle und einfache Navigation durch das Sortiment. Kunden können bequem von zu Hause aus bestellen und erhalten ihre Waren schnell und zuverlässig geliefert. Zudem bietet der Shop regelmäßig Rabatte und Sonderaktionen an.
+    category: E-Commerce
     website: https://kreativartikel.ch/
     image: /assets/images/references/kreativartikel.png
 
-  
   - name: Localfish AG
+    description: >
+      Localfish AG ist ein Schweizer Unternehmen, das sich auf den Verkauf von nachhaltig produzierten Fischprodukten aus heimischen Seen spezialisiert hat. Sie bieten frischen, gefrorenen und verarbeiteten Fisch für den Einzelhandel sowie den gewerblichen Markt an.
+    category: Lebensmittelproduktion
     website: https://localfish.ch/
 
-  - name: Lozancic Consulting GmbH, Lozancic Pero
+  - name: Lozancic Consulting GmbH
+    description: >
+      Lozancic Consulting GmbH bietet Expertenberatung für kleine und mittelständische Unternehmen (KMU) in der Schweiz an. Ihre Dienstleistungen umfassen Unternehmensstrategien, Prozessoptimierung und digitale Transformation, um den Kunden zu mehr Effizienz und Rentabilität zu verhelfen.
+    category: Beratung
     website: https://lconsulting.ch/
 
   - name: MBB MOSER AG
     description: >
       Seit über 30 Jahren ist die MBB MOSER AG als verlässlicher ICT-Partner im Mittelland bekannt. Waren die Anfangsjahre stark geprägt durch die Bereiche Buchhaltung, IT-Schulungen und IT-Support, wurde im Laufe der Zeit primär der Bereich IT-Support und Unterhalt gestärkt.
-
-      Mittlerweile liegt der Fokus der Firma klar im Bereich der ICT. Egal ob komplexe Netzwerkinstallationen, monatliche Updates oder zuverlässige Kommunikationslösungen – die MBB MOSER AG bietet sich als kompetenter und zuverlässiger ICT-Partner in sämtlichen Bereichen an.
+    category: IT-Dienstleistungen
     website: https://www.mbbmoser.ch/
     image: /assets/images/references/mbb-moser.png
 
-  - name: OCAD AG 
+  - name: OCAD AG
     description: >
       Die OCAD AG arbeitet im Bereich der Softwareentwicklung für die Produktion von Karten. Ihre Anwendungssoftware OCAD wird weltweit in verschiedenen Versionen vertrieben. Zudem werden ein technischer Support, Beratung und Schulungen angeboten. Ein Vorteil bietet das Programm durch eine sehr einfache Bedienung und vordefinierte Kartensymbole. So sind Einsteiger bereits nach kürzester Einarbeitungszeit fähig, perfekte Karten zu zeichnen.
+    category: Softwareentwicklung
     website: https://www.ocad.com/
     image: /assets/images/references/ocad.png
-  
+
   - name: Ops ONE AG
+    description: >
+      Ops ONE AG bietet Cloud-basierte Lösungen für Unternehmen an. Sie bieten maßgeschneiderte Dienste in den Bereichen IT-Management und IT-Strategie, mit einem Fokus auf innovative, digitale Transformation und Cloud-Dienste.
+    category: Cloud-Dienstleistungen
     website: https://opsone.ch/de
     image: /assets/images/references/opsone.png
 
   - name: Pavić d.o.o
     description: >
-      Firma "Pavić" d.o.o. je srpska firma sa proizvodnim pogonom u Valjevu, osnovana 1990. godine. Uspešno poslujemo i gradimo partnerske odnose sa kompanijama u Švajcarskoj i Nemačkoj i svoje poslovne planove usmeravamo i na druga inostrana tržišta, kao i na srpsko tržište. Poslovne principe ostvarujemo kroz kvalitet proizvoda i usluga koje pružamo, kao i razvoj zaposlenih.
-      Lasersko Sečenje
-      Savijanje
-      Farbanje
-      Izrada mašinskih sklopova
-      Zavarivanje
+      Firma "Pavić" d.o.o. ist ein serbisches Unternehmen mit einer Produktionsstätte in Valjevo, das 1990 gegründet wurde. Es pflegt erfolgreiche Partnerschaften mit Unternehmen in der Schweiz und Deutschland und richtet seine Geschäftsstrategie auf internationale Märkte sowie den serbischen Markt aus.
+    category: Fertigung
     website: https://www.pavicdoo.rs/
     image: /assets/images/references/pavic.png
-
-  - name: Pure ICT GmbH IT/Kommunikation
-    description: > 
-      Die Pure ICT GmbH gehört zu den führenden ICT- Anbietern in der Zentralschweiz. Unsere Kunden vertrauen uns - vom KMU bis zum weltweit tätigen Grosskonzern. Sicherheit und Stabilität Ihrer IT- Umgebung sind das oberste Gebot damit Ihre Daten geschützt sind und Sie sich um die wesentlichen Dinge in Ihrem Unternehmen kümmern können.
-    website: https://www.pureict.ch/
-    image: /assets/images/references/pureict.png
-
-  - name: Tissa Glasweberei AG Fertigung
-    description: >
-      Tissa Composites GmbH ist ein Handelsunternehmen, welches das Dosiergerät (Metrocat) sowie die Glasschneidemaschine (MatCut 70010P) vertreibt. Tissa Immobilien Tissa Immobilien verwaltet die Liegenschaften der Tissa-Gruppe. Unsere Schwesterbetriebe für Gewebeveredlung: Tissa ImCut AG.
-    website: https//www.tissa.ch/
-    image: /assets/images/references/tissa-glasweberei.jpg
-
-  - name: Trimada AG
-    description: >
-      Das Unternehmen Trimada befindet sich in Wohlen. Trimada stellt elektronische Systeme und Komponenten her. Das Kerngeschäft ist das Entwickeln und die Fertigung von kundenspezifischen Lösungen. Zu ihren Produkten gehören Bediensysteme wie Kurzhubtastaturen, Folientastaturen, Kapazitive Tastaturen, Beleuchtungen und serielle Schnittstellen. Zudem verkauft das Unternehmen Automationskomponenten. Die Trimada stellt alle ihre Produkte selbst und in der Schweiz her.
-    website: https://www.trimada.ch/
-    image: /assets/images/references/trimada.jpg
-
-  - name: Verein sozialinfo.ch Gesundheit/Soziales
-    description: >
-      Der Verein sozialinfo.ch erbringt seit 2003 Dienstleistungen für den Sozialbereich in der Schweiz.
-      Wir betreiben das führende Stellenportal für den Sozialbereich und begleiten Projekte und Prozesse in der Digitalisierung und in der Personalgewinnung. Zudem bereiten wir Fachinformationen zu aktuellen Themen und relevanten Entwicklung im und um den Sozialbereich auf.
-      Mit Odoo als Kernstück haben wir 2023 unsere Unternehmensarchitektur von Grund auf modernisiert.
-    image: /assets/images/references/sozialinfo.png
-    website: https://sozialinfo.ch/
-
-  - name: webkeeper GmbH IT/Kommunikation
-    description: >
-      Webkeeper.ch ist ein Schweizer Webhosting-Unternehmen, das seit 1998 besteht und sich auf die Bereitstellung von zuverlässigen und sicheren Webhosting-Lösungen für Unternehmen und Privatkunden spezialisiert hat. Das Angebot umfasst verschiedene Hosting-Pakete, die auf die Bedürfnisse unterschiedlicher Kunden zugeschnitten sind, sowie Domainregistrierung und -verwaltung, SSL-Zertifikate und E-Mail-Dienste. Die Webseite ist benutzerfreundlich gestaltet und bietet eine einfache Navigation durch das Angebot. Der Kundenservice ist schnell und freundlich und steht Kunden per E-Mail oder Telefon zur Verfügung. Webkeeper.ch legt großen Wert auf Datensicherheit und Datenschutz und setzt modernste Technologien ein, um die Daten seiner Kunden zu schützen. Insgesamt ist webkeeper.ch ein zuverlässiger und seriöser Partner für die Bereitstellung von Webhosting-Lösungen.
-    image: /assets/images/references/webkeeper.png
-    website: https://www.webkeeper.ch
