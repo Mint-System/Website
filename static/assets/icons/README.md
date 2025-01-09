@@ -1,7 +1,7 @@
 # Icons
-![](icon-consulting.png)
-![](icon-development.png)
-![](icon-hosting.png)
+![icon-erp](static/assets/icons/icon-erp.svg)
+![icon-software](static/assets/icons/icon-software.svg)
+![icon-management](static/assets/icons/icon-management.svg)
 
 ![](icon_accounting.png)
 ![](icon_knowledge.png)

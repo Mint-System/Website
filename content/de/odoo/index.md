@@ -16,10 +16,10 @@ author: "Mint System GmbH"
 
 offerings:
   - title: "Beratung"
-    icon: "/assets/icons/icon-erp.svg"
+    icon: "/assets/icons/icon-management.svg"
     lead: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
   - title: "Entwicklung"
-    icon: "/assets/icons/icon-erp.svg"
+    icon: "/assets/icons/icon-software.svg"
     lead: "Wir passen Odoo Ihren Anforderungen und Prozessen an. Dabei bauen wir auf Erfahrungen und Entwicklungen aus vergangenen Projekten auf."
   - title: "Hosting"
     icon: "/assets/icons/icon-erp.svg"
