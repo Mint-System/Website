@@ -1,4 +1,7 @@
 # Icons
+![](icon-consulting.png)
+![](icon-development.png)
+![](icon-hosting.png)
 
 ![](icon_accounting.png)
 ![](icon_knowledge.png)
