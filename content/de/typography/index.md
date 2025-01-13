@@ -194,7 +194,7 @@ Die hier folgenden Inhalte sind alle Shortcodes
 {{< contact-teaser 
     title="contact-teaser" 
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
-    buttonLink="https://www.mint-system.ch/contactus" 
+    buttonLink="https://erp.mint-system.ch/contactus" 
     target="_self"
     buttonText="Kontaktieren Sie uns" >}}
 
