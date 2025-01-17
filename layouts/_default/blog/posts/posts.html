@@ -4,6 +4,8 @@
 
     <div class="container mx-auto mt-[96px]">
         <article class="prose max-w-none prose-lg stack font-rubrikRegular " id="content">
+            {{ $format := "2. January 2006" }}
+            <span class="font-rubrikRegular mt-4 inline-block text-sm text-gray-500">{{ .Date | time.Format $format }} / {{ .Params.author }}</span>
             {{ .Content }}
         </article>
 
