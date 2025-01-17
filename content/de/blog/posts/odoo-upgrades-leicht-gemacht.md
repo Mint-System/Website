@@ -104,11 +104,13 @@ Das Drehbuch für das Odoo Upgrade wird laufend aktualisiert. Wenn das Upgrade f
 
 Für unerwartete Fehler wird eine Rollback-Szenario mit dem Kunden definiert. Das produktive Upgrade wird gemäss Drehbuch am vereinbarten Termin durchgeführt.
 
-## Wo fällt am meisten Aufwand an?
+## Was ist beim Upgrade-Prozess wichtig?
 
 Mit der gemeinsamen Entwicklung des Drehbuchs gewinnen Kunden und Partner die Sicherheit, dass das Upgrade gelingt.
 
-Die zeitliche Streckung des Upgrade-Projekts bleibt aber ein Risiko, weil man dazu neigt den Aufwand zu unterschätzen: 
+Die zeitliche Streckung des Upgrade-Projekts bleibt aber nach wie vor ein Risiko. Die Upgrade-Skripte von Odoo sind nicht fehlerfrei und ein Support-Fall kann mehrere Wochen in Anspruch nehmen.
+
+In der Testing-Phase entsteht ein Feedback-Loop 
 
 ## Was ist der Upgrade-Zyklus?
 
