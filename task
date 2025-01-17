@@ -14,7 +14,7 @@ function help() {
 
     # Define column widths
     cmd_width=10
-    opt_width=6
+    opt_width=10
     desc_width=40
 
     # Print table header
@@ -25,7 +25,7 @@ function help() {
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install Vercel cli."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build with hugo."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-build" "" "Build with Vercel."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "server" "" "Serve output in pulbic folder."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve" "" "Serve output in pulbic folder."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start hugo dev server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-dev" "" "Start Vercel dev server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "version" "" "Show version of required tools."
@@ -41,16 +41,16 @@ case "$1" in
         npm install -g vercel
         ;;
     build)
-        hugo --gc
+        hugo -b http://localhost:1313
         ;;
     vercel-build)
         vercel build
         ;;
-    server)
-        hugo server --baseURL http://localhost:1313
+    serve)
+        hugo server -b http://localhost:1313
         ;;
     dev)
-        hugo server --baseURL http://localhost:1313
+        hugo server -b http://localhost:1313
         ;;
     vercel-dev)
         vercel dev
