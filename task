@@ -1,0 +1,65 @@
+#!/bin/bash
+set -e
+
+if [[ -a ".env" ]]; then
+    source .env
+fi
+
+function help() {
+    echo
+    echo "task <command> [options]"
+    echo
+    echo "commands:"
+    echo
+
+    # Define column widths
+    cmd_width=10
+    opt_width=6
+    desc_width=40
+
+    # Print table header
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "Command" "Option" "Description"
+    echo "|$(printf '%*s' $((cmd_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((opt_width + 2)) '' | tr ' ' '-')|$(printf '%*s' $((desc_width + 2)) '' | tr ' ' '-')|"
+
+    # Print table rows
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install Vercel cli."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build with hugo."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-build" "" "Build with Vercel."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "server" "" "Serve output in pulbic folder."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start hugo dev server."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-dev" "" "Start Vercel dev server."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "version" "" "Show version of required tools."
+
+    echo
+}
+
+case "$1" in
+    help)
+        help
+        ;;
+    install)
+        npm install -g vercel
+        ;;
+    build)
+        hugo --gc
+        ;;
+    vercel-build)
+        vercel build
+        ;;
+    server)
+        hugo server --baseURL http://localhost:1313
+        ;;
+    dev)
+        hugo server --baseURL http://localhost:1313
+        ;;
+    vercel-dev)
+        vercel dev
+        ;;
+    version)
+        hugo --version
+        vercel --version
+        ;;
+    *)
+        help
+        exit 1;
+esac

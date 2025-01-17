@@ -6,6 +6,6 @@
   "userIgnoreFilters": [
     "public/"
   ],
-  "newLinkFormat": "shortest",
-  "attachmentFolderPath": "./"
+  "newLinkFormat": "absolute",
+  "attachmentFolderPath": "static/assets/"
 }

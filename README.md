@@ -3,6 +3,7 @@
 Open repo in Obsidian. Use these links to navigate the repo:
 
 * [Icons](static/assets/icons/README.md)
+* 
 
 ## Requirements
 
@@ -22,22 +23,22 @@ git clone git@github.com:Mint-System/Website.git
 Optionally install the vercel cli and login.
 
 ```bash
-npm i -g vercel
+task install
 ```
 ### Build
 
 Build the website.
 
 ```bash
-hugo --gc
+task build
 # or
-vercel build
+task vercel-build
 ```
 
 Serve from public directory.
 
 ```bash
-npx -y serve public
+task serve
 ```
 
 ### Develop
@@ -45,7 +46,7 @@ npx -y serve public
 Install hugo and run local server.
 
 ```bash
-hugo server --baseURL http://localhost:1313`
+task dev
 # or
-vercel dev
+task vercel-dev
 ```
