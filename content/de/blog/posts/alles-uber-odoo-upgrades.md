@@ -1,7 +1,7 @@
 ---
-title: Odoo Upgrades leicht gemacht
+title: Alles über Odoo Upgrades
 author: Janik von Rotz
-draft: true
+draft: false
 date: 2025-01-17
 layout: blog/posts/posts
 tags:
@@ -11,8 +11,8 @@ tags:
   - Upgrade
 featured_image: /assets/images/blog/devops-cycle.png
 type: blogpost
-summary: Wir haben effiziente Prozesse entwickelt um Odoo Upgrades ohne Risiko durchzuführen. In diesem Beitrag zeigen wir auf wie man Odoo Upgrade Projekte strukturiert durchführt.
-lead: Effiziente Prozese für Odoo Upgrades ohne Risiko.
+summary: Dieser Beitrag zeigt auf was wir unter Odoo Upgrades verstehen und wie wir Odoo Upgrade Projekte strukturieren durchführen.
+lead: Und wie wir Odoo Upgrades durchführen.
 seo_title: Odoo Upgrade - Mint System GmbH
 ---
 Als Odoo Partner sind wir mit Odoo 13.0 gestartet. In Software-Jahren ist das schon eine Weile her. Jedes Jahr veröffentlicht Odoo S.A. einen neuen Major-Release. Aktuell ist das Odoo 18.0. Damit man auf die Odoo Version wechseln kann, muss man ein Odoo Upgrade machen.
@@ -110,10 +110,10 @@ Mit der gemeinsamen Entwicklung des Drehbuchs gewinnen Kunden und Partner die Si
 
 Die zeitliche Streckung des Upgrade-Projekts bleibt aber nach wie vor ein Risiko. Die Upgrade-Skripte von Odoo sind nicht fehlerfrei und ein Support-Fall kann mehrere Wochen in Anspruch nehmen.
 
-In der Testing-Phase entsteht ein Feedback-Loop 
+In der Testing-Phase entsteht ein Feedback-Loop zwischen Entwickler, Projektverantwortlicher und Kunde. Dieser Loop sollte so effizient wie möglich funktionieren. Beim Austausch Abgleich von Informationen müssen Medienbrüche möglichst vermieden werden.
 
-## Was ist der Upgrade-Zyklus?
+## Wie oft ein Upgrade durchführen?
 
-Schneller Release-Zyklus von Odoo.
+Der schnelle Release-Zyklus von Odoo setzt Partner sowie Kunden unter Druck immer auf dem neusten Stand von Odoo  zu sein. Jedes Jahr ein Odoo Upgrade durchzuführen ist in vielen Fällen gar nicht möglich. Insbesondere wenn viele Odoo Apps und Module von Dritten im Einsatz sind.
 
-Eine Version maximal zwei überspringen.
+Wir empfehlen für jede zweite maximal dritte Odoo Version ein Upgrade zu machen. Wenn man auf einmal zu viele Versionssprünge macht, steigt die Chance dass die Upgrade-Skripte nicht wie erwartet funktionieren.
