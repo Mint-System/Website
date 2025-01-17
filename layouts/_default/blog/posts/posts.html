@@ -37,12 +37,10 @@
         {{ end }}
 
     </div>
-    {{ if .Page.Store.Get "hasMermaid" }}
-        <script type="module">
+    <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ startOnLoad: true });
-        </script>
-    {{ end }}  
+    </script>
     {{ partial "components/contact-teaser.html" (dict "Title" "Haben Sie eine Geschäftsapplikation, die Sie gerne ablösen möchten?" "Description" "Treten Sie mit uns in Kontakt und wir machen Ihnen ein unverbindliches Angebot." "ButtonLink" "/kontakt" "ButtonText" "KONTAKTIEREN SIE UNS") }}
 </main>
 {{ end }}
