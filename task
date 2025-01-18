@@ -23,47 +23,61 @@ function help() {
 
     # Print table rows
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "install" "" "Install hugo and Vercel cli."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "" "Build with hugo."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "build" "[url]" "Build with hugo."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-build" "" "Build with Vercel."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "serve" "" "Serve output in pulbic folder."
-    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "" "Start hugo dev server."
+    printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "dev" "[url]" "Start hugo dev server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "vercel-dev" "" "Start Vercel dev server."
     printf "| %-${cmd_width}s | %-${opt_width}s | %-${desc_width}s |\n" "version" "" "Show version of required tools."
 
     echo
 }
 
-case "$1" in
-    help)
-        help
-        ;;
-    install)
-        echo "Install hugo from binary source"
-        curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_Linux-64bit.tar.gz
-        tar -xzf hugo.tar.gz
-        rm hugo.tar.gz LICENSE
-        npm install -g vercel
-        ;;
-    build)
-        ./hugo -b http://localhost:1313
-        ;;
-    vercel-build)
-        vercel build
-        ;;
-    serve)
-        ./hugo server -b http://localhost:1313
-        ;;
-    dev)
-        ./hugo server -b http://localhost:1313
-        ;;
-    vercel-dev)
-        vercel dev
-        ;;
-    version)
-        ./hugo --version
-        vercel --version
-        ;;
-    *)
-        help
-        exit 1;
-esac
+BASE_URL="http://localhost:1313"
+
+function install() {
+    echo "Install hugo from binary source"
+    curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_Linux-64bit.tar.gz
+    tar -xzf hugo.tar.gz
+    rm hugo.tar.gz LICENSE
+    npm install -g vercel
+}
+
+function build() {
+    if [ -n "$1" ]; then
+        BASE_URL=$1
+    fi
+    ./hugo -b "$BASE_URL"
+}
+
+function vercel-build() {
+    vercel build
+}
+
+function serve() {
+    npx serve public
+}
+
+function dev() {
+    if [ -n "$1" ]; then
+        BASE_URL=$1
+    fi
+    ./hugo server -b "$BASE_URL"
+}
+
+function vercel-dev() {
+    vercel dev
+}
+
+function version() {
+    ./hugo --version
+    vercel --version
+}
+
+if declare -f "$1" > /dev/null; then
+    "$1" "${@:2}"
+else
+    echo "Unknown command: $1"
+    help
+    exit 1
+fi
