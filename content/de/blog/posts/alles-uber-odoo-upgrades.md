@@ -65,7 +65,7 @@ Das Ergebnis eines Upgrade-Projekt ist ein Drehbuch. Im Drehbuch wird fesgehalte
 Damit man das Drehbuch ausführen kann, braucht es noch Vorbereitung. Diese Grafik zeigt die Prozesse zur Vorbereitung eines Odoo Upgrades:
 
 ```mermaid
-flowchart TD
+flowchart LR
     A(Sale) --> B(Project)
     B --> C(Environment)
     C --> D(Migration)
