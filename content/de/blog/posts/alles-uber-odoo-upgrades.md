@@ -12,7 +12,7 @@ tags:
 featured_image: /assets/images/blog/devops-cycle.png
 type: blogpost
 summary: Dieser Beitrag zeigt auf was wir unter Odoo Upgrades verstehen und wie wir Odoo Upgrade Projekte strukturieren durchführen.
-lead: Und wie wir Odoo Upgrades durchführen.
+lead: Und wie wir Odoo Upgrades erfolgreich durchführen.
 seo_title: Odoo Upgrade - Mint System GmbH
 ---
 Als Odoo Partner sind wir mit Odoo 13.0 gestartet. In Software-Jahren ist das schon eine Weile her. Jedes Jahr veröffentlicht Odoo S.A. einen neuen Major-Release. Aktuell ist das Odoo 18.0. Damit man auf die Odoo Version wechseln kann, muss man ein Odoo Upgrade machen.
