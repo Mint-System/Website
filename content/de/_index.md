@@ -68,7 +68,7 @@ features:
   headingSmall="Kontakt Aufnehmen"
   headingLarge="Wir freuen uns auf Ihre Nachricht"
   companyName="Mint System GmbH"
-  addressLine1="Bahnhofplatz 1, Work Lab 3. OG"
+  addressLine1="Bahnhofplatz 1"
   addressLine2="6460 Altdorf"
   email="info@mint-system.ch"
   phone="+41 44 244 72 20" >}}
