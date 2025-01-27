@@ -7,5 +7,5 @@
     "public/"
   ],
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "static/assets/"
+  "attachmentFolderPath": "./"
 }

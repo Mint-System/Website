@@ -1,11 +1,17 @@
 # Icons
+![](static/assets/icons/icon_resize.png)
+![](static/assets/icons/icon_left_right.png)
+![](static/assets/icons/icon_checkmark.png)
+![](static/assets/icons/icon_switch.png)
+![](static/assets/icons/icon_tablet.png)
+![](static/assets/icons/icon_forward.png)
 ![icon-erp](static/assets/icons/icon-erp.svg)
 ![icon-software](static/assets/icons/icon-software.svg)
 ![icon-management](static/assets/icons/icon-management.svg)
 
 ![](icon_accounting.png)
 ![](icon_knowledge.png)
-![](icon_sign.png)
+![](static/assets/icons/icon_sign.png)
 ![](icon_crm.png)
 ![](icon_studio.png)
 ![](icon_subscription.png)
