@@ -15,8 +15,8 @@
     description: >
       AirWork & Heliseilerei GmbH ist auf Arbeiten in der Luft und auf Seilen spezialisiert. Sie bieten Lösungen für Seilzugang, Wartung und Installationsdienste in den Bereichen Bauwesen, Telekommunikation und Energie.
     category: Luftfahrt
-    website: https://air-work.com/de
-    image: https://air-work.com/themes/air-work/assets/logo.svg
+    website: https://air-work.com/de/
+    image: /assets/images/references/airwork.png
 
   - name: Arnold Umzüge AG
     description: >
@@ -78,12 +78,7 @@
       Localfish AG ist ein Schweizer Unternehmen, das sich auf den Verkauf von nachhaltig produzierten Fischprodukten aus heimischen Seen spezialisiert hat. Sie bieten frischen, gefrorenen und verarbeiteten Fisch für den Einzelhandel sowie den gewerblichen Markt an.
     category: Lebensmittelproduktion
     website: https://localfish.ch/
-
-  - name: Lozancic Consulting GmbH
-    description: >
-      Lozancic Consulting GmbH bietet Expertenberatung für kleine und mittelständische Unternehmen (KMU) in der Schweiz an. Ihre Dienstleistungen umfassen Unternehmensstrategien, Prozessoptimierung und digitale Transformation, um den Kunden zu mehr Effizienz und Rentabilität zu verhelfen.
-    category: Beratung
-    website: https://lconsulting.ch/
+    image: /assets/images/references/localfish.png
 
   - name: OCAD AG
     description: >
@@ -96,7 +91,7 @@
     description: >
       Ops ONE AG bietet Cloud-basierte Lösungen für Unternehmen an. Sie bieten maßgeschneiderte Dienste in den Bereichen IT-Management und IT-Strategie, mit einem Fokus auf innovative, digitale Transformation und Cloud-Dienste.
     category: Cloud-Dienstleistungen
-    website: https://opsone.ch/de
+    website: https://opsone.ch/de/
     image: /assets/images/references/opsone.png
 
   - name: Pavić d.o.o
@@ -105,3 +100,58 @@
     category: Fertigung
     website: https://www.pavicdoo.rs/
     image: /assets/images/references/pavic.png
+
+  - name: Sozialinfo
+    description: >
+      Der Verein sozialinfo.ch erbringt seit 2003 Dienstleistungen für den Sozialbereich in der Schweiz. Wir betreiben das führende Stellenportal für den Sozialbereich und begleiten Projekte und Prozesse in der Digitalisierung und in der Personalgewinnung. Zudem bereiten wir Fachinformationen zu aktuellen Themen und relevanten Entwicklung im und um den Sozialbereich auf.
+    category: Sozialdienste
+    website: https://sozialinfo.ch/
+    image: /assets/images/references/sozialinfo.png
+
+  - name: Pure ICT AG
+    description: >
+      Die Pure ICT GmbH gehört zu den führenden ICT- Anbietern in der Zentralschweiz. Unsere Kunden vertrauen uns - vom KMU bis zum weltweit tätigen Grosskonzern. Sicherheit und Stabilität Ihrer IT- Umgebung sind das oberste Gebot damit Ihre Daten geschützt sind und Sie sich um die wesentlichen Dinge in Ihrem Unternehmen kümmern können.
+    category: ICT-Anbieter
+    website: https://www.pureict.ch/
+    image: /assets/images/references/pureict.png
+
+  - name: Bergkäserei Aschwanden AG
+    description: >
+      Mitten im Dorf Seelisberg, oberhalb des Rütlis auf 805 m ü. M., produzieren wir natürlichen Bergkäse aus frischer Rohmilch direkt vom Bergbauer. Unsere laktosefreien Käse werden nach Familienrezept hergestellt und mit Aufmerksamkeit und Sorgfalt gelagert.
+    category: Lebensmittelproduktion
+    website: https://www.bergkaese.ch/
+    image: /assets/images/references/bergkaese.png
+
+  - name: webkeeper GmbH
+    description: >
+      Webkeeper.ch ist ein Schweizer Webhosting-Unternehmen, das seit 1998 besteht und sich auf die Bereitstellung von zuverlässigen und sicheren Webhosting-Lösungen für Unternehmen und Privatkunden spezialisiert hat. Das Angebot umfasst verschiedene Hosting-Pakete, die auf die Bedürfnisse unterschiedlicher Kunden zugeschnitten sind, sowie Domainregistrierung und -verwaltung, SSL-Zertifikate und E-Mail-Dienste. Die Webseite ist benutzerfreundlich gestaltet und bietet eine einfache Navigation durch das Angebot. Der Kundenservice ist schnell und freundlich und steht Kunden per E-Mail oder Telefon zur Verfügung. Webkeeper.ch legt großen Wert auf Datensicherheit und Datenschutz und setzt modernste Technologien ein, um die Daten seiner Kunden zu schützen. Insgesamt ist webkeeper.ch ein zuverlässiger und seriöser Partner für die Bereitstellung von Webhosting-Lösungen.
+    category: E-Commerce
+    website: https://www.webkeeper.ch/
+    image: /assets/images/references/webkeeper.png
+
+  - name: Trimada AG
+    description: >
+      Das Unternehmen Trimada befindet sich in Wohlen. Trimada stellt elektronische Systeme und Komponenten her. Das Kerngeschäft ist das Entwickeln und die Fertigung von kundenspezifischen Lösungen. Zu ihren Produkten gehören Bediensysteme wie Kurzhubtastaturen, Folientastaturen, Kapazitive Tastaturen, Beleuchtungen und serielle Schnittstellen. Zudem verkauft das Unternehmen Automationskomponenten. Die Trimada stellt alle ihre Produkte selbst und in der Schweiz her. Bei einer Entwicklung eines Gerätes übernimmt die Trimada von Grund auf die Entwicklung der Hard- und Software, die Konstruktion, das Design, die Herstellung und Prüfung, die Logistik und auch den After-Sales-Service. Das ERP-System Odoo wurde bei der Trimada 2011 eingeführt. Zuerst wurde die Version 6 von Odoo und jetzt die Version 7 benutzt. Nach der Evaluation von verschiedener ERP-Software entschied sich das Unternehmen aufgrund vom Open Source Gedanken sowie auch aus dem Grund, dass keine Lizenzkosten anfallen, das ERP-System Odoo einzusetzen.
+    category: Fertigung
+    website: https://www.trimada.ch/
+    image: /assets/images/references/trimada.jpg
+
+  - name: Tissa Glasweberei AG
+    description: >
+      Tissa Composites GmbH ist ein Handelsunternehmen, welches das Dosiergerät (Metrocat) sowie die Glasschneidemaschine (MatCut 70010P) vertreibt. Tissa Immobilien Tissa Immobilien verwaltet die Liegenschaften der Tissa-Gruppe. Unsere Schwesterbetriebe für Gewebeveredlung: Tissa ImCut AG.
+    category: Fertigung
+    website: https://www.tissa.ch/
+    image: /assets/images/references/trimada.jpg
+
+  - name: Lapp Engineering AG
+    description: >
+      Wir von der Lapp Engineering AG sind Spezialisten im Bereich der Polymertechnologie. Wir entwickeln für Sie ein Compound nach Ihren Spezifikationen ohne finanzielles Risiko. Nach erfolgreicher Entwicklung compoundieren wir Testmaterial und unterstützen Sie bei der Prototypenfertigung. Anschliessend lassen wir das Compound bei ausgewählten Partnern produzieren. Innovationen gilt es zu schützen. Gerne betreuen und beraten wir Sie auch im Bereich geistiges Eigentum.
+    category: Konstruktion
+    website: https://www.lappengineering.ch/
+    image: /assets/images/references/lappengineering.png
+
+  - name: Kunststoffsammelsack Schweiz GmbH
+    description: >
+      Wir müssen Sorge tragen zur Umwelt und eine nachhaltige Zukunft für unsere künftigen Generationen anstreben. Aus diesem Grund haben wir im Januar 2012 den Kunststoffsammelsack im Kanton Uri lanciert. Mit grossem Erfolg durften wir die Einführungsphase positiv abschliessen. Heute ist der Kunststoffsammelsack nicht mehr weg zu denken. Alles eine Frage der Einstellung.    category: Logistik
+    website: https://www.kunststoffsammelsack.ch/
+    image: /assets/images/references/kunststoffsammelsack.png
