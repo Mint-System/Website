@@ -85,13 +85,6 @@
     category: Beratung
     website: https://lconsulting.ch/
 
-  - name: MBB MOSER AG
-    description: >
-      Seit über 30 Jahren ist die MBB MOSER AG als verlässlicher ICT-Partner im Mittelland bekannt. Waren die Anfangsjahre stark geprägt durch die Bereiche Buchhaltung, IT-Schulungen und IT-Support, wurde im Laufe der Zeit primär der Bereich IT-Support und Unterhalt gestärkt.
-    category: IT-Dienstleistungen
-    website: https://www.mbbmoser.ch/
-    image: /assets/images/references/mbb-moser.png
-
   - name: OCAD AG
     description: >
       Die OCAD AG arbeitet im Bereich der Softwareentwicklung für die Produktion von Karten. Ihre Anwendungssoftware OCAD wird weltweit in verschiedenen Versionen vertrieben. Zudem werden ein technischer Support, Beratung und Schulungen angeboten. Ein Vorteil bietet das Programm durch eine sehr einfache Bedienung und vordefinierte Kartensymbole. So sind Einsteiger bereits nach kürzester Einarbeitungszeit fähig, perfekte Karten zu zeichnen.
