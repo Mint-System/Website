@@ -19,6 +19,13 @@
         <a href="tel:{{.tel}}" class="text-black underline mt-4">
             {{.tel}}
         </a>
+        
+        {{ if .meeting }}
+        <a href="{{.meeting}}" aria-label="Meeting Link" 
+            class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+            Suggest a meeting
+        </a>
+        {{ end }}
     </div>
     {{ end }}
 
