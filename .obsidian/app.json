@@ -7,5 +7,6 @@
     "public/"
   ],
   "newLinkFormat": "absolute",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "strictLineBreaks": true
 }
