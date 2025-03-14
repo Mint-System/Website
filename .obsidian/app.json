@@ -8,5 +8,6 @@
   ],
   "newLinkFormat": "absolute",
   "attachmentFolderPath": "./",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "trashOption": "none"
 }
