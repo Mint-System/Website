@@ -27,7 +27,7 @@ author: "Mint System GmbH"
     description2="Mit Ansible bauen wir unsere Infrastruktur und konfigurieren unsere Server. Wie die Software Produkte ist auch unser Ansible Code öffentlich."
     buttonLink="https://ansible.build/"
     target="_blank"
-    buttonText="Ansible.Build" >}}
+    buttonText="Ansible Build" >}}
 
 {{< text 
     title="ODOO FRAMEWORK"
@@ -36,4 +36,4 @@ author: "Mint System GmbH"
     description3="Wir leben Open Source und deshalb unsere Odoo Entwicklungsumgebung veröffentlicht."
     buttonLink="https://odoo.build"
     target="_blank"
-    buttonText="Odoo.Build" >}}
+    buttonText="Odoo Build" >}}
