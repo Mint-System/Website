@@ -40,13 +40,14 @@ function install() {
     curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_Linux-64bit.tar.gz
     tar -xzf hugo.tar.gz
     rm hugo.tar.gz LICENSE
-    npm install -g vercel
+    pnpm install -g vercel
 }
 
 function build() {
     if [ -n "$1" ]; then
         BASE_URL=$1
     fi
+    pnpm build
     ./hugo -b "$BASE_URL"
 }
 

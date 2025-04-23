@@ -1525,6 +1525,18 @@ video {
   font-style: normal;
 }
 
+th, td {
+  border: var(--form-input-border-size) solid var(--form-input-border-color);
+  padding: var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-text);
+  color: var(--text-dark-color);
+}
+
+th {
+  background-color: var(--grey-color);
+}
+
 h1 {
   font-family: RubrikEdgeNew Bold, sans-serif;
 }
