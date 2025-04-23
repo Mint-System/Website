@@ -48,7 +48,6 @@ function build() {
     if [ -n "$1" ]; then
         BASE_URL=$1
     fi
-    pnpm build
     ./hugo -b "$BASE_URL"
 }
 
