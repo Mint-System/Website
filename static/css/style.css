@@ -1762,6 +1762,15 @@ a.btn-outline-secondary:hover:before {
   transition: height 0.15s ease-in-out;
 }
 
+.footnotes ol {
+  list-style: decimal;
+}
+
+.footnotes li,
+.footnotes p {
+  font-size: var(--font-size-text-small)
+}
+
 .hover\:border-2:hover {
   border-width: 2px;
 }

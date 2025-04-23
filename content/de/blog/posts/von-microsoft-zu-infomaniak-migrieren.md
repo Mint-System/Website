@@ -85,12 +85,12 @@ Die Produkte von Infomaniak basieren auf Open Source Software. Mit OSS wird die 
 * kDrive ist ein Rewrite von Owncloud: https://github.com/Infomaniak/desktop-kDrive
 * AI Tools ist inspiriert von LibreChat: https://github.com/Infomaniak/LibreChat
 
-[^1]: https://berthub.eu/articles/posts/you-can-no-longer-base-your-government-and-society-on-us-clouds/\
-[^2]: https://jurgen.gaeremyn.be/2025/03/08/european-critical-dependencies/\
-[^3]: https://www.theverge.com/news/643670/microsoft-employee-protest-50th-annivesary-ai\
-[^4]: https://dnip.ch/2025/02/24/nextcloud-chef-microsoft-wollte-uns-dafuer-bezahlen-dass-wir-die-beschwerde-zurueckziehen/\
-[^5]: https://www.bfh.ch/de/aktuell/news/2025/stuermer-abhaengigkeit-microsoft/\
-[^6]: https://european-alternatives.eu/\
-[^7]: https://www.infomaniak.com/en/about\
-[^8]: https://www.infomaniak.com/de/agb/regelung-allgemeine-schutz-daten\
+[^1]: https://berthub.eu/articles/posts/you-can-no-longer-base-your-government-and-society-on-us-clouds/
+[^2]: https://jurgen.gaeremyn.be/2025/03/08/european-critical-dependencies/
+[^3]: https://www.theverge.com/news/643670/microsoft-employee-protest-50th-annivesary-ai
+[^4]: https://dnip.ch/2025/02/24/nextcloud-chef-microsoft-wollte-uns-dafuer-bezahlen-dass-wir-die-beschwerde-zurueckziehen/
+[^5]: https://www.bfh.ch/de/aktuell/news/2025/stuermer-abhaengigkeit-microsoft/
+[^6]: https://european-alternatives.eu/
+[^7]: https://www.infomaniak.com/en/about
+[^8]: https://www.infomaniak.com/de/agb/regelung-allgemeine-schutz-daten
 [^9]: https://www.infomaniak.com/en/ksuite

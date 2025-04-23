@@ -360,3 +360,11 @@ a.btn-outline-secondary:hover:before {
     height: 2.5rem;
     transition: height 0.15s ease-in-out;
 }
+
+.footnotes ol {
+    list-style: decimal;
+}
+.footnotes li,
+.footnotes p {
+    font-size: var(--font-size-text-small)
+}
