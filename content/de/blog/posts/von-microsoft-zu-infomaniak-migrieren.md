@@ -27,7 +27,7 @@ Alternativen zu Microsoft Office gibt es viele und das schon lange [^6]. Grenzt 
 
 ## Vorher und Nachher
 
-Eine Migration von Microsoft auf Infomaniak ist schwieriger je nach dem wie weit die Migration in die Dienstleistungen der Office 365 Cloud vollzogen ist. Die Lizenzbündelung von Office 365 erschwert eine eine Trennung der einzelnen Produkte. Die folgende Grafik zeigt wie wie die einzelnen Produkte von Microsoft mit Produkten von Infomaniak und Open Soource Software (OSS) ersettzt werden können:
+Eine Migration von Microsoft auf Infomaniak ist schwieriger je nach dem wie weit die Migration in die Dienstleistungen der Office 365 Cloud vollzogen ist. Die Lizenzbündelung von Office 365 erschwert eine eine Trennung der einzelnen Produkte. Die folgende Grafik zeigt wie wie die einzelnen Produkte von Microsoft mit Produkten von Infomaniak und Open Source Software (OSS) ersetzt werden können:
 
 | Vorher Microsoft         | Neu Infomaniak    | Neu OSS      |
 | ------------------------ | ----------------- | ------------ |
