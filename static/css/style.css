@@ -1539,6 +1539,7 @@ th {
 
 h1 {
   font-family: RubrikEdgeNew Bold, sans-serif;
+  white-space: break-spaces;
 }
 
 h2,

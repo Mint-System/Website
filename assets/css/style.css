@@ -143,6 +143,7 @@ th {
 
 h1 {
     @apply font-rubrikBold;
+    white-space: break-spaces;
 }
 
 h2,
