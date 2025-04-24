@@ -7,19 +7,19 @@ layout: "blog/posts/posts"
 tags: ["Infomaniak", "Open Source Software", "Migration", "Office"]
 featured_image: "/assets/images/blog/infomaniak-rechenzentrum.png"
 type: "blogpost"
-summary: "Die Abhängigkeit zu Microsoft ist ein grosses Problem. Alternativen gibt es schon lange.
-Wir empfehlen eine die Office Suite zu Infomaniak zu migrieren."
+summary: "Die Abhängigkeit von Microsoft ist ein grosses Problem. Alternativen gibt es schon lange.
+Wir empfehlen die Office Suite zu Infomaniak zu migrieren."
 lead: "Das Warum und Wie erklären wir hier."
 seo_title: "Von Microsoft zu Infomaniak - Mint System GmbH"
 ---
 
-Die Abhängigkeit zu Microsoft ist aktuell ein grosses Problem [^1]. Viele Unternehmen und Organisation setzen auf die Produkte und Dienstleistungen von Microsoft, inbesondere betrifft das die Office Suite [^2]. Aufgrund dieser Abhängigkeit entstehen komplexe Fragestellungen zu Souveränität, Datenschutz und Machtstrukturen. Für Unternehmen in Europa ist Microsoft der falsche Partner. Dazu die wichtigsten Kritikpunkte:
+Die Abhängigkeit von Microsoft ist aktuell ein grosses Problem [^1]. Viele Unternehmen und Organisationen setzen auf die Produkte und Dienstleistungen von Microsoft, inbesondere betrifft das die Office Suite [^2]. Aufgrund dieser Abhängigkeit entstehen komplexe Fragestellungen zu Souveränität, Datenschutz und Machtstrukturen. Für Unternehmen in Europa ist Microsoft der falsche Partner. Dazu die wichtigsten Kritikpunkte:
 
 * Die Produkte von Microsoft werden aktiv im Krieg eingesetzt [^3].
 * Microsoft verhindert Alternativen und schwächt so die lokale Techbranche [^4].
 * Microsoft besitzt ein Monopol und erhöht die Lizenzpreise regelmässig [^5].
 
-Alternativen zu Microsoft Office gibt es viele und das schon lange [^6]. Grenzt man die Auswahl auf Anbieter in der Schweiz ein, landet man unweigerlich bei Infomaniak. Wir setzten bereits Produkte von Infomaniak ein und haben damit gute Erfahrungen gemacht. Hier die wichtigsten Punkte die für Infomaniak sprechen:
+Alternativen zu Microsoft Office gibt es viele und das schon lange [^6]. Grenzt man die Auswahl auf Anbieter in der Schweiz ein, landet man unweigerlich bei Infomaniak. Wir setzen bereits Produkte von Infomaniak ein und haben damit gute Erfahrungen gemacht. Hier die wichtigsten Punkte die für Infomaniak sprechen:
 
 * Sie vertreten ethische und moralische Prinzipien [^7].
 * Vereinfachung der Datenschutz-Fragen aufgrund Datenhoheit in der Schweiz. Kein Zugriff durch ausländische Behörden [^8].
@@ -27,7 +27,7 @@ Alternativen zu Microsoft Office gibt es viele und das schon lange [^6]. Grenzt 
 
 ## Vorher und Nachher
 
-Eine Migration von Microsoft auf Infomaniak ist schwieriger je nach dem wie weit die Migration in die Dienstleistungen der Office 365 Cloud vollzogen ist. Die Lizenzbündelung von Office 365 erschwert eine eine Trennung der einzelnen Produkte. Die folgende Grafik zeigt wie wie die einzelnen Produkte von Microsoft mit Produkten von Infomaniak und Open Source Software (OSS) ersetzt werden können:
+Eine Migration von Microsoft auf Infomaniak ist schwieriger je nach dem wie weit die Migration in die Dienstleistungen der Office 365 Cloud vollzogen ist. Die Lizenzbündelung von Office 365 erschwert eine Trennung der einzelnen Produkte. Die folgende Grafik zeigt wie die einzelnen Produkte von Microsoft mit Produkten von Infomaniak und Open Source Software (OSS) ersetzt werden können:
 
 | Vorher Microsoft         | Neu Infomaniak    | Neu OSS      |
 | ------------------------ | ----------------- | ------------ |
