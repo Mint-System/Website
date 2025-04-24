@@ -65,7 +65,7 @@ C --> D[Nachbearbeitung Migration]
 
 3\. Für das produktive Go-Live die Daten einmalig migrieren:
 
-- Migration der E-Mail-Postfächer und Kalender nach Infomaniak
+- Migration der E-Mail-Postfächer, Kontakte und Kalender nach Infomaniak
 - Migration der Sharepoint-Dateien nach kDrive
 - Migration der Kanal-Struktur nach kChat
 - Produktive Systemintegration durchführen
