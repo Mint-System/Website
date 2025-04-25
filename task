@@ -13,9 +13,9 @@ function help() {
     echo
 
     # Define column widths
-    COLUMN=12
+    CMD_WIDTH=20
     OPT_WIDTH=10
-    DESC_WIDTH=40
+    DESC_WIDTH=42
     COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
 
     # Print table header
@@ -38,7 +38,7 @@ BASE_URL="http://localhost:1313"
 
 # Import commands
 
-source ~/taskfile.build/bin/commit-with-llm
+[ -f ~/taskfile.build/bin/commit-with-llm ] && source ~/taskfile.build/bin/commit-with-llm
 
 # Project commands
 
