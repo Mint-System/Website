@@ -44,8 +44,9 @@ Was zunächst einfach klingt, wird bei bestimmten Mail-Providern – insbesonder
 
 ```mermaid
 graph LR
-    A[Odoo] --> B[OAuth] 
-    B --> C[Mail-Server]
+    A[Odoo] <--> B[OAuth] 
+    A <--> C[Mail-Server]
+    B <--> C
     C --> D[Postfach]
 ```
 
@@ -68,7 +69,7 @@ In der Praxis empfiehlt es sich daher, geschäftliche E-Mails und transaktionale
 ```mermaid
 graph LR
     A[Odoo] --> B[Mail-Server mail.yourcompany.com] 
-    C[Mitarbeiter] --> D[Mail-Server yourcompany.com] 
+    C[Unternehmen] --> D[Mail-Server yourcompany.com] 
 ```
 
 ## Mailgun und Odoo Mailgate
@@ -91,8 +92,8 @@ Odoo bringt eine eigene Logik zur Verarbeitung eingehender E-Mails mit. Normaler
 
 
 ```mermaid
-graph LR
-    A[Endbenutzer] --> B[Mail-Server]
+graph TD
+    A[Empfänger] --> B[Mail-Server]
     B --> C[Odoo Mailgate]
     C --> D[Odoo]
     D --> E[Mailgun]
