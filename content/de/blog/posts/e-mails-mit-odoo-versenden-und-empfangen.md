@@ -29,7 +29,6 @@ graph LR
     C --> D[Empfänger]
 ```
 
-
 Damit diese Art der E-Mail-Kommunikation funktioniert, muss Odoo in der Lage sein, E-Mails im Namen einer bestimmten Mail-Domain (z. B. `yourcompany.com`) zu versenden. Standardmässig erfolgt die Integration über ein vorhandenes E-Mail-Postfach. Odoo erhält Zugriff auf ein festgelegtes Postfach, beispielsweise `odoo@yourcompany.com`, und kann damit E-Mails senden, empfangen und verarbeiten.
 
 
@@ -38,7 +37,6 @@ graph LR
     A[Odoo] <--> B[Mail-Server]
     B --> C[Postfach]
 ```
-
 
 Was zunächst einfach klingt, wird bei bestimmten Mail-Providern – insbesondere Microsoft 365 und Google Gmail – schnell komplex. Diese Anbieter erlauben keine klassische Authentifizierung über Benutzername und Passwort. Stattdessen muss Odoo als sogenannte OAuth-App registriert werden. Erst dann gestatten Microsoft oder Google den Zugriff auf bestimmte Ressourcen wie SMTP für den Versand und IMAP für den Empfang von E-Mails.
 
@@ -76,13 +74,11 @@ graph LR
 
 Anstatt `mail.yourcompany.com` bei einem klassischen Mail-Provider zu registrieren und ein Postfach für Odoo einzurichten, können Sie einen spezialisierten Mail-Relay-Dienst wie **Mailgun** verwenden. Mailgun ist auf den Massenversand von E-Mails ausgelegt und bietet umfangreiche Integrationsmöglichkeiten sowie Metriken zur Überwachung des Versandvolumens.
 
-
 ```mermaid
 graph LR
     A[Odoo] --> B[Mailgun mail.yourcompany.com]
     B --> C[Empfänger]
 ```
-
 
 Mit Mailgun können Sie E-Mails aus Odoo versenden – ganz ohne eigenes Postfach. Der Empfang von E-Mails ist jedoch nicht möglich. Hier kommt **Odoo Mailgate** ins Spiel.
 
@@ -90,12 +86,11 @@ Odoo bringt eine eigene Logik zur Verarbeitung eingehender E-Mails mit. Normaler
 
 **Odoo Mailgate** ist ein separater Dienst, der Zugriff auf Ihre Odoo-Datenbank hat. Die Adresse des Mailgates wird als Mail-Server veröffentlicht. Wenn eine E-Mail an das Mailgate gesendet wird, leitet dieses sie automatisch an Odoo weiter, wo sie wie gewohnt verarbeitet wird.
 
-
 ```mermaid
 graph TD
-    A[Empfänger] --> B[Mail-Server]
-    B --> C[Odoo Mailgate]
     C --> D[Odoo]
     D --> E[Mailgun]
+    A[Empfänger] --> B[Mail-Server]
+    B --> C[Odoo Mailgate]
     E --> B
 ```
