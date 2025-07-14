@@ -1,3 +1,5 @@
+- name: Abächerli Forstunternehmen AG
+
 - name: Aerni AG
   description: >
     Die Aerni AG ist ein führendes Unternehmen auf dem Gebiet der Planung, Installation und Wartung von Dampfkesselanlagen und industriellen Wärmesystemen. Sie bieten auch Druckgeräteherstellung und Schweißdienstleistungen für Behälter und Apparate an. Ihr Service umfasst auch Lösungen im Bereich Dampf.
@@ -18,6 +20,8 @@
   website: https://air-work.com/de/
   image: /assets/images/references/airwork.png
 
+- name: allnet Solutions GmbH
+
 - name: Arnold Umzüge AG
   description: >
     Die Arnold Umzüge AG ist ein zertifiziertes Umzugsunternehmen in der Zentralschweiz. Wir bieten professionelle Dienstleistungen rund um den privaten oder geschäftlichen Umzug an. Dazu gehören Transport, Lagerung, Entsorgung und Räumung. Egal ob in Uri, Schwyz, Nidwalden, Obwalden, Luzern, Zug, Tessin oder dem Rest der Schweiz. Wir erledigen das für Sie.
@@ -31,12 +35,24 @@
   website: https://www.basis57.ch/
   image: /assets/images/references/basis-57.png
 
+- name: Bocco Group GmbH
+
+- name: Brand Metallbau AG
+
+- name: Brunner ELEKTRONIK AG
+
 - name: Carbo-Link AG
   description: >
     Das Unternehmen Carbo-Link AG aus Fehraltorf ist auf den Entwurf, die Konstruktion und die Herstellung von Strukturelementen für hohe Belastungen spezialisiert. Carbo-Link AG führt das gesamte Design, Engineering und die Produktion in seiner hochmodernen Anlage in Fehraltorf durch.
   category: Fertigung
   website: https://www.carbo-link.com/
   image: /assets/images/references/carbo-link.png
+
+- name: conseil3 GmbH
+
+- name: Digital Cluster Uri
+
+- name: Fruchtpaar GmbH
 
 - name: GELSO AG
   description: >
@@ -52,12 +68,22 @@
   website: https://hygentile.com/de/
   image: /assets/images/references/hygentile.png
 
-- name: INVITAIC Finance AG
+- name: Kanton Uri
+
+- name: Kunststoffsammelsack Schweiz GmbH
   description: >
-    INVITAIC Finance AG ist ein Finanzdienstleistungsunternehmen, das sich auf maßgeschneiderte Finanzlösungen für Unternehmen und Privatpersonen spezialisiert hat. Ihr Fokus liegt auf Investitionsberatung und strategischer Finanzplanung.
-  category: Beratung
-  website: https://www.invitaic.ch/
-  image: /assets/images/references/invitaic.png
+    Wir müssen Sorge tragen zur Umwelt und eine nachhaltige Zukunft für unsere künftigen Generationen anstreben. Aus diesem Grund haben wir im Januar 2012 den Kunststoffsammelsack im Kanton Uri lanciert. Mit grossem Erfolg durften wir die Einführungsphase positiv abschliessen. Heute ist der Kunststoffsammelsack nicht mehr weg zu denken. Alles eine Frage der Einstellung.    category: Logistik
+  website: https://www.kunststoffsammelsack.ch/
+  image: /assets/images/references/kunststoffsammelsack.png
+
+- name: Lapp Engineering AG
+  description: >
+    Wir von der Lapp Engineering AG sind Spezialisten im Bereich der Polymertechnologie. Wir entwickeln für Sie ein Compound nach Ihren Spezifikationen ohne finanzielles Risiko. Nach erfolgreicher Entwicklung compoundieren wir Testmaterial und unterstützen Sie bei der Prototypenfertigung. Anschliessend lassen wir das Compound bei ausgewählten Partnern produzieren. Innovationen gilt es zu schützen. Gerne betreuen und beraten wir Sie auch im Bereich geistiges Eigentum.
+  category: Konstruktion
+  website: https://www.lappengineering.ch/
+  image: /assets/images/references/lappengineering.png
+
+- name: Kantonale Mittelschule Uri
 
 - name: Kleinbrauerei Stiär Biär AG
   description: >
@@ -80,6 +106,10 @@
   website: https://localfish.ch/
   image: /assets/images/references/localfish.png
 
+- name: Loft Dynamics AG
+
+- name: MBB MOSER AG
+
 - name: OCAD AG
   description: >
     Die OCAD AG arbeitet im Bereich der Softwareentwicklung für die Produktion von Karten. Ihre Anwendungssoftware OCAD wird weltweit in verschiedenen Versionen vertrieben. Zudem werden ein technischer Support, Beratung und Schulungen angeboten. Ein Vorteil bietet das Programm durch eine sehr einfache Bedienung und vordefinierte Kartensymbole. So sind Einsteiger bereits nach kürzester Einarbeitungszeit fähig, perfekte Karten zu zeichnen.
@@ -101,33 +131,12 @@
   website: https://www.pavicdoo.rs/
   image: /assets/images/references/pavic.png
 
-- name: Sozialinfo
-  description: >
-    Der Verein sozialinfo.ch erbringt seit 2003 Dienstleistungen für den Sozialbereich in der Schweiz. Wir betreiben das führende Stellenportal für den Sozialbereich und begleiten Projekte und Prozesse in der Digitalisierung und in der Personalgewinnung. Zudem bereiten wir Fachinformationen zu aktuellen Themen und relevanten Entwicklung im und um den Sozialbereich auf.
-  category: Sozialdienste
-  website: https://sozialinfo.ch/
-  image: /assets/images/references/sozialinfo.png
-
 - name: Pure ICT AG
   description: >
     Die Pure ICT AG gehört zu den führenden ICT- Anbietern in der Zentralschweiz. Unsere Kunden vertrauen uns - vom KMU bis zum weltweit tätigen Grosskonzern. Sicherheit und Stabilität Ihrer IT- Umgebung sind das oberste Gebot damit Ihre Daten geschützt sind und Sie sich um die wesentlichen Dinge in Ihrem Unternehmen kümmern können.
   category: ICT-Anbieter
   website: https://www.pureict.ch/
   image: /assets/images/references/pureict.png
-
-- name: Bergkäserei Aschwanden AG
-  description: >
-    Mitten im Dorf Seelisberg, oberhalb des Rütlis auf 805 m ü. M., produzieren wir natürlichen Bergkäse aus frischer Rohmilch direkt vom Bergbauer. Unsere laktosefreien Käse werden nach Familienrezept hergestellt und mit Aufmerksamkeit und Sorgfalt gelagert.
-  category: Lebensmittelproduktion
-  website: https://www.bergkaese.ch/
-  image: /assets/images/references/bergkaese.png
-
-- name: webkeeper GmbH
-  description: >
-    Webkeeper.ch ist ein Schweizer Webhosting-Unternehmen, das seit 1998 besteht und sich auf die Bereitstellung von zuverlässigen und sicheren Webhosting-Lösungen für Unternehmen und Privatkunden spezialisiert hat. Das Angebot umfasst verschiedene Hosting-Pakete, die auf die Bedürfnisse unterschiedlicher Kunden zugeschnitten sind, sowie Domainregistrierung und -verwaltung, SSL-Zertifikate und E-Mail-Dienste. Die Webseite ist benutzerfreundlich gestaltet und bietet eine einfache Navigation durch das Angebot. Der Kundenservice ist schnell und freundlich und steht Kunden per E-Mail oder Telefon zur Verfügung. Webkeeper.ch legt großen Wert auf Datensicherheit und Datenschutz und setzt modernste Technologien ein, um die Daten seiner Kunden zu schützen. Insgesamt ist webkeeper.ch ein zuverlässiger und seriöser Partner für die Bereitstellung von Webhosting-Lösungen.
-  category: E-Commerce
-  website: https://www.webkeeper.ch/
-  image: /assets/images/references/webkeeper.png
 
 - name: Trimada AG
   description: >
@@ -141,17 +150,24 @@
     Tissa Composites GmbH ist ein Handelsunternehmen, welches das Dosiergerät (Metrocat) sowie die Glasschneidemaschine (MatCut 70010P) vertreibt. Tissa Immobilien Tissa Immobilien verwaltet die Liegenschaften der Tissa-Gruppe. Unsere Schwesterbetriebe für Gewebeveredlung: Tissa ImCut AG.
   category: Fertigung
   website: https://www.tissa.ch/
-  image: /assets/images/references/trimada.jpg
+  image: /assets/images/references/tissa-glasweberei.jpg
 
-- name: Lapp Engineering AG
-  description: >
-    Wir von der Lapp Engineering AG sind Spezialisten im Bereich der Polymertechnologie. Wir entwickeln für Sie ein Compound nach Ihren Spezifikationen ohne finanzielles Risiko. Nach erfolgreicher Entwicklung compoundieren wir Testmaterial und unterstützen Sie bei der Prototypenfertigung. Anschliessend lassen wir das Compound bei ausgewählten Partnern produzieren. Innovationen gilt es zu schützen. Gerne betreuen und beraten wir Sie auch im Bereich geistiges Eigentum.
-  category: Konstruktion
-  website: https://www.lappengineering.ch/
-  image: /assets/images/references/lappengineering.png
+- name: Valperca S.A.
 
-- name: Kunststoffsammelsack Schweiz GmbH
+- name: Verein sozialinfo
   description: >
-    Wir müssen Sorge tragen zur Umwelt und eine nachhaltige Zukunft für unsere künftigen Generationen anstreben. Aus diesem Grund haben wir im Januar 2012 den Kunststoffsammelsack im Kanton Uri lanciert. Mit grossem Erfolg durften wir die Einführungsphase positiv abschliessen. Heute ist der Kunststoffsammelsack nicht mehr weg zu denken. Alles eine Frage der Einstellung.    category: Logistik
-  website: https://www.kunststoffsammelsack.ch/
-  image: /assets/images/references/kunststoffsammelsack.png
+    Der Verein sozialinfo.ch erbringt seit 2003 Dienstleistungen für den Sozialbereich in der Schweiz. Wir betreiben das führende Stellenportal für den Sozialbereich und begleiten Projekte und Prozesse in der Digitalisierung und in der Personalgewinnung. Zudem bereiten wir Fachinformationen zu aktuellen Themen und relevanten Entwicklung im und um den Sozialbereich auf.
+  category: Sozialdienste
+  website: https://sozialinfo.ch/
+  image: /assets/images/references/sozialinfo.png
+
+- name: VSHN AG
+
+- name: webkeeper GmbH
+  description: >
+    Webkeeper.ch ist ein Schweizer Webhosting-Unternehmen, das seit 1998 besteht und sich auf die Bereitstellung von zuverlässigen und sicheren Webhosting-Lösungen für Unternehmen und Privatkunden spezialisiert hat. Das Angebot umfasst verschiedene Hosting-Pakete, die auf die Bedürfnisse unterschiedlicher Kunden zugeschnitten sind, sowie Domainregistrierung und -verwaltung, SSL-Zertifikate und E-Mail-Dienste. Die Webseite ist benutzerfreundlich gestaltet und bietet eine einfache Navigation durch das Angebot. Der Kundenservice ist schnell und freundlich und steht Kunden per E-Mail oder Telefon zur Verfügung. Webkeeper.ch legt großen Wert auf Datensicherheit und Datenschutz und setzt modernste Technologien ein, um die Daten seiner Kunden zu schützen. Insgesamt ist webkeeper.ch ein zuverlässiger und seriöser Partner für die Bereitstellung von Webhosting-Lösungen.
+  category: E-Commerce
+  website: https://www.webkeeper.ch/
+  image: /assets/images/references/webkeeper.png
+
+- name: Zgraggen Aggro GmbH
