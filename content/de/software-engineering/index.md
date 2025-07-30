@@ -15,13 +15,13 @@ seo_description: "Diese Datenschutzerklärung soll die Nutzer dieser Website gem
 author: "Mint System GmbH"
 ---
 
-{{< text 
+{{< text
     title="Integration vs Entwicklung"
     description="Software entwickeln ist teuer. Wir empfehlen deshalb: Verwenden was es schon gibt"
     description2="Entscheidend ist die Fokussierung auf die richtigen Standards. Proprietäre Lösungen sind bezüglich offenen Schnittstellen immer limitiert, deshalb setzen wir konsequent auf Open Source Lösungen. So lassen sich auch verschiedenste Systeme miteinander verknüpfen."
     description3="Mit der Verwendung von Open Source Software ist sichergestellt, dass man nicht mangels verfügbaren Schnittstellen teure Lösungen entwickeln muss.">}}
 
-{{< text 
+{{< text
     title="Open Source Lösungen"
     description="Wir setze auf etablierte Open Source Software. Wir integrieren verschiedene Software Produkte in ihre IT Umgebung. Diese Produkte sind weltweit im Einsatz und werden von einer globalen Community weiterentwickelt."
     description2="Mit Ansible bauen wir unsere Infrastruktur und konfigurieren unsere Server. Wie die Software Produkte ist auch unser Ansible Code öffentlich."
@@ -29,11 +29,20 @@ author: "Mint System GmbH"
     target="_blank"
     buttonText="Ansible Build" >}}
 
-{{< text 
-    title="ODOO FRAMEWORK"
+{{< text
+    title="Odoo Framework"
     description="Wenn die Applikation dennoch entwickelt werden muss setzen wir auf das robuste Framework von Odoo."
     description2="Damit entwickeln wir blitzschnell ihre neue Applikation ohne, dass wir das Rad neu erfinden. Tausende Applikationen, die millionenfach im Einsatz sind, wurden mit dem Odoo Framework entwickelt. Dieses Basis nutzen wir um das optimale Preis- / Leistungsverhältnis zu finden."
     description3="Wir leben Open Source und deshalb unsere Odoo Entwicklungsumgebung veröffentlicht."
     buttonLink="https://odoo.build"
     target="_blank"
     buttonText="Odoo Build" >}}
+
+{{< text
+    title="Kubernetes"
+    description="Wenn die Applikation dennoch entwickelt werden muss setzen wir auf das robuste Framework von Odoo."
+    description2="Damit entwickeln wir blitzschnell ihre neue Applikation ohne, dass wir das Rad neu erfinden. Tausende Applikationen, die millionenfach im Einsatz sind, wurden mit dem Odoo Framework entwickelt. Dieses Basis nutzen wir um das optimale Preis- / Leistungsverhältnis zu finden."
+    description3="Wir leben Open Source und deshalb unsere Odoo Entwicklungsumgebung veröffentlicht."
+    buttonLink="https://odoo.build"
+    target="_blank"
+    buttonText="Kubernetes Build" >}}

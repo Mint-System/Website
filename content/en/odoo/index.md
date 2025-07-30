@@ -132,7 +132,7 @@ wiki:
     description: "Für unsere Kunden entwickeln wir ein Odoo Wiki. Damit lernen Benutzer den Umgang mit Odoo in kürzester Zeit und haben ein ausführliches Nachschlagewerk."
     button_text: "www.odoo-wiki.org"
     button_link: "https://www.odoo-wiki.org"
-  - title: "ODOO DEVELOPMENT"
+  - title: "ODOO Build"
     description: "Der Odoo-Code ist Open Source, das macht die Zusammenarbeit einfacher. Deshalb veröffentlichen wir unsere Odoo-Entwicklungen sowie unsere Entwicklungsumgebung."
     button_text: "odoo.build"
     button_link: "https://odoo.build"
@@ -144,11 +144,11 @@ imageText:
   image: "/assets/images/ecosystem.jpeg"
   caption: "Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem."
 
---- 
+---
 
 {{< feature-list title="Dienstleistungen" lead="Wir haben Erfahrung in der Konzeption und Implementierung von Odoo-Projekten." list="offerings" >}}
 
-{{< text-center 
+{{< text-center
   title="Über Odoo"
   description="1700 Mitarbeitende, 7 Millionen Benutzer in 110 Ländern, Übersetzungen in 32 Sprachen."
   description2="Die Unternehmung Odoo S.A. mit Sitz in in Belgien hat seit der Gründung im Jahr 2005 ein aussergewöhnliches Wachstum hingelegt. Die All-in-one Management-Software Odoo wurde mit diversen Preisen ausgezeichnet und erfreut sich ungebrochen wachsender Beliebtheit."
@@ -162,7 +162,7 @@ imageText:
 
 {{< text-image-one-col title="All-In-One" lead="Odoo ist eine All-In-One Software-Lösung." lead2="Statt sich mit verschiedenen Produkten zu verbinden, integriert Odoo einfach alle Produkte" image="/assets/images/environment.jpeg" annotation="Brauchen Sie dennoch eine Verbindung zu einem System? Dank den offenen Schnittstellen von Odoo ist eine direkte Integration kein Problem." >}}
 
-{{< text-center 
+{{< text-center
   title="Referenzen"
   description="Genau wie Odoo teilen wir unsere Erfahrungen und Entwicklungen aus den Implementierungsprojekten. Aus Kundenziehungen schaffen wir langjährige Partnerschaften."
   buttonText="Unsere Referenzen"
@@ -171,9 +171,9 @@ imageText:
 
 {{< text-two-col texts="wiki" >}}
 
-{{< contact-teaser 
-    title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen." 
-    paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen." 
-    buttonLink="https://erp.mint-system.ch/contactus" 
+{{< contact-teaser
+    title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen."
+    paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen."
+    buttonLink="https://erp.mint-system.ch/contactus"
     target="_self"
     buttonText="Kontaktieren Sie uns" >}}
