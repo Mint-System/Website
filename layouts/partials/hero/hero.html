@@ -2,13 +2,9 @@
 <section id="hero" class="z-100 relative h-[60vh] md:h-[75vh] bg-cover bg-center" style="background-image: url('{{ .Params.hero_image }}');">
     <div class="container relative z-10 flex flex-col  justify-center h-full">
         <div class="absolute flex-1 bottom-10 w-[90vw]  md:w-2/3 lg:w-3/5 md:bottom-25 left-5 z-10 text-white">
-            <h1 class="text-5xl md:text-6xl font-rubrikBold text-white leading-tight hyphens-auto">
-                {{ .Params.hero_text| markdownify }}
-            </h1>
+            <h1 class="text-5xl md:text-6xl font-rubrikBold text-white leading-tight hyphens-auto">{{ .Params.hero_text| markdownify }}</h1>
             {{ if .Params.hero_subtext }}
-            <h2 class="text-xl md:text-2xl font-rubrikLight text-white mt-4 hyphens-auto">
-                {{ .Params.hero_subtext }}
-            </h2>
+            <h2 class="text-xl md:text-2xl font-rubrikLight text-white mt-4 hyphens-auto">{{ .Params.hero_subtext }}</h2>
             {{ end }}
 
             {{ if .Params.hero_linktext }}
@@ -20,6 +16,6 @@
         </div>
     </div>
     <img class="absolute -z-1 w-full left-0 bottom-0 opacity-30" src="/assets/svg/cover-overlay.svg" alt="hero overlay">
-    
+
 </section>
 {{ end }}
