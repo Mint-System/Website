@@ -40,9 +40,8 @@ author: "Mint System GmbH"
 
 {{< text
     title="Kubernetes"
-    description="Wenn die Applikation dennoch entwickelt werden muss setzen wir auf das robuste Framework von Odoo."
-    description2="Damit entwickeln wir blitzschnell ihre neue Applikation ohne, dass wir das Rad neu erfinden. Tausende Applikationen, die millionenfach im Einsatz sind, wurden mit dem Odoo Framework entwickelt. Dieses Basis nutzen wir um das optimale Preis- / Leistungsverhältnis zu finden."
-    description3="Wir leben Open Source und deshalb unsere Odoo Entwicklungsumgebung veröffentlicht."
-    buttonLink="https://odoo.build"
+    description="Auch die Bereitstellung der Applikationen in eine Kubernetes Umgebung ist kein Problem."
+    description2="Wir entwickeln Helm Charts für Odoo und weitere Applikationen. Wir haben gute Erfahrungen mit dem Betrieb von Odoo in einem Kubernetes Cluster gemacht. Wir verstehen Kubernetes als allgmeinen Standard um Applikationen unabhängig vom Cloud-Provider bereitzustellen."
+    buttonLink="https://kubernetes.build"
     target="_blank"
     buttonText="Kubernetes Build" >}}
