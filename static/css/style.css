@@ -28,7 +28,7 @@
   /* sizes */
   --link-border-size: 1px;
   --nav-border-size: 2px;
-  --font-size-header1: 3rem;
+  --font-size-header1: 2.8rem;
   /* 48px */
   --font-size-header2: 2.5rem;
   /* 40px */
@@ -1109,8 +1109,7 @@ video {
 }
 
 .hyphens-auto {
-  -webkit-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
 }
 
 .whitespace-nowrap {
@@ -1465,9 +1464,7 @@ video {
 }
 
 .transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }

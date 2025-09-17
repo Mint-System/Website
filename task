@@ -49,12 +49,16 @@ function install() {
     tar -xzf hugo.tar.gz -C tmp
     mv tmp/hugo .
     rm hugo.tar.gz
+
+    echo "Install Node dependencies."
+    pnpm install
 }
 
 function build() {
     if [ -n "$1" ]; then
         BASE_URL=$1
     fi
+    pnpm run build
     ./hugo -b "$BASE_URL"
 }
 
