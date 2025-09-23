@@ -77,6 +77,14 @@
   website: https://brunner-innovation.swiss/
   image: /assets/images/references/brunner-elektronik.png
 
+- name: Busco Reinigung AG
+  description: >
+    Busco ist eine traditionsreiche Reinigungs- und Hauswartungsfirma mit Sitz in Zürich, die seit 1950 persönliche, faire und zuverlässige Dienstleistungen für KMU, Verwaltungen und Privatkunden anbietet. Das Unternehmen spezialisiert sich auf Büroreinigung, Fenster- und Fassadenreinigung, Teppich- und Parkettreinigung, Umzugs- und Baureinigung sowie Hauswartung und Gartenpflege. Mit über 150 erfahrenen, fest angestellten Mitarbeitenden setzt Busco auf lokale Verankerung, transparente Kommunikation und wertschätzende Arbeitsbedingungen. Die Kunden schätzen die Handschlagqualität, Flexibilität und konstante Leistung – von der regelmäßigen Unterhaltsreinigung bis zu Spezialaufträgen.
+  category: Facility Management
+  service: Odoo Hosting und Beratung
+  website: https://www.busco.ch/
+  image: /assets/images/references/busco.png
+
 - name: Carbo-Link AG
   description: >
     Das Unternehmen Carbo-Link AG aus Fehraltorf ist auf den Entwurf, die Konstruktion und die Herstellung von Strukturelementen für hohe Belastungen spezialisiert. Carbo-Link AG führt das gesamte Design, Engineering und die Produktion in seiner hochmodernen Anlage in Fehraltorf durch.
@@ -231,7 +239,7 @@
 
 - name: Trimada AG
   description: >
-    Das Unternehmen Trimada befindet sich in Wohlen. Trimada stellt elektronische Systeme und Komponenten her. Das Kerngeschäft ist das Entwickeln und die Fertigung von kundenspezifischen Lösungen. Zu ihren Produkten gehören Bediensysteme wie Kurzhubtastaturen, Folientastaturen, Kapazitive Tastaturen, Beleuchtungen und serielle Schnittstellen. Zudem verkauft das Unternehmen Automationskomponenten. Die Trimada stellt alle ihre Produkte selbst und in der Schweiz her. Bei einer Entwicklung eines Gerätes übernimmt die Trimada von Grund auf die Entwicklung der Hard- und Software, die Konstruktion, das Design, die Herstellung und Prüfung, die Logistik und auch den After-Sales-Service. Das ERP-System Odoo wurde bei der Trimada 2011 eingeführt. Zuerst wurde die Version 6 von Odoo und jetzt die Version 7 benutzt. Nach der Evaluation von verschiedener ERP-Software entschied sich das Unternehmen aufgrund vom Open Source Gedanken sowie auch aus dem Grund, dass keine Lizenzkosten anfallen, das ERP-System Odoo einzusetzen.
+    Trimada AG ist ein Schweizer Elektronikunternehmen mit Sitz in Wohlen AG, das sich auf die Entwicklung und Produktion massgeschneiderter elektronischer Komponenten und Systeme spezialisiert. Seit der Gründung 2010 durch den Zusammenschluss der Trigress Elektro AG und Remada AG bietet Trimada integriertes Engineering, Prototypenbau und Serienfertigung – von der Idee bis zum fertigen Produkt. Mit 17 Mitarbeitenden und moderner Infrastruktur setzt das Unternehmen auf kurze Entscheidungswege, Flexibilität und Schweizer Qualität. Trimada bedient Branchen wie Industrieelektronik, Automatisierung und Messtechnik und ist bekannt für individuelle Lösungen und enge Kundenbindung.
   category: Fertigung
   service: Odoo Hosting und Beratung
   website: https://www.trimada.ch/

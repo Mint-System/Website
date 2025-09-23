@@ -43,3 +43,5 @@
 ![[static/assets/images/references/zgraggenagro.png]]
 
 ![[static/assets/images/references/donuteconomics-switzerland.png]]
+
+![[static/assets/images/references/busco.png]]
