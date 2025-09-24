@@ -85,7 +85,7 @@ wiki:
 {{< text-two-col texts="wiki" >}}
 
 {{< contact-teaser
-    title="Über 600.000 Organisationen nutzen Nextcloud für sichere Zusammenarbeit."
+    title="Tausende Organisationen nutzen Nextcloud für die sichere Zusammenarbeit."
     paragraph="Machen auch Sie den Schritt zu datenschutzkonformer, selbstgehosteter Kollaboration."
     buttonLink="https://erp.mint-system.ch/contactus"
     target="_self"
