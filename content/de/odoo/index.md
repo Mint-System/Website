@@ -9,14 +9,13 @@ hero_subtext: "Die weltweite erfolgreiche All-in-one Management Software. Dank m
 hero_image: "/assets/images/home-hero.jpg"
 hide_title: true
 
-# Custom SEO fields (optional)
 seo_title: "Ihr Schweizer Partner für Odoo - Mint System GmbH"
 seo_description: "Erhalten Sie Unterstützung für Odoo von einem kompetenten Schweizer Partner. Dank modernster Technik schaffen wir den entscheidenden Vorsprung für Ihr Unternehmen."
 author: "Mint System GmbH"
 
 offerings:
   - title: "Beratung"
-    icon: "/assets/svg/icon-management.svg"
+    icon: "/assets/svg/icon-ipads.svg"
     lead: "Haben Sie eine Frage zu Odoo oder brauchen Sie Unterstützung bei der Konfiguration und Implementation? Dann sind Sie bei uns genau richtig."
   - title: "Entwicklung"
     icon: "/assets/svg/icon-software.svg"
@@ -165,7 +164,7 @@ wiki:
   description3="Die Mint System GmbH ist offizieller Partner von Odoo. Wir sind ausgewiesene Fachleute und ein zuverlässiger Partner für die erfolgreiche Implementierung von Odoo in Ihrer Unternehmung."
   buttonText="Mehr zu Odoo"
   buttonLink="https://www.odoo.com/de_DE"
-  target="_self" >}}
+  target="_blank" >}}
 
 
 {{< icon-list title="Eine Plattform" lead="Odoo ist Plattform für Geschäftsapplikationen. Für jedes Bedürfnis gibt es eine passende App. Wir installieren, nur was Sie brauchen. Dazu eine Auswahl der wichtigsten Apps:" features="icons" annotation="Ist eine gesuchte App nicht aufgelistet? Wir sind uns sicher, dass wir sie in der Odoo Community finden oder sie entwickeln können." >}}
