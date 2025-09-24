@@ -12,7 +12,7 @@ seo_description: "Wir sind ein Team von Spezialisten für Management-Software. A
 author: "Mint System GmbH"
 --- 
 
-{{< intro-section image="/assets/images/team/Team.jpg" 
+{{< intro-section image="/assets/images/team/team.jpg" 
     title="Mint System" description="Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. Mit Open Source Software implementieren wir Systeme in einem erstklassigen Preis-Leistungs-Verhältnis." >}}
 
 {{< text-center 
