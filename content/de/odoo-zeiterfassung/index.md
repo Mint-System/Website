@@ -57,4 +57,4 @@ icons:
   buttonText="Übersicht der Apps"
   buttonLink="/odoo#apps" 
   target="_self"
-  image="/assets/images/zeiterfassung.svg" >}}
+  image="/assets/svg/odoo-zeiterfassung.svg" >}}

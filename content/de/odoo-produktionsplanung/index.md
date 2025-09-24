@@ -56,5 +56,5 @@ featureIcons:
   buttonText="Übersicht der Apps"
   buttonLink="/odoo#apps" 
   target="_self"
-  image="/assets/images/odoo-produktionsplanung.svg" >}}
+  image="/assets/svg/odoo-produktionsplanung.svg" >}}
 
