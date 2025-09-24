@@ -1,32 +1,38 @@
-<section id="team" class="container mt-[96px] flex flex-col md:flex-row justify-center items-center gap-12">
-
-    {{ range site.Data.employees }}
-    <div class="flex flex-col items-center text-center">
-        <div class="rounded-full overflow-hidden">
-            <img class="object-cover" style="max-width: 300px;" src="{{ .image }}" alt="{{ .name }}">
-        </div>
-        <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ .name }}</h3>
-        <p class="text-lg text-black">{{ .title }}</p>
-        <p class="text-lg text-black">{{ .education }}</p>
-        <br>
-        <p class="text-lg text-black font-rubrikRegular">{{ .bio }}</p>
-
-        <a href="mailto:{{ .email }}" aria-label="Email Link" 
-            class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
-            Email
-        </a>
-
-        <a href="tel:{{.tel}}" class="text-black underline mt-4">
-            {{.tel}}
-        </a>
-        
-        {{ if .meeting }}
-        <a href="{{.meeting}}" aria-label="Meeting Link" 
-            class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
-            Suggest a meeting
-        </a>
-        {{ end }}
-    </div>
+<section id="team" class="container mt-[96px] flex flex-col gap-12">
+  {{ range $index, $employee := site.Data.employees }}
+    {{ if (modBool $index 3) }}
+      </div>
     {{ end }}
-
+    {{ if (eq (mod $index 3) 0) }}
+      <div class="flex flex-col md:flex-row justify-center items-center gap-12 w-full">
+    {{ end }}
+    <div class="flex flex-col items-center text-center">
+      <div class="rounded-full overflow-hidden">
+        <img class="object-cover" style="max-width: 300px;" src="{{ $employee.image }}" alt="{{ $employee.name }}">
+      </div>
+      <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ $employee.name }}</h3>
+      <p class="text-lg text-black">{{ $employee.title }}</p>
+      <p class="text-lg text-black mb-2">{{ $employee.education }}</p>
+      <br>
+      <p class="text-lg text-black font-rubrikRegular">{{ $employee.bio }}</p>
+      <a href="mailto:{{ $employee.email }}" aria-label="Email Link"
+         class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+        Email
+      </a>
+      {{ with $employee.tel }}
+      <a href="tel:{{ . }}" class="text-black underline mt-4">
+        {{ . }}
+      </a>
+      {{ end }}
+<!--       {{ with $employee.meeting }}
+      <a href="{{ . }}" aria-label="Meeting Link"
+         class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+        Suggest a meeting
+      </a>
+      {{ end }} -->
+    </div>
+    {{ if (eq (add $index 1) (len site.Data.employees)) }}
+      </div>
+    {{ end }}
+  {{ end }}
 </section>
