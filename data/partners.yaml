@@ -33,3 +33,19 @@
   - name: "Optex GmbH"
     link: "https://optexag.ch/"
     tag: Treuhand
+
+  - name: "Odoo Community Association"
+    link: "https://odoo-community.org/"
+    tag: Sponsor
+
+  - name: "CH Open"
+    link: "https://www.ch-open.ch/"
+    tag: Mitglied
+
+  - name: "VSHN"
+    link: "https://www.vshn.ch/"
+    tag: DevOps
+
+  - name: "Ops One AG"
+    link: "https://www.vshn.ch/"
+    tag: DevOps
