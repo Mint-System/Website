@@ -30,12 +30,12 @@
   image: "/assets/images/team/michael_ziege.png"
   email: "michael.ziege@juleg.ch"
 
-- name: "Marcus Menzel"
-  title: "Odoo Expert"
-  education: "Controller"
-  bio: "Mit seiner jahrelangen Erfahrung als Controller und Odoo Projektleiter hat er die Finanzen voll im Griff. Direkt und pragmatisch so geht es am schnellsten."
-  image: "/assets/images/team/marcus_menzel.png"
-  email: "marcus.menzel@mint-system.ch"
+# - name: "Marcus Menzel"
+#   title: "Odoo Expert"
+#   education: "Controller"
+#   bio: "Mit seiner jahrelangen Erfahrung als Controller und Odoo Projektleiter hat er die Finanzen voll im Griff. Direkt und pragmatisch so geht es am schnellsten."
+#   image: "/assets/images/team/marcus_menzel.png"
+#   email: "marcus.menzel@mint-system.ch"
 
 - name: "Gerit Tänzer"
   title: "Open Source Expert"

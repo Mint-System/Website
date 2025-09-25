@@ -4,7 +4,7 @@ date: 2024-09-05
 draft: false
 layout: "single"
 hero_text: "Nextcloud"
-hero_subtext: "Die weltweit einzige All-in-one Kollaborationsplattform. Eine einfache und umfangreiche Office-Lösung für Ihr Unternehmen."
+hero_subtext: "Die weltweit einzigartige All-in-one Kollaborationsplattform. Eine einfache und umfangreiche Office-Lösung für Ihr Unternehmen."
 hero_image: "/assets/images/software-enginering-hero.jpg"
 hide_title: true
 
