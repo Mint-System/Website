@@ -1536,7 +1536,6 @@ th {
 
 h1 {
   font-family: RubrikEdgeNew Bold, sans-serif;
-  white-space: break-spaces;
 }
 
 h2,
@@ -1932,9 +1931,9 @@ a.btn-outline-secondary:hover:before {
     padding: 5rem;
   }
 
-  .md\:py-\[4\.5rem\] {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+  .md\:py-\[3\.5rem\] {
+    padding-top: 7rem;
+    padding-bottom: 3.5rem;
   }
 
   .md\:text-left {
