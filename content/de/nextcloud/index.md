@@ -4,7 +4,7 @@ date: 2024-09-05
 draft: false
 layout: "single"
 hero_text: "Nextcloud"
-hero_subtext: "Die weltweit All-in-one Kollaborationsplattform. Eine einfache und umfangreiche Office-Lösung für Ihr Unternehmen."
+hero_subtext: "Die weltweit einzige All-in-one Kollaborationsplattform. Eine einfache und umfangreiche Office-Lösung für Ihr Unternehmen."
 hero_image: "/assets/images/software-enginering-hero.jpg"
 hide_title: true
 
@@ -85,7 +85,7 @@ wiki:
 {{< text-two-col texts="wiki" >}}
 
 {{< contact-teaser
-    title="Tausende Organisationen nutzen Nextcloud für die sichere Zusammenarbeit."
+    title="1'000+ Organisationen nutzen Nextcloud für eine sichere Zusammenarbeit."
     paragraph="Machen auch Sie den Schritt zu datenschutzkonformer, selbstgehosteter Kollaboration."
     buttonLink="https://erp.mint-system.ch/contactus"
     target="_self"
