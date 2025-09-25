@@ -172,7 +172,7 @@ imageText:
 {{< text-two-col texts="wiki" >}}
 
 {{< contact-teaser
-    title="50,000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen."
+    title="130'000+ Unternehmen benutzen Odoo um Ihre Geschäfte auszubauen."
     paragraph="Kontaktieren Sie uns und machen Sie Ihr eigenes Unternehmen zu einem Besonderen."
     buttonLink="https://erp.mint-system.ch/contactus"
     target="_self"
