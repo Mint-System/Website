@@ -1,4 +1,7 @@
 <section id="team" class="container mt-[96px] flex flex-col gap-12">
+  <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2 hyphens-auto text-center">
+    {{ .Get "title" }}
+  </h2>
   {{ range $index, $employee := site.Data.employees }}
     {{ if (modBool $index 3) }}
       </div>

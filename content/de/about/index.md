@@ -24,7 +24,7 @@ author: "Mint System GmbH"
   description-highlight3="Wir streben permanent nach intelligenten Lösungen zum bestmöglichen Preis-Leistungs-Verhältnis. " 
   description3="Wir sind nie fertig mit dem Optimieren. Aber wir können das Mögliche vom Machbaren unterscheiden. Kunden erleben die Zusammenarbeit mit uns als sehr strukturiert, planvoll und ergebnisorientiert." >}}
 
-{{< team >}}
+{{< team title="Team" >}}
 
 {{< text-image-two-col 
   title="open source" 
