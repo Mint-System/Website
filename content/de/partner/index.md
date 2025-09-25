@@ -11,6 +11,8 @@ seo_description: "Wir setzen auf Kooperationen und sind stets daran interessiert
 author: "Mint System GmbH"
 
 ---
+{{< text-center 
+  description="Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen." >}}
 
 {{< partners >}}
 
