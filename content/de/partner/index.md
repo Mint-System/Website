@@ -15,4 +15,3 @@ author: "Mint System GmbH"
   description="Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen." >}}
 
 {{< partners >}}
-
