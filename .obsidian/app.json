@@ -1,6 +1,6 @@
 {
   "showInlineTitle": false,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "userIgnoreFilters": [
