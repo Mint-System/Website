@@ -12,7 +12,7 @@ tags:
   - Nextcloud
   - Hetzner
 featured_image: /assets/images/blog/cloud-outage.png
-summary: Am 20.10.2025 und gleich darauf am 30.10.2025 gab es einen grösseren Ausfall bei Cloud-Anbieter. Währen dem Ausfall war das halbe Internet nicht erreichbar. Das muss sich ändern...
+summary: Am 20.10.2025 und gleich darauf am 30.10.2025 gab es einen grösseren Ausfall bei Cloud-Anbieter. Während dem Ausfall war das halbe Internet nicht erreichbar. Das muss sich ändern...
 lead: Wir müssen eine unabhängige Internet-Infrastruktur bauen.
 seo_title: Abhängigkeit zu BigTech - Mint System GmbH
 ---
