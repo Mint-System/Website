@@ -8,24 +8,36 @@ layout: "single"
 
 Wir setzen auf Kooperationen und sind stets daran interessiert neue Unternehmen in unser Netzwerk aufzunehmen. Hier eine Auswahl unserer wichtigsten Partner:
 
-Odoo Partner
+## Odoo
 
-- nivels GmbH
-- giordano.ch
-- Syscoon GmbH
-- Equitania Software GmbH
+- [Odoo S.A.](https://www.odoo.com/)
+- [OCA](https://odoo-community.org/)
 
-Softwareentwicklung
+## Odoo Partner
 
-- BINARY one GmbH
+- [nivels GmbH](https://www.nivels.ch/)
+- [Equitania Software GmbH](https://www.equitania.de/)
+- [Syscoon GmbH](https://syscoon.com/)
+- [Simpit GmbH](https://simpit.ch/)
 
-- Juleg GmbH
+## Odoo Treuhand
 
-- Management Luftfahrt
+- [Gaapex Sàrl](https://www.gaapex.ch/)
+- [OPTEX Treuhand AG](https://www.optex.ch)
 
-- ddpConcepts GmbH
+## Management Luftfahrt
 
-Odoo Treuhänder
+- [dbpConcepts GmbH](https://ddpconcepts.ch/)
 
-- Gaapex GmbH
+## Nextcloud
 
+- [Nextcloud GmbH](https://nextcloud.com/)
+
+## Infrastruktur
+
+- [VSHN AG](https://www.vshn.ch/)
+- [Ops One AG](https://opsone.ch/)
+
+## Trägerschaften
+
+- [inosca](https://inosca.ch/)
