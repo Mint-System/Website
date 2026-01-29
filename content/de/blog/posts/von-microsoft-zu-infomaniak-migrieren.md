@@ -91,6 +91,6 @@ Die Produkte von Infomaniak basieren auf Open Source Software. Mit OSS wird die 
 [^4]: https://dnip.ch/2025/02/24/nextcloud-chef-microsoft-wollte-uns-dafuer-bezahlen-dass-wir-die-beschwerde-zurueckziehen/
 [^5]: https://www.bfh.ch/de/aktuell/news/2025/stuermer-abhaengigkeit-microsoft/
 [^6]: https://european-alternatives.eu/
-[^7]: https://www.infomaniak.com/en/about
-[^8]: https://www.infomaniak.com/de/agb/regelung-allgemeine-schutz-daten
-[^9]: https://www.infomaniak.com/en/ksuite
+[^7]: [https://www.infomaniak.com/en/about](https://www.infomaniak.com/goto/de/about?utm_term=67ff9acbaabca)
+[^8]: [https://www.infomaniak.com/de/agb/regelung-allgemeine-schutz-daten](https://www.infomaniak.com/goto/de/agb/regelung-allgemeine-schutz-daten?utm_term=67ff9acbaabca)
+[^9]: [https://www.infomaniak.com/en/ksuite](https://www.infomaniak.com/de/ksuite?utm_term=67ff9acbaabca)
