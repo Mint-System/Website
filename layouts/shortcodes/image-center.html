@@ -1,0 +1,13 @@
+<section id="text-center" class="bg-white text-center px-8 mt-[96px]">
+  <div class="max-w-4xl mx-auto">
+    <a href="{{ .Get "link" }}" >
+      <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" class="rounded-lg max-w-md mx-auto">
+    </a>
+    <p class="text-lg font-light mb-4">
+      <strong class="font-rubrikBold">
+        {{ .Get "description-highlight" }}
+      </strong>
+      {{.Get "description" }}
+    </p>
+  </div>
+</section>
