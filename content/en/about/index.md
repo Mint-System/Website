@@ -1,17 +1,15 @@
 ---
-title: 'about'
+title: "About us"
+slug: "about"
 date: 2024-09-05T18:00:02+02:00
 draft: false
-layout: "about/single"
-intro_title: "Mint System"
-intro_image: "/assets/images/team/Team.jpg"
-intro_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. Mit Open Source Software implementieren wir Systeme in einem erstklassigen Preis-Leistungs-Verhältnis."
+layout: "single"
+
+# Custom SEO fields (optional)
+seo_title: "About us - Mint System GmbH"
+seo_description: "We are a team of management software specialists. With our leadership experience in the industry and expertise in software engineering, we know which solutions work."
+author: "Mint System GmbH"
 ---
 
-## Leitbild
-**Vom Technischen Fortschritt müssen alle profitieren.** Der Machtposition einzelner grosser Software-Firmen und der damit geschaffenen Abhängigkeit der Unternehmungen ist entgegenzutreten. Open Source Software ist ein Beispiel wie durch Offenheit, Transparenz und Kooperation Produkte allerhöchster Qualität entstehen die allen Interessierten frei zur Verfügung stehen.
-
-**Gute Technische Lösungen für die Unternehmensführung müssen nicht teuer sein.** Hochwertige Lösungen haben offene Schnittstellen und sind auf die Unternehmensgrösse skalierbar. Mit unseren Produkten schaffen wir eine effiziente Verbindung zwischen dem Management, der Software für die Unternehmensorganisation und dem ERP-System.
-
-**Wir streben permanent nach intelligenten Lösungen zum bestmöglichen Preis-Leistungs-Verhältnis.** Wir sind nie fertig mit dem Optimieren. Aber wir können das Mögliche vom Machbaren unterscheiden. Kunden erleben die Zusammenarbeit mit uns als sehr strukturiert, planvoll und ergebnisorientiert. 
-
+{{< intro-section image="/assets/images/team/team.jpg" 
+    title="Mint System" description="We are a team of management software specialists. With our leadership experience in the industry and expertise in software engineering, we know which solutions work. We use open source software to implement systems that offer excellent value for money." >}}
