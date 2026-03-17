@@ -14,7 +14,7 @@ content:
     description: "Unser Logo in verschiedenen Ausführungen"
     button_text: "Download Logo"
     button_link: "/assets/logo/Logo-Mint-final.svg"
-  - title: "flyer"
+  - title: "Flyer"
     description: "Im Flyer beschreiben wir die Mission der Mint System in wenigen Worten"
     button_text: "Download Flyer"
     button_link: "/assets/pdf/mint-flyer.pdf"
