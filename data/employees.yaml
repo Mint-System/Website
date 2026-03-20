@@ -12,7 +12,7 @@
   bio: "Fundiertes modernes IT-KnowHow und sein Expertenwissen aus der Arbeit in Software Entwicklungs-Teams sind sein \"Rucksack\". Die Faszination für die Errungenschaften der Open Source Communities treiben ihn an."
   image: "/assets/images/team/janik_von_rotz.jpg"
   email: "janik.vonrotz@mint-system.ch"
-  meeting: "https://apmt.day/janikvonrotz/book/"
+  # meeting: "https://apmt.day/janikvonrotz/book/"
   tel: "+41 44 244 72 22"
 
 - name: "Ulrich Kilian"
@@ -30,16 +30,24 @@
   image: "/assets/images/team/michael_ziege.png"
   email: "michael.ziege@juleg.ch"
 
-# - name: "Marcus Menzel"
-#   title: "Odoo Expert"
-#   education: "Controller"
-#   bio: "Mit seiner jahrelangen Erfahrung als Controller und Odoo Projektleiter hat er die Finanzen voll im Griff. Direkt und pragmatisch so geht es am schnellsten."
-#   image: "/assets/images/team/marcus_menzel.png"
-#   email: "marcus.menzel@mint-system.ch"
-
 - name: "Gerit Tänzer"
   title: "Open Source Expert"
   education: "PhD Candidate"
   bio: "Die Power von Open Source Software kennt er nicht nur aus der Praxis, sondern auch aus der Forschung. Transformationsprojekte begleiten gehört zum Alltag."
   image: "/assets/images/team/gerit_tänzer.png"
   email: "gerit.taenzer@mint-system.ch"
+
+- name: "Bruno Hengartner"
+  title: "Open Source Expert"
+  education: "Energie- und Umweltingenieur"
+  bio: "Aus produzierenden Industriebetrieben kennt er die Anforderungen verschiedener Rollen an die Werkzeuge der Organisation. Im offenen Austausch sieht er den Schlüssel für funktionierende Zusammenarbeit."
+  image: "/assets/images/team/bruno_hengartner.png"
+  email: "bruno.hengartner@mint-system.ch"
+
+- name: "Astrid Marschner"
+  title: "Finance Expert"
+  education: "Dipl. Kauffrau Universität Würzburg"
+  bio: "25+ Jahre interdisziplinäre Erfahrung in Finanzen, Controlling, Analyse und Planung. Kennt sowohl internationale Konzerne als auch KMUs. Finanzen sind mehr als Zahlen – sie sind ihre Leidenschaft."
+  image: "/assets/images/team/astrid_marschner.png"
+  email: "astrid.marschner@mint-system.ch"
+

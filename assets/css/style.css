@@ -368,3 +368,22 @@ a.btn-outline-secondary:hover:before {
 .footnotes p {
     font-size: var(--font-size-text-small)
 }
+
+#team-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    flex: 0 0 calc(33.333% - 1rem);
+    max-width: 300px;
+    margin: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin: 1rem 0;
+    }
+}

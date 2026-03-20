@@ -2,40 +2,55 @@
   <h2 class="text-5xl font-rubrikLight uppercase text-primary mb-2 hyphens-auto text-center">
     {{ .Get "title" }}
   </h2>
-  {{ range $index, $employee := site.Data.employees }}
-    {{ if (modBool $index 3) }}
+
+  <div id="team-grid" class="flex flex-col md:flex-row justify-center gap-12 w-full">
+    {{ range $index, $employee := site.Data.employees }}
+      <div class="team-member flex flex-col items-center text-center">
+        <div class="rounded-full overflow-hidden">
+          <img class="object-cover" style="max-width: 300px;" src="{{ $employee.image }}" alt="{{ $employee.name }}">
+        </div>
+        <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ $employee.name }}</h3>
+        <p class="text-lg text-black">{{ $employee.title }}</p>
+        <p class="text-lg text-black mb-2">{{ $employee.education }}</p>
+        <br>
+        <p class="text-lg text-black font-rubrikRegular">{{ $employee.bio }}</p>
+        <a href="mailto:{{ $employee.email }}" aria-label="Email Link"
+           class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+          Email
+        </a>
+        {{ with $employee.tel }}
+        <a href="tel:{{ . }}" class="text-black underline mt-4">
+          {{ . }}
+        </a>
+        {{ end }}
+        {{ with $employee.meeting }}
+        <a href="{{ . }}" aria-label="Meeting Link"
+           class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
+          Suggest a meeting
+        </a>
+        {{ end }}
       </div>
     {{ end }}
-    {{ if (eq (mod $index 3) 0) }}
-      <div class="flex flex-col md:flex-row justify-center items-center gap-12 w-full">
-    {{ end }}
-    <div class="flex flex-col items-center text-center">
-      <div class="rounded-full overflow-hidden">
-        <img class="object-cover" style="max-width: 300px;" src="{{ $employee.image }}" alt="{{ $employee.name }}">
-      </div>
-      <h3 class="text-3xl font-rubrikLight text-primary mt-4 mb-2">{{ $employee.name }}</h3>
-      <p class="text-lg text-black">{{ $employee.title }}</p>
-      <p class="text-lg text-black mb-2">{{ $employee.education }}</p>
-      <br>
-      <p class="text-lg text-black font-rubrikRegular">{{ $employee.bio }}</p>
-      <a href="mailto:{{ $employee.email }}" aria-label="Email Link"
-         class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
-        Email
-      </a>
-      {{ with $employee.tel }}
-      <a href="tel:{{ . }}" class="text-black underline mt-4">
-        {{ . }}
-      </a>
-      {{ end }}
-<!--       {{ with $employee.meeting }}
-      <a href="{{ . }}" aria-label="Meeting Link"
-         class="btn btn-outline-primary inline-block mt-8 text-primary font-rubrikRegular hover:underline">
-        Suggest a meeting
-      </a>
-      {{ end }} -->
-    </div>
-    {{ if (eq (add $index 1) (len site.Data.employees)) }}
-      </div>
-    {{ end }}
-  {{ end }}
+  </div>
+
+  <!-- JavaScript to shuffle team members on page load -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const teamGrid = document.getElementById('team-grid');
+      const teamMembers = Array.from(teamGrid.children);
+
+      // Fisher-Yates shuffle
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
+      // Shuffle and re-append to DOM
+      const shuffled = shuffleArray(teamMembers);
+      shuffled.forEach(member => teamGrid.appendChild(member));
+    });
+  </script>
 </section>
