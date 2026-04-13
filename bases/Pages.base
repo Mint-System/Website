@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - layout == "single"
+    order:
+      - file.name
+      - title
+      - slug
+      - layout
+      - file.path

@@ -7,7 +7,7 @@ layout: "single"
 
 # Custom SEO fields (optional)
 seo_title: "Über uns - Mint System GmbH"
-seo_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren. "
+seo_description: "Wir sind ein Team von Spezialisten für Management-Software. Auf Basis von Führungserfahrung in der Industrie und Fachkenntnis im Software-Engineering kennen wir Lösungen die funktionieren."
 author: "Mint System GmbH"
 --- 
 

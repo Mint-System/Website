@@ -38,7 +38,13 @@ BASE_URL="http://localhost:1313"
 
 # Import commands
 
-[ -f ~/taskfile.build/bin/commit-with-llm ] && source ~/taskfile.build/bin/commit-with-llm
+if [[ -d "$HOME/taskfile.build/bin" ]]; then
+    for file in "$HOME/taskfile.build/bin/"*; do
+        if [[ -f "$file" ]]; then
+            source "$file"
+        fi
+    done
+fi
 
 # Project commands
 
@@ -74,7 +80,7 @@ function dev() {
     if [ -n "$1" ]; then
         BASE_URL=$1
     fi
-    ./hugo server -b "$BASE_URL"
+    open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
 }
 
 function vercel-dev() {
