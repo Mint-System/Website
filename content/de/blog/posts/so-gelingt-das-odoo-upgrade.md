@@ -9,7 +9,7 @@ tags:
   - Upgrade
   - Prozess
   - Projekt
-featured_image: /assets/images/blog/infomaniak-rechenzentrum.png
+featured_image: /assets/images/blog/bird-migration.png
 summary: Odoo Upgrades sind für Unternehmen und Odoo Partner eine grosse Herausforderung. wir zeigen wie ein Upgrade gelingt.
 lead: Wir teilen unsere Erfahrung und Prozesse für erfolgreiche Odoo Upgrades.
 seo_title: Odoo Upgrade - Mint System GmbH
