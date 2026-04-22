@@ -10,3 +10,4 @@
 
 ![](static/assets/images/blog/Services%20Microsoft%20Azure%20Outage.png)
 
+![](static/assets/images/blog/bird-migration.png)

@@ -2,7 +2,7 @@
 title: Ausfall Bei Amazon Aws Und Microsoft Azure
 author: Janik von Rotz
 draft: false
-date: 2025-10-30T08:13:35+01:00
+date: 2025-10-30
 layout: blog/posts/posts
 type: blogpost
 tags:

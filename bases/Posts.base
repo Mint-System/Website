@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "blogpost"
+    order:
+      - file.name
+      - title
+      - author
+      - draft
+      - date
+      - layout
+      - type
+      - featured_image
+      - lead
+      - summary
+      - seo_title
+    sort:
+      - property: date
+        direction: DESC
