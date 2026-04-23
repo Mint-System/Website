@@ -35,7 +35,7 @@ Wie das Odoo Upgrade ausgeführt wird, hängt vom gewählten Hosting ab. Hier ei
 Der Upgrade-Prozess unterscheidet sich auch abhängig von der Edition:
 
 - **Enterprise**: Nur mit Odoo Enterprise erhält man Zugriff auf die [Odoo Upgrade-Skripte](https://upgrade.odoo.com/).
-- **Community**: Möchte man eine Odoo Community Datenbank aktualisieren, ist man auf die Unterstützung eines Odoo Partners, der sich mit dem [OpenUpgrade](https://oca.github.io/OpenUpgrade/) Projekt auskennt, angewiesen.
+- **Community**: Möchte man eine Odoo Community Datenbank aktualisieren, ist man angewiesen auf die Unterstützung eines Odoo Partners, der sich mit dem [OpenUpgrade](https://oca.github.io/OpenUpgrade/) Projekt auskennt.
 
 Die Wahl des Hostings geht vom Bedürfnis zur Anpassbarkeit und Kontrolle des Odoo-System aus. Auf Odoo.com kann man keine komplexen Anpassungen oder Module von Dritten installieren. Auf Odoo.sh lassen sich Anpassungen vornehmen und Module von Dritten installieren. Im Hintergrund nutzt Odoo.sh die Infrastruktur von Google. Damit unterliegen die Datenhoheit und der Datenschutz der amerikanischen Gesetzgebung. Wer hohe Anforderungen an die Sicherheit und Datenschutz hat, erhält mit Odoo On-Prem das höchste Grad an Freiheit zur Anpassung und Kontrolle über das Systems.
 
@@ -45,7 +45,7 @@ Bei Mint System haben wir uns auf Odoo On-Prem spezialisiert. Wir hosten Odoo au
 
 > Kunde und Odoo Partner müssen für ein erfolgreiches Upgrade eng zusammenarbeiten.
 
-Ein Odoo Upgrade ist nicht einfach eine Aufgabe oder ein Projekt, sondern ein Prozess. Das Resultat des Prozesses ist das Odoo Upgrade. Das ist wichtig, weil sich ein Prozess nur bedingt "einkaufen" lässt. Der Upgrade-Prozess muss in der Organisation des Kunden funktionieren und erfordert die Unterstützung des Odoo Partner.
+Ein Odoo Upgrade ist nicht einfach eine Aufgabe oder ein Projekt, sondern ein Prozess. Das Resultat des Prozesses ist das Odoo Upgrade. Das ist wichtig, weil sich ein Prozess nur bedingt "einkaufen" lässt. Der Upgrade-Prozess muss in der Organisation des Kunden funktionieren und erfordert die Unterstützung des Odoo Partners.
 
 Den gesamten Upgrade-Prozess haben wir wie folgt dokumentiert:
 
