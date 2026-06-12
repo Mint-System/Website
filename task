@@ -20,10 +20,7 @@ function help() {
     rows+=("build-hugo|[url]|Build with Hugo.")
     rows+=("serve-hugo||Serve output from public folder.")
     rows+=("dev-hugo|[url]|Start Hugo dev server.")
-    rows+=("commit-with-llm||Commit with llm generated commit message.")
     rows+=("new-post|[title]|Create new post from Hugo template.")
-    rows+=("vercel-build||Build with Vercel.")
-    rows+=("vercel-dev||Start Vercel dev server.")
     rows+=("version||Show version of required tools.")
 
     for row in "${rows[@]}"; do
@@ -66,7 +63,7 @@ fi
 
 # Project commands
 
-function install() {
+install() {
     echo "Install hugo from binary source"
     curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_Linux-64bit.tar.gz
     mkdir -p tmp
@@ -116,13 +113,8 @@ new-post() {
     echo "Created new post: content/de/blog/posts/$filename"
 }
 
-function vercel-dev() {
-    vercel dev
-}
-
-function version() {
+version() {
     ./hugo --version
-    vercel --version
 }
 
 if declare -f "$1" > /dev/null; then
