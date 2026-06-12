@@ -21,8 +21,6 @@ Um an einem Hackathon teilzunehmen, muss man kein Softwareentwickler sein. Ziel 
 
 Beim diesjährigen Hack4SocialGood wurden [11 Challenges](https://bd.hack4socialgood.ch/event/6) angemeldet, davon wurden 9 ausgewählt und durchgeführt. Wir haben uns für die Challenge der Caritas [Von Daten zu Taten](https://bd.hack4socialgood.ch/project/90) entschieden.
 
-
-
 ## Challenge
 
 Die Challenges werden in einem bestimmten Format präsentiert. Hier die wichtigsten Punkte der Caritas-Challenge:
@@ -43,8 +41,6 @@ Zur Verfügung gestellte Daten:
 
 - Caritas beider Basel Falldaten aus Sozialberatung
 
-
-
 ## Team
 
 Für die Challenge haben sich 13 Leute angemeldet. Mit dabei waren Studieren im Bereich Data Science, Forschende in den Sozialwissenschaften, Sozialarbeitende und Softwareentwickler.
@@ -52,8 +48,6 @@ Für die Challenge haben sich 13 Leute angemeldet. Mit dabei waren Studieren im 
 ![hack 4 social ](/assets/images/blog/Hack4SocialGoodTeam.png)
 
 Aufgrund der Vielzahl ein Teilnehmenden wurden das Team in zwei Gruppen aufgeteilt. Die eine Gruppe entwickelte eine Konzept für die Analyse und Visualisierung der Daten. Die andere Gruppe programmierte und integrierte technische Systeme um die Anforderungen aus dem Konzept umzusetzen.
-
-
 ## Lösung
 
 Weil die meisten einen Hintergrund in Data Science hatten, war der Einsatz von [Python](https://www.python.org/) und [Jupyter Books](https://jupyter.org/) naheliegend. Ein Problem bei den Jupyter Books ist die Präsentation der Ergebnisse. Es können keine Dokumente oder Websites generiert werden. Im Lösungsfindungsprozess kam dann [Quarto](https://quarto.org/) in Spiel. Damit lassen sich die Anforderungen an Präsentation und Auswertung der Daten verbinden und können an einem Ort programmiert werden.
@@ -63,7 +57,6 @@ Die gemeinsame Programmierung der Lösung fand auf GitHub statt. Dazu hatten wir
 Der Quellcode der Lösung findet man hier: [https://github.com/Caritas-Schweiz/Quarto](https://github.com/Caritas-Schweiz/Quarto)
 
 Das Resultat ist eine Website mit Visualisierungen der Daten: [https://caritas-schweiz-reporting.vercel.app/](https://caritas-schweiz-reporting.vercel.app/)
-
 
 ## Fazit
 

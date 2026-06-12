@@ -17,12 +17,12 @@ function help() {
 
     rows+=("Command|Option|Description")
     rows+=("install||Install hugo and Vercel cli.")
-    rows+=("build|[url]|Build with hugo.")
+    rows+=("build-hugo|[url]|Build with Hugo.")
+    rows+=("serve-hugo||Serve output from public folder.")
+    rows+=("dev-hugo|[url]|Start Hugo dev server.")
     rows+=("commit-with-llm||Commit with llm generated commit message.")
     rows+=("new-post|[title]|Create new post from Hugo template.")
     rows+=("vercel-build||Build with Vercel.")
-    rows+=("serve||Serve output in pulbic folder.")
-    rows+=("dev|[url]|Start hugo dev server.")
     rows+=("vercel-dev||Start Vercel dev server.")
     rows+=("version||Show version of required tools.")
 
@@ -78,27 +78,24 @@ function install() {
     pnpm install
 }
 
-function build() {
-    if [ -n "$1" ]; then
+build-hugo() {
+    if [[ -n "$1" ]]; then
         BASE_URL=$1
     fi
-    pnpm run build
     ./hugo -b "$BASE_URL"
 }
 
-function vercel-build() {
-    vercel build
+serve-hugo() {
+    pnpx serve public
 }
 
-function serve() {
-    npx serve public
-}
-
-function dev() {
-    if [ -n "$1" ]; then
+dev-hugo() {
+    if [[ -n "$1" ]]; then
         BASE_URL=$1
     fi
     open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
+    echo "Remove public folder."
+    rm -rf public
 }
 
 new-post() {
