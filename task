@@ -12,26 +12,44 @@ function help() {
     echo "commands:"
     echo
 
-    # Define column widths
-    CMD_WIDTH=20
-    OPT_WIDTH=10
-    DESC_WIDTH=42
-    COLUMN="| %-${CMD_WIDTH}s | %-${OPT_WIDTH}s | %-${DESC_WIDTH}s |\n"
+    local -a rows
+    local max_cmd=7 max_opt=6 max_desc=11
 
-    # Print table header
-    printf "$COLUMN" "Command" "Option" "Description"
-    echo "|$(printf '%*s' $((CMD_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((OPT_WIDTH + 2)) '' | tr ' ' '-')|$(printf '%*s' $((DESC_WIDTH + 2)) '' | tr ' ' '-')|"
+    rows+=("Command|Option|Description")
+    rows+=("install||Install hugo and Vercel cli.")
+    rows+=("build|[url]|Build with hugo.")
+    rows+=("commit-with-llm||Commit with llm generated commit message.")
+    rows+=("new-post|[title]|Create new post from Hugo template.")
+    rows+=("vercel-build||Build with Vercel.")
+    rows+=("serve||Serve output in pulbic folder.")
+    rows+=("dev|[url]|Start hugo dev server.")
+    rows+=("vercel-dev||Start Vercel dev server.")
+    rows+=("version||Show version of required tools.")
 
-    # Print table rows
+    for row in "${rows[@]}"; do
+        IFS='|' read -r cmd opt desc <<< "$row"
+        (( ${#cmd} > max_cmd )) && max_cmd=${#cmd}
+        (( ${#opt} > max_opt )) && max_opt=${#opt}
+        (( ${#desc} > max_desc )) && max_desc=${#desc}
+    done
 
-    printf "$COLUMN" "install" "" "Install hugo and Vercel cli."
-    printf "$COLUMN" "build" "[url]" "Build with hugo."
-    printf "$COLUMN" "commit-with-llm" "" "Commit with llm generated commit message."
-    printf "$COLUMN" "vercel-build" "" "Build with Vercel."
-    printf "$COLUMN" "serve" "" "Serve output in pulbic folder."
-    printf "$COLUMN" "dev" "[url]" "Start hugo dev server."
-    printf "$COLUMN" "vercel-dev" "" "Start Vercel dev server."
-    printf "$COLUMN" "version" "" "Show version of required tools."
+    printf '| %-*s | %-*s | %-*s |\n' \
+        "$max_cmd" "Command" \
+        "$max_opt" "Option" \
+        "$max_desc" "Description"
+
+    printf '|-%*s-|-%*s-|-%*s-|\n' \
+        "$max_cmd" "$(printf '%*s' "$max_cmd" '' | tr ' ' '-')" \
+        "$max_opt" "$(printf '%*s' "$max_opt" '' | tr ' ' '-')" \
+        "$max_desc" "$(printf '%*s' "$max_desc" '' | tr ' ' '-')"
+
+    for row in "${rows[@]:1}"; do
+        IFS='|' read -r cmd opt desc <<< "$row"
+        printf '| %-*s | %-*s | %-*s |\n' \
+            "$max_cmd" "$cmd" \
+            "$max_opt" "$opt" \
+            "$max_desc" "$desc"
+    done
 }
 
 BASE_URL="http://localhost:1313"
@@ -81,6 +99,24 @@ function dev() {
         BASE_URL=$1
     fi
     open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
+}
+
+new-post() {
+    if [[ -z "$1" ]]; then
+        echo "Error: Title is required. Usage: task new-post \"Post Title\""
+        return 1
+    fi
+    
+    # Format title (replace spaces with dashes)
+    local formatted_title=$(echo "$1" | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]')
+    
+    # Create filename
+    local filename="$formatted_title.md"
+    
+    # Create post using hugo
+    ./hugo new "blog/posts/$filename"
+    
+    echo "Created new post: content/de/blog/posts/$filename"
 }
 
 function vercel-dev() {
