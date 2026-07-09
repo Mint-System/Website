@@ -5,6 +5,8 @@
   service: Nextcloud Hosting
   website: https://www.abaecherli-forst.ch/
   image: /assets/images/references/abächerli-forstunternehmen.png
+  start_date: 2023
+  end_date: 
 
 - name: Aerni AG
   description: >
@@ -13,6 +15,8 @@
   service: Odoo Beratung
   website: https://www.aerni.com/
   image: /assets/images/references/aerni-ag.png
+  start_date: 2021
+  end_date: 2024
 
 - name: Aersolution Interior AG
   description: >
@@ -21,6 +25,8 @@
   service: Git Hosting, Nextcloud Hosting, Odoo Hosting und Beratung
   website: https://www.aersolution.com/
   image: /assets/images/references/aersolution.gif
+  start_date: 2020
+  end_date: 
 
 - name: AirWork & Heliseilerei GmbH
   description: >
@@ -29,6 +35,8 @@
   service: Odoo Hosting und Beratung
   website: https://air-work.com/de/
   image: /assets/images/references/airwork.png
+  start_date: 2024
+  end_date: 
 
 - name: allnet Solutions GmbH
   description: >
@@ -37,6 +45,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.allnet.ch/
   image: /assets/images/references/allnet-solutions.png
+  start_date: 2025
+  end_date: 
 
 - name: Arnold Umzüge AG
   description: >
@@ -44,6 +54,8 @@
   category: Logistik
   service: Odoo Hosting und Beratung
   image: /assets/images/references/arnold-umzuege.png
+  start_date: 2023
+  end_date: 2023
 
 - name: Basis 57 nachhaltige Wassernutzung AG
   description: >
@@ -52,6 +64,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.basis57.ch/
   image: /assets/images/references/basis-57.png
+  start_date: 2021
+  end_date: 2024
 
 - name: Bocco Group GmbH
   description: >
@@ -60,6 +74,8 @@
   service: Odoo Beratung
   website: https://boccogroup.com/
   image: /assets/images/references/bocco-group.png
+  start_date: 2022
+  end_date: 
 
 - name: Brand Metallbau AG
   description: >
@@ -68,6 +84,8 @@
   service: Nextcloud Hosting, Odoo Hosting und Beratung
   website: https://www.brand.ch/
   image: /assets/images/references/brand-metallbau.png
+  start_date: 2025
+  end_date: 
 
 - name: Brunner ELEKTRONIK AG
   description: >
@@ -76,6 +94,8 @@
   service: Odoo Hosting und Beratung
   website: https://brunner-innovation.swiss/
   image: /assets/images/references/brunner-elektronik.png
+  start_date: 2023
+  end_date: 
 
 - name: Busco Reinigung AG
   description: >
@@ -84,6 +104,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.busco.ch/
   image: /assets/images/references/busco.png
+  start_date: 2025
+  end_date: 
 
 - name: Carbo-Link AG
   description: >
@@ -92,6 +114,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.carbo-link.com/
   image: /assets/images/references/carbo-link.png
+  start_date: 2022
+  end_date: 
 
 - name: conseil3 GmbH
   description: >
@@ -100,6 +124,8 @@
   service: Odoo Beratung
   website: https://www.conseil3.ch/
   image: /assets/images/references/conseil3.png
+  start_date: 2023
+  end_date: 
 
 - name: Digital Cluster Uri
   description: >
@@ -108,6 +134,8 @@
   service: Nextcloud Hosting, Odoo Hosting und Beratung
   website: https://www.digital-cluster-uri.ch/
   image: /assets/images/references/digital-cluster-uri.png
+  start_date: 2022
+  end_date: 
 
 - name: Donut Econmics Switzerland
   description: >
@@ -116,6 +144,8 @@
   service: Nextcloud Hosting, Odoo Hosting und Beratung
   website: https://www.donuteconomics.ch/
   image: /assets/images/references/donuteconomics-switzerland.png
+  start_date: 2024
+  end_date: 
 
 - name: Fruchtpaar GmbH
   description: >
@@ -124,6 +154,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.fruchtpaar.ch/
   image: /assets/images/references/frucht-paar.png
+  start_date: 2025
+  end_date: 
 
 - name: GELSO AG
   description: >
@@ -132,6 +164,8 @@
   service: Odoo Beratung
   website: https://www.gelso.ch/
   image: /assets/images/references/gelso.png
+  start_date: 2021
+  end_date: 2025
 
 - name: Hygentile AG
   description: >
@@ -140,6 +174,8 @@
   service: Odoo Hosting und Beratung
   website: https://hygentile.com/
   image: /assets/images/references/hygentile.png
+  start_date: 2023
+  end_date: 2023
 
 - name: Kanton Uri
   description: >
@@ -148,6 +184,8 @@
   service: Softwareentwicklung
   website: https://www.ur.ch/
   image: /assets/images/references/kanton-uri.png
+  start_date: 2023
+  end_date: 2024
 
 - name: Kunststoffsammelsack Schweiz GmbH
   description: >
@@ -156,6 +194,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.kunststoffsammelsack.ch/
   image: /assets/images/references/kunststoffsammelsack.png
+  start_date: 2024
+  end_date: 2026
 
 - name: Lapp Engineering AG
   description: >
@@ -164,6 +204,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.lappengineering.ch/
   image: /assets/images/references/lappengineering.png
+  start_date: 2024
+  end_date: 
 
 - name: Kantonale Mittelschule Uri
   description: >
@@ -172,6 +214,8 @@
   service: Nextcloud Hosting
   website: https://www.kmsu.ch/
   image: /assets/images/references/kmsu.png
+  start_date: 2020
+  end_date: 
 
 - name: Kleinbrauerei Stiär Biär AG
   description: >
@@ -180,6 +224,8 @@
   service: Odoo Hosting und Beratung
   website: https://shop.stiaerbiaer.ch/
   image: /assets/images/references/stier-bier.png
+  start_date: 2020
+  end_date: 
 
 - name: Kreativartikel GmbH
   description: >
@@ -188,6 +234,8 @@
   service: Odoo Hosting und Beratung
   website: https://kreativartikel.ch/
   image: /assets/images/references/kreativartikel.png
+  start_date: 2023
+  end_date: 
 
 - name: Localfish AG
   description: >
@@ -196,6 +244,8 @@
   service: Odoo Hosting und Beratung
   website: https://localfish.ch/
   image: /assets/images/references/localfish.png
+  start_date: 2024
+  end_date: 
 
 - name: Loft Dynamics AG
   description: >
@@ -204,6 +254,8 @@
   service: Provisionierung Odoo
   website: https://www.loftdynamics.com/
   image: /assets/images/references/loft-dynamics.png
+  start_date: 2024
+  end_date: 2025
 
 - name: OCAD AG
   description: >
@@ -212,14 +264,18 @@
   service: Odoo Hosting und Beratung
   website: https://www.ocad.com/
   image: /assets/images/references/ocad.png
+  start_date: 2022
+  end_date: 
 
-- name: Ops ONE AG
+- name: Ops One AG
   description: >
-    Ops ONE AG bietet Cloud-basierte Lösungen für Unternehmen an. Sie bieten maßgeschneiderte Dienste in den Bereichen IT-Management und IT-Strategie, mit einem Fokus auf innovative, digitale Transformation und Cloud-Dienste.
+    Ops One AG bietet Cloud-basierte Lösungen für Unternehmen an. Sie bieten maßgeschneiderte Dienste in den Bereichen IT-Management und IT-Strategie, mit einem Fokus auf innovative, digitale Transformation und Cloud-Dienste.
   category: DevOps
   service: Odoo Hosting und Beratung
   website: https://opsone.ch/de/
   image: /assets/images/references/opsone.png
+  start_date: 2024
+  end_date: 
 
 - name: Pavić d.o.o
   description: >
@@ -228,6 +284,8 @@
   service: Odoo Beratung
   website: https://www.pavicdoo.rs/
   image: /assets/images/references/pavic.png
+  start_date: 2021
+  end_date: 2025
 
 - name: Pure ICT AG
   description: >
@@ -236,6 +294,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.pureict.ch/
   image: /assets/images/references/pureict.png
+  start_date: 2022
+  end_date: 
 
 - name: Trimada AG
   description: >
@@ -244,6 +304,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.trimada.ch/
   image: /assets/images/references/trimada.jpg
+  start_date: 2021
+  end_date: 
 
 - name: Tissa Glasweberei AG
   description: >
@@ -253,6 +315,8 @@
   service: Odoo Beratung
   website: https://www.tissa.ch/
   image: /assets/images/references/tissa-glasweberei.jpg
+  start_date: 2020
+  end_date: 
 
 - name: Valperca S.A.
   description: >
@@ -261,14 +325,18 @@
   service: Odoo Hosting und Beratung
   website: https://www.valperca.ch/
   image: /assets/images/references/valperca.png
+  start_date: 2024
+  end_date: 
 
-- name: Verein sozialinfo
+- name: Sozialinfo
   description: >
     Der Verein sozialinfo.ch erbringt seit 2003 Dienstleistungen für den Sozialbereich in der Schweiz. Wir betreiben das führende Stellenportal für den Sozialbereich und begleiten Projekte und Prozesse in der Digitalisierung und in der Personalgewinnung. Zudem bereiten wir Fachinformationen zu aktuellen Themen und relevanten Entwicklung im und um den Sozialbereich auf.
   category: Sozialdienste
   service: Provisionierung, Keycloak Hosting, Jenkins Hosting, Odoo Hosting und Beratung
   website: https://sozialinfo.ch/
   image: /assets/images/references/sozialinfo.png
+  start_date: 2023
+  end_date: 2026
 
 - name: VSHN AG
   description: >
@@ -277,6 +345,8 @@
   service: Odoo Beratung
   website: https://www.vshn.ch/
   image: /assets/images/references/vshn.png
+  start_date: 2025
+  end_date: 
 
 - name: webkeeper GmbH
   description: >
@@ -285,6 +355,8 @@
   service: Odoo Hosting und Beratung
   website: https://www.webkeeper.ch/
   image: /assets/images/references/webkeeper.png
+  start_date: 2023
+  end_date: 
 
 - name: Zgraggen Aggro GmbH
   description: >
@@ -293,3 +365,5 @@
   service: Odoo Hosting und Beratung
   website: https://zgraggenagro.ch/
   image: /assets/images/references/zgraggenagro.png
+  start_date: 2022
+  end_date: 
