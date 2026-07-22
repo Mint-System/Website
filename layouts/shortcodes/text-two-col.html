@@ -1,12 +1,24 @@
+{{ $list := index .Page.Params (.Get "texts" ) }}
+{{ $filtered := slice }}
+{{ range $list }}
+    {{ if ne .publish false }}
+        {{ $filtered = $filtered | append . }}
+    {{ end }}
+{{ end }}
+
 <section id="text-two-col" class="mt-[96px]">
+    {{ if eq (len $filtered) 0 }}
+    <div class="container mx-auto text-center">
+        <p class="text-lg text-black">{{ .Page.Params.no_jobs_text }}</p>
+    </div>
+    {{ else }}
     <div class="container mx-auto text-center">
         <h2 class="text-5xl text-center font-rubrikLight uppercase hyphens-auto text-primary mb-2 md:mb-4">{{ .Get "title" }}</h2>
         <h3 class="text-3xl font-rubrikLight text-black mb-6">{{ .Get "lead" }}</h3>
         <p class="text-md text-black mb-6">{{ .Get "text" }}</p>
     </div>
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-        {{ $list := index .Page.Params (.Get "texts" ) }}
-        {{ range $list }}
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 pt-8">
+        {{ range $filtered }}
         <div class="text-center md:text-left">
             <h2 class="text-4xl font-rubrikRegular text-primary mb-4">{{ .title }}</h2>
             <p class="text-lg text-black mb-6">{{ .description }}</p>
@@ -17,4 +29,5 @@
         </div>
         {{ end }}
     </div>
+    {{ end }}
 </section>

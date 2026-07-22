@@ -1,14 +1,13 @@
 {{ define "main" }}
-
-<main id="main" class="jobs single md:mt-12 mb-[72px]">
+<main id="main" class="jobs single main mt-[72px] md:mt-[88px] mb-[72px] md:mb-[88px]">
 
     {{ if .Params.hero_text }}
     {{ partial "hero/hero.html" . }}
     {{ end }}
 
     {{ if not .Params.hide_title }}
-    <div id="title-wrapper" class="container my-12 md:my-[96px]">
-        <h1 class="text-5xl md:text-6xl font-rubrikLight text-center text-primary leading-tight hyphens-auto">
+    <div id="title-wrapper" class="container">
+        <h1 class="text-5xl font-rubrikLight text-center text-primary leading-tight hyphens-auto">
             {{ .Title }}
         </h1>
     </div>
