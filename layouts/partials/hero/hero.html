@@ -2,7 +2,7 @@
 <section id="hero" class="z-100 relative h-[60vh] bg-cover bg-center" style="background-image: url('{{ .Params.hero_image }}');">
     <div class="container relative z-10 flex flex-col  justify-center h-full">
         <div class="absolute flex-1 bottom-10 w-[90vw] md:w-2/3 lg:w-3/5 md:bottom-25 left-5 z-10 text-white">
-            <h1 class="text-5xl md:text-6xl font-rubrikBold text-white leading-tight inline-block rounded-2xl p-4" style="background-color: rgba(0,0,0,0.4);">{{ .Params.hero_text| markdownify }}</h1>
+            <h1 class="text-5xl md:text-6xl font-rubrikBold text-white leading-tight inline-block rounded-2xl p-4">{{ .Params.hero_text| markdownify }}</h1>
             {{ if .Params.hero_subtext }}
             <h2 class="text-xl md:text-2xl font-rubrikLight text-white mt-4 hyphens-auto">{{ .Params.hero_subtext }}</h2>
             {{ end }}
