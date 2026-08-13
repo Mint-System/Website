@@ -6,6 +6,11 @@ defaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 disableKinds = ['rss', 'xml']
 
+[module]
+[[module.mounts]]
+source = "assets"
+target = "static/assets"
+
 [pagination]
 disableAliases = false
 pagination = 12

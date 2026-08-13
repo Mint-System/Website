@@ -79,6 +79,7 @@ build-hugo() {
     if [[ -n "$1" ]]; then
         BASE_URL=$1
     fi
+    pnpm run build
     ./hugo -b "$BASE_URL"
 }
 
@@ -90,9 +91,12 @@ dev-hugo() {
     if [[ -n "$1" ]]; then
         BASE_URL=$1
     fi
-    open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
+    pnpm run build
+
     echo "Remove public folder."
     rm -rf public
+
+    open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
 }
 
 new-post() {
