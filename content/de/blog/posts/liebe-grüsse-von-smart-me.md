@@ -49,7 +49,7 @@ Relativ früh gingen die ersten Odoo Apps in den produktiven Betrieb. Genauso fr
 
 So wie man als Unternehmen nach Extern kommuniziert, wurden die Projekt-Updates nach intern kommuniziert. Die Mitarbeitenden wurden über die Fortschritte des Projekts informiert und bei Bedarf miteinbezogen. Man spürte dass das Odoo-Projekt von allen Beteiligten getragen wurde.
 
-Alles schön und gut, doch wie misst man diese Erfolgsfatoren?
+Alles schön und gut, doch wie misst man diese Erfolgsfaktoren?
 
 Wir haben eine spannende Antwort erhalten:
 
