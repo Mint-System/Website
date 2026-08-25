@@ -37,7 +37,7 @@ Zugegeben es war eine intensive Zeit. Aber die Odoo-Implementation konnte nahezu
 
 Wir meinen 3 Faktoren haben massgeblich dazu beigetragen:
 
-### Technische Affinität und Flexiblität
+### Technische Affinität und Flexibilität
 
 smart-me / eCarUp entwickeln selber ein SaaS-Software. Sie kennen die Kundenseite und Herausforderung der Softwareentwicklung. Bei der Implementation von Odoo erreicht man Leistungsgrenzen oder stellt fest, dass die bestehende Prozesse nicht passen. Dann muss entschieden werden, ob die Prozesse oder das System angepasst wird. Diese Entscheide wurden rasch gefällt und das Implementations-Projekt blieb dadurch im Fluss.
 
