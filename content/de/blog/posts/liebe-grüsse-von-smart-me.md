@@ -49,11 +49,11 @@ Relativ früh gingen die ersten Odoo Apps in den produktiven Betrieb. Genauso fr
 
 So wie man als Unternehmen nach Extern kommuniziert, wurden die Projekt-Updates nach intern kommuniziert. Die Mitarbeitenden wurden über die Fortschritte des Projekts informiert und bei Bedarf miteinbezogen. Man spürte dass das Odoo-Projekt von allen Beteiligten getragen wurde.
 
-Alles schön und gut, doch wie miss man diese Erfolgsfatoren?
+Alles schön und gut, doch wie misst man diese Erfolgsfatoren?
 
 Wir haben eine spannende Antwort erhalten:
 
 ![](/assets/images/blog/liebe-gruesse-smart-me.png)
 
-Das ist ein Screenshot aus dem Projekt-Board. Es zeigt eine Ladestation von smart-me. Die Mitarbeitenden hatten Freude und haben (freiwillig) die LED-Anzeige der Ladestation programmiert.
+Das ist ein Screenshot aus dem Projekt-Board. Es zeigt eine Ladestation von smart-me. Die Mitarbeitenden haben Freude und es macht Spass mit Odoo zu arbeiten. Entsprechend haben sie die Pico-Ladestation von smart-me mit dem odoo-Logo programmiert.
 
