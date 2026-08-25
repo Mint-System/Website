@@ -1,8 +1,6 @@
 # Team
 
-![[static/assets/images/team/gründer.jpg]]
-
-![[static/assets/images/team/gründer_mit_kreis.jpg]]
-
-![[static/assets/images/team/team.jpg]]
+![[assets/images/team/gründer.jpg]]
+![[assets/images/team/gründer_mit_kreis.jpg]]
+![[assets/images/team/team.jpg]]
 

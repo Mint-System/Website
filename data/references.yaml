@@ -145,7 +145,7 @@
   website: https://www.donuteconomics.ch/
   image: /assets/images/references/donuteconomics-switzerland.png
   start_date: 2024
-  end_date: 
+  end_date: 2026
 
 - name: Fruchtpaar GmbH
   description: >
@@ -175,7 +175,7 @@
   website: https://hygentile.com/
   image: /assets/images/references/hygentile.png
   start_date: 2023
-  end_date: 2023
+  end_date:
 
 - name: Kanton Uri
   description: >
@@ -297,13 +297,13 @@
   start_date: 2022
   end_date: 
 
-- name: Puzzle ICT AG
+- name: Puzzle ITC AG
   description: >
     Puzzle ITC ist ein etabliertes Software- und Technologieunternehmen mit 25-jähriger Geschichte. An den Standorten Bern, Zürich, Solothurn, Basel und Tübingen (DE) setzen über 150 engagierte Menschen anspruchsvolle IT-Projekte um. Im Mittelpunkt unserer Geschäftstätigkeit stehen offene Standards und eine wirtschaftliche, resiliente IT. Unternehmen und Organisationen erhalten kompetente Unterstützung – ganzheitlich oder bedarfsgerecht von der ersten Idee bis zum Betrieb einer digitalen Lösung. 
   category: Softwareentwicklung
   service: Odoo Beratung und DevOps
   website: https://www.puzzle.ch/
-  image: /assets/images/references/pureict.png
+  image: /assets/images/references/puzzle-itc.png
   start_date: 2026
   end_date: 
 

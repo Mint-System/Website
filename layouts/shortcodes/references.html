@@ -11,6 +11,9 @@
             <h4 class="text-2xl mb-2 text-black">{{ .name }}</h4>
             <p class="mb-2">Branche: {{ .category }}</p>
             <p class="mb-2">Unsere Leistung: {{ .service }}</p>
+            {{ if not .end_date }}
+            <p class="mb-2">Zusammenarbeit seit: {{ .start_date }}</p>
+            {{ end }}
             <p class="text-lg text-black">{{ .description }}</p>
             {{ if .website }}
                 <a href="{{.website}}"
