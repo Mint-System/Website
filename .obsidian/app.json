@@ -9,5 +9,6 @@
   "newLinkFormat": "absolute",
   "attachmentFolderPath": "assets",
   "strictLineBreaks": true,
-  "trashOption": "none"
+  "trashOption": "none",
+  "livePreview": false
 }

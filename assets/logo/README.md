@@ -1,6 +1,6 @@
 # logo
-![[static/assets/logo/odoo_logo.svg]]
-![[static/assets/logo/Logo-Mint-final.svg]]
 
-![[static/assets/logo/ch-open-logo.png]]
-![[static/assets/logo/oca-bronze-sponsor.png]]
+![[assets/logo/odoo_logo.svg]]
+![[assets/logo/Logo-Mint-final.svg]]
+![[assets/logo/ch-open-logo.png]]
+![[assets/logo/oca-bronze-sponsor.png]]

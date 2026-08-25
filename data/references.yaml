@@ -70,7 +70,7 @@
 - name: Bocco Group GmbH
   description: >
     Bocco Group ist ein Schweizer Spezialist für Hotel-Online-Vertrieb und -Marketing. Seit 2005 berät das Unternehmen Hoteliers individuell und bietet massgeschneiderte Softwarelösungen sowie Strategien für den digitalen Vertrieb. Zu den Kernprodukten zählen Channel-Manager, Buchungsmaschinen, Revenue-Management-Tools und GDS-Anbindungen. Bocco Group unterstützt Hotels dabei, ihre Online-Präsenz zu optimieren, Buchungsprozesse zu vereinfachen und den Umsatz zu steigern. Das Unternehmen setzt auf innovative Technologien und langjährige Branchenexpertise, um Hotellerie-Betrieben eine effiziente und zukunftsorientierte Vertriebsplattform zu bieten.
-  category: Branchenlösung
+  category: Vertrieb
   service: Odoo Beratung
   website: https://boccogroup.com/
   image: /assets/images/references/bocco-group.png
@@ -297,6 +297,16 @@
   start_date: 2022
   end_date: 
 
+- name: Puzzle ICT AG
+  description: >
+    Puzzle ITC ist ein etabliertes Software- und Technologieunternehmen mit 25-jähriger Geschichte. An den Standorten Bern, Zürich, Solothurn, Basel und Tübingen (DE) setzen über 150 engagierte Menschen anspruchsvolle IT-Projekte um. Im Mittelpunkt unserer Geschäftstätigkeit stehen offene Standards und eine wirtschaftliche, resiliente IT. Unternehmen und Organisationen erhalten kompetente Unterstützung – ganzheitlich oder bedarfsgerecht von der ersten Idee bis zum Betrieb einer digitalen Lösung. 
+  category: Softwareentwicklung
+  service: Odoo Beratung und DevOps
+  website: https://www.puzzle.ch/
+  image: /assets/images/references/pureict.png
+  start_date: 2026
+  end_date: 
+
 - name: Trimada AG
   description: >
     Trimada AG ist ein Schweizer Elektronikunternehmen mit Sitz in Wohlen AG, das sich auf die Entwicklung und Produktion massgeschneiderter elektronischer Komponenten und Systeme spezialisiert. Seit der Gründung 2010 durch den Zusammenschluss der Trigress Elektro AG und Remada AG bietet Trimada integriertes Engineering, Prototypenbau und Serienfertigung – von der Idee bis zum fertigen Produkt. Mit 17 Mitarbeitenden und moderner Infrastruktur setzt das Unternehmen auf kurze Entscheidungswege, Flexibilität und Schweizer Qualität. Trimada bedient Branchen wie Industrieelektronik, Automatisierung und Messtechnik und ist bekannt für individuelle Lösungen und enge Kundenbindung.
@@ -327,6 +337,16 @@
   image: /assets/images/references/valperca.png
   start_date: 2024
   end_date: 
+
+- name: smart-me AG
+  description: >
+    Bei smart-me treibt uns eine zentrale Vision: die Digitalisierung des Energiesektors. Wir entwickeln intelligente Technologien für die dezentrale Energieversorgung von morgen. Unsere Mission ist es, Nachhaltigkeit, Effizienz und Unabhängigkeit in jeden Bereich der Energieversorgung zu bringen – vom Zähler bis zur Cloud.
+  category: Energieversorgung
+  service: Odoo Beratung und Datenmigration
+  website: https://web.smart-me.com/
+  image: /assets/images/references/smart-me.png
+  start_date: 2026
+  end_date:
 
 - name: Sozialinfo
   description: >
