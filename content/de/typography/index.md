@@ -189,7 +189,7 @@ Die hier folgenden Inhalte sind alle Shortcodes
   addressLine1="Bahnhofplatz 1"
   addressLine2="6460 Altdorf"
   email="info@mint-system.ch"
-  phone="+41 44 244 72 20" >}}
+  phone="+41442447220" >}}
 
 {{< contact-teaser 
     title="contact-teaser" 

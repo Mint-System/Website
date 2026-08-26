@@ -4,7 +4,7 @@
   bio: "Durch die Berufserfahrung in Geschäftsleitungsgremien kennt er die Anforderungen des Management. Die effiziente organisatorische Umsetzung komplexer Anforderungen ist seine Leidenschaft."
   image: "/assets/images/team/kurt_gisler.jpg"
   email: "kurt.gisler@mint-system.ch"
-  tel: "+41 44 244 72 21"
+  tel: "+41442447221"
 
 - name: "Janik von Rotz"
   title: "Chief Technical Officer"
@@ -13,7 +13,7 @@
   image: "/assets/images/team/janik_von_rotz.jpg"
   email: "janik.vonrotz@mint-system.ch"
   # meeting: "https://apmt.day/janikvonrotz/book/"
-  tel: "+41 44 244 72 22"
+  tel: "+41442447222"
 
 - name: "Ulrich Kilian"
   title: "Odoo Developer"
@@ -21,7 +21,7 @@
   bio: "Machte sich als Redaktor selbstständig und betreute zahlreiche Projekte aus Wissenschaft und Bildung. Datenverwaltung und kollaboratives Arbeiten sind seine Stärken."
   image: "/assets/images/team/ulrich_kilian.png"
   email: "ulrich.kilian@mint-system.ch"
-  tel: "+41 44 244 72 23"
+  tel: "+41442447223"
 
 - name: "Michael Ziege"
   title: "Software Developer"
