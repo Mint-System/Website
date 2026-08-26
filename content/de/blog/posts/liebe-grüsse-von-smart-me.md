@@ -39,11 +39,11 @@ Wir meinen 3 Faktoren haben massgeblich dazu beigetragen:
 
 ### Technische Affinität und Flexibilität
 
-smart-me / eCarUp entwickeln selber ein SaaS-Software. Sie kennen die Kundenseite und Herausforderung der Softwareentwicklung. Bei der Implementation von Odoo erreicht man Leistungsgrenzen oder stellt fest, dass die bestehende Prozesse nicht passen. Dann muss entschieden werden, ob die Prozesse oder das System angepasst wird. Diese Entscheide wurden rasch gefällt und das Implementations-Projekt blieb dadurch im Fluss.
+smart-me / eCarUp entwickeln selber eine SaaS-Software. Sie kennen die Kundenseite und Herausforderung der Softwareentwicklung. Bei der Implementation von Odoo erreicht man Leistungsgrenzen oder stellt fest, dass die bestehende Prozesse nicht passen. Dann muss entschieden werden, ob die Prozesse oder das System angepasst werden. Diese Entscheide wurden rasch gefällt und das Implementations-Projekt blieb dadurch im Fluss.
 
 ### Visualisierung und konsequente Priorisierung
 
-Relativ früh gingen die ersten Odoo Apps in den produktiven Betrieb. Genauso früh kam das erste Rückmeldungen und Screenshots von Fehlermeldungen von den Mitarbeitenden. Diese Rückmeldungen wurden sofort auf dem Projekt-Board erfasst und sichtbar gemacht. Eine rasche Priorisierung von neuen und offenen Aufgaben hat geholfen die Meilensteine nicht aus den Augen zu verlieren.
+Relativ früh gingen die ersten Odoo Apps in den produktiven Betrieb. Kurz darauf kamen (wie erwartet) die ersten Rückmeldungen und Screenshots von Fehlermeldungen von Mitarbeitenden. Diese Rückmeldungen wurden sofort auf dem Projekt-Board erfasst und sichtbar gemacht. Eine rasche Priorisierung von neuen und offenen Aufgaben hat geholfen die Meilensteine nicht aus den Augen zu verlieren.
 
 ### Interne Kommunikation und Ownership
 
