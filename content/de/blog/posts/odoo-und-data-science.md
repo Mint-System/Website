@@ -16,14 +16,15 @@ lead: Wie man die Werkzeuge aus Data Science für Odoo effizient einsetzen kann.
 seo_title: Odoo und Data Science - Mint System GmbH
 author: Janik von Rotz
 ---
-Wer heutzutage Data Science studiert, lernt [Python](https://www.python.org/) als Programmiersprache und [Jupyter](https://jupyter.org/) als Entwicklungsumgebung kennen. Die Zeiten von [SPSS](https://www.ibm.com/products/spss) gezählt. Es gibt noch [R](https://www.r-project.org/) und [RStudio](https://posit.co/products/open-source/rstudio), doch das hat immer weniger Relevanz. Python wurde zu universellen Sprache und kommt in verschiedenen Bereichen zum Einsatz. Machine Learning, Data Analysis, Visualization, Automatisierung und auch die Entwicklung von Large Language Models sind von Python getrieben.
+Wer Data Science studiert, lernt [Python](https://www.python.org/) als Programmiersprache und [Jupyter](https://jupyter.org/) als Entwicklungsumgebung kennen. Die Zeiten von [SPSS](https://www.ibm.com/products/spss) sind gezählt. Es gibt noch [R](https://www.r-project.org/) und [RStudio](https://posit.co/products/open-source/rstudio), doch das hat vergleichsweise wenig(er) Relevanz. Python ist flexible und universelle Programmiersprache und kommt deshalb in verschiedensten Bereichen zum Einsatz. Machine Learning, Data Analysis, Visualization, Automatisierung und auch die Entwicklung von Large Language Models werden von Python getrieben.
 
-Dieses Potenzial ist besonders spannend für Odoo. Odoo eine Business Management Software und das Odoo Backend ist in Python geschrieben. Jeder Statistiker und jede Datenwissenschaftlerin kann Python-Code lesen und schreiben.
+Dieses Potenzial ist besonders spannend für Odoo. Odoo ist eine Unternehmensoftware und das Odoo Backend ist in Python geschrieben. Jeder Statistiker und jede Datenwissenschaftlerin kann Python-Code lesen und schreiben.
 
-Bei Mint System haben wir Personen mit diesem Profil angestellt und Fragen uns wie wir die Welt der Data Science und Odoo besser verbinden kann. Der Austausch von Daten hat in Odoo eine zentrale Bedeutung.
+Bei Mint System haben wir Personen mit diesem Profil angestellt und Fragen uns wie wir die Welt der Data Science und Odoo verbinden können. Der Austausch und die Verarbeitung von Daten hat in Odoo eine zentrale Bedeutung.
+
 ### Data Science in Odoo Projekte
 
-Es gibt verschiedene Anwendungsfälle. Daten wie Kontakte müssen bei der Implementation eines Odoo Projekts von einem bestehenden System exportiert, angepasst und importiert werden. Externe Systeme liefern beispielsweise EDI-Dokumente, welche für einen Odoo-Import systematisch verarbeitet werden müssen. Es gibt auch den umgekehrten Weg, Daten müssen aus Odoo beispielsweise für ein PDM-System exportiert werden.
+Wir kenenn verschiedene Anwendungsfälle wo Daten im Zusammenhang mit Odoo verarbeitet und transportiert werden müssen. Kontakt-Daten müssen bei der Implementation eines Odoo Projekts von einem Quell-System exportiert, angepasst und importiert werden. Externe Systeme liefern EDI-Dokumente, welche für einen Odoo-Import vorbereitet und verarbeitet werden müssen. Es gibt auch den umgekehrten Weg, Daten müssen aus Odoo  an ein PDM-System geliefert werden.
 
 Eine kurze Übersicht der Berührungspunkte:
 
@@ -35,15 +36,15 @@ Eine kurze Übersicht der Berührungspunkte:
 
 ### Flexibilität mit Jupyter
 
-Die eingebauten Kapazitäten von Odoo um diese Bereiche abzubilden sind begrenzt. Odoo lässt sich beliebig mit Modulen sprich Python-Code erweitern. Doch gerade in diesen Bereiche wünscht man sich viel Flexibilität. Zum Beispiel möchte man im laufenden Betrieb ein neues Feld zum Datensatz hinzufügen oder einen Parameter vom Pytorch-Model anpassen.
+Die Kapazitäten Odoo um diese Berührungspunkte abzubilden sind begrenzt. Odoo lässt sich zwar beliebig mit Modulen sprich Python-Code erweitern. Doch in den genannten Bereichen wünscht man sich viel mehr Flexibilität. Beispielsweise möchte man im laufenden Betrieb ein fehlendes Daten-Feld ergänzen oder einen fehlerhaften Parameter anpassen.
 
-Diese Flexibilität bieten Jupyter Notebooks. Jupyter Noteboks enthalten Dokumentation, Instruktion und Resultat in einem Dokument. Bestehende Python-Bibliotheken wie [Pytorch](https://pytorch.org/), [pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/) oder [scikit-learn](https://scikit-learn.org/) können in Notebooks geladen und verwendet werden.
+Diese Flexibilität bieten Jupyter Notebooks. Jupyter Noteboks speichern Dokumentation, Instruktion und Resultat in einem Dokument. Bestehende Python-Bibliotheken wie [Pytorch](https://pytorch.org/), [pandas](https://pandas.pydata.org/), [Matplotlib](https://matplotlib.org/) oder [scikit-learn](https://scikit-learn.org/) können in Notebooks geladen und verwendet werden.
 
-Mit diesen Tools lassen sich grossen Datenmengen blitzschnell verbinden. In der Kommunikation mit Odoo wird dann oft die Schnittstelle (API) zum Flaschenhals. Die Daten sind ready, brauchen aber viel Zeit bis sie im System sind. 
+Mit diesen Tools lassen sich grosse Datenmengen blitzschnell verarbeiten. In der Kommunikation mit Odoo  ist dann oft die Schnittstelle (API) der Flaschenhals. Die Daten sind bereit, brauchen aber viel Zeit bis sie im System sind. 
 
 ### Integration von Jupyter Notebooks
 
-Wir haben uns gefragt, wie wir Jupyter Notebooks mit Odoo verbinden können, ohne die Odoo-API zu nutzen und ohne einen direkten Zugriff auf die Odoo-Datenbank zu machen. Das Ergebnis sind zwei Odoo Module _Jupyter Lab_ und _Jupyter Notebook Run_.
+Wir haben uns gefragt, wie wir Jupyter Notebooks mit Odoo direkter verbinden können. Dies ohne die Nutzung der Odoo-API und ohne direkten Zugriff auf die Odoo-Datenbank. Das Ergebnis sind zwei Odoo Module [Jupyter Lab](https://www.odoo-wiki.org/jupyter-lab.html) und [Jupyter Notebook Run](https://www.odoo-wiki.org/jupyter-notebook-run.html).
 
 Mit dem ersten Modul kann in Odoo eine Jupyter Lab Umgebung erstellen, initialisieren und starten.
 
