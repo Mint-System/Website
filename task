@@ -96,7 +96,8 @@ dev-hugo() {
     echo "Remove public folder."
     rm -rf public
 
-    open-url-with-delay 'http://localhost:1313/' & ./hugo server -b "$BASE_URL"
+    open-url 'http://localhost:1313/'
+    ./hugo server -b "$BASE_URL"
 }
 
 new-post() {
