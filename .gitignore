@@ -1,31 +1,18 @@
-# Hugo-generated assets
-/public
-./public/*
-/resources
-/public/index.html
-/public/index.xml
-/public/sitemap.xml
+# Taskfile
+tmp
+prompt.md
+.env
 
-# npm assets
-node_modules/
-package-lock.json
+# Hugo
+_site
+public
+hugo
 
-# ignore system files
-.DS_Store
-
-# ignore public folder
-/public/*
-/public/index.html
-/static/css/*
-
-/dist
-/scripts
+# pnpm
+node_modules
+pnpm-workspace.yaml
 
 # Obsidian
 .obsidian/workspace.json
 
-# Hugo
-hugo_stats.json
-.vercel
-hugo
-tmp
+# Project
