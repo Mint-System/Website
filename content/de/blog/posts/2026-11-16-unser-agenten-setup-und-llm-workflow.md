@@ -17,7 +17,7 @@ lead: LLMs und Agenten effizient nutzen.
 seo_title: Unser Agenten-Setup und LLM-Workflow - Mint System GmbH
 author: Janik von Rotz
 ---
-
+![]()
 In diesem Beitrag möchten wir unseren LLM-Workflow und unser Agenten-Setup präsentieren.
 
 Bestimmte Wörter wie Inference, Provider, Harness, Commit, Deployment oder Models lassen sich (noch) nicht sinnvoll ins Deutsche übersetzen. Um präzise zu bleiben, verwenden wir die englischen Begriffe.
@@ -302,7 +302,7 @@ An dieser Stelle machen wir manuelle Tests. Man startet das Programm oder führt
 Möchte man an dieser Stelle ein neues prompt.md erstellen oder die Prüfung überspringen, werden die entsprechenden Befehle blockiert:
 
 ```bash
-[main][~/odoo-aersolution-etl]$ task commit-prompt
+[main][~/website-to-hugo]$ task commit-prompt
 Error: Cannot commit prompt in review state.
 ```
 
@@ -313,7 +313,7 @@ Wir sind zufrieden mit dem Ergebnis und teilen dem LLM mit, dass die Aufgabe erl
 Bevor wir das prompt.md aufzeichnen, committen wir den Code:
 
 ```bash
-[main][~/odoo-aersolution-etl]$ t commit-with-llm
+[main][~/website-to-hugo]$ t commit-with-llm
 Write prompt to tmp/llm_prompt.
 Send prompt with staged git diff and wait for the response of the Qwen/Qwen3-Embedding-8B LLM.
 Saved response to tmp/llm_prompt_result.
@@ -331,7 +331,7 @@ feat: migrate Odoo website to bilingual Hugo static site
 Dann registrieren wir das prompt.md im Prompt-Log:
 
 ```bash
-[main][~/odoo-aersolution-etl]$ task commit-prompt
+[main][~/website-to-hugo]$ task commit-prompt
 Updating existing prompt file: 2026-11-11_convert-website-to-hugo-static-site.md
 On branch prompt-log
 nothing to commit, working tree clean

@@ -8,22 +8,18 @@ if [[ -f ".env" ]]; then
 fi
 
 help-table() {
-    echo
-    echo "task <command> [options]"
-    echo
-    echo "commands:"
-    echo
-
     local -a rows
     local max_cmd=7 max_opt=6 max_desc=11
 
     rows+=("Command|Option|Description")
-    rows+=("install||Install hugo and Vercel cli.")
-    rows+=("build-hugo|[url]|Build with Hugo.")
-    rows+=("serve-hugo||Serve output from public folder.")
-    rows+=("dev-hugo|[url]|Start Hugo dev server.")
+    rows+=("===Hugo===| | ")
+    rows+=("install-hugo||Install Hugo from binary source.")
+    rows+=("dev-hugo-site|[url]|Start Hugo dev server.")
+    rows+=("build-hugo-site|[url]|Build with Hugo.")
+    rows+=("serve-hugo-site||Serve output from public folder.")
+    rows+=("===Project===| | ")
+    rows+=("prepare-hugo-site||Build assets with pnpm.")
     rows+=("new-post|[title]|Create new post from Hugo template.")
-    rows+=("version||Show version of required tools.")
 
     for row in "${rows[@]}"; do
         IFS='|' read -r cmd opt desc <<< "$row"
@@ -42,12 +38,42 @@ help-table() {
         "$max_opt" "$(printf '%*s' "$max_opt" '' | tr ' ' '-')" \
         "$max_desc" "$(printf '%*s' "$max_desc" '' | tr ' ' '-')"
 
+    local first_row=true
     for row in "${rows[@]:1}"; do
         IFS='|' read -r cmd opt desc <<< "$row"
-        printf '| %-*s | %-*s | %-*s |\n' \
-            "$max_cmd" "$cmd" \
-            "$max_opt" "$opt" \
-            "$max_desc" "$desc"
+        if [[ "$cmd" =~ ^===.*===$ ]]; then
+            group_name="${cmd/===/}"
+            group_name="${group_name/===/}"
+
+            if [ "$first_row" = true ]; then
+                first_row=false
+            else
+                printf '|-%*s-|-%*s-|-%*s-|\n' \
+                    "$max_cmd" "$(printf '%*s' "$max_cmd" '' | tr ' ' '-')" \
+                    "$max_opt" "$(printf '%*s' "$max_opt" '' | tr ' ' '-')" \
+                    "$max_desc" "$(printf '%*s' "$max_desc" '' | tr ' ' '-')"
+            fi
+
+            local left_pad=$(( (max_cmd - ${#group_name}) / 2 ))
+            local right_pad=$(( max_cmd - left_pad - ${#group_name} ))
+            printf '| %*s%s%*s | %*s | %*s |\n' \
+                "$left_pad" "" \
+                "$group_name" \
+                "$right_pad" "" \
+                "$max_opt" "" \
+                "$max_desc" ""
+
+            printf '|-%*s-|-%*s-|-%*s-|\n' \
+                "$max_cmd" "$(printf '%*s' "$max_cmd" '' | tr ' ' '-')" \
+                "$max_opt" "$(printf '%*s' "$max_opt" '' | tr ' ' '-')" \
+                "$max_desc" "$(printf '%*s' "$max_desc" '' | tr ' ' '-')"
+        else
+            first_row=false
+            printf '| %-*s | %-*s | %-*s |\n' \
+                "$max_cmd" "$cmd" \
+                "$max_opt" "$opt" \
+                "$max_desc" "$desc"
+        fi
     done
 }
 
@@ -81,41 +107,8 @@ fi
 
 # Project commands
 
-install() {
-    echo "Install hugo from binary source"
-    curl -L -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.141.0/hugo_0.141.0_Linux-64bit.tar.gz
-    mkdir -p tmp
-    tar -xzf hugo.tar.gz -C tmp
-    mv tmp/hugo .
-    rm hugo.tar.gz
-
-    echo "Install Node dependencies."
-    pnpm install
-}
-
-build-hugo() {
-    if [[ -n "$1" ]]; then
-        BASE_URL=$1
-    fi
+prepare-hugo-site() {
     pnpm run build
-    ./hugo -b "$BASE_URL"
-}
-
-serve-hugo() {
-    pnpx serve public
-}
-
-dev-hugo() {
-    if [[ -n "$1" ]]; then
-        BASE_URL=$1
-    fi
-    pnpm run build
-
-    echo "Remove public folder."
-    rm -rf public
-
-    open-url 'http://localhost:1313/'
-    ./hugo server -b "$BASE_URL"
 }
 
 new-post() {
@@ -142,10 +135,6 @@ new-post() {
     sed -i "s|^title:.*|title: $title|" "$post"
 
     echo "Created new post: content/de/blog/posts/$filename"
-}
-
-version() {
-    ./hugo --version
 }
 
 if [[ "$1" == *","* ]]; then
