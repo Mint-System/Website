@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2021-09-20
 slug: spam-reduzieren-mit-spf,-dkim-und-dmarc
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Infrastruktur", "Software Engineering"]
 featured_image: "/assets/images/blog/spam-mail.jpg"
 type: "blogpost"

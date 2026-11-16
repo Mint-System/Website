@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2025-04-23
 slug: von-microsoft-zu-infomaniak-migrieren
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Infomaniak", "Open Source Software", "Migration", "Office"]
 featured_image: "/assets/images/blog/infomaniak-rechenzentrum.png"
 type: "blogpost"

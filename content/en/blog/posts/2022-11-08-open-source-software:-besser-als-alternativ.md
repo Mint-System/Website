@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 date: 2022-11-08
 slug: open-source-software:-besser-als-alternativ
 draft: false
-layout: "blo/gpost"
+layout: blogpost-single
 tags: ["Engagement", "Open Source Software", "Software Engineering", "Unternehmen"]
 featured_image: "/assets/images/blog/arrow.jpg"
 type: "blogpost"

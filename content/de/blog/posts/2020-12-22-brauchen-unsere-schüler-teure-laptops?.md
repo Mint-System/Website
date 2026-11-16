@@ -5,7 +5,7 @@ draft: false
 
 date: 2020-12-22
 slug: brauchen-unsere-schüler-teure-laptops?
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Open Source Software", "OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"

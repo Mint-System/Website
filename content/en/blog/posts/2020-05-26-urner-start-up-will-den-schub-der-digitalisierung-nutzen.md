@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-05-26
 slug: urner-start-up-will-den-schub-der-digitalisierung-nutzen
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Unternehmen"]
 featured_image: "/assets/images/blog/newspaper.jpeg"
 type: "blogpost"

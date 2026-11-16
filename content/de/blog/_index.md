@@ -1,6 +1,6 @@
 ---
 title: "Blog - Mint Systems"
-layout: blog/list
+layout: blog-list
 pagerSize: 12
 pagination: 12
 hero_title: "Mint System Blog"

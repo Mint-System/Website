@@ -4,7 +4,7 @@ author: "Kurt Gisler"
 draft: false
 date: 2021-09-23
 slug: odoo-experience-2021
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Event", "Odoo"]
 type: "blogpost"
 

@@ -5,7 +5,7 @@ draft: false
 
 date: 2020-08-19
 slug: aspekte-die-in-zukunft-zählen
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["OpenEduca"]
 type: "blogpost"
 featured_image: "/assets/images/blog/direction.jpeg"

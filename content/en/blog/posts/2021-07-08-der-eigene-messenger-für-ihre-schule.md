@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2021-07-08
 slug: der-eigene-messenger-für-ihre-schule
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Messaging", "OpenEduca"]
 featured_image: "/assets/images/blog/element.png"

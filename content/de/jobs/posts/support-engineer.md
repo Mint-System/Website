@@ -1,9 +1,9 @@
 ---
 title: "Support Engineer"
 date: 2024-10-22
-layout: "jobs/posts/posts"
+layout: jobs-single
+slug: support-engineer
 
-type: "jobs"
 
 # Custom SEO fields (optional)
 seo_title: "Stellenangaben - Mint System GmbH"

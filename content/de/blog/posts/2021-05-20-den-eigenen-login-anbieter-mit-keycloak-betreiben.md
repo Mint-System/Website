@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-05-20
 slug: den-eigenen-login-anbieter-mit-keycloak-betreiben
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Identity and Access Management", "Keycloak"]
 lead: "Welche Software heutzutage für Login-Dienste zum Einsatz kommt."

@@ -1,8 +1,8 @@
 ---
 title: "Open Source Expert"
 date: 2024-10-22
-layout: "jobs/posts/posts"
-type: "jobs"
+layout: jobs-single
+slug: open-source-expert
 
 # Custom SEO fields (optional)
 seo_title: "Stellenangaben - Mint System GmbH"

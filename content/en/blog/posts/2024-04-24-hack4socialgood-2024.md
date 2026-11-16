@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2024-04-24
 slug: hack4socialgood-2024
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 featured_image: "/assets/images/blog/caritas.png"
 lead: "Die Mint System war am Hack4SocialGood vertreten."

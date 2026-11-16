@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-11-09
 slug: herausforderung-erp-system
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["ERP-System"]
 type: "blogpost"
 featured_image: "/assets/images/blog/checklist.jpeg"

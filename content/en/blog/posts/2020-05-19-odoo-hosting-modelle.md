@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-05-19
 slug: odoo-hosting-modelle
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["ERP-System"]
 type: "blogpost"
 

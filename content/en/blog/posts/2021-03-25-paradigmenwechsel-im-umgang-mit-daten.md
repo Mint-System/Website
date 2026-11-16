@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2021-03-25
 slug: paradigmenwechsel-im-umgang-mit-daten
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Datenschutz"]
 featured_image: "/assets/images/blog/locked.jpeg"
 type: "blogpost"

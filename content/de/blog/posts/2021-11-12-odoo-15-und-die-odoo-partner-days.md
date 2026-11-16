@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-11-12
 slug: odoo-15-und-die-odoo-partner-days
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Odoo", "Unternehmen"]
 featured_image: "/assets/images/blog/odoo-office.jpeg"
 type: "blogpost"

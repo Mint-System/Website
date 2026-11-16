@@ -4,7 +4,7 @@ date: 2026-11-09
 slug: odoo-website-apps-mit-ki-entwickeln
 draft: false
 type: blogpost
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - Odoo
   - KI

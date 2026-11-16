@@ -4,7 +4,7 @@ author: Janik von Rotz
 draft: false
 date: 2025-01-17
 slug: alles-uber-odoo-upgrades
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - ERP-System
   - Software

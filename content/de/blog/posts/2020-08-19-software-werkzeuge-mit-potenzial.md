@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-08-19
 slug: software-werkzeuge-mit-potenzial
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["OpenEduca"]
 featured_image: "/assets/images/blog/students.jpeg"
 type: "blogpost"

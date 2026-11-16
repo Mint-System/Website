@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-09-28
 slug: die-freie-software-bewegung
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/gnu fsf.jpg"

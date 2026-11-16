@@ -4,7 +4,7 @@ date: 2026-06-12T08:33:22+02:00
 slug: odoo-und-data-science
 draft: false
 type: blogpost
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - Odoo
   - Jupyter

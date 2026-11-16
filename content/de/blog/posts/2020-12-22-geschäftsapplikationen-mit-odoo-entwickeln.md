@@ -5,7 +5,7 @@ draft: false
 
 date: 2020-12-22
 slug: geschäftsapplikationen-mit-odoo-entwickeln
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["ERP-System", "Software Engineering"]
 featured_image: "/assets/images/blog/drawboard.jpeg"

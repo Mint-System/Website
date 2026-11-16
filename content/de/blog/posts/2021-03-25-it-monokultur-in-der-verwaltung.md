@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-03-25
 slug: it-monokultur-in-der-verwaltung
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"

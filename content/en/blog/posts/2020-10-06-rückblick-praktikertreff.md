@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-10-06
 slug: rückblick-praktikertreff
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/backgroundmanagement.jpg"
 type: "blogpost"

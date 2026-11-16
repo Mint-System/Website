@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2021-12-21
 slug: open-source-software-=-sicherheit
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Datenschutz", "Open Source Software", "Security"]
 featured_image: "/assets/images/blog/open-source.jpeg"
 type: "blogpost"

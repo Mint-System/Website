@@ -4,7 +4,7 @@ author: Janik von Rotz
 draft: false
 date: 2025-06-04
 slug: e-mails-mit-odoo-versenden-und-empfangen
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - E-Mail
   - Odoo

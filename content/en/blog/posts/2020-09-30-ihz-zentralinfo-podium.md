@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-09-30
 slug: ihz-zentralinfo-podium
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Artikel", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"

@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-11-15
 slug: digital-cluster-uri
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Engagement", "Open Source Software", "Unternehmen"]
 featured_image: "/assets/images/blog/uri.jpeg"

@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-02-22
 slug: ein-bierisches-odooprojekt
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["ERP-System", "Success Story"]
 featured_image: "/assets/images/blog/Bild Newsletter Febr 2021.png"

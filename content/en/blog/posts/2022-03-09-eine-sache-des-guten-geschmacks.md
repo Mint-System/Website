@@ -4,7 +4,7 @@ author: " Janik von Rotz"
 draft: false
 date: 2022-03-09
 slug: eine-sache-des-guten-geschmacks
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 tags: ["Odoo", "ERP-System", "Success Story"]
 featured_image: "/assets/images/blog/Bild_2-1024x576.jpg"

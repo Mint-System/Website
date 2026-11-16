@@ -1,7 +1,6 @@
 ---
 title: 'Support Engineer'
 date: 2024-10-22
-layout: "jobs/posts/posts"
+layout: jobs-single
 
-type: "job"
 ---

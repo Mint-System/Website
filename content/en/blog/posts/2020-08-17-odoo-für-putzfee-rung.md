@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2020-08-17
 slug: odoo-für-putzfee-rung
-layout: "blog/blogpost"
+layout: blogpost-single
 tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/washing.jpeg"

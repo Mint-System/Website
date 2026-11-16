@@ -2,7 +2,7 @@
 title: "Jobs"
 date: 2024-09-05T18:02:52+02:00
 draft: false
-layout: jobs/list
+layout: jobs-list
 hide_title: false
 subtitle: "Wir meinen es ernst mit Open Source!"
 

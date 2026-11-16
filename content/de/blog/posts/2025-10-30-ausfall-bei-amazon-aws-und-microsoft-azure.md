@@ -4,7 +4,7 @@ author: Janik von Rotz
 draft: false
 date: 2025-10-30
 slug: ausfall-bei-amazon-aws-und-microsoft-azure
-layout: blog/posts/posts
+layout: blogpost-single
 type: blogpost
 tags:
   - Alternativen

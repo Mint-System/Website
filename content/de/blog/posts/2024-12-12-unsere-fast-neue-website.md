@@ -4,7 +4,7 @@ author: Janik von Rotz
 draft: false
 date: 2024-12-12
 slug: unsere-fast-neue-website
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - Hugo
   - Static

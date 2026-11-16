@@ -5,7 +5,7 @@ draft: false
 date: 2021-03-20
 slug: problematik-der-it-monokultur
 
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Politik"]
 featured_image: "/assets/images/blog/monoculture.jpeg"
 type: "blogpost"

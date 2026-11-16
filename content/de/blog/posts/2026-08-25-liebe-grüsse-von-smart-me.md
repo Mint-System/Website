@@ -4,7 +4,7 @@ date: 2026-08-25T11:47:02+02:00
 slug: liebe-grüsse-von-smart-me
 draft: false
 type: blogpost
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - Odoo
   - Implementation

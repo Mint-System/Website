@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2021-02-08
 slug: systemüberwachung-mit-prometheus-und-grafana
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Open Source Software"]
 featured_image: "/assets/images/blog/surveillance.jpeg"
 type: "blogpost"

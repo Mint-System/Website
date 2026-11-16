@@ -5,7 +5,7 @@ draft: false
 
 date: 2021-05-20
 slug: hochwertiger-innenausbau-für-flugzeuge
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["Success Story"]
 type: "blogpost"
 featured_image: "/assets/images/blog/Aersolution1.jpg"

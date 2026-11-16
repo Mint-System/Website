@@ -4,7 +4,7 @@ author: "Kurt Gisler"
 draft: false
 date: 2022-08-04
 slug: arbeitsplatz-am-bahnhofplatz-1
-layout: "blog/posts/posts"
+layout: blogpost-single
 type: "blogpost"
 featured_image: "/assets/images/blog/Hintergrund.jpg"
 lead: "Nach langer Zeit im Home Office konnten wir in ein tolles Büro einziehen."

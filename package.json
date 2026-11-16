@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0",

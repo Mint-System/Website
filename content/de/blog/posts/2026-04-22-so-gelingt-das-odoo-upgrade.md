@@ -4,7 +4,7 @@ date: 2026-04-22
 slug: so-gelingt-das-odoo-upgrade
 draft: false
 type: blogpost
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - Odoo
   - Upgrade

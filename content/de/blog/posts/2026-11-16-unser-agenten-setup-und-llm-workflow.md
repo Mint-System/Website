@@ -4,7 +4,7 @@ date: 2026-11-16
 slug: unser-agenten-setup-und-llm-workflow
 draft: false
 type: blogpost
-layout: blog/posts/posts
+layout: blogpost-single
 tags:
   - KI
   - LLM
@@ -17,7 +17,6 @@ lead: LLMs und Agenten effizient nutzen.
 seo_title: Unser Agenten-Setup und LLM-Workflow - Mint System GmbH
 author: Janik von Rotz
 ---
-![]()
 In diesem Beitrag möchten wir unseren LLM-Workflow und unser Agenten-Setup präsentieren.
 
 Bestimmte Wörter wie Inference, Provider, Harness, Commit, Deployment oder Models lassen sich (noch) nicht sinnvoll ins Deutsche übersetzen. Um präzise zu bleiben, verwenden wir die englischen Begriffe.

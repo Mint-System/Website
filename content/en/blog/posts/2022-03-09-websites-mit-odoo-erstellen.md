@@ -4,7 +4,7 @@ author: "Janik von Rotz"
 draft: false
 date: 2022-03-09
 slug: websites-mit-odoo-erstellen
-layout: "blog/posts/posts"
+layout: blogpost-single
 tags: ["ERP-System", "Open Source Software", "Odoo"]
 featured_image: "assets/images/blog/odoo-website-builder.png"
 type: "blogpost"
