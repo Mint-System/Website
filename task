@@ -93,8 +93,6 @@ help() {
     echo
 }
 
-BASE_URL="http://localhost:1313"
-
 # Import commands
 
 if [[ -d "$HOME/taskfile.build/bin" ]]; then
