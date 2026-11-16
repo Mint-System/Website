@@ -250,5 +250,11 @@ Die hier folgenden Inhalte sind alle Shortcodes
   description="Mint System GmbH, Bahnhofplatz 1, 6460 - Altdorf, Schweiz, USt.-ID:  CHE-150.248.608 MWST" >}}
 
 {{< rawhtml >}}
-<iframe src="https://archive.org/embed/doom-play" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<div class="container mx-auto my-12">
+  <h1 class="text-5xl font-rubrikBold text-primary leading-tight">Überschrift 1</h1>
+  <h2 class="text-4xl font-rubrikLight text-primary leading-tight">Überschrift 2</h2>
+  <h3 class="text-3xl font-rubrikLight text-primary leading-tight">Überschrift 3</h3>
+  <h4 class="text-2xl font-rubrikLight text-primary leading-tight">Überschrift 4</h4>
+  <h5 class="text-xl font-rubrikLight text-primary leading-tight">Überschrift 5</h5>
+</div>
 {{< /rawhtml >}}

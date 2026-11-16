@@ -126,13 +126,21 @@ new-post() {
     
     # Format title (replace spaces with dashes)
     local formatted_title=$(echo "$1" | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]')
-    
-    # Create filename
-    local filename="$formatted_title.md"
-    
+
+    # Prefix filename with date and pin slug so the URL stays /blog/<slug>/
+    local datestamp=$(date +%Y-%m-%d)
+    local filename="$datestamp-$formatted_title.md"
+
     # Create post using hugo
     ./hugo new "blog/posts/$filename"
-    
+
+    local post="content/de/blog/posts/$filename"
+
+    # Add slug and fix title (archetype derives it from the date-prefixed filename)
+    local title=$(echo "$1" | sed 's/-/ /g')
+    sed -i "/^date:/a slug: $formatted_title" "$post"
+    sed -i "s|^title:.*|title: $title|" "$post"
+
     echo "Created new post: content/de/blog/posts/$filename"
 }
 

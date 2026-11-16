@@ -4,5 +4,6 @@
   "monospaceFontFamily": "Ubuntu Mono",
   "enabledCssSnippets": [
     "snippet"
-  ]
+  ],
+  "showRibbon": true
 }
