@@ -1,5 +1,7 @@
 # Website Mint System GmbH
 
+[![.github/workflows/deploy-docs.yml](https://github.com/Mint-System/Website/actions/workflows/deploy-docs.yml/badge.svg)](https://github.com/Mint-System/Website/actions/workflows/deploy-docs.yml) [![matrix-badge](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#allgemein:mint-system.ch)
+
 Hugo website with a Tailwind CSS build.
 
 ## Usage
